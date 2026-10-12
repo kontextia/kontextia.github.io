@@ -1,0 +1,95 @@
+1
+00:00:00,950 --> 00:00:16,350
+Erzählerin: Am Rand der Stadt liegt das Geschichtsviertel. Eine große Halle aus dunklem Stein. Die Esse ist kalt, das Tor versiegelt. Drinnen ist es still, nur eine Museumsuhr tickt. Kaltes Eisen, altes Schmieröl, Staub auf Samt.
+
+2
+00:00:16,610 --> 00:00:35,130
+Gilda Gradient: Willkommen in der Lernschmiede! Ich bin Gilda Gradient. Hier hat alles angefangen. Beim Ratespiel an den Textbergen hat die Stadt das nächste Stück geraten, und wenn sie danebenlag, gab es eine Fehlerkerbe. Mein Kompass zeigt dann dahin, wo es bergauf geht, wo der Fehler noch größer würde. Da geht's bergauf, also geh woandershin!
+
+3
+00:00:35,390 --> 00:00:55,450
+Olli Optimierer: Und ich … bin Olli Optimierer. Ich habe jede Stellschraube … ein kleines Stück in die andere Richtung gedreht. Bergab. Zu kleine Schritte dauern ewig. Zu große springen über das Tal. Und das Ganze … Milliarden Mal. Klein justiert, groß gelernt.
+
+4
+00:00:55,950 --> 00:01:07,190
+Erzählerin: Dann kamen die Lehrjahre, mit Büchern voller guter Beispielantworten. Und dann die Waagenjahre. Da steht sie noch, auf einem Sockel im Museum.
+
+5
+00:01:07,450 --> 00:01:29,610
+Ronja Rückmeldung: Ich bin Ronja Rückmeldung, aus der Schmiedezunft. Man hat mir zwei Antworten in die Schalen gelegt, und Menschen haben gesagt, welche ihnen besser gefällt. Dann wurde die Stadt so justiert, dass die bevorzugte Art von Antwort wahrscheinlicher wurde. Aber merk dir eins: Die Waage misst, was Menschen lieber mögen. Ob es stimmt, muss jemand anderes prüfen. Lieber heißt nicht richtiger.
+
+6
+00:01:30,110 --> 00:01:47,170
+Erzählerin: Und dann, eines Tages, war die Arbeit getan. Gilda legte den Kompass in eine Vitrine. Olli hängte den Schraubendreher an die Wand. Die Esse wurde gelöscht. Und auf das Tor kam ein großes Siegel: Kalt. Bitte nicht während des Antwortens öffnen.
+
+7
+00:01:47,770 --> 00:01:54,970
+Erzählerin: Seitdem gilt das wichtigste Gesetz der Stadtverfassung. Paragraf eins: Antworten verändern keine Stellschrauben.
+
+8
+00:01:55,570 --> 00:02:11,310
+Erzählerin: Trotzdem hielt sich ein hartnäckiges Gerücht. Unsere Esse glüht doch noch, riefen ein paar stolze Schmiede. Die Brücke lernt beim Reden! Und Quirin hatte einen einzigen perfekten Satz auswendig gelernt und erklärte sich für fertig. Da kam jemand mit einem Koffer.
+
+9
+00:02:11,570 --> 00:02:31,930
+Vali: Wunderbar. Hier ist ein anderer. Ich bin Vali, die Prüferin, von der Prüfinsel. In meiner Truhe liegen Aufgaben, die die Schmiede nie gesehen hat. Wer nur auswendig gelernt hat, scheitert daran. Und meine Aufgaben werden nie zum Üben benutzt. Sonst wäre die Prüfung ja keine Prüfung mehr. Auswendig gelernt ist noch nicht gekonnt.
+
+10
+00:02:32,430 --> 00:02:44,750
+Erzählerin: Quirin kannte Valis Satz nicht. Sein auswendig gelernter Satz half ihm gar nichts. Und Kajo öffnete die Klappe der Antwortmaschine. Drinnen lief kein Hammer. Kein Zahnrad drehte an einer Schraube.
+
+11
+00:02:45,010 --> 00:02:48,170
+Kajo Cache: Das Siegel ist zu. Beim Antworten schmiedet hier niemand.
+
+12
+00:02:49,020 --> 00:02:53,480
+Professor Quirin Query: Gegenprobe Nummer sieben: Auswendig ist nicht verstanden. Frag Vali.
+
+13
+00:02:53,980 --> 00:03:00,600
+Erzählerin: Kajo hatte übrigens versucht, die Übungssätze alphabetisch zu sortieren. Es hat nichts geändert.
+
+14
+00:03:00,860 --> 00:03:03,800
+Kajo Cache: Hm. Nicht jedes Problem ist ein Sortierproblem.
+
+15
+00:03:04,060 --> 00:03:07,680
+Gilda Gradient: Unser Werk lebt in jeder Schraube der Stadt. Die Esse darf kalt sein.
+
+16
+00:03:08,180 --> 00:03:14,100
+Erzählerin: Und der Indigobogen glimmt auf, ruhig und tief, wie eine Glut, die man nur noch erinnert.
+
+17
+00:03:17,700 --> 00:03:40,480
+Erzählerin: Was wirklich dahintersteckt: Ein Sprachmodell lernt nur im Training. Es sagt das nächste Token voraus, der Fehler wird gemessen, und ein Optimierer verändert die Gewichte in winzigen Schritten. Danach werden die Gewichte eingefroren. Beim Antworten bleiben seine Gewichte gleich. Die Anwendung kann den Chat dennoch speichern oder später für getrenntes Training verwenden.
+
+18
+00:03:41,080 --> 00:04:05,430
+Erzählerin: Danach nehmt ihr euch in der Lehrwerkstatt eine alte Abfahrtszeit vor. Wo steckt sie in den Schrauben? Quirin zeigt auf eine. Ihr dreht sie. Dann eine andere, schließlich mehrere zusammen. Die gesuchte Antwort verändert sich. Aber andere verändern sich mit. Der Professor hält inne. Kein kleines Fahrplanfach. Das Gelernte ist über viele Schrauben verteilt.
+
+19
+00:04:05,690 --> 00:04:09,323
+Kajo Cache: Antworten, Tischwissen, Archiv und Gewichte sind vier verschiedene Dinge.
+
+20
+00:04:09,823 --> 00:04:33,363
+Erzählerin: Auf einer Lernkarte steht Kapitänin Merle. Auf anderen steht oft Bo. Bei Merles Satz bevorzugt die kleine Übungsmurmel trotzdem das Wort er. Vali legt ausgewogenere Karten dazu. Das hilft, doch die Schiefe verschiebt sich. Ein Nachschliff verbessert Merles Antwort und macht bei Bo einen neuen Fehler. Darum schaut Vali auch auf die anderen Prüfkarten.
+
+21
+00:04:33,623 --> 00:04:37,803
+Vali: Prüfen findet nur, was auf den Prüfkarten steht. Ich brauche mehr als eine Karte.
+
+22
+00:04:38,303 --> 00:04:59,999
+Erzählerin: Im Museum zieht Kajo vier Striche auf seine Tafel. Training damals. Antworten heute. Geänderte Gewichte. Einträge im Amtsbuch. Hundert Antworten heute: Kein Strich bei den geänderten Gewichten. Der Schreiber der Anwendung kann trotzdem hundert Einträge speichern. Erst ein späteres, getrenntes Training könnte daraus lernen.
+
+23
+00:05:00,259 --> 00:05:04,979
+Kajo Cache: Kalt heißt nicht verschwiegen. Geheimnisse, Adressen und Passwörter bleiben bei dir.
+
+24
+00:05:05,479 --> 00:05:23,814
+Erzählerin: Auf der Preiswaage liegt der Gewinn: Aus Beispielen kann die Stadt auch Ungeübtes fortsetzen. Auf der anderen Schale liegen Rechenaufwand und Schiefe. Jede Antwort kostet Rechnung. Das Üben vorher kostet noch viel mehr. Vali lässt die Waage stehen. Beide Schalen gehören dazu.

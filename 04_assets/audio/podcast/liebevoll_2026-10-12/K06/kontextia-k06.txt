@@ -1,0 +1,85 @@
+# Die Sternwarte und der verbotene Balkon
+
+Erzählerin:
+Jetzt wird es hoch. Vor uns steht der Turm der Schichten, so hoch, dass seine Spitze in den Wolken verschwindet. Durch ihn fließt ein leuchtender Fluss bergauf: der Residualstrom. Jedes Stockwerk ist gleich gebaut: unten eine Sternwarte, oben eine Werkstatt. Gleiche Wände, andere Schrauben.
+
+Erzählerin:
+In der Sternwarte riecht es nach frischem Brot und Messing. Rundherum hängen Balkone mit Hausnummern, für jeden Platz der Fahrkartenhalle einer. Und auf dem Platz davor stehen sich zwei Häuser gegenüber. Violett gegen Kupfer.
+
+Queria Query:
+Und was, wenn ich mich einfach vorstelle? Ich bin Queria Query, aus dem Hause Montaquery. Professor Quirin ist mein Onkel. Ich mache aus jeder Bedeutungsperle einen Fragekamm, und den halte ich an die Kämme der anderen. Wo die Zähne in dieselbe Richtung zeigen, wird es hell. Wer fragt, findet!
+
+Keylian Key:
+Gestatten. Keylian Key, vom Hause Capukey, den Schlüsselhütern. Ich trage einen Schlüsselkamm. Er sagt: An diesen Merkmalen kannst du mich finden. Wie gut ich passe, entscheidet die Frage. Und gesehen werden ist nicht gesagt werden.
+
+Erzählerin:
+Die beiden Häuser fanden sich lange gegenseitig komisch. Fragen und Schlüssel müssen getrennt bleiben, riefen sie. Und Queria? Queria wollte sowieso nur einen einzigen Schlüssel anschauen: Keylian. Aber Keylian wohnt auf dem Balkon von Hausnummer sieben. Und Queria wohnt an Hausnummer vier.
+
+Queria Query:
+Keylian! Warum wohnst du denn so weit hinten?
+
+Keylian Key:
+Ich bin halt später gekommen!
+
+Queria Query:
+Ich will dich sehen! Ich richte meinen Suchtrichter auf dich, und …
+
+Mira Maske:
+Halt! Hausnummer sieben liegt in der Zukunft. Zukunft ist tabu!
+
+Erzählerin:
+Das ist Mira Maske. Freundlich, aber sehr entschieden. Mit einem gestreiften Gitter in der Hand.
+
+Mira Maske:
+Ich bin Mira Maske, von der Zeitwacht. Beim Schreiben gibt es das nächste Wort noch nicht. Darum darf jedes Wort nur auf sich selbst schauen und auf das, was vorher war. Nie nach vorn. Wer in die Zukunft schauen will, prallt an meinem Gitter ab. Zurückschauen ja, vorausschauen nie.
+
+Queria Query:
+Nur ein klitzekleiner Blick?
+
+Mira Maske:
+Nicht mal ein Blinzeln. Wer vorausschaut, schummelt. Aber, Kind: Dreh dich mal um.
+
+Erzählerin:
+Und hinter Queria gehen Lichter an. Auf den Balkonen eins, zwei, drei und vier stehen Schlüssel. Keylians Vettern und Basen, und auf Balkon vier sogar der Schlüssel aus Querias eigenem Haus. Jeder Kamm leuchtet anders hell. Und da kommt jemand mit einem großen Kuchen.
+
+Sofi Softmax:
+So, und jetzt alle! Ich bin Sofi Softmax, von den Verteilerinnen. Ich schneide den Kuchen. Wer am besten passt, bekommt das größte Stück, die anderen kleinere. Und alle Stücke zusammen? Genau ein ganzer Kuchen. Kein Krümel geht verloren, keiner kommt dazu. Jeder Kuchen ist ganz! Und ganz wichtig: Ein großes Stück ist kein Beweis.
+
+Valo Value:
+Sehr schön. Ihr habt euch jetzt lange angeschaut. Möchte vielleicht auch jemand etwas essen? Ich bin Valo Value, vom Pakethof. Queria und Keylian finden heraus, wem man zuhört. Ich bringe, was man zu hören bekommt: den Inhalt, in Paketen. Ihr könnt euch drei Stunden ansehen. Gegessen wird aus dem Korb. Ohne Paket kein Picknick!
+
+Erzählerin:
+Valo packt aus, nach Kuchenstücken. Queria bekommt eine Mischung: viel vom besten Balkon, ein bisschen von allen anderen.
+
+Queria Query:
+Das schmeckt nach allem ein bisschen. Und nach Nummer zwei besonders.
+
+Keylian Key:
+Queria, sei nicht traurig! Später, wenn die Prozession bei Hausnummer acht ankommt, fragt dort jemand aus deinem Haus. Und der darf zurückschauen. Auf mich, und auf Nummer vier!
+
+Mira Maske:
+Im Später ist alles erlaubt, was dann schon war.
+
+Queria Query:
+Wir sind gar keine Gegner. Wir brauchen uns.
+
+Erzählerin:
+Quirin wollte übrigens unbedingt, dass Keylians Treffer zählt. Er passt doch am besten, rief er. Er spielte den Zug selbst. Das Gewicht blieb null.
+
+Professor Quirin Query:
+Gegenprobe Nummer drei: Ein guter Treffer darf nicht aus der Zukunft schummeln.
+
+Kajo Cache:
+Und warum teilt Sofi die Punkte durch die Wurzel aus d?
+
+Professor Quirin Query:
+Lange Kämme machen sehr große Punkte. Dann bestünde Sofis Kuchen fast nur aus einem einzigen Stück. Das Teilen hält es fair.
+
+Kajo Cache:
+Darum Wurzel aus d. Hab ich im Kasten.
+
+Erzählerin:
+Und über der Bucht leuchtet der Korallbogen auf. Violette und kupferne Funken tanzen darüber.
+
+Erzählerin:
+Was wirklich dahintersteckt: Das ist die Aufmerksamkeit, auf Englisch Attention, das Herz dieser Sprachmodelle. Die Frage heißt Query, der Schlüssel Key, das Paket Value. Mira ist die kausale Maske, Sofi die Softmax. Und ein hoher Wert heißt nur: passt gut. Nicht Zuneigung. Und auch nicht Wahrheit.

@@ -1,0 +1,36 @@
+/* [DE] A calm architectural overview, with detail revealed on selection. */
+.atlas-map{background:#214f5b;border-radius:18px;overflow:hidden;border:1px solid #92b4a333}
+.city-region-pin{position:absolute;width:32px;height:32px;border:0;border-radius:50%;background:none;padding:0;transform:translate(-50%,-50%);box-shadow:none;pointer-events:auto;color:var(--paper);z-index:3}
+.city-region-pin i{display:block;width:13px;height:13px;margin:9px;border:2px solid #fff1c4;border-radius:50%;background:#c39341;box-shadow:0 0 0 4px #163f4080}
+.city-region-pin span{position:absolute;left:29px;top:1px;padding:6px 9px;border-radius:7px;background:#123b3de8;border:1px solid #b2d0ba55;white-space:nowrap;color:#fff4d6;font-size:12px;font-weight:600;letter-spacing:.01em;box-shadow:0 2px 8px #10232920}
+.city-region-pin:hover i,.city-region-pin:focus-visible i,.city-region-pin[aria-pressed=true] i{background:var(--mint);box-shadow:0 0 0 6px #a6dacc66}
+.city-region-pin:hover span,.city-region-pin:focus-visible span,.city-region-pin[aria-pressed=true] span{border-color:var(--gold);background:#102c30}
+.city-region-pin:active{transform:translate(-50%,-50%) scale(.97)}
+.city-region-gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:28px 0 36px}
+.city-region-gallery button{padding:0 0 15px;text-align:left;border:1px solid var(--line);border-radius:12px;background:#10272b;overflow:hidden;transition:border-color 160ms ease,transform 160ms ease}
+.city-region-gallery button:hover{border-color:#b7d8bb80;transform:translateY(-3px)}
+.city-region-gallery button:active{transform:translateY(-1px)}
+.city-region-gallery img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;background:#214f5b}
+.city-region-gallery span{display:block;margin:14px 16px 5px;font-size:1.08rem;color:var(--paper)}
+.city-region-gallery small{display:block;margin:0 16px;font-size:.67rem;color:var(--mint)}
+.city-place-controls{display:flex;gap:12px;align-items:end;min-width:0}
+.city-place-controls label{font-size:.62rem;color:var(--muted);flex:1;min-width:0}
+.city-place-controls select{display:block;width:100%;min-height:44px;color:var(--paper);background:#0c202a;border:1px solid var(--line);border-radius:6px;font:inherit;font-size:.79rem;padding:8px;margin-top:3px}
+.map-atlas-guide .city-place-controls[hidden]{display:none}
+.map-view-character{width:44px;height:44px;border:2px solid #eddaaa;background:#153a3e;box-shadow:0 2px 9px #13282d80;transform:translate(-50%,-50%);z-index:5}
+.map-view-character img{position:static!important;width:100%!important;height:100%!important;max-width:100%;object-fit:cover;border-radius:50%}
+.map-view-character[hidden],.map-view-point[hidden]{display:none}
+.map-view-character:active{transform:translate(-50%,-50%) scale(.97)}
+.city-floor-links,.bridge-arch-register,.city-lab-register{display:flex;gap:7px;flex-wrap:wrap;margin:15px 0}
+.city-floor-links button,.bridge-arch-register button,.city-lab-register button{min-height:44px;padding:9px 12px;font-size:.74rem;color:var(--mint);border:1px solid var(--line);border-radius:6px}
+.bridge-arch-register button span{color:var(--gold);margin-right:9px}
+.city-floor-links button[aria-pressed=true]{border-color:var(--gold);color:var(--gold)}
+.map-view-viewport{background:#214f5b;border-radius:12px}
+.map-dialog:not(.has-info):not(:fullscreen):not(.expanded){height:fit-content;max-height:calc(100svh - 40px)}
+.map-dialog:not(.has-info):not(:fullscreen):not(.expanded) .map-view-workspace{flex:0 1 auto;width:100%;aspect-ratio:2000/930;min-height:180px}
+.city-region-pin:is([data-map-point="1"],[data-city-region="1"],[data-map-point="5"],[data-city-region="5"]) span{top:25px;left:10px}
+.story-map-open{border-radius:18px}
+.map-info-theme{aspect-ratio:3/2;object-fit:cover}
+@media(max-width:900px){.city-region-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}.map-atlas-guide{gap:9px}.city-place-controls{gap:8px}.city-place-controls button{font-size:.68rem}}
+@media(max-width:600px){.city-region-gallery{gap:10px;margin-top:18px}.city-region-gallery span{font-size:.9rem;margin:11px 11px 5px}.city-region-gallery small{font-size:.61rem;margin:0 11px}.atlas-map .city-region-pin span{display:none}.atlas-map .city-region-pin{width:44px;height:44px}.atlas-map .city-region-pin i{margin:15px}.city-region-pin span{font-size:10px;padding:5px 7px}.map-atlas-guide #map-atlas-caption{display:none}.city-place-controls select{font-size:.7rem}.map-dialog.has-info .map-view-viewport{min-height:25svh}.map-view-header .eyebrow{display:none}}
+@media(prefers-reduced-motion:reduce){.city-region-gallery button{transition:none}}

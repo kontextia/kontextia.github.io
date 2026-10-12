@@ -1,0 +1,17 @@
+L03 · Queria und Keylian: Der verbotene Balkon
+Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+
+Was passiert hier?
+In der Sternwarte werden aus derselben Darstellung drei Zahlenreihen geprägt: Q, K und V. Q wird mit erlaubten früheren Keys verglichen. Mira sperrt die Zukunft; Sofi verwandelt die verbleibenden Scores in Anteile. Diese Anteile gewichten Valos Inhalte. Die Kämme zeigen eine graduelle Zahlenpassung. Sie klicken nicht als Beweis für Verständnis zusammen. Der Inhalt der Mischung kommt aus V, während K dem Vergleich dient.
+
+Dein Auftrag
+Rechne Skalarprodukt, Skalierung, Maske und Softmax in dieser Reihenfolge. Berechne die gewichtete V-Summe und vergleiche den Aufwand verschiedener Folgenlängen.
+
+Erwartetes Ergebnis im Entwurf
+Scores sind noch keine Wahrscheinlichkeiten. Erst Softmax normalisiert die erlaubten Werte. Die Ausgabe ist eine gewichtete Summe von V-Vektoren. Bei doppelter Folgenlänge wächst der Paarvergleichsaufwand ungefähr auf das Vierfache; auch ein großer Kontext kostet Rechnung.
+
+So findest du Fehler
+Prüfe Maske und Summe der Anteile. Verwechsle Keys nicht mit Values und hohe Aufmerksamkeit nicht mit Wichtigkeit oder Wahrheit. Die Blindprobe muss ohne Wortschilder dieselben Zahlen ergeben.
+
+Quelle: 01_design/v2/level/L03.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

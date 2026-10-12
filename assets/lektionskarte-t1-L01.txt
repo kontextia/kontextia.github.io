@@ -1,0 +1,17 @@
+L01 · Das Tor der Textbausteine
+Teil 1 · Didaktik 2.2 · Generation 534411b8fa941f9a
+
+Was passiert hier?
+Im Tokenhafen zerlegt Berta den Text in Stücke aus einem endlichen Vokabular. Zu jedem Stück gehört eine ID. Der Bürgermeister zählt die Plätze auf dem Tisch: Frage, bisheriges Gespräch und Antwort teilen sich ein Kontextbudget. Ein seltenes Wort kann mehrere Stücke brauchen. Wenn der Tisch überläuft, fällt früherer Text heraus. Die Stadt kann den verlorenen Inhalt anschließend flüssig ergänzen, obwohl sie ihn nicht mehr auf dem Tisch hat.
+
+Dein Auftrag
+Zerlege verschiedene Wörter, belege die Tokenplätze und reserviere Platz für die Antwort. Lass danach eine Information herausfallen und sage vor dem nächsten Stück voraus, was passiert.
+
+Erwartetes Ergebnis im Entwurf
+Wörter und Tokens sind verschiedene Einheiten. Manche Wörter brauchen mehr Plätze als andere. Nach dem Überlauf fehlt die frühere Information; eine passende oder sogar zufällig richtige Antwort kann weiterhin geraten sein. Buchstabenrätsel sind schwierig, weil die Rechnung zunächst Token-IDs verarbeitet.
+
+So findest du Fehler
+Zähle Tokenplätze statt vermeintlicher Wörter. Prüfe vor einer Antwort, ob der benötigte Name noch im Kontext steht. Ein Fragezeichen ist kein automatisches Warnsignal der Stadt.
+
+Quelle: 01_design/v2/level/L01.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

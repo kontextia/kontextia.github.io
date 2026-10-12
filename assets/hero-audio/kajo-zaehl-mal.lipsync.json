@@ -1,0 +1,330 @@
+{
+ "fps": 60,
+ "dauer_s": 0.52,
+ "formschluessel": [
+  "mund_A",
+  "mund_O",
+  "mund_M",
+  "grinsen_breit",
+  "neutral"
+ ],
+ "ton": {
+  "pfad": "D:\\projekte_ki\\Attentiongame\\10_docs\\landing\\assets\\hero-audio\\kajo-zaehl-mal.wav",
+  "sha256": "300a352547fb144a741c5b5c80704df632cc1e09b0f8e0e2b6c96479ef4b744a"
+ },
+ "quelle": {
+  "modell": "faster-whisper D:/HRM-Models/huggingface/hub/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120 (CPU int8, offline)",
+  "sprache": "de",
+  "text_hinweis": true,
+  "web_pause_fix": "Close A/O/smile on original PCM silent frames; M/B/P closure retained."
+ },
+ "woerter": [
+  {
+   "wort": "Zähl",
+   "start": 0.0,
+   "ende": 0.3
+  },
+  {
+   "wort": "mal.",
+   "start": 0.3,
+   "ende": 0.42
+  }
+ ],
+ "pruefung": {
+  "korrelation_oeffnung_lautstaerke": 0.806,
+  "mund_zu_in_pausen": 1.0,
+  "woerter": 2,
+  "bilder": 32,
+  "urteil": "OK"
+ },
+ "bilder": [
+  {
+   "t": 0.0,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.0167,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.0333,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.05,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.0667,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.0833,
+   "mund_A": 0.205,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.115,
+   "neutral": 0.35,
+   "offen": 0.421
+  },
+  {
+   "t": 0.1,
+   "mund_A": 0.361,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.156,
+   "neutral": 0.122,
+   "offen": 0.594
+  },
+  {
+   "t": 0.1167,
+   "mund_A": 0.456,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.187,
+   "neutral": 0.043,
+   "offen": 0.677
+  },
+  {
+   "t": 0.1333,
+   "mund_A": 0.44,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.179,
+   "neutral": 0.015,
+   "offen": 0.555
+  },
+  {
+   "t": 0.15,
+   "mund_A": 0.595,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.239,
+   "neutral": 0.005,
+   "offen": 0.904
+  },
+  {
+   "t": 0.1667,
+   "mund_A": 0.517,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.143,
+   "neutral": 0.002,
+   "offen": 1.0
+  },
+  {
+   "t": 0.1833,
+   "mund_A": 0.47,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.086,
+   "neutral": 0.001,
+   "offen": 1.0
+  },
+  {
+   "t": 0.2,
+   "mund_A": 0.42,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.052,
+   "neutral": 0.0,
+   "offen": 0.861
+  },
+  {
+   "t": 0.2167,
+   "mund_A": 0.403,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.031,
+   "neutral": 0.0,
+   "offen": 0.943
+  },
+  {
+   "t": 0.2333,
+   "mund_A": 0.354,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.063,
+   "neutral": 0.0,
+   "offen": 0.799
+  },
+  {
+   "t": 0.25,
+   "mund_A": 0.279,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.057,
+   "neutral": 0.0,
+   "offen": 0.476
+  },
+  {
+   "t": 0.2667,
+   "mund_A": 0.241,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.055,
+   "neutral": 0.0,
+   "offen": 0.526
+  },
+  {
+   "t": 0.2833,
+   "mund_A": 0.22,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.054,
+   "neutral": 0.0,
+   "offen": 0.536
+  },
+  {
+   "t": 0.3,
+   "mund_A": 0.132,
+   "mund_O": 0.0,
+   "mund_M": 0.65,
+   "grinsen_breit": 0.033,
+   "neutral": 0.0,
+   "offen": 0.479
+  },
+  {
+   "t": 0.3167,
+   "mund_A": 0.418,
+   "mund_O": 0.0,
+   "mund_M": 0.39,
+   "grinsen_breit": 0.02,
+   "neutral": 0.0,
+   "offen": 0.573
+  },
+  {
+   "t": 0.3333,
+   "mund_A": 0.606,
+   "mund_O": 0.0,
+   "mund_M": 0.234,
+   "grinsen_breit": 0.012,
+   "neutral": 0.0,
+   "offen": 0.706
+  },
+  {
+   "t": 0.35,
+   "mund_A": 0.635,
+   "mund_O": 0.0,
+   "mund_M": 0.14,
+   "grinsen_breit": 0.007,
+   "neutral": 0.0,
+   "offen": 0.651
+  },
+  {
+   "t": 0.3667,
+   "mund_A": 0.595,
+   "mund_O": 0.0,
+   "mund_M": 0.084,
+   "grinsen_breit": 0.004,
+   "neutral": 0.0,
+   "offen": 0.535
+  },
+  {
+   "t": 0.3833,
+   "mund_A": 0.431,
+   "mund_O": 0.0,
+   "mund_M": 0.051,
+   "grinsen_breit": 0.036,
+   "neutral": 0.0,
+   "offen": 0.525
+  },
+  {
+   "t": 0.4,
+   "mund_A": 0.34,
+   "mund_O": 0.0,
+   "mund_M": 0.03,
+   "grinsen_breit": 0.05,
+   "neutral": 0.0,
+   "offen": 0.583
+  },
+  {
+   "t": 0.4167,
+   "mund_A": 0.204,
+   "mund_O": 0.0,
+   "mund_M": 0.018,
+   "grinsen_breit": 0.03,
+   "neutral": 0.338,
+   "offen": 0.125
+  },
+  {
+   "t": 0.4333,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.011,
+   "grinsen_breit": 0,
+   "neutral": 0.989,
+   "offen": 0.086
+  },
+  {
+   "t": 0.45,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.007,
+   "grinsen_breit": 0,
+   "neutral": 0.993,
+   "offen": 0.066
+  },
+  {
+   "t": 0.4667,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.004,
+   "grinsen_breit": 0,
+   "neutral": 0.996,
+   "offen": 0.047
+  },
+  {
+   "t": 0.4833,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.002,
+   "grinsen_breit": 0,
+   "neutral": 0.998,
+   "offen": 0.0
+  },
+  {
+   "t": 0.5,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.001,
+   "grinsen_breit": 0,
+   "neutral": 0.999,
+   "offen": 0.0
+  },
+  {
+   "t": 0.5167,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.001,
+   "grinsen_breit": 0,
+   "neutral": 0.999,
+   "offen": 0.0
+  }
+ ]
+}

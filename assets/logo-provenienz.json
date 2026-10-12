@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-11",
+  "status": "Designergänzung [DE]; internally visually checked in desktop/mobile screenshots. No claim of Karl approval.",
+  "design": "Illustrated bridge with nine canonical arch colours, warm optional door, water and hand-adjusted outlined wordmark. Canonical map is unchanged.",
+  "files": [
+    {
+      "path": "10_docs/landing/assets/marke.svg",
+      "sha256": "bd6f578c906c6a1877db31f8899183d4c196abf628d6c6f1d6e682251a500ea8"
+    },
+    {
+      "path": "10_docs/landing/assets/attentionris-logo.svg",
+      "sha256": "9444b6514eb9063ca7c00213685d9869bfb1079827ea8b0d734d9d783d7af536"
+    }
+  ]
+}

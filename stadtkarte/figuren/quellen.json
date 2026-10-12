@@ -1,0 +1,209 @@
+{
+  "_hinweis": "Vorschauen aus freigegebenen Heldenbildern (production/bildauswahl/auswahl.json, Urteil „passt“).",
+  "bilder": {
+    "bela-beleg": {
+      "quelle": "04_assets/characters/bela-beleg/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "3a8d3ef0f92fcedd1de8b2a8f55b5994bc144e2b4963089ab7d1aab6c0522d46",
+      "vorschau": "200×200 px, WebP"
+    },
+    "berta-bytepair": {
+      "quelle": "04_assets/characters/berta-bytepair/v2/kandidaten/held_r3_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "2b607d90b8de9420d543efb52841ee32432faf906017d063097e8393ab0c7b60",
+      "vorschau": "200×200 px, WebP"
+    },
+    "burgermeister-kontext": {
+      "quelle": "04_assets/characters/burgermeister-kontext/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "b2aba729c6c8445abdff5ab328584c4db3b1ee337841d699792182746d11a263",
+      "vorschau": "200×200 px, WebP"
+    },
+    "edda-ende": {
+      "quelle": "04_assets/characters/edda-ende/v2/kandidaten/held_r2_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "8e064c759a300e6b876cc264b6e0fa5003c7ae95ae65ce674712797b334b4a3a",
+      "vorschau": "200×200 px, WebP"
+    },
+    "emmi-embedding": {
+      "quelle": "04_assets/characters/emmi-embedding/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "163ac4641905a9f1dd463dd9e7a4b5d8c0293c2f728b5164f2ee1ab0d8d5317d",
+      "vorschau": "200×200 px, WebP"
+    },
+    "fina-ffn": {
+      "quelle": "04_assets/characters/fina-ffn/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "6225d8003d9dfd7927bd1efec832114739ae8ca9a1c840170a8bf133fe6640ce",
+      "vorschau": "200×200 px, WebP"
+    },
+    "gilda-gradient": {
+      "quelle": "04_assets/characters/gilda-gradient/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "9b7a0089a4ed27f9d42cc68ec4ae2f84bd7383dfd2ef708e8a85d0b9af60faa2",
+      "vorschau": "200×200 px, WebP"
+    },
+    "hedra-kopfe": {
+      "quelle": "04_assets/characters/hedra-kopfe/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "6b24bfa52b9d1ff6c5389b94f3f4f9a72ba194279ab80a9024b1a1fb2e232f53",
+      "vorschau": "200×200 px, WebP"
+    },
+    "indra-index": {
+      "quelle": "04_assets/characters/indra-index/v2/kandidaten/held_r2_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "970351dd02e175f30ba10bfe1bec37783e34bdca4add0de9fd729176d4559cf2",
+      "vorschau": "200×200 px, WebP"
+    },
+    "kajo-cache": {
+      "quelle": "04_assets/characters/kajo-cache/v2/kandidaten/held_r1_s47.png",
+      "urteil": "passt (von Karl gelobt)",
+      "sha256_quelle": "02855ce5bd357d3f6bb1cb92e097579d4e50c9119f6427c3c9d439c44575d134",
+      "vorschau": "200×200 px, WebP"
+    },
+    "kessa": {
+      "quelle": "04_assets/characters/kessa/v2/kandidaten/held_r2_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "2251333fd8ceb86cefe628f42ca0b0194cf467fabe87f7110009c6dd7c514897",
+      "vorschau": "200×200 px, WebP"
+    },
+    "keylian-key": {
+      "quelle": "04_assets/characters/keylian-key/v2/kandidaten/held_r3_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "7f5b42221823ae75b32c2dd5f32e52edde5ec7c3297545b13b328ee13173587d",
+      "vorschau": "200×200 px, WebP"
+    },
+    "kira-top-k": {
+      "quelle": "04_assets/characters/kira-top-k/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "1be48a83bfe6341ebbcf4776b23bb200bbefa2f6c20fe12236db8ca1ee04502d",
+      "vorschau": "200×200 px, WebP"
+    },
+    "lio-logit": {
+      "quelle": "04_assets/characters/lio-logit/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt (von Karl gelobt)",
+      "sha256_quelle": "c5418f151eee4676551ca59e48e3f01d405a3fbf810a51b52f3e8c41d6888653",
+      "vorschau": "200×200 px, WebP"
+    },
+    "mira-maske": {
+      "quelle": "04_assets/characters/mira-maske/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt (von Karl gelobt)",
+      "sha256_quelle": "e035a6daa541c9e675790a1cb720bb58bfa1441306533685452acc3cd918ab78",
+      "vorschau": "200×200 px, WebP"
+    },
+    "nora-norm": {
+      "quelle": "04_assets/characters/nora-norm/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "9a3e78690c460a08556108167a5eabbb51b6b4b86eac512d7fee82cea222b542",
+      "vorschau": "200×200 px, WebP"
+    },
+    "olli-optimierer": {
+      "quelle": "04_assets/characters/olli-optimierer/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "2ed51fa877b647bea6e2f943967576af9a47a11c8f53c0ef75f885b4a6f2609e",
+      "vorschau": "200×200 px, WebP"
+    },
+    "oskar-output": {
+      "quelle": "04_assets/characters/oskar-output/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "402e458979c567999e9f099bd754d82bb39746d5d4f214e3fbc4bd0a624c4ce8",
+      "vorschau": "200×200 px, WebP"
+    },
+    "pio-top-p": {
+      "quelle": "04_assets/characters/pio-top-p/v2/kandidaten/held_r2_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "13535a925ebde9c3bbf41f6624deb1b4f2dc0c4c19d7898e18eaaa468278ea9c",
+      "vorschau": "200×200 px, WebP"
+    },
+    "pippa-position": {
+      "quelle": "04_assets/characters/pippa-position/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt (von Karl gelobt)",
+      "sha256_quelle": "a73a8a9d95854ccea592f437d5ad0cd0755c1da6afed9ecb51c7a6b705ad37ae",
+      "vorschau": "200×200 px, WebP"
+    },
+    "quanta-vierbit": {
+      "quelle": "04_assets/characters/quanta-vierbit/v2/kandidaten/held_r2_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "698a2a778758fe93ed7f2f430f5cad30284faab608add1b4108ec99c65ab796f",
+      "vorschau": "200×200 px, WebP"
+    },
+    "queria-query": {
+      "quelle": "04_assets/characters/queria-query/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "1317dd353659f04cda3bd3864ec42990f536d242af4014127c303c16fb7d677e",
+      "vorschau": "200×200 px, WebP"
+    },
+    "quirin-query": {
+      "quelle": "04_assets/characters/quirin-query/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "b6361bb34079eb48e0c132b57003811e138341e8436e97e046f35ae38f2a3446",
+      "vorschau": "200×200 px, WebP"
+    },
+    "ressi-residual": {
+      "quelle": "04_assets/characters/ressi-residual/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "77c78c6a388eebacd1ea1cc85cc29f0e79aac523f9a29aece2df25abad1ce701",
+      "vorschau": "200×200 px, WebP"
+    },
+    "ria-retrieval": {
+      "quelle": "04_assets/characters/ria-retrieval/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "b4c435db384d3dbd041b94efedd9f9cfa8e734ceee8d9ad05fa86bf726aa03fa",
+      "vorschau": "200×200 px, WebP"
+    },
+    "ronja-rueckmeldung": {
+      "quelle": "04_assets/characters/ronja-rueckmeldung/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt (von Karl gelobt)",
+      "sha256_quelle": "d2abec8dfd42b35fc03664c4e001ce793a8d9f12956adc79fd9bab244ad152d0",
+      "vorschau": "200×200 px, WebP"
+    },
+    "rosa-rotation": {
+      "quelle": "04_assets/characters/rosa-rotation/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "01a68455399438eb7d522e0cdcd14dbe02f4e739a08afbb256286bcd6d8c8263",
+      "vorschau": "200×200 px, WebP"
+    },
+    "seda-sechzehn": {
+      "quelle": "04_assets/characters/seda-sechzehn/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "056652b3fcf77073f983da3e8376e6ffc5745a8e70a2fffe199c99c5926d0720",
+      "vorschau": "200×200 px, WebP"
+    },
+    "sofi-softmax": {
+      "quelle": "04_assets/characters/sofi-softmax/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "40b0d289cf31293acd6c62b41dbff385cda9acbe304edd3b855388364c3f6b6e",
+      "vorschau": "200×200 px, WebP"
+    },
+    "tempi-temperatur": {
+      "quelle": "04_assets/characters/tempi-temperatur/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "2bd83c1ff10650e08090511b2c4a36674c260d200c7030931dcd5a70f649a39b",
+      "vorschau": "200×200 px, WebP"
+    },
+    "toki": {
+      "quelle": "04_assets/characters/toki/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt (von Karl gelobt)",
+      "sha256_quelle": "31684ebb7af7fdafe7af738d771e6edbfb03046d71b6ecbacd8c1cd8d81b642b",
+      "vorschau": "200×200 px, WebP"
+    },
+    "vali": {
+      "quelle": "04_assets/characters/vali/v2/kandidaten/held_r3_s23.png",
+      "urteil": "passt",
+      "sha256_quelle": "c3cb01710e4b3e2722e65eefbb38dff628991882d6405b3235e9e43c5183991f",
+      "vorschau": "200×200 px, WebP"
+    },
+    "valo-value": {
+      "quelle": "04_assets/characters/valo-value/v2/kandidaten/held_r1_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "0143110ba164c7adce638f787710ffaa7818a35ce0ce9542d0d1b5bb06623953",
+      "vorschau": "200×200 px, WebP"
+    },
+    "wera-werkzeug": {
+      "quelle": "04_assets/characters/wera-werkzeug/v2/kandidaten/held_r2_s11.png",
+      "urteil": "passt",
+      "sha256_quelle": "cf9933669cc411dbdf8fa204c1728bb77747dc449c25561a1a019ca2d17cb7dd",
+      "vorschau": "200×200 px, WebP"
+    }
+  }
+}

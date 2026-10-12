@@ -1,0 +1,357 @@
+{
+  "owner": "Codex bounded city-render task",
+  "started_utc": "2026-10-12T02:56:33.029575+00:00",
+  "source": "04_assets/environments/kontextia-stadtatlas/v3/kontextia-stadt-detail.blend",
+  "source_sha256": "2408c8e743c8558d9eb5a4d7a033e6daadeb3e503d71e896c0760f3ea1a7ae4a",
+  "source_preservation": "Source opened read-only in a separate headless process; no save operation.",
+  "process": "Blender 5.2.2 Cycles CPU; 32 samples; native denoiser; cameras only.",
+  "design_addition": "[DE] Fresh website illustration framing of existing city geometry; canonical geography and source palette unchanged.",
+  "physical_master_path": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1",
+  "images": [
+    {
+      "name": "stadt",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\stadt.png",
+      "sha256": "b78fe3373d1650640f27a612595597de5a0f36f07a4aaf9a7d2a42a52bc1778a",
+      "width": 1800,
+      "height": 837,
+      "camera_location": [
+        157.0,
+        168.0,
+        139.0
+      ],
+      "camera_rotation": [
+        0.8883482813835144,
+        1.5258512675586644e-08,
+        2.3948020935058594
+      ],
+      "ortho_scale": 145.0,
+      "target": null
+    },
+    {
+      "name": "hafen",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\hafen.png",
+      "sha256": "6e880b05eebb8ba871e935219a60006d3b21b816eadcf243805482a135817752",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        69.0,
+        137.0,
+        53.0
+      ],
+      "camera_rotation": [
+        0.9645301103591919,
+        -9.352615393254382e-08,
+        2.5535900592803955
+      ],
+      "ortho_scale": 27,
+      "target": [
+        29,
+        77,
+        3
+      ]
+    },
+    {
+      "name": "wald",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\wald.png",
+      "sha256": "cf2e20a41d6474d46fa977d528e806b015078776c419190f0128cb9407c91ff8",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        61.0,
+        129.0,
+        53.0
+      ],
+      "camera_rotation": [
+        0.9645301103591919,
+        -9.352615393254382e-08,
+        2.5535900592803955
+      ],
+      "ortho_scale": 28,
+      "target": [
+        21,
+        69,
+        3
+      ]
+    },
+    {
+      "name": "turm",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\turm.png",
+      "sha256": "df5f7600f6c5d58597efc6c6a956d1b58724af70db134c2c457ce0640d6263b3",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        101.0,
+        108.0,
+        73.0
+      ],
+      "camera_rotation": [
+        0.972501277923584,
+        1.5095147887222993e-07,
+        2.437978744506836
+      ],
+      "ortho_scale": 44,
+      "target": [
+        45,
+        42,
+        14
+      ]
+    },
+    {
+      "name": "archiv",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\archiv.png",
+      "sha256": "77d36c6ef1cddeba900ce477d708b838c5dc7837f917675ded11a55c5cab4651",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        113.0,
+        93.0,
+        63.0
+      ],
+      "camera_rotation": [
+        0.972501277923584,
+        1.5095147887222993e-07,
+        2.437978744506836
+      ],
+      "ortho_scale": 30,
+      "target": [
+        57,
+        27,
+        4
+      ]
+    },
+    {
+      "name": "schmiede",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\schmiede.png",
+      "sha256": "9c8fdc3781ded98c4773b9dad2eaedc8235c86f7dca1b89c39c4ddec6dd6c80f",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        110.0,
+        76.0,
+        62.0
+      ],
+      "camera_rotation": [
+        0.972501277923584,
+        1.5095147887222993e-07,
+        2.437978744506836
+      ],
+      "ortho_scale": 29,
+      "target": [
+        54,
+        10,
+        3
+      ]
+    },
+    {
+      "name": "gebirge",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\gebirge.png",
+      "sha256": "ce1d51a11151df265e6ddd441f1637fe097fecfe7f46266ac11c5ff75ca49709",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        -24.0,
+        88.0,
+        58.0
+      ],
+      "camera_rotation": [
+        0.9770467281341553,
+        -6.500293636690913e-08,
+        -2.498091697692871
+      ],
+      "ortho_scale": 58,
+      "target": [
+        24,
+        24,
+        4
+      ]
+    },
+    {
+      "name": "quellen",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\quellen.png",
+      "sha256": "32a0b737a2343203fcdb351544d84001e3ca21f308cb7db04201a7723ecaf86f",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        131.0,
+        115.0,
+        60.0
+      ],
+      "camera_rotation": [
+        0.972501277923584,
+        1.5095147887222993e-07,
+        2.437978744506836
+      ],
+      "ortho_scale": 49,
+      "target": [
+        75,
+        49,
+        1
+      ]
+    },
+    {
+      "name": "bruecke",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\bruecke.png",
+      "sha256": "0f13e9c770e94fdd83462273a3903f000882c199c1b330bfc288018ae619010a",
+      "width": 1600,
+      "height": 1000,
+      "camera_location": [
+        110.5,
+        117.5,
+        53.0
+      ],
+      "camera_rotation": [
+        1.0469666719436646,
+        -1.0524159677061107e-07,
+        2.437978982925415
+      ],
+      "ortho_scale": 76,
+      "target": [
+        54.5,
+        51.5,
+        3
+      ]
+    },
+    {
+      "name": "bruecke-tuer",
+      "png": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\bruecke-tuer.png",
+      "sha256": "702022fd857d4ae9c69ac3ce59c702f5dcd100ec4648426fabb19c76392f620c",
+      "width": 1200,
+      "height": 900,
+      "camera_location": [
+        111.4000015258789,
+        118.4000015258789,
+        39.70000076293945
+      ],
+      "camera_rotation": [
+        1.1571106910705566,
+        1.2146331584972359e-07,
+        2.437978982925415
+      ],
+      "ortho_scale": 15,
+      "target": [
+        55.4,
+        52.4,
+        1.7
+      ]
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "method": "Direct model visual inspection of all ten contact-sheet images and full-size hafen/turm/archiv/gebirge",
+    "viewed": [
+      "stadt",
+      "hafen",
+      "wald",
+      "turm",
+      "archiv",
+      "schmiede",
+      "gebirge",
+      "quellen",
+      "bruecke",
+      "bruecke-tuer"
+    ],
+    "limitations": [
+      "Current source remains schematic; native broad terraces and stair blocks preserved",
+      "Close house/stair neighborhood at Hafen reported to root",
+      "No source geometry modification or overall geometry/game acceptance"
+    ],
+    "http_function_check": "PASS: all 10 HTTP 200, decodable dimensions match"
+  },
+  "packaged_utc": "2026-10-12T02:58:55.436784+00:00",
+  "files": [
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/stadt.webp",
+      "sha256": "8ba5eb026c5876eac956c44aa5360451cac5aaea1704c0bab7d8d15f83fd0092",
+      "size_bytes": 92240,
+      "width": 1800,
+      "height": 837,
+      "source_png_sha256": "b78fe3373d1650640f27a612595597de5a0f36f07a4aaf9a7d2a42a52bc1778a",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\stadt.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/hafen.webp",
+      "sha256": "3402a92554f0f102fdf4e327aab1059b00d797c7e481c1811e814f6a561a84c3",
+      "size_bytes": 72708,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "6e880b05eebb8ba871e935219a60006d3b21b816eadcf243805482a135817752",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\hafen.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/wald.webp",
+      "sha256": "44869a6e5fcef808fc7f5f99db9b09a94a843dfbc570b1dacbc3852ba7b0cca6",
+      "size_bytes": 67704,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "cf2e20a41d6474d46fa977d528e806b015078776c419190f0128cb9407c91ff8",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\wald.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/turm.webp",
+      "sha256": "d338219f4c0f3f3caa5f58636929f881ef3598a14afeca07e877472bc7e6ee1b",
+      "size_bytes": 96612,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "df5f7600f6c5d58597efc6c6a956d1b58724af70db134c2c457ce0640d6263b3",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\turm.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/archiv.webp",
+      "sha256": "4bff6c5b9b8765b648bd96ef57ca267205d056f268571e6a9f2a9f9e3926d98d",
+      "size_bytes": 78766,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "77d36c6ef1cddeba900ce477d708b838c5dc7837f917675ded11a55c5cab4651",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\archiv.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/schmiede.webp",
+      "sha256": "b88f7525f8c4e2f87b1238323488425862d34bf77eca967e576912279ed50d7d",
+      "size_bytes": 55692,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "9c8fdc3781ded98c4773b9dad2eaedc8235c86f7dca1b89c39c4ddec6dd6c80f",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\schmiede.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/gebirge.webp",
+      "sha256": "3b0b8ba36f8ab81f4ff09686dffc71bcd5495fcd90458babbf091a2ec6c245d2",
+      "size_bytes": 68774,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "ce1d51a11151df265e6ddd441f1637fe097fecfe7f46266ac11c5ff75ca49709",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\gebirge.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/quellen.webp",
+      "sha256": "61978990fec35d768bd4ceca8d3bd11ec3c9bb9928156b44593347599f58d610",
+      "size_bytes": 60888,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "32a0b737a2343203fcdb351544d84001e3ca21f308cb7db04201a7723ecaf86f",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\quellen.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/bruecke.webp",
+      "sha256": "3309fe491108ebd2e02e82c15ebb8eb329a523a28ab6c4819ef30acd1ac7c0fe",
+      "size_bytes": 120994,
+      "width": 1600,
+      "height": 1000,
+      "source_png_sha256": "0f13e9c770e94fdd83462273a3903f000882c199c1b330bfc288018ae619010a",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\bruecke.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/aktuell_2026-10-12/bruecke-tuer.webp",
+      "sha256": "896a007bd6094f442df93e986790ec86ad915a79f341690016e146dd31c3fd2f",
+      "size_bytes": 53382,
+      "width": 1200,
+      "height": 900,
+      "source_png_sha256": "702022fd857d4ae9c69ac3ce59c702f5dcd100ec4648426fabb19c76392f620c",
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\bruecke-tuer.png"
+    }
+  ],
+  "contact_sheet": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\kontextia-stadtatlas\\webbilder_2026-10-12_r1\\contact-sheet.jpg",
+  "function_check": "PASS: 10 complete decodable WebP images; master hashes; dimensions; checked F: Junction; unchanged Blender source.",
+  "scope_limit": "Fresh static city website images; source geometry unchanged; no overall city/game/character acceptance.",
+  "status": "complete"
+}

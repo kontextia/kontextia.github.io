@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 112 110"><title>Kontextia – Die Lichterbrücke [DE]</title><defs>
+<linearGradient id="stone" x1="0" y1="0" x2="0.4" y2="1"><stop stop-color="#fff1b8"/><stop offset=".48" stop-color="#e9b862"/><stop offset="1" stop-color="#b56e38"/></linearGradient>
+<linearGradient id="mint" x1="0" y1="0" x2="0.25" y2="1"><stop stop-color="#c8f3dc"/><stop offset=".6" stop-color="#7dd4bd"/><stop offset="1" stop-color="#318c87"/></linearGradient>
+<linearGradient id="door" x2="0" y2="1"><stop stop-color="#fff8d1"/><stop offset="1" stop-color="#ffc66a"/></linearGradient>
+<linearGradient id="letters" x2="0" y2="1"><stop stop-color="#fff1c2"/><stop offset=".42" stop-color="#f9d58b"/><stop offset="1" stop-color="#cf9250"/></linearGradient>
+</defs><g stroke-linejoin="round" stroke-linecap="round">
+<path d="M10 92 Q30 87 54 92 T103 91 M19 101 Q38 96 56 101 T91 101" fill="none" stroke="#6fbdaa" stroke-width="2" opacity=".7"/>
+<path d="M16 84 L16 61 Q55 22 95 61 L95 84 L81 84 L81 72 Q81 63 72 63 Q64 64 64 75 L64 84 L49 84 L49 69 Q49 59 40 59 Q31 59 31 70 L31 84Z" fill="#593f2b" stroke="#183d43" stroke-width="5" transform="translate(0 4)"/>
+<path d="M16 84 L16 61 Q55 22 95 61 L95 84 L81 84 L81 72 Q81 63 72 63 Q64 64 64 75 L64 84 L49 84 L49 69 Q49 59 40 59 Q31 59 31 70 L31 84Z" fill="url(#stone)" stroke="#f5dc9e" stroke-width="1.2"/>
+<path d="M15 59 Q56 20 96 59" fill="none" stroke="#315b5a" stroke-width="7"/>
+<path d="M15 57 Q56 18 96 57" fill="none" stroke="url(#mint)" stroke-width="5"/>
+<path d="M17 56 Q56 22 93 56" fill="none" stroke="#c8f3dc" stroke-width="1.3"/>
+<path d="M52 84 V65 Q52 57 58 57 Q64 57 64 65 V84Z" fill="#254349" stroke="#b28147" stroke-width="2"/>
+<path d="M54 83 V65 Q54 59 58 59 Q62 59 62 65 V83Z" fill="url(#door)"/>
+<path d="M56 62 L61 61 V81 L56 83Z" fill="#f6bc62" stroke="#fff1bb" stroke-width=".8"/>
+<circle cx="59.7" cy="74" r=".8" fill="#8b5a29"/>
+<path d="M20 68 H29 M83 68 H91 M19 77 H27 M67 79 H78 M34 51 L36 57 M78 52 L76 59 M53 43 L53 51 M61 44 L61 51" fill="none" stroke="#b17b42" stroke-width="1.1"/>
+<path d="M20 46 Q56 15 92 46" fill="none" stroke="#edd59a" stroke-width="1"/>
+<g stroke="#fff0b5" stroke-width=".5">
+<circle cx="21" cy="46" r="2.7" fill="#f2a93b"/><circle cx="29" cy="39" r="2.5" fill="#b9c3e8"/><circle cx="38" cy="33" r="2.4" fill="#ff8b78"/><circle cx="47" cy="29" r="2.5" fill="#68b6a3"/><circle cx="57" cy="27.5" r="3.2" fill="#ffe69e"/><circle cx="67" cy="29" r="2.5" fill="#6dd9c8"/><circle cx="76" cy="33" r="2.4" fill="#8b85c9"/><circle cx="85" cy="39" r="2.5" fill="#a594d3"/><circle cx="92" cy="46" r="2.7" fill="#9cc3e6"/>
+</g>
+<path d="M58 7 L60.2 13.1 L66 15 L60.2 17 L58 23 L55.8 17 L50 15 L55.8 13.1Z" fill="#ffe7a1" stroke="#c79a53" stroke-width=".6"/>
+<path d="M100 24 L101.1 27.1 L104 28 L101.1 29 L100 32 L98.9 29 L96 28 L98.9 27.1Z" fill="#bcebdd"/>
+<circle cx="15" cy="29" r="1.4" fill="#ecd295"/><circle cx="88" cy="14" r="1" fill="#bcebdd"/>
+<path d="M10 82 Q9 69 13 65 Q16 69 13 81 M99 81 Q98 73 103 70 Q106 78 101 82" fill="url(#mint)" stroke="#489d91" stroke-width=".7"/>
+</g></svg>

@@ -1,0 +1,17 @@
+L04 · Der Wackelturm
+Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+
+Was passiert hier?
+Der Wackelturm ersetzt die frühere Kopf-Bomber-Idee. Das Lehrmodell WT-1 besitzt zwei Stockwerke mit mehreren Helmen und weiteren Bauteilen. Du sagst zuerst voraus, wie stark eine Antwort sich verändert, und setzt dann an einer Kopie den Beitrag eines Teils auf null. So wird seine Wirkung messbar. Die Helme heißen Strich, Punkt und Welle nach ihren Mustern. Eine Aufgabe erhält keinen fest zugeteilten Helmberuf: Wirkung, Ersatz und Überlagerung hängen vom Satz und den übrigen Teilen ab.
+
+Dein Auftrag
+Miss ΔP oder Δz nach einer Ablation, untersuche Ersatzköpfe und halte die Stockwerkslinse an Zwischenstände. Vergleiche einzelne Eingriffe mit gemeinsamen Eingriffen.
+
+Erwartetes Ergebnis im Entwurf
+Die neue Dokumentation zeigt im WT-1 satzabhängige Änderungen von −26,1 gegenüber −0,6 Prozentpunkten. Zwei Köpfe können einzeln je −6, gemeinsam −55 bewirken. Das sind Ergebnisse des angegebenen Lehrmodells. Die Logit Lens hat Messgrenzen; Rollen und Merkmale bleiben überlagert.
+
+So findest du Fehler
+Ziehen ist eine Untersuchung an einer Kopie. Beim normalen Antworten entfernt niemand Teile. Halte Wahrscheinlichkeit, Logit und Aufmerksamkeit auseinander und prüfe den behaupteten Helmberuf an einem neuen Satz.
+
+Quelle: 01_design/v2/level/L04.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

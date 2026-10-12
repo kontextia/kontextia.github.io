@@ -1,0 +1,17 @@
+L06 · Kajos Archiv: Nicht noch einmal von vorn
+Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+
+Was passiert hier?
+Kajo bewahrt bereits berechnete Keys und Values je Stockwerk und Position auf. Bei der Morgenflut wird der Prompt verarbeitet; danach ergänzt jeder Antwortschritt neue K/V-Paare. Frühere Paare können erneut verwendet werden. Das spart Projektionen, braucht aber Speicher. Der Cache ist ein Zwischenspeicher laufender Rechnung. Eine Notiz der Anwendung ist etwas anderes: Sie muss als Text wieder auf den Tisch gelegt werden und belegt dann Kontextplätze.
+
+Dein Auftrag
+Zähle neu berechnete K/V-Paare mit und ohne Wiederverwendung. Vergleiche anschließend Kontextbudget, Cachegröße und Speicherformate.
+
+Erwartetes Ergebnis im Entwurf
+Mit Cache werden frühere K/V-Projektionen wiederverwendet. Q/K-Vergleiche und weitere Operationen bleiben nötig. Mehr Positionen, Stockwerke oder Köpfe brauchen zusätzlichen Speicher. Der Cache erweitert das Kontextfenster nicht; sein Lebenszyklus und seine Aufbewahrung gehören zur Anwendung.
+
+So findest du Fehler
+Frage, ob etwas als K/V-Rechnung, aktueller Kontexttext oder äußere Notiz vorliegt. Verwechsle eine gespeicherte Rechnung nicht mit Gewichtstraining oder einem privaten Langzeitgedächtnis.
+
+Quelle: 01_design/v2/level/L06.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

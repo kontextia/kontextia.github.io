@@ -1,0 +1,73 @@
+# Die Lernschmiede
+
+Erzählerin:
+Am Rand der Stadt liegt das Geschichtsviertel. Eine große Halle aus dunklem Stein. Die Esse ist kalt, das Tor versiegelt. Drinnen ist es still, nur eine Museumsuhr tickt. Kaltes Eisen, altes Schmieröl, Staub auf Samt.
+
+Gilda Gradient:
+Willkommen in der Lernschmiede! Ich bin Gilda Gradient. Hier hat alles angefangen. Beim Ratespiel an den Textbergen hat die Stadt das nächste Stück geraten, und wenn sie danebenlag, gab es eine Fehlerkerbe. Mein Kompass zeigt dann dahin, wo es bergauf geht, wo der Fehler noch größer würde. Da geht's bergauf, also geh woandershin!
+
+Olli Optimierer:
+Und ich … bin Olli Optimierer. Ich habe jede Stellschraube … ein kleines Stück in die andere Richtung gedreht. Bergab. Zu kleine Schritte dauern ewig. Zu große springen über das Tal. Und das Ganze … Milliarden Mal. Klein justiert, groß gelernt.
+
+Erzählerin:
+Dann kamen die Lehrjahre, mit Büchern voller guter Beispielantworten. Und dann die Waagenjahre. Da steht sie noch, auf einem Sockel im Museum.
+
+Ronja Rückmeldung:
+Ich bin Ronja Rückmeldung, aus der Schmiedezunft. Man hat mir zwei Antworten in die Schalen gelegt, und Menschen haben gesagt, welche ihnen besser gefällt. Dann wurde die Stadt so justiert, dass die bevorzugte Art von Antwort wahrscheinlicher wurde. Aber merk dir eins: Die Waage misst, was Menschen lieber mögen. Ob es stimmt, muss jemand anderes prüfen. Lieber heißt nicht richtiger.
+
+Erzählerin:
+Und dann, eines Tages, war die Arbeit getan. Gilda legte den Kompass in eine Vitrine. Olli hängte den Schraubendreher an die Wand. Die Esse wurde gelöscht. Und auf das Tor kam ein großes Siegel: Kalt. Bitte nicht während des Antwortens öffnen.
+
+Erzählerin:
+Seitdem gilt das wichtigste Gesetz der Stadtverfassung. Paragraf eins: Antworten verändern keine Stellschrauben.
+
+Erzählerin:
+Trotzdem hielt sich ein hartnäckiges Gerücht. Unsere Esse glüht doch noch, riefen ein paar stolze Schmiede. Die Brücke lernt beim Reden! Und Quirin hatte einen einzigen perfekten Satz auswendig gelernt und erklärte sich für fertig. Da kam jemand mit einem Koffer.
+
+Vali:
+Wunderbar. Hier ist ein anderer. Ich bin Vali, die Prüferin, von der Prüfinsel. In meiner Truhe liegen Aufgaben, die die Schmiede nie gesehen hat. Wer nur auswendig gelernt hat, scheitert daran. Und meine Aufgaben werden nie zum Üben benutzt. Sonst wäre die Prüfung ja keine Prüfung mehr. Auswendig gelernt ist noch nicht gekonnt.
+
+Erzählerin:
+Quirin kannte Valis Satz nicht. Sein auswendig gelernter Satz half ihm gar nichts. Und Kajo öffnete die Klappe der Antwortmaschine. Drinnen lief kein Hammer. Kein Zahnrad drehte an einer Schraube.
+
+Kajo Cache:
+Das Siegel ist zu. Beim Antworten schmiedet hier niemand.
+
+Professor Quirin Query:
+Gegenprobe Nummer sieben: Auswendig ist nicht verstanden. Frag Vali.
+
+Erzählerin:
+Kajo hatte übrigens versucht, die Übungssätze alphabetisch zu sortieren. Es hat nichts geändert.
+
+Kajo Cache:
+Hm. Nicht jedes Problem ist ein Sortierproblem.
+
+Gilda Gradient:
+Unser Werk lebt in jeder Schraube der Stadt. Die Esse darf kalt sein.
+
+Erzählerin:
+Und der Indigobogen glimmt auf, ruhig und tief, wie eine Glut, die man nur noch erinnert.
+
+Erzählerin:
+Was wirklich dahintersteckt: Ein Sprachmodell lernt nur im Training. Es sagt das nächste Token voraus, der Fehler wird gemessen, und ein Optimierer verändert die Gewichte in winzigen Schritten. Danach werden die Gewichte eingefroren. Beim Antworten bleiben seine Gewichte gleich. Die Anwendung kann den Chat dennoch speichern oder später für getrenntes Training verwenden.
+
+Erzählerin:
+Danach nehmt ihr euch in der Lehrwerkstatt eine alte Abfahrtszeit vor. Wo steckt sie in den Schrauben? Quirin zeigt auf eine. Ihr dreht sie. Dann eine andere, schließlich mehrere zusammen. Die gesuchte Antwort verändert sich. Aber andere verändern sich mit. Der Professor hält inne. Kein kleines Fahrplanfach. Das Gelernte ist über viele Schrauben verteilt.
+
+Kajo Cache:
+Antworten, Tischwissen, Archiv und Gewichte sind vier verschiedene Dinge.
+
+Erzählerin:
+Auf einer Lernkarte steht Kapitänin Merle. Auf anderen steht oft Bo. Bei Merles Satz bevorzugt die kleine Übungsmurmel trotzdem das Wort er. Vali legt ausgewogenere Karten dazu. Das hilft, doch die Schiefe verschiebt sich. Ein Nachschliff verbessert Merles Antwort und macht bei Bo einen neuen Fehler. Darum schaut Vali auch auf die anderen Prüfkarten.
+
+Vali:
+Prüfen findet nur, was auf den Prüfkarten steht. Ich brauche mehr als eine Karte.
+
+Erzählerin:
+Im Museum zieht Kajo vier Striche auf seine Tafel. Training damals. Antworten heute. Geänderte Gewichte. Einträge im Amtsbuch. Hundert Antworten heute: Kein Strich bei den geänderten Gewichten. Der Schreiber der Anwendung kann trotzdem hundert Einträge speichern. Erst ein späteres, getrenntes Training könnte daraus lernen.
+
+Kajo Cache:
+Kalt heißt nicht verschwiegen. Geheimnisse, Adressen und Passwörter bleiben bei dir.
+
+Erzählerin:
+Auf der Preiswaage liegt der Gewinn: Aus Beispielen kann die Stadt auch Ungeübtes fortsetzen. Auf der anderen Schale liegen Rechenaufwand und Schiefe. Jede Antwort kostet Rechnung. Das Üben vorher kostet noch viel mehr. Vali lässt die Waage stehen. Beide Schalen gehören dazu.

@@ -1,0 +1,17 @@
+L00 · Das Ratespiel am Poller 7
+Teil 1 · Didaktik 2.2 · Generation 534411b8fa941f9a
+
+Was passiert hier?
+Am Poller 7 hält Quirin die kleine Schneekugel-Stadt für ein Orakel. Du legst zehn Muschelchips auf mögliche Fortsetzungen eines Satzanfangs. Die Chips zeigen deine Vermutung, bevor die Kugel ein Stück zieht. Derselbe Anfang kann verschieden weitergehen. Dann kommt eine Frage, deren Antwort niemand kennen kann: Auch darauf erzeugt die Kugel eine flüssige Fortsetzung. Das Ratespiel macht den Unterschied zwischen einer passenden Fortsetzung und einer belegten Antwort sichtbar.
+
+Dein Auftrag
+Verteile die zehn Chips, halte deine Vorhersage fest und vergleiche mehrere Ziehungen. Prüfe anschließend die unwissbare Frage mit Quirins Glas.
+
+Erwartetes Ergebnis im Entwurf
+Mehrere Fortsetzungen sind möglich. Ein sicher klingender Satz belegt kein Wissen. Bei der unwissbaren Frage fehlt die Grundlage für eine richtige Antwort; trotzdem kommt Text. Die drei Ratekarten sammeln Beobachtungen und sperren den weiteren Weg nicht.
+
+So findest du Fehler
+Verwechsle den Glanz der Antwort nicht mit einem Wahrheitsnachweis. Frage, welche Information überhaupt vorhanden war und was nur aus einer Verteilung gezogen wurde.
+
+Quelle: 01_design/v2/level/L00.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

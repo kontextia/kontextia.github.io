@@ -1,0 +1,46 @@
+# Der Kartenwald
+
+Erzählerin:
+Hinter dem Hafen beginnt ein Wald. Grünes, gesprenkeltes Licht. Es riecht nach Moos, Bleistiftspänen und nassem Kartenpapier. Jeder Baum steht an einer ganz genauen Stelle, und zwischen den Stämmen leuchten Messpfosten mit Zahlen. Die Blätter rascheln wie geflüsterte Zahlen. Am Waldrand steht ein Pult, darauf ein riesiges Buch.
+
+Emmi Embedding:
+Moment, ich peile … So. Ich bin Emmi Embedding, von den Kartografen vom Bedeutungsgarten. Das hier ist mein Kartenbuch. Für jede Fahrkartennummer gibt es eine Zeile, und in jeder Zeile steht eine Reihe von Zahlen. Kommt ein Toki zu mir, schlage ich seine Zeile auf und gebe ihm eine Bedeutungsperle mit genau diesen Zahlen.
+
+Emmi Embedding:
+Wer im Wald nah beieinander wohnt, ist sich ähnlich. Hund und Katze sind Nachbarn. Montag und Dienstag teilen sich einen Gartenzaun. Nah heißt ähnlich. Aber nicht gleich.
+
+Erzählerin:
+Als der Streit kam, standen zwei Tokis vor Emmis Pult. Beide trugen die Nummer für Bank. Der eine hielt einen Geldschein in der Hand, der andere trug Gartenhandschuhe. Jeder wollte die echte Bank sein, mit einer eigenen Perle.
+
+Emmi Embedding:
+Und beide haben dieselbe Perle bekommen. Ich schaue auf die Nummer, nicht auf den Hut. Was eine Bank im Satz wirklich ist, das macht erst später die Stadt aus. Wer neben dir steht, macht dich aus.
+
+Erzählerin:
+Und dann hört man aus der Ferne einen Zählgesang. Eins, zwei, drei. Wer kommt nach wem?
+
+Pippa Position:
+Ich bin Pippa Position! Ich streife jedem Toki einen Hausnummernring über die Perle. Schau mal: Hund jagt Katze. Eins, zwei, drei. Und jetzt: Katze jagt Hund. Gleiche Perlen, andere Ringe, und plötzlich jagt jemand anderes! Was ein Wort bedeutet, weiß ich nicht. Ich weiß nur, wo es steht. Wer kam zuerst?
+
+Erzählerin:
+Quirin hat inzwischen ein Schild an einen Baum geklebt. Auf dem Schild steht: links. Der Baum steht rechts.
+
+Professor Quirin Query:
+Ich habe mich theoretisch nicht verlaufen.
+
+Kajo Cache:
+Praktisch stehst du im Brunnen.
+
+Erzählerin:
+Am Eingang des Waldes hängt eine große, flache Karte. Darauf stehen zwei Bäume direkt nebeneinander. Aber als Quirin um den Hügel herumgeht, sieht er: In echt stehen sie weit auseinander. Einer oben, einer unten.
+
+Professor Quirin Query:
+Die Karte ist flach. Der Wald ist es nicht. Gegenprobe Nummer zwei.
+
+Kajo Cache:
+Und eine Perle ist einfach eine Zeile im Buch? Eine Liste von Zahlen? Die könnte ich einsortieren!
+
+Erzählerin:
+Tokis Nummernzapfen klickt in Emmis Buchse, eine schimmernde Perle rollt heraus, und Pippas blauer Ring gleitet darüber wie der Ring um einen Planeten. Die beiden Bank-Tokis geben sich die Hand. Und der Perlmuttbogen erstrahlt.
+
+Erzählerin:
+Was wirklich dahintersteckt: Das ist das Embedding. Jede Token-Nummer wählt eine Zeile aus gelernten Zahlen, einen Vektor. Pippa steht für die Positionsinformation. Echte Bedeutungsräume haben Hunderte bis Tausende Richtungen, und darum ist jede flache Karte davon verzerrt.

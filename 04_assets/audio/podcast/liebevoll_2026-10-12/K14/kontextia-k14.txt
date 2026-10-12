@@ -1,0 +1,187 @@
+# Die Andock-Polonaise und das Lichterfest
+
+Erzählerin:
+Der Schlussstein ist noch dunkel. Und auf ihn passt nur ein Wappen, hatten alle gedacht. Da stellt sich der Bürgermeister auf die Kaimauer.
+
+Bürgermeister Kontext:
+Wir machen das jetzt anders. Alle zusammen. In der richtigen Reihenfolge.
+
+Erzählerin:
+Und dann tanzt die ganze Stadt eine Polonaise. Jede Figur legt die Hände auf die Schultern der nächsten. Bei jedem Schritt klickt ein Schlüssel in ein Schloss. Und Vorsängerin ist Sofi.
+
+Sofi Softmax:
+Wer fängt an?
+
+Berta Bytepair:
+Die Schere fängt an! Text rein, Zapfen raus, ab zum Bürgermeister-Haus!
+
+Sofi Softmax:
+Und dann?
+
+Emmi Embedding:
+Emmi gibt die Perle, Pippa gibt den Ring!
+
+Pippa Position:
+Nummer rein, Perle raus, Ring drum, so ein Ding!
+
+Sofi Softmax:
+Und dann?
+
+Nora Norm:
+Nora macht sie rund! Perle rein, Perle raus, in Standardmaß, und aus!
+
+Sofi Softmax:
+Und dann?
+
+Queria Query:
+Kamm, Kamm, Paket! Aus einer Perle drei!
+
+Keylian Key:
+Queria, Keylian, Valo dabei!
+
+Sofi Softmax:
+Und dann?
+
+Mira Maske:
+Mira hält die Zukunft zu, und Sofi teilt in aller Ruh!
+
+Sofi Softmax:
+Dreieck rein, Tropfen raus, und der Kuchen ist ganz, voll aus! Und dann?
+
+Valo Value:
+Valo mischt, und Hedra schaut!
+
+Hedra Köpfe:
+Oskar trichtert, was sich traut!
+
+Oskar Output:
+Drei Perlen rein, eine raus!
+
+Sofi Softmax:
+Und dann?
+
+Ressi Residual:
+Ressi legt dazu! Alt plus neu, und nichts ist weg, Plus-Gruß hoch, das ist der Zweck!
+
+Sofi Softmax:
+Und dann?
+
+Fina FFN:
+Nora, Fina, still am Platz, und Ressi legt noch mal den Schatz! Und hoch, Stock um Stock!
+
+Sofi Softmax:
+Und wer hebt alles auf?
+
+Kessa:
+Kajo und Kessa! Kamm und Paket oben rein!
+
+Kajo Cache:
+Schublade vorne, fein, fein, fein!
+
+Sofi Softmax:
+Und oben auf dem Markt?
+
+Lio Logit:
+Lio ruft die Punkte aus! Perle rein, Dreiecke raus, für jedes Wort ein eigenes Haus!
+
+Sofi Softmax:
+Und dann?
+
+Tempi Temperatur:
+Tempi stellt, und Kira zählt!
+
+Pio Top-p:
+Pio füllt, und Sofi dreht!
+
+Sofi Softmax:
+Ich dreh und dreh, bis ein Stück fällt! Und am Ende?
+
+Edda Ende:
+Edda prüft das Stück! Glocke? Schluss! Sonst zurück, ein Stück mehr Glück!
+
+Sofi Softmax:
+Und die von draußen?
+
+Ria Retrieval:
+Ria, Indra, Wera, Bela!
+
+Bela Beleg:
+Blatt aufs Tischlein, Stempel drauf, Klammer dran, und Laterne an, wenn keiner's kann!
+
+Sofi Softmax:
+Und die vom Berg?
+
+Quanta Vierbit:
+Quanta, Seda tragen das Gepäck!
+
+Seda Sechzehn:
+Fein genug, und keiner weg!
+
+Sofi Softmax:
+Und die Schmiede?
+
+Gilda Gradient:
+Die Schmiede tanzt nicht mit, sie hat die Schritte uns gelehrt!
+
+Olli Optimierer:
+Siegel zu, und alles bleibt, wie's sich bewährt.
+
+Erzählerin:
+Beim letzten Klick geschieht es. Der Schlussstein leuchtet auf. Und auf ihm erscheint kein einzelnes Wappen, sondern ein neues Zeichen: ein Schlüssel, der in einem Schloss steckt. Darum herum, im Kreis, alle dreizehn Wappen. Gleich groß. Keines oben, keines unten.
+
+Erzählerin:
+Noch vor dem Lichterfest fällt Quirins Brille ins Wasser. Zehn Sekunden lang sind alle Figuren verschwunden. Auch die Laternen und jeder Nebelrand sind weg. Nur Zahlenlicht fließt über die Brücke.
+
+Kajo Cache:
+Das war die Brücke ohne Brille. Die Figuren waren unsere Brille. Die Rechnung war echt.
+
+Erzählerin:
+Auch dieses Zahlenlicht ist noch ein Bild. Es zeigt nicht alle echten Zahlen. Es zeigt dir auch nicht, welche Antwort stimmt. Kajo fischt die Brille aus dem Wasser. Jetzt sind die Figuren wieder da, und am Geländer leuchten die sechs Laternen mit ihren Preisschildern.
+
+Erzählerin:
+Du wählst ohne Hilfsbrille: Ist die Stadt ein Orakel, ein Wesen oder eine große Rechnung, die sehr gut raten gelernt hat?
+
+Kajo Cache:
+Eine große Rechnung. Und deshalb fragen wir weiter.
+
+Erzählerin:
+Auf der Urkunde steht auch: Die Stadt rät, selbst wenn sie sicher klingt. Mehrmals fragen, Quellen holen, prüfen. Erfinden ist erlaubt, wenn Geschichte draufsteht.
+
+Professor Quirin Query:
+Unser Brückenbauer-Eid hat drei Fragen. Könnte das geraten sein?
+
+Kajo Cache:
+Woher stammt das, und stützt die Quelle es wirklich?
+
+Toki:
+Was lege ich auf den Tisch, und wer kann mitlesen?
+
+Erzählerin:
+Die Glocke läutet. Und läutet. Und läutet. Über das Wasser spannt sich die Antwortbrücke, und alle neun Bögen leuchten. Bernstein, Perlmutt, Koralle, Gelb und Petrol, Gold, Türkis, Indigo, Türkisviolett, Weißblau.
+
+Erzählerin:
+Im Hafen veranstaltet Berta ein Wettschneiden. Gewonnen hat ein Wort mit elf Stücken. Im Kartenwald besuchen sich alle Nachbarn gleichzeitig. Es ist ein bisschen eng. In der Sternwarte schneidet Sofi den größten Kuchen der Stadtgeschichte. Am Ende wird nachgezählt: ein ganzer Kuchen.
+
+Mira Maske:
+Heute dürft ihr zurückschauen, so weit ihr wollt.
+
+Toki:
+Und vorausschauen?
+
+Mira Maske:
+Morgen.
+
+Erzählerin:
+Und Mira zwinkert. Valo verteilt Picknick nach Gewichten, und jeder wird satt. Die Turmwerkstätten verteilen Plus-Kekse. Man kann sie nicht essen, ohne dass man danach mehr hat. Auf dem Logitmarkt darf jedes Kind einmal am Glücksrad drehen. Mit Seedstein, damit man es nachspielen kann. Und die Kästner verschenken Schubladen-Lebkuchen. Jeder ist beschriftet.
+
+Erzählerin:
+Im Stufengebirge spielt das Stufenvolk auf dem großen Xylophon. Seda spielt die feinen Töne, Quanta die sechzehn großen. Zusammen klingt es richtig. Vor der Mauer stempeln die Quellenwächter jede Laterne mit Datum und Herkunft. Und die Schmiedezunft hängt ein neues Schild an ihr Tor: Kalt. Und stolz darauf.
+
+Erzählerin:
+Quirin steht auf der Brücke. Seine Brille sitzt gerade. Zum ersten Mal. Er schaut Kajo an. Dann rutscht sie wieder auf den Trichter.
+
+Kajo Cache:
+Fast. Hier, dein Tee. Heiß.
+
+Bürgermeister Kontext:
+Alle dreizehn Häuser von Kontextia bestätigen hiermit: Du hast die Antwortbrücke wieder zum Leuchten gebracht. Kein Haus ist mehr wert als ein anderes. Die Kette braucht alle. Und sie hat dich gebraucht.

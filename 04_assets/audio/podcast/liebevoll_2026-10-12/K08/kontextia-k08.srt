@@ -1,0 +1,91 @@
+1
+00:00:00,950 --> 00:00:16,050
+Erzählerin: Ganz oben, unter freiem Himmel, ist Markt. Goldene Laternen, gebrannte Mandeln, Zuckerwatte, heißes Messing. Es gibt so viele Buden, wie die Stadt Wortstücke kennt. Zehntausende. Und über allem hängt eine riesige Punktetafel.
+
+2
+00:00:16,310 --> 00:00:36,730
+Lio Logit: Frische Punkte! Alle Felder neu! Ich bin Lio Logit, von der Marktgilde. Für jedes Wortstück, das die Stadt kennt, habe ich ein Fach. Wenn ein Rucksack oben ankommt, rufe ich für jedes Fach eine Punktzahl aus. Aber Achtung: Punkte sind keine Prozente! Wer auf dem Markt Prozent sagt, muss eine Runde Mandeln ausgeben. Ich weiß das. Ich habe schon oft bezahlt.
+
+3
+00:00:36,990 --> 00:00:54,310
+Tempi Temperatur: Heiße Lose! Heiße Lose! Ich bin Tempi Temperatur, der Überraschungsregler. Drehe ich nach spitz, gewinnt fast immer das Feld mit den meisten Punkten. Drehe ich nach flach, bekommen auch die kleinen Felder auf dem Glücksrad mehr Platz. Aber klüger wird es nicht. Heiß macht bunt, nicht klug.
+
+4
+00:00:54,570 --> 00:01:07,710
+Kira Top-k: Ich bin Kira Top-k. Ich zähle Türen. Sag mir eine Zahl, zum Beispiel zwei, dann lasse ich genau zwei Türen offen, für die zwei besten Stücke. Alle anderen bleiben draußen. Nur die besten k, bitte.
+
+5
+00:01:07,970 --> 00:01:25,550
+Pio Top-p: Mhm. Und ich bin Pio Top-p. Ich zähle keine Türen, ich sammle Tropfen. Die größten zuerst, in meinen Korb, bis er voll genug ist. Zum Beispiel neun Zehntel. Manchmal reicht ein einziger dicker Tropfen, manchmal brauche ich viele kleine. Bis der Korb voll genug ist.
+
+6
+00:01:26,050 --> 00:01:37,830
+Erzählerin: Dann kommt Sofi wieder, denn Sofi hat zwei Arbeitsorte. Sie macht aus den Punkten Anteile und dreht das Glücksrad. Ein Stück rollt heraus. Und am Rand des Marktes steht ein Glockenturm.
+
+7
+00:01:38,090 --> 00:01:49,610
+Edda Ende: Ich bin Edda Ende. Nur beim Schlussstück läute ich die Schlussglocke. Ist die reservierte Länge voll, stoppt die Mauer. Ein gewöhnliches neues Stück bringt den nächsten Takt der Brückenglocke, keinen Schluss.
+
+8
+00:01:50,110 --> 00:01:58,690
+Erzählerin: Als der Streit kam, rief Lio: Der höchste Punkt gewinnt immer! Und Quirin glaubte, mit heißen Losen gewinne man die Wahrheit.
+
+9
+00:01:58,950 --> 00:02:02,510
+Kajo Cache: Du gewinnst erst einmal ein Token. Wahrheit prüfen wir später.
+
+10
+00:02:03,010 --> 00:02:21,270
+Erzählerin: Und tatsächlich: Wenn man immer nur das Stück mit den höchsten Punkten nimmt, passiert manchmal etwas Seltsames. Und dann und dann und dann und dann. Die Antwort beißt sich in den eigenen Schwanz. Dreht Tempi dagegen viel zu weit auf, wird alles Kauderwelsch.
+
+11
+00:02:21,530 --> 00:02:23,590
+Professor Quirin Query: Mathematisch unvermeidbar!
+
+12
+00:02:24,090 --> 00:02:38,670
+Erzählerin: Kajo legt ihm zwanzig Seedsteine hin. Das sind nummerierte Steine, die man unter das Rad legt, damit sich eine Ziehung genau wiederholen lässt. Quirin zieht zwanzig Mal mit zwanzig verschiedenen Steinen und macht Striche. Es kommt nicht immer dasselbe.
+
+13
+00:02:38,930 --> 00:02:42,470
+Professor Quirin Query: Ah. Statistisch vermeidbar. Gegenprobe Nummer fünf.
+
+14
+00:02:42,730 --> 00:02:49,190
+Kajo Cache: Wenn man alle Punkte durch eine große Zahl teilt, werden die Unterschiede klein. Darum wird das Rad flacher!
+
+15
+00:02:49,450 --> 00:02:52,450
+Tempi Temperatur: Ich mach's spitzer oder flacher. Nicht klüger!
+
+16
+00:02:52,950 --> 00:02:56,570
+Erzählerin: Und dann zieht das Rad die Schlussglocke. Edda läutet.
+
+17
+00:02:59,820 --> 00:03:02,960
+Erzählerin: Der Goldbogen erstrahlt wie eine Reihe goldener Dreiecke.
+
+18
+00:03:03,810 --> 00:03:23,470
+Erzählerin: Was wirklich dahintersteckt: Am Ende jedes Durchlaufs stehen die Logits, eine Punktzahl für jedes mögliche Token. Temperature, Top-k und Top-p formen daraus eine Wahrscheinlichkeitsverteilung, und daraus wird ein einziges Token gezogen. Dann beginnt alles von vorn. Jeder Zug ein neues Los.
+
+19
+00:03:24,070 --> 00:03:39,790
+Erzählerin: Der kleine Übungsmarkt kann im Kreis laufen, weil sein Marktbuch nur auf das letzte Wort schaut. Im großen Spielmarkt hängt mehr vom bisherigen Text ab: Wiederholungen können sich selbst verstärken. Pio verändert die Auswahl, repariert aber keinen Irrtum.
+
+20
+00:03:40,050 --> 00:03:44,250
+Kajo Cache: Das Rad zieht immer. Auch wenn kein Beleg für das nächste Stück da ist.
+
+21
+00:03:44,750 --> 00:04:08,240
+Erzählerin: Kajo legt eine Pflaumenfrage auf den Markt. Beim ersten Versuch kommt nur eine Zahl heraus: zwölf. Beim zweiten werden die Schritte hingeschrieben. Drei mal vier ist zwölf. Zwölf minus fünf ist sieben. Quirin zählt die Stücke. Zwölf statt zwei. Zwölf Reisen durch den Turm statt zwei. Die Zwischenzahl liegt jetzt auf dem Tisch für den nächsten Takt.
+
+22
+00:04:08,500 --> 00:04:11,560
+Professor Quirin Query: Das ist mehr Schreiben, nicht Nachdenken wie bei mir.
+
+23
+00:04:11,820 --> 00:04:16,840
+Kajo Cache: Hilft oft, kostet immer. Und eine falsche Zwischenzahl kann einen Schneeball anfangen.

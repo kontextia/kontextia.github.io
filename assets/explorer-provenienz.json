@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-11T22:12:23.430093+02:00",
+  "owner": "Codex",
+  "generation": "de1c9a81d312a777",
+  "revision": "Didaktik 2.2",
+  "url": "http://127.0.0.1:8774/10_docs/landing/index.html#atlas",
+  "source_database": "02_content/v2/kontextia.sqlite3",
+  "source_sha256": {
+    "01_design/v2/LOREBUCH.md": "a0d84853eb00ced7d387ec6de05e16c11eb1c63411af64585e9f212488a101ed",
+    "01_design/v2/KANON.md": "7b4c1fd061248b19bdba48e8f9fdecc89ced7959703c03518cc52fc4cba838e2",
+    "01_design/v2/DIDAKTIK_REVISION.md": "e0ff3f209a06e56f4344593765dae1d922452a5cb169b7a2300c5eb31146e3c4",
+    "02_content/v2/stammbaum.json": "43ce66f04e730261603deda3477b858554f41b37607bc9d4eab503e6014ac97e"
+  },
+  "design_additions": "[DE] Illustrated houses, lore navigation, didactic examples, directed relationship cards, separate geographic/travel/answer views, rounded display routes and clickable portrait overlays. Canonical source files and published SVG exports are unchanged by this delivery.",
+  "sources_of_images": [
+    "production/bildauswahl/auswahl.json",
+    "10_docs/landing/assets/provenienz.json",
+    "10_docs/landing/assets/models/provenienz.json",
+    "production/karten_aktuell/karten_provenienz.json"
+  ],
+  "counts": {
+    "houses": 13,
+    "figures": 34,
+    "lore_chapters": 12,
+    "response_steps": 17,
+    "festivals": 18,
+    "graph_nodes": 204,
+    "graph_edges": 282,
+    "lesson_cards": 24,
+    "map_portrait_targets": 32
+  },
+  "files": {
+    "10_docs/landing/index.html": "ac6b723643087769c01e24f8176de08c04b0a1697396d8fd66fe55b0c0829074",
+    "10_docs/landing/premium.html": "ac6b723643087769c01e24f8176de08c04b0a1697396d8fd66fe55b0c0829074",
+    "10_docs/landing/premium.js": "3e688ef5628d63bcc8f3b25a4a376d170ef506bb431525ca9c0b3cf691efee31",
+    "10_docs/landing/premium.css": "4a92c52321dafc7ebe7d84f80b2c3e6fd98125f35646f8d0301ecdf954741d5b",
+    "10_docs/landing/explorer.js": "ffc79586e29992c16ab330fdb42e3e2ae223932cc00816efcfb57c9411e08b8c",
+    "10_docs/landing/explorer.css": "42e07e2ad1a89502ac0512c164e9400e450aa624a4e5bf7bb36fe792e095e058",
+    "10_docs/landing/map-atlas.js": "b34db692999172fd9043fa24359b0931930f5ffe2a5e3ed8bd39f67383afeaf4",
+    "10_docs/landing/map-viewer.js": "94d37cfc2386da6a6cf25f6e7db2ef6ea5cfa418c7ccdf5f0486530d036f803a",
+    "10_docs/landing/map-viewer.css": "f752678a09b76ba9a9ceafcc5b9e264e3e92b16dceb16ef5002c4d1c9747d821",
+    "10_docs/landing/daten/explorer_daten.js": "44bc21fe81243052eef3f6fcf964e15b28467396b41efccd48c65ddb4c2f9654"
+  },
+  "published_maps": {
+    "10_docs/landing/assets/karte-teil1.svg": "89cba80f8c194b4947b9bd80689115b8e2f7b453a2cf48a7f75571b9380d0a4a",
+    "10_docs/landing/assets/karte-teil2.svg": "e717cc3b06b382b4ff3fc7b00f0a53834605e9847ff8d7dc556f321bfd68377c"
+  },
+  "proofs": {
+    "production/web_premium/qa/atlas-kajo-t1-1440.png": "2599e901e2fb48393ceef179b71ba214ff2c49954cfea48120a59b13b6efa490",
+    "production/web_premium/qa/atlas-kajo-t2-1440.png": "06678408efff73f9a96bd5f63255184fdb8cb6485b8b2bdbd60db6b39b203818",
+    "production/web_premium/qa/atlas-reiseweg-t1-1440.png": "63412431a43e5ac9c55075a3aee2c957fcad8b73a78c00995fc84022073efcab",
+    "production/web_premium/qa/atlas-reiseweg-t2-1440.png": "eac1ed726cee28f2ca9c24b45bd78e705e65cda7696dd2582bb7983d87d03412",
+    "production/web_premium/qa/atlas-reiseweg-375.png": "56581451abbd9b6cb4426c80772f99da8bc377b62e5c5d87aa8c6de2a3a9d6e5",
+    "production/web_premium/qa/figuren-verbindungen-1440.png": "48c440f85dea4eb2cf1c6eaff51ce832ac6a1994963fcc418a97a71a13f53dc5",
+    "production/web_premium/qa/explorer-haeuser-1440.png": "7028d0e3ef0fefbf7437102e0136f95c38db12c16f0e98491ffe544923e49a71",
+    "production/web_premium/qa/explorer-lorebuch-1440.png": "efb367d29bcddfcc31b9c05271b88970b2f0f1b9c4915b141daee91efc234bfd",
+    "production/web_premium/qa/explorer-entdecken-1440.png": "d293a69061d7d5d2bc40cb12c58eefd8fc5333936a852d032fb886d36176d3aa"
+  },
+  "verification": {
+    "production/web_premium/qa/explorer-report.json": {
+      "sha256": "6aea1243a4ba281e975b1c6f96d0f93b278d91771c4aed9bba8c30ae174edcb6",
+      "checks": 32,
+      "date": "2026-10-11T22:06:02.112525+02:00"
+    },
+    "production/web_premium/qa/atlas-interaction-report.json": {
+      "sha256": "af71cd20ddc7a48c7ca8674709845436725f89cf2f939225c7dd16f48afde5b9",
+      "checks": 27,
+      "date": "2026-10-11T22:10:14.236790+02:00"
+    },
+    "production/web_premium/qa/revision-report.json": {
+      "sha256": "d40f95aed9daa6ca211d9c834856ac8bf67a0d51dc5b3c0f11d686e796a8f77d",
+      "checks": 34,
+      "date": "2026-10-11T22:10:14.434124+02:00"
+    },
+    "production/karten_aktuell/qa/bericht.json": {
+      "sha256": "135752c9735015af006e54d836c6520b64bb5df85fb208823a85464240b3c42a",
+      "checks": 27,
+      "date": "2026-10-11T22:09:55.846794+02:00"
+    }
+  },
+  "visual_review": "Desktop route, character and relationship screenshots plus mobile maps inspected; actual user IAB direct Kajo click opens a 340% focus and sourced information. Historical hero animation checks are separately recorded and were not repeated for this lower-page revision."
+}

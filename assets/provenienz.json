@@ -1,0 +1,166 @@
+[
+  {
+    "file": "10_docs/landing/vendor/three.module.js",
+    "source": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+    "sha256": "0a3368c165eea773490aec7b77c22de70e3eac288503409256fdbf4d12578416"
+  },
+  {
+    "file": "10_docs/landing/vendor/GLTFLoader.js",
+    "source": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/loaders/GLTFLoader.js",
+    "sha256": "5bc183f5f98ebcd9e98c18977dab4a675db9fd8a6bcaa5d84898586033bb9979"
+  },
+  {
+    "file": "10_docs/landing/vendor/BufferGeometryUtils.js",
+    "source": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/utils/BufferGeometryUtils.js",
+    "sha256": "c25b7930e570e9ec56173cd3b866ec8d2e10016630db3937efb439daf1cedbf6"
+  },
+  {
+    "file": "10_docs/landing/vendor/THREE-LICENSE.txt",
+    "source": "https://cdn.jsdelivr.net/npm/three@0.169.0/LICENSE",
+    "sha256": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454"
+  },
+  {
+    "file": "10_docs/landing/assets/karte-teil1.svg",
+    "source": "10_docs/stadtkarte/index.html#t1",
+    "method": "Canonical map geometry and labels; exported computed styles, embedded existing portraits, explicit 2000x930 intrinsic size; CSS size re-rasterises vectors at zoom.",
+    "sha256": "934bfacda6e97c357782abe1b60c4719d04865d5b1248ef43b6b66043f5921a6"
+  },
+  {
+    "file": "10_docs/landing/assets/karte-teil2.svg",
+    "source": "10_docs/stadtkarte/index.html#t2",
+    "method": "Canonical map geometry and labels; exported computed styles, embedded existing portraits, explicit 2000x930 intrinsic size; CSS size re-rasterises vectors at zoom.",
+    "sha256": "b4be5c7aeb02b195b57c424d995e7a738282d58dac13b9a706754f0d572f0ba8"
+  },
+  {
+    "file": "10_docs/landing/assets/toki-transparent.png",
+    "source": "04_assets/characters/toki/v2/3d/neubau_r5/toki_fertig.glb",
+    "method": "Alpha render from web derivative of canonical latest GLB, browser software WebGL, presentation rest pose; composition [DE]",
+    "sha256": "6515b2957fe9b5363586a328db5c2eaeac3b6ebb998d5fc727232a236b18b614"
+  },
+  {
+    "file": "10_docs/landing/assets/kajo-transparent.png",
+    "source": "04_assets/characters/kajo-cache/v2/3d/kajo_komplett.glb",
+    "method": "Alpha render from web derivative of canonical latest GLB, browser software WebGL, presentation rest pose; composition [DE]",
+    "sha256": "5d75acaa6723053fd656d755239649ddb4697d164866e78cdff95a49898bdc3b"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L01.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L01",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "738c18edad2ee2ca54a3d034f5d2a2a01d2f4e66b8dcdfdb0e31c4c89cefb51e"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L02.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L02",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "f938d3fbd630a7735c92efa12c16c46c09e891fa09a3ee7d6fc702b8765da657"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L03.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L03",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "529c3966d739846ac78a9ff0a7347f21b4ffc0542aabe68ecc87aa52bf304bad"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L04.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L04",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "94e41f60df63f097d08c70d7d8900e514803ad378434c6893cf227bccfce4447"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L05.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L05",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "d750dd5462aaef79d54f34cb51bf239b96bb58b5803eaf964029169add5be3e0"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L06.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L06",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "25a273dc987e3d041b0af02b0c63ee0c7df071ea07fab2bfd8046b6a3230ec81"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L07.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L07",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "3a1c154d5ae6beeda811c46d31663a9b7ab6b447406182ac1d86c52240beb562"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L08.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L08",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "799f9a42f5180e16c44f6e14f9bc3fb538ade0931be7d7a2857f5235892e2dc9"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-L09.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-L09",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "5b62a4091e069a257e579fa26f49ae1ffcf2632d28a3378f0f2bb813fee1cb6b"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t1-FINALE.webp",
+    "source": "10_docs/stadtkarte/index.html#t1-FINALE",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "8b51d83f35547b2f62df697cc6d77cb87287167ef6442acb6aae1e5be94f1a60"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L01.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L01",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "17362a1f96478965882866614fe40fdb70d481b804e4852c5143b13a06691f99"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L02.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L02",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "fd3411de4cfcc9ff4fdf606af2ae895de0b360543cab47db9fb0d4d7b983a1f1"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L03.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L03",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "9fb4d3d0984b5274032906eb0767be05de6560f9238a54cf72ce1a396139568a"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L04.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L04",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "96e010f0c3c287c2d8a57792678e811788c147cf1c131d35898a4adda801cd82"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L05.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L05",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "c050f5057a9592c211e59c458c5137a88bb83e9eac3e035e77facd879100ef34"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L06.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L06",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "8d038a9c50e050a441abb5a88738eb1bd6d5ca84e011dc89b9030f4def3164ca"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L07.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L07",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "d9c05db31c7532597bd919803b9716d3b0f6905af4f46e923a42c3652576ced8"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L08.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L08",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "799f9a42f5180e16c44f6e14f9bc3fb538ade0931be7d7a2857f5235892e2dc9"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-L09.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-L09",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "15c31c33301ab55bfd10b9ada6bc2c6f1918971ae47bfaacf33c7ebf3ce92cae"
+  },
+  {
+    "file": "10_docs/landing/assets/etappe-t2-FINALE.webp",
+    "source": "10_docs/stadtkarte/index.html#t2-FINALE",
+    "method": "Screenshot of unchanged canonical stage SVG, dark theme",
+    "sha256": "8b51d83f35547b2f62df697cc6d77cb87287167ef6442acb6aae1e5be94f1a60"
+  }
+]

@@ -1,0 +1,17 @@
+L09 · Die Antwortbrücke: Wissen holen, Grenzen sehen
+Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+
+Was passiert hier?
+Vor der Mauer liegen Suchindex, Quellen und Werkzeuge der Anwendung. Indra erschließt den Index; Ria bringt ähnliche Blätter auf den Tisch. Bela prüft, ob ein Blatt eine konkrete Antwortbehauptung stützt. Wera führt nur zugelassene Werkzeugaufträge aus. Ein gefundenes Dokument wird als Text in den Kontext aufgenommen. Es erhält dadurch keine Steuerrechte. Herkunftsrahmen helfen beim Einordnen, können das Modell aber nicht gegen täuschende Anweisungen immun machen.
+
+Dein Auftrag
+Vergleiche Retrieval-Ranking, Promptreihenfolge, Tool-Schema und Grounding. Teste indirekte Prompt Injection vor und nach Kennzeichnung und verfolge die Grenzen der Anwendung.
+
+Erwartetes Ergebnis im Entwurf
+Die Antwortprüfung untersucht Aussagen gegen den tatsächlichen Quelleninhalt. Ein Zettel kann das Modell trotz Rahmen beeinflussen. Freigabeliste und Schema begrenzen ausführbare Werkzeuge; Bestätigung betrifft Folgen der Anwendung. Quellen, Werkzeugergebnisse und Notizen verbrauchen Kontextplätze. Ihre Aufbewahrung ist kein Lernen der Modellgewichte.
+
+So findest du Fehler
+Frage bei jeder Behauptung: Stützt genau diese Quelle genau diesen Satz? Prüfe Rechte außerhalb des Modells und gib der Fracht nie das Steuer. Herkunft, Ähnlichkeit und flüssige Sprache beweisen keine Wahrheit.
+
+Quelle: 01_design/v2/level/L09.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

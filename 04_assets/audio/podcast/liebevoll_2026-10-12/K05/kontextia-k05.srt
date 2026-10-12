@@ -1,0 +1,59 @@
+1
+00:00:00,950 --> 00:00:22,670
+Erzählerin: Hinter dem Hafen beginnt ein Wald. Grünes, gesprenkeltes Licht. Es riecht nach Moos, Bleistiftspänen und nassem Kartenpapier. Jeder Baum steht an einer ganz genauen Stelle, und zwischen den Stämmen leuchten Messpfosten mit Zahlen. Die Blätter rascheln wie geflüsterte Zahlen. Am Waldrand steht ein Pult, darauf ein riesiges Buch.
+
+2
+00:00:22,930 --> 00:00:42,150
+Emmi Embedding: Moment, ich peile … So. Ich bin Emmi Embedding, von den Kartografen vom Bedeutungsgarten. Das hier ist mein Kartenbuch. Für jede Fahrkartennummer gibt es eine Zeile, und in jeder Zeile steht eine Reihe von Zahlen. Kommt ein Toki zu mir, schlage ich seine Zeile auf und gebe ihm eine Bedeutungsperle mit genau diesen Zahlen.
+
+3
+00:00:42,410 --> 00:00:52,490
+Emmi Embedding: Wer im Wald nah beieinander wohnt, ist sich ähnlich. Hund und Katze sind Nachbarn. Montag und Dienstag teilen sich einen Gartenzaun. Nah heißt ähnlich. Aber nicht gleich.
+
+4
+00:00:52,990 --> 00:01:05,810
+Erzählerin: Als der Streit kam, standen zwei Tokis vor Emmis Pult. Beide trugen die Nummer für Bank. Der eine hielt einen Geldschein in der Hand, der andere trug Gartenhandschuhe. Jeder wollte die echte Bank sein, mit einer eigenen Perle.
+
+5
+00:01:06,070 --> 00:01:17,290
+Emmi Embedding: Und beide haben dieselbe Perle bekommen. Ich schaue auf die Nummer, nicht auf den Hut. Was eine Bank im Satz wirklich ist, das macht erst später die Stadt aus. Wer neben dir steht, macht dich aus.
+
+6
+00:01:17,790 --> 00:01:24,330
+Erzählerin: Und dann hört man aus der Ferne einen Zählgesang. Eins, zwei, drei. Wer kommt nach wem?
+
+7
+00:01:24,590 --> 00:01:44,372
+Pippa Position: Ich bin Pippa Position! Ich streife jedem Toki einen Hausnummernring über die Perle. Schau mal: Hund jagt Katze. Eins, zwei, drei. Und jetzt: Katze jagt Hund. Gleiche Perlen, andere Ringe, und plötzlich jagt jemand anderes! Was ein Wort bedeutet, weiß ich nicht. Ich weiß nur, wo es steht. Wer kam zuerst?
+
+8
+00:01:44,872 --> 00:01:52,112
+Erzählerin: Quirin hat inzwischen ein Schild an einen Baum geklebt. Auf dem Schild steht: links. Der Baum steht rechts.
+
+9
+00:01:52,372 --> 00:01:54,572
+Professor Quirin Query: Ich habe mich theoretisch nicht verlaufen.
+
+10
+00:01:54,832 --> 00:01:56,432
+Kajo Cache: Praktisch stehst du im Brunnen.
+
+11
+00:01:56,932 --> 00:02:12,666
+Erzählerin: Am Eingang des Waldes hängt eine große, flache Karte. Darauf stehen zwei Bäume direkt nebeneinander. Aber als Quirin um den Hügel herumgeht, sieht er: In echt stehen sie weit auseinander. Einer oben, einer unten.
+
+12
+00:02:12,926 --> 00:02:17,386
+Professor Quirin Query: Die Karte ist flach. Der Wald ist es nicht. Gegenprobe Nummer zwei.
+
+13
+00:02:17,646 --> 00:02:23,495
+Kajo Cache: Und eine Perle ist einfach eine Zeile im Buch? Eine Liste von Zahlen? Die könnte ich einsortieren!
+
+14
+00:02:23,995 --> 00:02:38,175
+Erzählerin: Tokis Nummernzapfen klickt in Emmis Buchse, eine schimmernde Perle rollt heraus, und Pippas blauer Ring gleitet darüber wie der Ring um einen Planeten. Die beiden Bank-Tokis geben sich die Hand. Und der Perlmuttbogen erstrahlt.
+
+15
+00:02:41,775 --> 00:03:00,895
+Erzählerin: Was wirklich dahintersteckt: Das ist das Embedding. Jede Token-Nummer wählt eine Zeile aus gelernten Zahlen, einen Vektor. Pippa steht für die Positionsinformation. Echte Bedeutungsräume haben Hunderte bis Tausende Richtungen, und darum ist jede flache Karte davon verzerrt.

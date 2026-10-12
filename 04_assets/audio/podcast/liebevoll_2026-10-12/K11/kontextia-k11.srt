@@ -1,0 +1,79 @@
+1
+00:00:00,950 --> 00:00:17,690
+Erzählerin: Dann kommt das Stufengebirge, ein Gebirge aus Terrassen. Jede Terrasse hat Stufen in einer anderen Feinheit, und wenn man darüber läuft, klingt es wie ein Xylophon. Bergluft, Kreide, ein bisschen Kupfer. Am Fuß des Berges steht eine große Gepäckwaage.
+
+2
+00:00:17,950 --> 00:00:20,050
+Quanta Vierbit: Kajo! Mein Lieblingsneffe!
+
+3
+00:00:20,310 --> 00:00:29,570
+Kajo Cache: Ich bin dein einziger angeheirateter Neffe. Tante Quanta hat den Bruder meiner Mama geheiratet. Sie kann meine Schubladen kleiner packen. Aber ich stamme nicht von ihr ab.
+
+4
+00:00:29,830 --> 00:00:49,110
+Quanta Vierbit: Kurz. Knapp. Passt. Ich bin Quanta Vierbit, vom Stufenvolk. Ich speichere jede Zahl auf einer von genau sechzehn Stufen. Wie ein altes Videospiel, das nur sechzehn Farben hat. Das macht das Gepäck der Stadt viel leichter, und sie passt auf kleinere Rechenkisten. Wir sind nicht weniger wert. Wir haben weniger Stufen.
+
+5
+00:00:49,610 --> 00:00:57,650
+Erzählerin: Ganz oben, auf den feinsten Hängen, wohnt jemand mit einem Messkamm, so fein, dass man die Stufen nur mit der Lupe sieht.
+
+6
+00:00:57,910 --> 00:01:12,310
+Seda Sechzehn: Ich bin Seda Sechzehn. Ich bewahre Zahlen sehr genau auf. Dafür ist mein Gepäck schwer und passt nicht in jede Kiste. Meine Verwandtschaft sagt manchmal Vierbitler zu Quantas Leuten. Oh. Verzeihung. Das sagt man nicht mehr.
+
+7
+00:01:12,570 --> 00:01:16,410
+Quanta Vierbit: Und meine Leute sagen Speicherfresser. Beide haben unrecht.
+
+8
+00:01:16,910 --> 00:01:35,570
+Erzählerin: Beim Fest der kleinen Zahlen gibt es ein Wagenrennen durch das enge Bergtor. Quantas leichte Wagen sausen hindurch, Sedas schwere Präzisionskisten bleiben stecken. Ha, ruft Quanta. Aber dann kommt eine heikle Messaufgabe: Welche Zahl ist größer, null Komma drei eins oder null Komma drei vier?
+
+9
+00:01:35,830 --> 00:01:41,270
+Quanta Vierbit: Ich runde beide auf null Komma drei. Oh. Jetzt sind sie gleich. Die Antwort ist weg.
+
+10
+00:01:41,530 --> 00:01:46,710
+Seda Sechzehn: Null Komma drei vier ist größer. Ich bin nicht immer nötig. Nur manchmal genauer.
+
+11
+00:01:47,210 --> 00:01:53,690
+Erzählerin: Quirin hatte vorher gesagt, der Rundungsfehler sei sicher vernachlässigbar. Dann hat er gemessen.
+
+12
+00:01:54,540 --> 00:01:57,640
+Professor Quirin Query: Gegenprobe Nummer acht: Messen statt meinen.
+
+13
+00:01:57,900 --> 00:02:05,720
+Kajo Cache: Teilen, runden, mal nehmen. Und die Fässer nach Größe zu sortieren hat schon wieder nicht geholfen. Schon wieder kein Sortierproblem.
+
+14
+00:02:06,220 --> 00:02:29,120
+Erzählerin: In einer Höhle hängt die Ahnengalerie des Stufenvolks, drei Porträts. Frieda Zweiunddreißig, eine würdige Dame mit einem Messkamm, so fein, dass man ihn nur als Schimmer sieht. Bruni Brainfloat, wie Frieda mit kurzem Haarschnitt: gleiche Reichweite, weniger Nachkommastellen. Und Ingo Acht, ein kräftiger Herr mit zweihundertsechsundfünfzig Stufen auf seiner Treppe.
+
+15
+00:02:29,720 --> 00:02:37,200
+Erzählerin: Tante Quanta packt Kajos Schubladen kleiner. Kajo hält den Kontextstreifen hoch. Er ist genauso lang wie vorher.
+
+16
+00:02:37,460 --> 00:02:39,520
+Kajo Cache: Weniger Stufen, gleiche Strecke.
+
+17
+00:02:39,780 --> 00:02:42,900
+Quanta Vierbit: Endlich eine Familienfeier ohne Bit-Aristokratie!
+
+18
+00:02:43,400 --> 00:02:49,260
+Erzählerin: Seda lacht. Und der Stufenbogen leuchtet türkisviolett, in sechzehn sauberen Stufen.
+
+19
+00:02:52,860 --> 00:03:09,040
+Erzählerin: Was wirklich dahintersteckt: Das ist die Quantisierung. Zahlen werden mit weniger Bits gespeichert. Das spart Speicher, kann aber Werte ein wenig verändern. Wie viel das ausmacht, wird gemessen, nicht geraten. Und die Zahl der Tokens ändert sich dadurch nie.
+
+20
+00:03:09,640 --> 00:03:32,560
+Erzählerin: Beim Fest legen Quanta und Seda zwanzig feste Fragen nebeneinander. Neue Packung, gleiche Fragen. Viele Antworten bleiben gleich. Manche kippen. Auch die hier genauere Packung kippt bei einer anderen Frage. Die Lampions rechnen weiter bei jedem neuen Stück. Wie viel Zeit und Strom das braucht, müsst ihr messen. Weniger Bytes allein verraten es euch nicht.

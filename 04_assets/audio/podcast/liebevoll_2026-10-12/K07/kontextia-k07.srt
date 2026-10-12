@@ -1,0 +1,63 @@
+1
+00:00:00,950 --> 00:00:20,670
+Erzählerin: Ein Stockwerk über der Sternwarte riecht es nach Öl, Holz und Kaffee. Mitten in der Halle steht ein Turm aus warmen Holzklötzen. Er ist so hoch wie zwei Tokis. Zwei kleine Stockwerke, oben Lios Tafel und Sofis Rad. Und mitten hindurch läuft ein gelbes Rohr mit goldenen Pluszeichen: das Ressi-Rohr.
+
+2
+00:00:20,930 --> 00:00:32,430
+Hedra Köpfe: Ich bin Hedra Köpfe! Und ich! Und ich auch! Drei Helme auf einer Basis: Strich, Punkt und Welle. Wir haben Gewohnheiten. Welche davon hier wichtig ist, müssen wir messen.
+
+3
+00:00:32,690 --> 00:00:42,230
+Oskar Output: Meine Aufgabe bleibt: alle kleinen Perlen zusammenführen, mischen und passend zurückgeben. Alles in einen Trichter, und passend zurück.
+
+4
+00:00:42,490 --> 00:00:51,390
+Nora Norm: Ganz ruhig. Maß nehmen, bitte. Vor Sternwarte und Werkbank bringe ich die Zahlen auf dasselbe Maß. Ich messe Größe, nicht Güte.
+
+5
+00:00:51,650 --> 00:00:58,490
+Fina FFN: Meine Werkbank arbeitet an einem Platz. Was von anderen Plätzen kommt, holen die Helme. Ich kann nicht einfach beim Nachbarn abschreiben.
+
+6
+00:00:58,750 --> 00:01:08,290
+Ressi Residual: Ich lege die neue Rechnung zur alten dazu. Dazulegen, nicht radieren! Das heißt nicht, dass keine Zahl kleiner werden kann: Ein negativer Zusatz kann etwas wegrechnen.
+
+7
+00:01:08,550 --> 00:01:16,790
+Professor Quirin Query: Wir ziehen alle überflüssigen Klötze heraus. Dann bleibt der eine übrig, der alles macht. Theoretisch völlig simpel!
+
+8
+00:01:17,770 --> 00:01:21,030
+Erzählerin: Quirin stößt an den Turm. Er wackelt.
+
+9
+00:01:21,290 --> 00:01:27,750
+Kajo Cache: Erst sagst du vorher, wie stark es wackelt. Dann ziehen wir genau einen Klotz. Messen. Wieder reinstecken.
+
+10
+00:01:28,800 --> 00:01:50,820
+Erzählerin: Ihr zieht einen Helmklotz heraus. Kaum etwas ändert sich. Bei einem anderen Satz wackelt der Turm dagegen deutlich. Dann probiert ihr zwei Helme einzeln, und schließlich beide zusammen. Jeder allein kann ausfallen. Gemeinsam fehlen sie sehr. Quirin schaut vom hellsten Licht zur Messung. Diesmal sagt das Licht ihm nicht, wer nötig war.
+
+11
+00:01:51,080 --> 00:01:59,640
+Hedra Köpfe: Strich, Punkt und Welle. Das sind unsere Muster. Was wir in einem Satz beitragen, zeigt die Messung. Ein Spitzname ist geliehen, kein Beruf.
+
+12
+00:02:00,140 --> 00:02:16,760
+Erzählerin: Quirins Brille rutscht auf den Trichter. Durch das Glas sieht die Werkstatt plötzlich anders aus: ein Gewirr aus Zahlen und Lichtfäden über vielen Plätzen. Die ordentlichen Helmfiguren waren eine Hilfe beim Kennenlernen. Die wirkliche Rechnung ist weniger aufgeräumt.
+
+13
+00:02:17,610 --> 00:02:24,530
+Professor Quirin Query: Gegenprobe Nummer vier: Nicht am Namen entscheiden. Weglassen und nachmessen, in mehr als einem Satz.
+
+14
+00:02:24,790 --> 00:02:31,050
+Kajo Cache: Mein erster Versuch, alles sauber einzusortieren, reicht hier nicht. Eine Gewohnheit ist keine feste Schublade.
+
+15
+00:02:31,550 --> 00:02:45,690
+Erzählerin: Das Ressi-Rohr trägt die Rechnung weiter. Noras Maß nimmt dem lauten Startzeichen seine Übermacht. Fina arbeitet an jedem Platz, Oskar mischt die Köpfe. Der Werkstattbogen glüht gelb und petrol mit einem goldenen Plus.
+
+16
+00:02:49,290 --> 00:03:04,450
+Erzählerin: Was wirklich dahintersteckt: Multi-Head-Attention, Normalisierung, Feed-Forward-Netz und Residualverbindungen arbeiten in jedem Transformerblock zusammen. Weglassproben messen Ursachen in einem bestimmten Zusammenhang. Sie vergeben keine ewigen Berufe.

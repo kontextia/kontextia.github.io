@@ -1,0 +1,473 @@
+[
+  {
+    "id": "toki",
+    "source": "04_assets/characters/toki/v2/3d/neubau_r5/toki_fertig.glb",
+    "source_sha256": "5078b4f2e9059d6bcc4ff6a4419da54a974fb9f7ac27da930e69a28907428cd5",
+    "file": "10_docs/landing/assets/models/toki-web.glb",
+    "sha256": "83c7d73c7a7412cafe2e43410e6038e91cfdb10ac30d0b3934fc1ae9e4aea1be",
+    "bytes": 2007752,
+    "changes": [
+      {
+        "object": "bedeutungsrucksack",
+        "triangles_before": 3712,
+        "triangles_after": 1186
+      },
+      {
+        "object": "gesicht",
+        "triangles_before": 2128,
+        "triangles_after": 679
+      },
+      {
+        "object": "hand.L",
+        "triangles_before": 4348,
+        "triangles_after": 1390
+      },
+      {
+        "object": "hand.R",
+        "triangles_before": 4348,
+        "triangles_after": 1390
+      },
+      {
+        "object": "id_marke.001",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "id_marke.001",
+        "triangles_before": 4096,
+        "triangles_after": 1310
+      },
+      {
+        "object": "id_zapfen.001",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "id_zapfen.001",
+        "triangles_before": 8372,
+        "triangles_after": 2679
+      },
+      {
+        "object": "koerper",
+        "triangles_before": 10662,
+        "triangles_after": 3411
+      },
+      {
+        "object": "positionsring",
+        "triangles_before": 3096,
+        "triangles_after": 990
+      },
+      {
+        "object": "ring_ziffern",
+        "triangles_before": 3136,
+        "triangles_after": 1002
+      },
+      {
+        "object": "schnittnaht",
+        "triangles_before": 6192,
+        "triangles_after": 1981
+      },
+      {
+        "object": "schopf",
+        "triangles_before": 1880,
+        "triangles_after": 600
+      },
+      {
+        "object": "schuh.L",
+        "triangles_before": 4504,
+        "triangles_after": 1440
+      },
+      {
+        "object": "schuh.R",
+        "triangles_before": 4504,
+        "triangles_after": 1440
+      },
+      {
+        "object": "token_teil.hinten",
+        "triangles_before": 9120,
+        "triangles_after": 2918
+      },
+      {
+        "object": "ziffern_id_marke.001",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "ziffern_id_zapfen.001",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      }
+    ]
+  },
+  {
+    "id": "kajo",
+    "source": "04_assets/characters/kajo-cache/v2/3d/kajo_komplett.glb",
+    "source_sha256": "8ba48aabf6af79bfcec26b5bd1bdc1460806d3f5a1478c3f0dd3fca9db26a69d",
+    "file": "10_docs/landing/assets/models/kajo-web.glb",
+    "sha256": "9660b12c4cc958ce670bbc4e84ff488391083be4dd01212a34d913cde7add6c5",
+    "bytes": 3556048,
+    "changes": [
+      {
+        "object": "archivkiste_K",
+        "operation": "omit embedded scene props; separate single existing archive crate used"
+      },
+      {
+        "object": "archivkiste_V",
+        "operation": "omit embedded scene props; separate single existing archive crate used"
+      },
+      {
+        "object": "einwurfplatte",
+        "triangles_before": 7040,
+        "triangles_after": 1547
+      },
+      {
+        "object": "gesicht",
+        "triangles_before": 4368,
+        "triangles_after": 960
+      },
+      {
+        "object": "hand.L",
+        "triangles_before": 4348,
+        "triangles_after": 956
+      },
+      {
+        "object": "hand.R",
+        "triangles_before": 4348,
+        "triangles_after": 956
+      },
+      {
+        "object": "k_einwurf",
+        "triangles_before": 3392,
+        "triangles_after": 746
+      },
+      {
+        "object": "k_kaertchen_lose",
+        "operation": "omit embedded scene props; separate single existing archive crate used"
+      },
+      {
+        "object": "kaertchen.K.1.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.1.1",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.1.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.1.2",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.1.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.1.3",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.2.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.2.1",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.2.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.2.2",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.2.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.2.3",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.3.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.3.1",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.3.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.3.2",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.3.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.3.3",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.4.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.4.1",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.4.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.4.2",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "kaertchen.K.4.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "kaertchen.K.4.3",
+        "triangles_before": 10768,
+        "triangles_after": 2368
+      },
+      {
+        "object": "koerper",
+        "triangles_before": 32646,
+        "triangles_after": 7182
+      },
+      {
+        "object": "kontextstreifen",
+        "triangles_before": 6696,
+        "triangles_after": 1473
+      },
+      {
+        "object": "paeckchen.V.1.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.1.1",
+        "triangles_before": 5396,
+        "triangles_after": 1186
+      },
+      {
+        "object": "paeckchen.V.1.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.1.2",
+        "triangles_before": 5396,
+        "triangles_after": 1186
+      },
+      {
+        "object": "paeckchen.V.1.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.1.3",
+        "triangles_before": 5396,
+        "triangles_after": 1187
+      },
+      {
+        "object": "paeckchen.V.2.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.2.1",
+        "triangles_before": 5396,
+        "triangles_after": 1187
+      },
+      {
+        "object": "paeckchen.V.2.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.2.2",
+        "triangles_before": 5396,
+        "triangles_after": 1186
+      },
+      {
+        "object": "paeckchen.V.2.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.2.3",
+        "triangles_before": 5396,
+        "triangles_after": 1186
+      },
+      {
+        "object": "paeckchen.V.3.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.3.1",
+        "triangles_before": 5396,
+        "triangles_after": 1187
+      },
+      {
+        "object": "paeckchen.V.3.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.3.2",
+        "triangles_before": 5396,
+        "triangles_after": 1186
+      },
+      {
+        "object": "paeckchen.V.3.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.3.3",
+        "triangles_before": 5396,
+        "triangles_after": 1187
+      },
+      {
+        "object": "paeckchen.V.4.1",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.4.1",
+        "triangles_before": 5396,
+        "triangles_after": 1187
+      },
+      {
+        "object": "paeckchen.V.4.2",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.4.2",
+        "triangles_before": 5396,
+        "triangles_after": 1187
+      },
+      {
+        "object": "paeckchen.V.4.3",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "paeckchen.V.4.3",
+        "triangles_before": 5396,
+        "triangles_after": 1186
+      },
+      {
+        "object": "reiterleiste.K",
+        "triangles_before": 15060,
+        "triangles_after": 3312
+      },
+      {
+        "object": "reiterleiste.V",
+        "triangles_before": 15060,
+        "triangles_after": 3312
+      },
+      {
+        "object": "rucksack",
+        "triangles_before": 8364,
+        "triangles_after": 1840
+      },
+      {
+        "object": "rucksack_gurte",
+        "triangles_before": 3872,
+        "triangles_after": 850
+      },
+      {
+        "object": "schopf",
+        "triangles_before": 2168,
+        "triangles_after": 476
+      },
+      {
+        "object": "schublade.K",
+        "triangles_before": 11204,
+        "triangles_after": 2464
+      },
+      {
+        "object": "schublade.V",
+        "triangles_before": 11204,
+        "triangles_after": 2464
+      },
+      {
+        "object": "schutzbrille",
+        "triangles_before": 6436,
+        "triangles_after": 1414
+      },
+      {
+        "object": "stiefel.L",
+        "triangles_before": 9648,
+        "triangles_after": 2121
+      },
+      {
+        "object": "stiefel.L_schaft",
+        "triangles_before": 2496,
+        "triangles_after": 548
+      },
+      {
+        "object": "stiefel.R",
+        "triangles_before": 9648,
+        "triangles_after": 2121
+      },
+      {
+        "object": "stiefel.R_schaft",
+        "triangles_before": 2496,
+        "triangles_after": 548
+      },
+      {
+        "object": "v_paeckchen_lose",
+        "operation": "omit embedded scene props; separate single existing archive crate used"
+      },
+      {
+        "object": "v_paketdock.001",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "v_paketdock.001",
+        "triangles_before": 3520,
+        "triangles_after": 774
+      },
+      {
+        "object": "zugleiste",
+        "operation": "omit optional glow morph for small internal cards; base geometry preserved"
+      },
+      {
+        "object": "zugleiste",
+        "triangles_before": 5912,
+        "triangles_after": 1300
+      }
+    ]
+  },
+  {
+    "id": "kiste",
+    "source": "04_assets/characters/kajo-cache/v2/3d/kisten/archivkiste_K.glb",
+    "source_sha256": "86cfd9045bc25dfb6a1fa31ac12a0900bfde90586e95c776c2621b201ac40f2d",
+    "file": "10_docs/landing/assets/models/kiste-web.glb",
+    "sha256": "0adcbcfdffef4e74b4448666541a1ef4e5bda22ad111b10f0298b95958662b2a",
+    "bytes": 2209504,
+    "changes": [
+      {
+        "object": "fensterrahmen",
+        "triangles_before": 1856,
+        "triangles_after": 408
+      },
+      {
+        "object": "korpus",
+        "triangles_before": 2828,
+        "triangles_after": 622
+      }
+    ]
+  }
+]

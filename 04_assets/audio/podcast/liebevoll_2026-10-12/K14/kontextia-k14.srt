@@ -1,0 +1,247 @@
+1
+00:00:00,950 --> 00:00:09,870
+Erzählerin: Der Schlussstein ist noch dunkel. Und auf ihn passt nur ein Wappen, hatten alle gedacht. Da stellt sich der Bürgermeister auf die Kaimauer.
+
+2
+00:00:10,010 --> 00:00:14,990
+Bürgermeister Kontext: Wir machen das jetzt anders. Alle zusammen. In der richtigen Reihenfolge.
+
+3
+00:00:15,490 --> 00:00:26,210
+Erzählerin: Und dann tanzt die ganze Stadt eine Polonaise. Jede Figur legt die Hände auf die Schultern der nächsten. Bei jedem Schritt klickt ein Schlüssel in ein Schloss. Und Vorsängerin ist Sofi.
+
+4
+00:00:26,350 --> 00:00:27,270
+Sofi Softmax: Wer fängt an?
+
+5
+00:00:27,410 --> 00:00:31,750
+Berta Bytepair: Die Schere fängt an! Text rein, Zapfen raus, ab zum Bürgermeister-Haus!
+
+6
+00:00:31,890 --> 00:00:32,430
+Sofi Softmax: Und dann?
+
+7
+00:00:32,570 --> 00:00:34,750
+Emmi Embedding: Emmi gibt die Perle, Pippa gibt den Ring!
+
+8
+00:00:34,890 --> 00:00:37,770
+Pippa Position: Nummer rein, Perle raus, Ring drum, so ein Ding!
+
+9
+00:00:37,910 --> 00:00:38,450
+Sofi Softmax: Und dann?
+
+10
+00:00:38,590 --> 00:00:44,570
+Nora Norm: Nora macht sie rund! Perle rein, Perle raus, in Standardmaß, und aus!
+
+11
+00:00:44,710 --> 00:00:45,250
+Sofi Softmax: Und dann?
+
+12
+00:00:45,390 --> 00:00:48,550
+Queria Query: Kamm, Kamm, Paket! Aus einer Perle drei!
+
+13
+00:00:48,690 --> 00:00:51,050
+Keylian Key: Queria, Keylian, Valo dabei!
+
+14
+00:00:51,190 --> 00:00:51,730
+Sofi Softmax: Und dann?
+
+15
+00:00:51,870 --> 00:00:55,150
+Mira Maske: Mira hält die Zukunft zu, und Sofi teilt in aller Ruh!
+
+16
+00:00:55,290 --> 00:01:00,590
+Sofi Softmax: Dreieck rein, Tropfen raus, und der Kuchen ist ganz, voll aus! Und dann?
+
+17
+00:01:00,730 --> 00:01:02,550
+Valo Value: Valo mischt, und Hedra schaut!
+
+18
+00:01:02,690 --> 00:01:04,390
+Hedra Köpfe: Oskar trichtert, was sich traut!
+
+19
+00:01:04,530 --> 00:01:06,590
+Oskar Output: Drei Perlen rein, eine raus!
+
+20
+00:01:06,730 --> 00:01:07,270
+Sofi Softmax: Und dann?
+
+21
+00:01:07,410 --> 00:01:12,150
+Ressi Residual: Ressi legt dazu! Alt plus neu, und nichts ist weg, Plus-Gruß hoch, das ist der Zweck!
+
+22
+00:01:12,290 --> 00:01:12,830
+Sofi Softmax: Und dann?
+
+23
+00:01:12,970 --> 00:01:18,890
+Fina FFN: Nora, Fina, still am Platz, und Ressi legt noch mal den Schatz! Und hoch, Stock um Stock!
+
+24
+00:01:19,030 --> 00:01:20,330
+Sofi Softmax: Und wer hebt alles auf?
+
+25
+00:01:20,470 --> 00:01:23,050
+Kessa: Kajo und Kessa! Kamm und Paket oben rein!
+
+26
+00:01:23,190 --> 00:01:25,610
+Kajo Cache: Schublade vorne, fein, fein, fein!
+
+27
+00:01:25,750 --> 00:01:27,070
+Sofi Softmax: Und oben auf dem Markt?
+
+28
+00:01:27,210 --> 00:01:31,910
+Lio Logit: Lio ruft die Punkte aus! Perle rein, Dreiecke raus, für jedes Wort ein eigenes Haus!
+
+29
+00:01:32,050 --> 00:01:32,590
+Sofi Softmax: Und dann?
+
+30
+00:01:32,730 --> 00:01:34,810
+Tempi Temperatur: Tempi stellt, und Kira zählt!
+
+31
+00:01:34,950 --> 00:01:37,150
+Pio Top-p: Pio füllt, und Sofi dreht!
+
+32
+00:01:37,290 --> 00:01:40,690
+Sofi Softmax: Ich dreh und dreh, bis ein Stück fällt! Und am Ende?
+
+33
+00:01:40,830 --> 00:01:46,330
+Edda Ende: Edda prüft das Stück! Glocke? Schluss! Sonst zurück, ein Stück mehr Glück!
+
+34
+00:01:46,470 --> 00:01:47,650
+Sofi Softmax: Und die von draußen?
+
+35
+00:01:47,790 --> 00:01:49,830
+Ria Retrieval: Ria, Indra, Wera, Bela!
+
+36
+00:01:49,970 --> 00:01:54,990
+Bela Beleg: Blatt aufs Tischlein, Stempel drauf, Klammer dran, und Laterne an, wenn keiner's kann!
+
+37
+00:01:55,130 --> 00:01:55,990
+Sofi Softmax: Und die vom Berg?
+
+38
+00:01:56,130 --> 00:01:58,430
+Quanta Vierbit: Quanta, Seda tragen das Gepäck!
+
+39
+00:01:58,570 --> 00:02:00,630
+Seda Sechzehn: Fein genug, und keiner weg!
+
+40
+00:02:00,770 --> 00:02:01,570
+Sofi Softmax: Und die Schmiede?
+
+41
+00:02:01,710 --> 00:02:04,670
+Gilda Gradient: Die Schmiede tanzt nicht mit, sie hat die Schritte uns gelehrt!
+
+42
+00:02:04,810 --> 00:02:08,590
+Olli Optimierer: Siegel zu, und alles bleibt, wie's sich bewährt.
+
+43
+00:02:09,090 --> 00:02:28,830
+Erzählerin: Beim letzten Klick geschieht es. Der Schlussstein leuchtet auf. Und auf ihm erscheint kein einzelnes Wappen, sondern ein neues Zeichen: ein Schlüssel, der in einem Schloss steckt. Darum herum, im Kreis, alle dreizehn Wappen. Gleich groß. Keines oben, keines unten.
+
+44
+00:02:35,430 --> 00:02:48,146
+Erzählerin: Noch vor dem Lichterfest fällt Quirins Brille ins Wasser. Zehn Sekunden lang sind alle Figuren verschwunden. Auch die Laternen und jeder Nebelrand sind weg. Nur Zahlenlicht fließt über die Brücke.
+
+45
+00:02:58,406 --> 00:03:03,726
+Kajo Cache: Das war die Brücke ohne Brille. Die Figuren waren unsere Brille. Die Rechnung war echt.
+
+46
+00:03:04,226 --> 00:03:20,086
+Erzählerin: Auch dieses Zahlenlicht ist noch ein Bild. Es zeigt nicht alle echten Zahlen. Es zeigt dir auch nicht, welche Antwort stimmt. Kajo fischt die Brille aus dem Wasser. Jetzt sind die Figuren wieder da, und am Geländer leuchten die sechs Laternen mit ihren Preisschildern.
+
+47
+00:03:20,686 --> 00:03:27,486
+Erzählerin: Du wählst ohne Hilfsbrille: Ist die Stadt ein Orakel, ein Wesen oder eine große Rechnung, die sehr gut raten gelernt hat?
+
+48
+00:03:30,746 --> 00:03:33,986
+Kajo Cache: Eine große Rechnung. Und deshalb fragen wir weiter.
+
+49
+00:03:34,486 --> 00:03:44,496
+Erzählerin: Auf der Urkunde steht auch: Die Stadt rät, selbst wenn sie sicher klingt. Mehrmals fragen, Quellen holen, prüfen. Erfinden ist erlaubt, wenn Geschichte draufsteht.
+
+50
+00:03:44,756 --> 00:03:48,816
+Professor Quirin Query: Unser Brückenbauer-Eid hat drei Fragen. Könnte das geraten sein?
+
+51
+00:03:49,076 --> 00:03:51,596
+Kajo Cache: Woher stammt das, und stützt die Quelle es wirklich?
+
+52
+00:03:51,856 --> 00:03:54,756
+Toki: Was lege ich auf den Tisch, und wer kann mitlesen?
+
+53
+00:03:55,256 --> 00:04:12,936
+Erzählerin: Die Glocke läutet. Und läutet. Und läutet. Über das Wasser spannt sich die Antwortbrücke, und alle neun Bögen leuchten. Bernstein, Perlmutt, Koralle, Gelb und Petrol, Gold, Türkis, Indigo, Türkisviolett, Weißblau.
+
+54
+00:04:13,536 --> 00:04:31,936
+Erzählerin: Im Hafen veranstaltet Berta ein Wettschneiden. Gewonnen hat ein Wort mit elf Stücken. Im Kartenwald besuchen sich alle Nachbarn gleichzeitig. Es ist ein bisschen eng. In der Sternwarte schneidet Sofi den größten Kuchen der Stadtgeschichte. Am Ende wird nachgezählt: ein ganzer Kuchen.
+
+55
+00:04:32,196 --> 00:04:34,536
+Mira Maske: Heute dürft ihr zurückschauen, so weit ihr wollt.
+
+56
+00:04:34,706 --> 00:04:35,603
+Toki: Und vorausschauen?
+
+57
+00:04:35,773 --> 00:04:36,433
+Mira Maske: Morgen.
+
+58
+00:04:36,933 --> 00:04:59,473
+Erzählerin: Und Mira zwinkert. Valo verteilt Picknick nach Gewichten, und jeder wird satt. Die Turmwerkstätten verteilen Plus-Kekse. Man kann sie nicht essen, ohne dass man danach mehr hat. Auf dem Logitmarkt darf jedes Kind einmal am Glücksrad drehen. Mit Seedstein, damit man es nachspielen kann. Und die Kästner verschenken Schubladen-Lebkuchen. Jeder ist beschriftet.
+
+59
+00:05:00,073 --> 00:05:21,373
+Erzählerin: Im Stufengebirge spielt das Stufenvolk auf dem großen Xylophon. Seda spielt die feinen Töne, Quanta die sechzehn großen. Zusammen klingt es richtig. Vor der Mauer stempeln die Quellenwächter jede Laterne mit Datum und Herkunft. Und die Schmiedezunft hängt ein neues Schild an ihr Tor: Kalt. Und stolz darauf.
+
+60
+00:05:22,423 --> 00:05:31,203
+Erzählerin: Quirin steht auf der Brücke. Seine Brille sitzt gerade. Zum ersten Mal. Er schaut Kajo an. Dann rutscht sie wieder auf den Trichter.
+
+61
+00:05:31,373 --> 00:05:33,853
+Kajo Cache: Fast. Hier, dein Tee. Heiß.
+
+62
+00:05:34,113 --> 00:05:44,733
+Bürgermeister Kontext: Alle dreizehn Häuser von Kontextia bestätigen hiermit: Du hast die Antwortbrücke wieder zum Leuchten gebracht. Kein Haus ist mehr wert als ein anderes. Die Kette braucht alle. Und sie hat dich gebraucht.

@@ -1,0 +1,71 @@
+1
+00:00:00,950 --> 00:00:25,510
+Erzählerin: Die Kaimauer ist warm von der Morgensonne. An Poller sieben warten zwei. Der eine ist lang, violett und dreieckig, mit einem halb durchsichtigen Suchtrichter und einer Brille, die ständig verrutscht. Über ihm schweben genau drei kleine Zahlenstäbe. Der andere ist breit, türkis und stämmig wie eine Kommode, mit zwei Schubladen im Bauch und einer Thermoskanne in der Hand.
+
+2
+00:00:25,770 --> 00:00:42,390
+Professor Quirin Query: Ah! Eine Brückenbauerin! Oder ein Brückenbauer! Willkommen, willkommen! Gestatten: Professor Quirin Query, aus dem Hause Montaquery, den Fragenden. Ich habe zwölf Bücher geschrieben. Elf davon heißen: Theoretisch völlig simpel.
+
+3
+00:00:42,650 --> 00:00:53,917
+Professor Quirin Query: Siehst du meine drei Zahlenstäbe? Das ist mein kleiner Fragevektor. Drei Zahlen, nach oben positiv, nach unten negativ. Wenn ich aufgeregt bin, wackeln sie. So wie jetzt.
+
+4
+00:00:54,177 --> 00:01:00,517
+Kajo Cache: Und wenn er traurig ist, hängen sie nach unten. Dann sage ich: Negative Komponenten. Brauchst du einen Tee?
+
+5
+00:01:00,777 --> 00:01:14,184
+Kajo Cache: Ich bin Kajo Cache, aus dem Kästnerviertel. Ich bin wie ein Schmierzettel bei einer langen Rechnung. Was die Stadt schon gerechnet hat, lege ich in meine Schubladen. Links die K-Schublade, rechts die V-Schublade. Und mein Tee ist immer heiß.
+
+6
+00:01:14,354 --> 00:01:18,194
+Professor Quirin Query: Meiner ist immer kalt. Ich habe nie herausgefunden, warum.
+
+7
+00:01:18,364 --> 00:01:19,624
+Kajo Cache: Ich schon. Kommt später.
+
+8
+00:01:20,124 --> 00:01:32,164
+Erzählerin: Die beiden kennen sich seit dem neunundneunzigsten Fest des Ersten Takts. Damals hielt Quirin einen Vortrag in der Sternwarte. Der Titel hieß: Über die vollkommene Ordnung der Gedanken.
+
+9
+00:01:32,424 --> 00:01:38,324
+Professor Quirin Query: Ich hatte siebenunddreißig Karteikarten. Ich trat ans Pult. Ich verbeugte mich. Und dann …
+
+10
+00:01:38,584 --> 00:01:44,004
+Kajo Cache: … ist er über den Residualstrom gestolpert. Alle siebenunddreißig Karten segelten ins Wasser.
+
+11
+00:01:44,264 --> 00:01:46,944
+Professor Quirin Query: Ich bin nicht gefallen. Ich wurde addiert.
+
+12
+00:01:47,444 --> 00:02:14,820
+Erzählerin: In der ersten Reihe saß ein türkiser Kasten. Er stand auf, fischte die Karten aus dem Strom, eine nach der anderen, schob sie in seine Schublade und reichte sie dem Professor zurück. In der richtigen Reihenfolge. Jede mit einem kleinen Reiter: Karte eins. Karte zwei. Karte drei. Und immer, wenn Quirin eine Karte brauchte, hielt der Kasten sie schon hin. Das Publikum glaubte, das sei so geplant. Es gab riesigen Applaus.
+
+13
+00:02:15,870 --> 00:02:26,090
+Professor Quirin Query: Am Ende rutschte mir die Brille vom Gesicht. Direkt in seine rechte Schublade. Auf dem Reiter stand: Brille. Seite V. Und ich fragte: Warum V?
+
+14
+00:02:26,350 --> 00:02:28,970
+Kajo Cache: Weil sie wertvoll ist. Ich heiße Kajo.
+
+15
+00:02:29,470 --> 00:02:47,004
+Erzählerin: Seitdem sind die beiden unzertrennlich. Und seitdem schreibt Quirin seine Formeln auf Kajo. Der eine weiß fast alles über Formeln. Der andere weiß fast alles darüber, wo die Dinge liegen. Zusammen wissen sie genug. Fast. Den Rest findest du heraus.
+
+16
+00:02:47,264 --> 00:02:56,224
+Professor Quirin Query: Also dann! Die Brücke hat neun Bögen, und jeder Bogen gehört zu einem Viertel der Stadt. Wir bringen jedes Viertel wieder zum Leuchten. Theoretisch völlig simpel!
+
+17
+00:02:57,274 --> 00:03:00,574
+Erzählerin: Irgendwo hinter ihm fällt etwas um. Klonk.
+
+18
+00:03:00,834 --> 00:03:03,334
+Kajo Cache: Ich stell schon mal den Besen für die Theoriekrümel hin.

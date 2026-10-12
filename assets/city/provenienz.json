@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-12T00:31:17.214234+02:00",
+  "owner": "Codex",
+  "source_generation": "4d7534542c66f135",
+  "valid_for_publication": "534411b8fa941f9a",
+  "sources": {
+    "02_content/v2/stadt/stadtplan.json": "64cd1b52b3086185b858196f94b57716e2c694b75c8976c674e06aa745a97733",
+    "02_content/v2/stadt/topographie.json": "b0bfa11b216f0dedcf0021ae3806c86856def0d6eadc7cf146128f96aae66306",
+    "01_design/v2/LOREBUCH.md": "a0d84853eb00ced7d387ec6de05e16c11eb1c63411af64585e9f212488a101ed",
+    "01_design/v2/KANON.md": "7b4c1fd061248b19bdba48e8f9fdecc89ced7959703c03518cc52fc4cba838e2"
+  },
+  "validated_sources": {
+    "02_content/v2/stadt/stadtplan.json": "65c3258993304b1ae85a7d9b864f2cf325bc502cc8745a7575fb8a072916ee0a",
+    "02_content/v2/stadt/topographie.json": "f26980640888ee9fad9a14b5ea8c6e1e0a7f4936013c2bef8f74d23e0b4c10dc"
+  },
+  "geometry_compatibility": "PASS: current physical geography equals the original rendered snapshot; editorial annotations and extra bridge/L00/L10 references may advance separately.",
+  "design_additions": "[DE] architectural detail, warm materials, handcrafted landscaping and camera. Published geography, floor order, nine bridge arches, six bridge lanterns and the door beneath arch five are preserved. No new canonical location.",
+  "process": "Blender 5.2.2 LTS; new separate CPU scene, real mesh, Cycles CPU renders; first render visually reviewed and lighting/foreground bridge corrected. No image model, no GPU request, no original source/model changes.",
+  "bridge": {
+    "arches": 9,
+    "lanterns": 6,
+    "keystone": 5,
+    "warm_door": 5
+  },
+  "files": [
+    {
+      "file": "10_docs/landing/assets/city/archiv.webp",
+      "sha256": "45a7611f68a7b7ba8f6e19fa6c4041e4e38f47b03ea06501314ba91d1da9ab1c",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/archiv.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/bruecke-tuer.webp",
+      "sha256": "7a440e0f3f820829f68c51a0ceea0e83eb8c5be98f2155d162ae181cb9f27a6e",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/bruecke-tuer.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/bruecke.webp",
+      "sha256": "8cb0def02bdcc65ebbf8aabd7ac3bf67a16670518208cf7968b3de9476cf65ee",
+      "width": 1600,
+      "height": 1000,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/bruecke.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/gebirge.webp",
+      "sha256": "aa54a787c97548fff53cbef36e15288dffe73bf33acee495985aec2a0ec24f55",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/gebirge.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/hafen.webp",
+      "sha256": "adf5d7d3a7703e36fcf1146b6329715aeb2e85770ace1c7b2397df2727fff1e1",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/hafen.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-FINALE.webp",
+      "sha256": "c767c24f1abcb051fc6d55b7939131b3d2582ebfeaf01630bfb834c235b5c8ae",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-FINALE.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L01.webp",
+      "sha256": "e49b13a481ed9784c01fd80099232673bb4cecfa9002f7725d44339ae0aa370f",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L01.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L02.webp",
+      "sha256": "bee8d63176195b881f816db32e968a4fddd984c1e9362ae5258e5290ad0a4bf0",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L02.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L03.webp",
+      "sha256": "c29c4122a7a8bb92200ef4409d3f0f41ec5cb85832d21b79a40ffcc3094104ef",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L03.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L04.webp",
+      "sha256": "45a238383c7af7b75a6be68279f803d833af70528c8112bcccdd7276bb617789",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L04.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L05.webp",
+      "sha256": "3cae7d7a959458e6afd48b16e7ef3861b6f8728b04b578689b641f8b02e33c16",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L05.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L06.webp",
+      "sha256": "8a86037432dd72d3519413b74f5a455d2be53f5505a7bf0b80a30fb9c4ed4940",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L06.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L07.webp",
+      "sha256": "3307a04fb8ff5d74dd3145904edd6ec3393d98b5c120ea9f54a094f2c6551344",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L07.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L08.webp",
+      "sha256": "bde160cf597935a9c3b84e9908530fa35ca5cb1098525acfb4a241fd46c34ed7",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L08.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labor-L09.webp",
+      "sha256": "60d2fe55e3e6bc01ee8e5eab11090d99e42b27587fc1b17acbfd8ed919e69c84",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/labor-L09.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/quellen.webp",
+      "sha256": "ee41c206f0d2be3cea5eaf4bc6c607422a6b6cae7878a898e2c84b3e1b4d4406",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/quellen.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/schmiede.webp",
+      "sha256": "87f45e65555b68de0323f81c7ec0eab278701fdab198ff00359a60d2a858099d",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/schmiede.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/stadt-t1.webp",
+      "sha256": "34336e187bb3d21e80e282d06a940055e67e85eccfaddc0da86d50198211d4df",
+      "width": 2400,
+      "height": 1116,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/stadt-t1.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/stadt-t2.webp",
+      "sha256": "db7ee0d2c0819165871b6d9229b9f00a7b8b5e22177e55a287a7992e9e94402e",
+      "width": 2400,
+      "height": 1116,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/stadt-t2.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/turm.webp",
+      "sha256": "0ee2af1321f31e05933cead4e361cb8d63fc6726b5cfde2e0a3106527f0dd865",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/turm.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/wald.webp",
+      "sha256": "92fe892cb78c32cfd7f11591e82a369a2d85b43574306df785a0806a3cd9331f",
+      "width": 1200,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/wald.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/gebirge-live.webp",
+      "sha256": "3ce017b213efc843ef60fc08fd37685c6df5b657cfadec6d5ac52d65aa938f92",
+      "width": 1400,
+      "height": 1050,
+      "source": "04_assets/environments/kontextia-stadtatlas/v2/gebirge-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/stadt-live.webp",
+      "sha256": "76b337c76fd2e588c712cbee86bf4a245f317aa2648ce44d2f291826c52cdf4a",
+      "width": 2400,
+      "height": 1116,
+      "source": "04_assets/environments/kontextia-stadtatlas/v2/stadt-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/kontextia-labore-live.glb",
+      "sha256": "6a3d2d165d349747ae330b7c93ef99ca99517c40e292df23ad17336af600830b",
+      "source": "04_assets/environments/kontextia-stadtatlas/v2/kontextia-labore-live.blend"
+    },
+    {
+      "file": "10_docs/landing/assets/city/kontextia-labore.glb",
+      "sha256": "b32c8cad2b67691ddd49aebada85b8879ac035296521cc20a9eeaa9844f4221f",
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/kontextia-labore.blend"
+    },
+    {
+      "file": "10_docs/landing/assets/city/kontextia-stadt-live.glb",
+      "sha256": "ab8fe5f98d27fb66bf5598ea551dc79994cf2a4d983fd7a0e1a08f19322d3398",
+      "source": "04_assets/environments/kontextia-stadtatlas/v2/kontextia-stadt-live.blend"
+    },
+    {
+      "file": "10_docs/landing/assets/city/kontextia-stadt.glb",
+      "sha256": "5254b23f8d026f67f4783c4a7486d9fd196d8c62586aa2c55628cc7787de0a9e",
+      "source": "04_assets/environments/kontextia-stadtatlas/v1/kontextia-stadt.blend"
+    },
+    {
+      "file": "10_docs/landing/assets/city/live.json",
+      "sha256": "f419adbf11b5378f6ca67ddbf42758dc38ccad106c379466d8766fbdd92cc1d6",
+      "source": "02_content/v2/kontextia.sqlite3"
+    }
+  ],
+  "review": "Pending final browser/source/GLB checks"
+}

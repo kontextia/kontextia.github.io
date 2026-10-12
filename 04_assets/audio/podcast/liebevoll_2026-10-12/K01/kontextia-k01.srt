@@ -1,0 +1,67 @@
+1
+00:00:00,950 --> 00:00:23,890
+Erzählerin: Bevor Kontextia eine Stadt war, war sie ein Bauplan. Wie viele Stockwerke der Turm hat. Wie viele Buden auf dem Markt stehen. Wie dick das Kartenbuch ist. Das stand alles fest. Nur eines nicht: wie die Stellschrauben gedreht sind. Also drehten die Baumeister jede einzelne zufällig. Ein bisschen nach links, ein bisschen nach rechts.
+
+2
+00:00:24,490 --> 00:00:36,790
+Erzählerin: Die junge Stadt konnte schon reden. Aber was sie sagte, klang so: Kartoffel Glocke unter zwölf Mondlicht hinterher. Die Älteren nennen diese Zeit liebevoll das Zeitalter des Rauschens.
+
+3
+00:00:37,390 --> 00:01:06,890
+Erzählerin: Dann kam die Schmiedezunft. Sie brachte die Textberge mit, riesige Halden aus Sätzen, Briefen, Rezepten und Gedichten. Und sie erfand das wichtigste Spiel der Stadtgeschichte: das Ratespiel. Man deckt einen Satz zu, nur der Anfang bleibt sichtbar, und die Stadt muss raten, welches Stück als Nächstes kommt. Lag sie daneben, wurden ihre Schrauben ein winziges Stück nachgestellt. Milliarden Mal. Wer das gemacht hat, erzählen dir die Schmiede später selbst.
+
+4
+00:01:07,490 --> 00:01:33,810
+Erzählerin: Danach kamen die Lehrjahre, mit Büchern voller guter Beispielantworten, und die Waagenjahre. Und eines Tages wurde die Schmiede versiegelt. Am Tag danach schwamm die erste Frage in den Hafen. Ganz oben drehte jemand ein Glücksrad, ein einziges Stück rollte heraus, die Glocke läutete, und dort, wo das Stück die Stadt verließ, wuchs ein erster, kleiner, leuchtender Bogen aus dem Wasser. So entstand die Antwortbrücke.
+
+5
+00:01:34,410 --> 00:01:45,110
+Erzählerin: Kontextia hat dreizehn Häuser. Und beim hundertsten Fest des Ersten Takts sollte der Schlussstein der Brücke ein Wappen bekommen. Nur eines. Und da ging es los.
+
+6
+00:01:45,370 --> 00:01:49,910
+Berta Bytepair: Unser Wappen gehört auf den Schlussstein! Ohne uns kommt kein Wort in die Stadt!
+
+7
+00:01:50,170 --> 00:01:53,990
+Hedra Köpfe: Unsinn! Wir in den Turmwerkstätten rechnen. Ihr schneidet nur Papier.
+
+8
+00:01:54,250 --> 00:01:57,370
+Kessa: Wir sind das Gedächtnis! Wir haben alles in Schubladen!
+
+9
+00:01:57,630 --> 00:02:00,390
+Queria Query: Denken ist Fragen! Wer fragt, findet!
+
+10
+00:02:00,650 --> 00:02:04,810
+Keylian Key: Und wer passt, wird gesehen! Ohne uns findet ihr gar nichts!
+
+11
+00:02:05,070 --> 00:02:07,430
+Lio Logit: Wir machen die Antwort! Hitze macht schlau!
+
+12
+00:02:07,690 --> 00:02:11,350
+Seda Sechzehn: Pff. Diese Vierbitler. Oh. Verzeihung.
+
+13
+00:02:11,850 --> 00:02:32,730
+Erzählerin: Jedes Haus war sich sicher: Wir sind das Wichtigste. Und weil jedes Haus das dachte, hörte jedes Haus auf, den anderen etwas zu reichen. Berta behielt ihre Stücke. Emmi behielt ihre Perlen. Sofi behielt ihren Kuchen. Die Glocke läutete nicht mehr. Und die Brücke wurde dunkel. Bogen für Bogen.
+
+14
+00:02:33,580 --> 00:02:45,800
+Erzählerin: Was wirklich dahintersteckt: Ein Sprachmodell ist eine Kette. Fällt ein einziger Schritt aus, entsteht kein nächstes Wortstück. Kein Teil allein ist das Modell. Erst alle zusammen rechnen.
+
+15
+00:02:46,400 --> 00:03:00,820
+Erzählerin: Seitdem stauen sich die Fragen im Hafen. Schiffe dümpeln an der Kaimauer. Toki sitzt auf einem Poller und zählt Möwen, weil sonst niemand etwas zu zählen hat. Und im Rathaus klebt der Bürgermeister einen Aushang an die Tür.
+
+16
+00:03:01,080 --> 00:03:26,200
+Bürgermeister Kontext: Gesucht: Brückenbauerinnen und Brückenbauer. Voraussetzungen: Neugier. Nicht erforderlich: Vorwissen, Zauberkraft, ein bestimmtes Alter. Zu gewinnen: eine leuchtende Brücke und dreizehn Häuser, die wieder miteinander reden. Melden bei Professor Quirin Query und Kajo Cache, Kaimauer, Poller sieben. Bitte nicht wundern, falls der Professor gerade ins Wasser fällt.
+
+17
+00:03:26,700 --> 00:03:30,300
+Erzählerin: Und rate mal, wer sich gemeldet hat. Genau. Du.

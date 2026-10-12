@@ -1,0 +1,63 @@
+1
+00:00:01,500 --> 00:00:22,700
+Erzählerin: Spät in der Nacht, als das Fest leiser wird, gehen Quirin und Kajo noch einmal über die Brücke. Unter dem mittleren Bogen, ganz unten am Wasser, leuchtet etwas. Eine Tür. Klein. Warm. Halb offen. Dahinter führt eine Treppe nach unten. In den Turm. Tiefer, als sie je gewesen sind.
+
+2
+00:00:22,960 --> 00:00:24,320
+Professor Quirin Query: Was ist da unten?
+
+3
+00:00:24,580 --> 00:00:26,940
+Kajo Cache: Die Zahlen. Alle. Die echten.
+
+4
+00:00:27,440 --> 00:00:51,978
+Erzählerin: Quirin bekommt glänzende Augen. Seine drei Zahlenstäbe wackeln. Dort unten liegt der Turm der Tiefe. Dieselben neun Viertel, dieselben Figuren, aber mit Zahlen, Formeln und Messgeräten. Wer hinuntergeht, heißt nicht mehr Brückenbauerin oder Brückenbauer, sondern Architektin oder Architekt. Und tief im Kartenwald wartet jemand, der sich beim Reden ständig mitdreht.
+
+5
+00:00:52,238 --> 00:01:09,098
+Rosa Rotation: Hui! Ich bin Rosa Rotation, von den Kartografen. Ich drehe Fragekämme und Schlüsselkämme, je nach Hausnummer, ein Stückchen weiter. Dreißig, sechzig, neunzig! Mich interessiert nicht, wo du wohnst. Nur, wie weit du weg bist. Uff. Moment. Ich muss mich kurz festhalten.
+
+6
+00:01:09,598 --> 00:01:21,818
+Erzählerin: Der Promptsturm trägt fremde, widersprüchliche oder zu lange Texte herein. Der Nebel entsteht dagegen beim Weiterbauen in der Stadt. Auch bei guten Quellen kann eine unbelegte Fortsetzung entstehen.
+
+7
+00:01:22,078 --> 00:01:32,778
+Ronja Rückmeldung: Und ein bisschen davon kommt auch aus meinen Waagenjahren. Überzeugend klingende Antworten haben manchmal gewonnen, obwohl sie nicht gestimmt haben. Ach. Lieber heißt nicht richtiger.
+
+8
+00:01:33,278 --> 00:01:51,558
+Erzählerin: Dort unten lernt ihr genauer zu messen: Was hält einem Sturm stand? Was bleibt unbelegt? Eine Quelle lässt sich zeigen und prüfen. Und wenn kein Beleg da ist, können Menschen und die Anwendung eine Antwort offenlassen. Die Stadt selbst hat kein verlässliches Warnlicht fürs Raten.
+
+9
+00:01:52,158 --> 00:01:54,998
+Erzählerin: Dann dreht Kajo sich um. Zu dir.
+
+10
+00:01:56,048 --> 00:02:00,948
+Kajo Cache: Du musst da nicht runter. Heute nicht. Morgen nicht. Wann du willst. Oder nie.
+
+11
+00:02:01,998 --> 00:02:07,758
+Professor Quirin Query: Die Brücke leuchtet. Das hast du geschafft. Das ist ein ganzes Ende. Ein richtiges.
+
+12
+00:02:08,018 --> 00:02:12,178
+Kajo Cache: Und die Tür? Der Turm läuft nicht weg. Ich hab nachgezählt.
+
+13
+00:02:14,178 --> 00:02:34,438
+Erzählerin: Und so verlassen wir Kontextia für heute. Eine Stadt ohne Magie: Wenn dort etwas leuchtet, hat jemand gerechnet. Eine Stadt ohne Bösewicht, ohne angeborene Rangordnung und ohne Blick in die Zukunft. Eine Stadt, in der der Schraubendreher an der Wand hängt und die Esse kalt ist. Und in der jeder gebraucht wird.
+
+14
+00:02:35,038 --> 00:02:48,778
+Erzählerin: Die Figuren dort haben Gefühle, weil sie Figuren in einer Geschichte sind, so wie sprechende Teekannen im Zeichentrickfilm. Das Sprachmodell, das sie gemeinsam darstellen, hat keine. Aber es hat eine Kette. Und jetzt weißt du, wie sie geht.
+
+15
+00:02:49,828 --> 00:02:59,608
+Erzählerin: Danke, dass du mitgekommen bist. Schlaf gut, Brückenbauerin. Schlaf gut, Brückenbauer. Und wenn du wiederkommst: Die Brücke leuchtet noch.
+
+16
+00:02:59,868 --> 00:03:03,908
+Toki: Tschüss! Tschüss, Brücke! Tschüss, Möwen! Tschüss, du!

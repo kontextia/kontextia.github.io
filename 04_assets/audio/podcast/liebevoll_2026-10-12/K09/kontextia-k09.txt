@@ -1,0 +1,73 @@
+# Das Kästnerviertel
+
+Erzählerin:
+Direkt neben dem Turm stehen Häuser, die aussehen wie riesige türkise Kommoden. Es riecht nach altem Holz und Bienenwachs, und in jeder dritten Schublade liegt ein Lavendelsäckchen. Abends sieht das Viertel aus wie ein Setzkasten voller Glühwürmchen. Schhhk, klack. Und Kajo wird ganz still.
+
+Kajo Cache:
+Hier bin ich zu Hause. Das ist das Kästnerviertel. Meine Mama ist Archivmeisterin. Da oben im Fenster, die winkt.
+
+Kessa:
+Kajo! Und Besuch! Ich bin Kessa, die Archivarin, drüben im Registerturm. Immer wenn im Turm ein Schlüsselkamm und ein Wertpaket geprägt werden, wandert eine Kopie zu uns ins Archiv. Ich sorge dafür, dass jede Schublade das richtige Etikett bekommt: welches Stockwerk, welcher Kopf, welche Hausnummer, welche Seite. K links, V rechts. Q bleibt am Pult.
+
+Kajo Cache:
+Der Fragekamm wird nie archiviert. Der gehört immer zu dem Stück, das gerade dran ist.
+
+Erzählerin:
+Und jetzt verstehst du auch, was in Kontextia Morgen und Abend heißt. Jedes Gespräch beginnt mit der Morgenflut. Die ganze Frage strömt auf einmal durchs Hafentor, alle Tokis fahren nebeneinander den Strom hinauf, und die Kästner räumen in einem Rutsch alle Schubladen ein. Alle auf einmal!
+
+Erzählerin:
+Danach beginnt die Abendprozession. Die Antwort zieht ein, ein Toki pro Glockenschlag, jeder mit einer kleinen Laterne. Er muss nur seine eigenen Kämme und Pakete prägen lassen. Alle früheren reicht Kajo aus der Schublade. Einer nach dem anderen!
+
+Erzählerin:
+Als der Streit kam, gingen ein paar Herren aus den Turmwerkstätten vorbei. Ah, die Lagerleute, sagte einer. Stapeln nur, was wir ausgerechnet haben. Und überhaupt: Je mehr Schubladen, desto mehr kann die Stadt lesen, oder?
+
+Erzählerin:
+Kajos Schubladen sprangen von selbst auf, so überrascht war er. Und Quirin saß auf einer Bank und rechnete. Für jedes neue Wort rechnete er alles noch einmal von vorn.
+
+Professor Quirin Query:
+Aus Gründen der Gründlichkeit.
+
+Kajo Cache:
+Dein Tee hat inzwischen ein eigenes Zeitalter erlebt.
+
+Erzählerin:
+Kajo zieht einen Papierstreifen aus seinem Rucksack: den Kontextstreifen. Er ist genauso lang wie vorher.
+
+Kajo Cache:
+Die Schublade ist kein Tisch. Mein Archiv spart Rechnen. Aber es macht die Fahrkartenhalle nicht größer, es fasst nichts zusammen, und es lernt nichts. Und wenn das Gespräch vorbei ist, wird ausgeräumt.
+
+Kessa:
+Der Kehraus! Fertig gerechnet, fertig gespeichert, Platz für die nächste Frage.
+
+Erzählerin:
+Die Turmherren wurden rot. Ohne euch müssten wir ja alles zweimal rechnen, sagten sie.
+
+Kessa:
+Dreimal. Und dann viermal. Und so weiter.
+
+Kajo Cache:
+Wir sind die KV-Kaste. Kaste kommt von Kasten. Wir haben alles im Kasten.
+
+Erzählerin:
+Alle lachen. Die Turmherren auch. Und Quirin misst mit einem Teethermometer: einmal mit Archiv, einmal ohne. Mit Archiv bleibt der Tee warm.
+
+Professor Quirin Query:
+Gegenprobe Nummer sechs: Zeit sparen kostet Regalplatz. Und jetzt weiß ich endlich, warum mein Tee immer kalt war.
+
+Erzählerin:
+Dann malt Quirin eine Formel auf Kajo. Zwei mal Stockwerke mal Köpfe mal Breite mal Plätze mal Bytes.
+
+Kajo Cache:
+Moment. Ich bin eine Formel?!
+
+Erzählerin:
+Und der Türkisbogen leuchtet auf, als würden tausend kleine Schubladen gleichzeitig aufgehen.
+
+Erzählerin:
+Was wirklich dahintersteckt: Kajo ist der KV-Cache. Er bewahrt die Keys und Values früherer Tokens auf, damit sie beim Weiterschreiben nicht neu berechnet werden müssen. Das spart Zeit und kostet Speicher. Und es gilt immer nur für das eine laufende Gespräch.
+
+Erzählerin:
+Kessa zieht einen Reiter heraus. Dann den nächsten. Nach dem Gespräch ist Kehraus: Die K- und V-Paare werden freigegeben, die Gewichte bleiben. Da liegt noch eine Notiz über Fips. Soll sie im nächsten Gespräch helfen, muss sie als Text wieder auf den Tisch. Dort braucht sie Plätze. Und neue Archivfächer.
+
+Kajo Cache:
+Die Schublade ist kein Tisch. Ein Notizzettel im neuen Gespräch ist keine neue Schraube.

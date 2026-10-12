@@ -1,0 +1,61 @@
+# Das Stufengebirge
+
+Erzählerin:
+Dann kommt das Stufengebirge, ein Gebirge aus Terrassen. Jede Terrasse hat Stufen in einer anderen Feinheit, und wenn man darüber läuft, klingt es wie ein Xylophon. Bergluft, Kreide, ein bisschen Kupfer. Am Fuß des Berges steht eine große Gepäckwaage.
+
+Quanta Vierbit:
+Kajo! Mein Lieblingsneffe!
+
+Kajo Cache:
+Ich bin dein einziger angeheirateter Neffe. Tante Quanta hat den Bruder meiner Mama geheiratet. Sie kann meine Schubladen kleiner packen. Aber ich stamme nicht von ihr ab.
+
+Quanta Vierbit:
+Kurz. Knapp. Passt. Ich bin Quanta Vierbit, vom Stufenvolk. Ich speichere jede Zahl auf einer von genau sechzehn Stufen. Wie ein altes Videospiel, das nur sechzehn Farben hat. Das macht das Gepäck der Stadt viel leichter, und sie passt auf kleinere Rechenkisten. Wir sind nicht weniger wert. Wir haben weniger Stufen.
+
+Erzählerin:
+Ganz oben, auf den feinsten Hängen, wohnt jemand mit einem Messkamm, so fein, dass man die Stufen nur mit der Lupe sieht.
+
+Seda Sechzehn:
+Ich bin Seda Sechzehn. Ich bewahre Zahlen sehr genau auf. Dafür ist mein Gepäck schwer und passt nicht in jede Kiste. Meine Verwandtschaft sagt manchmal Vierbitler zu Quantas Leuten. Oh. Verzeihung. Das sagt man nicht mehr.
+
+Quanta Vierbit:
+Und meine Leute sagen Speicherfresser. Beide haben unrecht.
+
+Erzählerin:
+Beim Fest der kleinen Zahlen gibt es ein Wagenrennen durch das enge Bergtor. Quantas leichte Wagen sausen hindurch, Sedas schwere Präzisionskisten bleiben stecken. Ha, ruft Quanta. Aber dann kommt eine heikle Messaufgabe: Welche Zahl ist größer, null Komma drei eins oder null Komma drei vier?
+
+Quanta Vierbit:
+Ich runde beide auf null Komma drei. Oh. Jetzt sind sie gleich. Die Antwort ist weg.
+
+Seda Sechzehn:
+Null Komma drei vier ist größer. Ich bin nicht immer nötig. Nur manchmal genauer.
+
+Erzählerin:
+Quirin hatte vorher gesagt, der Rundungsfehler sei sicher vernachlässigbar. Dann hat er gemessen.
+
+Professor Quirin Query:
+Gegenprobe Nummer acht: Messen statt meinen.
+
+Kajo Cache:
+Teilen, runden, mal nehmen. Und die Fässer nach Größe zu sortieren hat schon wieder nicht geholfen. Schon wieder kein Sortierproblem.
+
+Erzählerin:
+In einer Höhle hängt die Ahnengalerie des Stufenvolks, drei Porträts. Frieda Zweiunddreißig, eine würdige Dame mit einem Messkamm, so fein, dass man ihn nur als Schimmer sieht. Bruni Brainfloat, wie Frieda mit kurzem Haarschnitt: gleiche Reichweite, weniger Nachkommastellen. Und Ingo Acht, ein kräftiger Herr mit zweihundertsechsundfünfzig Stufen auf seiner Treppe.
+
+Erzählerin:
+Tante Quanta packt Kajos Schubladen kleiner. Kajo hält den Kontextstreifen hoch. Er ist genauso lang wie vorher.
+
+Kajo Cache:
+Weniger Stufen, gleiche Strecke.
+
+Quanta Vierbit:
+Endlich eine Familienfeier ohne Bit-Aristokratie!
+
+Erzählerin:
+Seda lacht. Und der Stufenbogen leuchtet türkisviolett, in sechzehn sauberen Stufen.
+
+Erzählerin:
+Was wirklich dahintersteckt: Das ist die Quantisierung. Zahlen werden mit weniger Bits gespeichert. Das spart Speicher, kann aber Werte ein wenig verändern. Wie viel das ausmacht, wird gemessen, nicht geraten. Und die Zahl der Tokens ändert sich dadurch nie.
+
+Erzählerin:
+Beim Fest legen Quanta und Seda zwanzig feste Fragen nebeneinander. Neue Packung, gleiche Fragen. Viele Antworten bleiben gleich. Manche kippen. Auch die hier genauere Packung kippt bei einer anderen Frage. Die Lampions rechnen weiter bei jedem neuen Stück. Wie viel Zeit und Strom das braucht, müsst ihr messen. Weniger Bytes allein verraten es euch nicht.

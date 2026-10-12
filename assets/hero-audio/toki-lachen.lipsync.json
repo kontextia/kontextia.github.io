@@ -1,0 +1,487 @@
+{
+ "fps": 60,
+ "dauer_s": 0.82,
+ "formschluessel": [
+  "mund_A",
+  "mund_O",
+  "mund_M",
+  "grinsen_breit",
+  "neutral"
+ ],
+ "ton": {
+  "pfad": "D:\\projekte_ki\\Attentiongame\\10_docs\\landing\\assets\\hero-audio\\toki-lachen.wav",
+  "sha256": "398c6d5c6b9045774a70bf7406980951c11c161673d5851a261f05e37be3432a"
+ },
+ "quelle": {
+  "modell": "faster-whisper D:/HRM-Models/huggingface/hub/models--Systran--faster-whisper-small/snapshots/536b0662742c02347bc0e980a01041f333bce120 (CPU int8, offline)",
+  "sprache": "de",
+  "text_hinweis": true,
+  "web_pause_fix": "Close A/O/smile on original PCM silent frames; M/B/P closure retained."
+ },
+ "woerter": [
+  {
+   "wort": "Hihi.",
+   "start": 0.0,
+   "ende": 0.42
+  }
+ ],
+ "pruefung": {
+  "korrelation_oeffnung_lautstaerke": 0.681,
+  "mund_zu_in_pausen": 1.0,
+  "woerter": 1,
+  "bilder": 50,
+  "urteil": "OK"
+ },
+ "bilder": [
+  {
+   "t": 0.0,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.0167,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.013
+  },
+  {
+   "t": 0.0333,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.045
+  },
+  {
+   "t": 0.05,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.098
+  },
+  {
+   "t": 0.0667,
+   "mund_A": 0.041,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.137,
+   "neutral": 0.681,
+   "offen": 0.156
+  },
+  {
+   "t": 0.0833,
+   "mund_A": 0.056,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.184,
+   "neutral": 0.537,
+   "offen": 0.216
+  },
+  {
+   "t": 0.1,
+   "mund_A": 0.065,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.201,
+   "neutral": 0.465,
+   "offen": 0.23
+  },
+  {
+   "t": 0.1167,
+   "mund_A": 0.095,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.239,
+   "neutral": 0.212,
+   "offen": 0.37
+  },
+  {
+   "t": 0.1333,
+   "mund_A": 0.179,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.425,
+   "neutral": 0.074,
+   "offen": 0.75
+  },
+  {
+   "t": 0.15,
+   "mund_A": 0.249,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.584,
+   "neutral": 0.026,
+   "offen": 0.956
+  },
+  {
+   "t": 0.1667,
+   "mund_A": 0.282,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.659,
+   "neutral": 0.009,
+   "offen": 1.0
+  },
+  {
+   "t": 0.1833,
+   "mund_A": 0.294,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.686,
+   "neutral": 0.003,
+   "offen": 1.0
+  },
+  {
+   "t": 0.2,
+   "mund_A": 0.336,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.411,
+   "neutral": 0.001,
+   "offen": 0.895
+  },
+  {
+   "t": 0.2167,
+   "mund_A": 0.306,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.247,
+   "neutral": 0.0,
+   "offen": 0.656
+  },
+  {
+   "t": 0.2333,
+   "mund_A": 0.253,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.148,
+   "neutral": 0.0,
+   "offen": 0.43
+  },
+  {
+   "t": 0.25,
+   "mund_A": 0.209,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.089,
+   "neutral": 0.052,
+   "offen": 0.359
+  },
+  {
+   "t": 0.2667,
+   "mund_A": 0.177,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.228,
+   "neutral": 0.018,
+   "offen": 0.433
+  },
+  {
+   "t": 0.2833,
+   "mund_A": 0.168,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.312,
+   "neutral": 0.006,
+   "offen": 0.51
+  },
+  {
+   "t": 0.3,
+   "mund_A": 0.181,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.395,
+   "neutral": 0.002,
+   "offen": 0.628
+  },
+  {
+   "t": 0.3167,
+   "mund_A": 0.205,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.468,
+   "neutral": 0.001,
+   "offen": 0.724
+  },
+  {
+   "t": 0.3333,
+   "mund_A": 0.221,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.513,
+   "neutral": 0.0,
+   "offen": 0.768
+  },
+  {
+   "t": 0.35,
+   "mund_A": 0.233,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.542,
+   "neutral": 0.0,
+   "offen": 0.797
+  },
+  {
+   "t": 0.3667,
+   "mund_A": 0.243,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.567,
+   "neutral": 0.0,
+   "offen": 0.828
+  },
+  {
+   "t": 0.3833,
+   "mund_A": 0.248,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.579,
+   "neutral": 0.0,
+   "offen": 0.836
+  },
+  {
+   "t": 0.4,
+   "mund_A": 0.25,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.582,
+   "neutral": 0.0,
+   "offen": 0.834
+  },
+  {
+   "t": 0.4167,
+   "mund_A": 0.15,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.349,
+   "neutral": 0.164,
+   "offen": 0.268
+  },
+  {
+   "t": 0.4333,
+   "mund_A": 0.09,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.21,
+   "neutral": 0.231,
+   "offen": 0.281
+  },
+  {
+   "t": 0.45,
+   "mund_A": 0.054,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.126,
+   "neutral": 0.246,
+   "offen": 0.296
+  },
+  {
+   "t": 0.4667,
+   "mund_A": 0.032,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.075,
+   "neutral": 0.248,
+   "offen": 0.3
+  },
+  {
+   "t": 0.4833,
+   "mund_A": 0.019,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.045,
+   "neutral": 0.272,
+   "offen": 0.282
+  },
+  {
+   "t": 0.5,
+   "mund_A": 0.012,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.027,
+   "neutral": 0.36,
+   "offen": 0.221
+  },
+  {
+   "t": 0.5167,
+   "mund_A": 0.007,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.016,
+   "neutral": 0.473,
+   "offen": 0.166
+  },
+  {
+   "t": 0.5333,
+   "mund_A": 0.004,
+   "mund_O": 0.0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0.01,
+   "neutral": 0.599,
+   "offen": 0.11
+  },
+  {
+   "t": 0.55,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.04
+  },
+  {
+   "t": 0.5667,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.015
+  },
+  {
+   "t": 0.5833,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.009
+  },
+  {
+   "t": 0.6,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.003
+  },
+  {
+   "t": 0.6167,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.6333,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.65,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.6667,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.6833,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.7,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.7167,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.7333,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.75,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.7667,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.7833,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.8,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  },
+  {
+   "t": 0.8167,
+   "mund_A": 0,
+   "mund_O": 0,
+   "mund_M": 0.0,
+   "grinsen_breit": 0,
+   "neutral": 1.0,
+   "offen": 0.0
+  }
+ ]
+}

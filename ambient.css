@@ -1,0 +1,10 @@
+/* [DE] The same quiet illustrated atmosphere follows the entire city journey. */
+.section.with-ambient{position:relative;isolation:isolate;overflow:hidden}
+.ambient-art{position:absolute!important;z-index:-1!important;inset:0;pointer-events:none;overflow:hidden;opacity:1}
+.ambient-art img{position:absolute;width:min(56vw,760px);height:680px;right:-8%;top:40px;object-fit:contain;opacity:.15;filter:saturate(.85);mask-image:linear-gradient(180deg,#000 20%,#000b 68%,transparent 100%)}
+.ambient-art.is-city img{width:75%;height:100%;min-height:720px;right:-12%;top:0;object-fit:cover;opacity:.2;filter:saturate(.65);mask-image:linear-gradient(90deg,transparent,#0006 25%,#000 68%,transparent),linear-gradient(0deg,transparent 5%,#000 28%,#000 75%,transparent);mask-composite:intersect}
+.with-ambient:nth-of-type(2n) .ambient-art img{left:-10%;right:auto;top:18%}
+.with-ambient:nth-of-type(2n) .ambient-art.is-city img{left:-14%;top:0}
+.with-ambient .audio-art{display:none}
+.with-ambient:before,.with-ambient:after{display:none!important}
+@media(max-width:700px){.ambient-art img{width:95%;height:500px;right:-30%;top:20px;opacity:.12}.ambient-art.is-city img{width:140%;right:-65%;min-height:450px;opacity:.14}.with-ambient:nth-of-type(2n) .ambient-art img{left:-30%;top:30%}.with-ambient:nth-of-type(2n) .ambient-art.is-city img{left:-65%;top:0}}

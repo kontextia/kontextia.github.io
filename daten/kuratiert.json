@@ -1,0 +1,35 @@
+{
+  "_hinweis": "Von Hand kuratierte Texte der Projektseite (Claude Code, 11.10.2026). Jede Aussage stammt aus der genannten Quelle; Formulierungen für die Seite sind eine Designergänzung [DE].",
+  "teile": "Teil 1 „Die Lichterbrücke“ ist für Kinder ab etwa acht gedacht, Teil 2 „Der Turm der Tiefe“ für etwa zwölf bis sechzehn. Eine Altersgrenze gibt es nicht: Die Tür zu Teil 2 steht immer offen. (KANON §1, LOREBUCH Kopf und Epilog)",
+  "grundsaetze": [
+    {"titel": "Fakten zuerst, Witz zweitens.", "text": "Jeder Witz ist entweder selbst ein Fakt oder steht direkt neben einem. (LOREBUCH Kopf)"},
+    {"titel": "Keine Magie.", "text": "Wenn in Kontextia etwas leuchtet, hat jemand gerechnet. Kein Effekt darf etwas zeigen, das der Regelkern nicht berechnet hat. (LOREBUCH §10)"},
+    {"titel": "Kein Bösewicht.", "text": "Die Gegenspieler sind Missverständnisse in Teil 1 und Wetter in Teil 2: der Promptsturm und der Nebel der Selbstsicherheit. Falsche Antworten entstehen nicht aus böser Absicht. (LOREBUCH §10, §8.2)"},
+    {"titel": "Keine angeborene Rangordnung.", "text": "Jedes Haus hält sich für das wichtigste und wird in jeder Welt widerlegt. Die Kette braucht alle. (LOREBUCH §10, §4)"},
+    {"titel": "Die Figuren haben Gefühle, das Modell nicht.", "text": "Wie sprechende Teekannen im Zeichentrickfilm. Queria „schwärmt“ nicht, sie passt. (LOREBUCH §10)"},
+    {"titel": "Beim Reden lernt die Stadt nichts.", "text": "§ 1 der Stadtverfassung: Antworten verändern keine Stellschrauben. Neues Lernen braucht eine neue Schmiedezeit. (LOREBUCH §1.5, §10)"},
+    {"titel": "Kein Wahrheitsorakel.", "text": "Wahrheit entsteht nur als überprüfbare Kette: Quelle, Beleg, Gegenprobe, oder als ehrliches „Ich weiß es nicht“. (LOREBUCH §10)"}
+  ],
+  "teil2": {
+    "einleitung": "Unter dem mittleren Bogen der Brücke, ganz unten am Wasser, steht eine kleine warme Tür. Dahinter führt eine Treppe in die Tiefe: unter jeden Bezirk, in Laborgeschosse, in denen man nicht nur sieht, dass etwas passiert, sondern wie viel. Es sind dieselben neun Welten mit denselben Figuren, nur mit Zahlen, Formeln, Heatmaps und Messgeräten. Wer hinuntergeht, ist Architektin oder Architekt. (LOREBUCH §7 Epilog, §8.1)",
+    "neue_figuren": ["rosa-rotation", "ronja-rueckmeldung"],
+    "wetter": [
+      {"name": "Der Promptsturm", "text": "Er zieht vom offenen Meer heran: Textwellen, die zu lang, zu widersprüchlich oder zu verdächtig sind, Fahrpläne mit eingeschmuggelten Befehlen, endlose Wiederholungen. Der Sturm will nichts. Er passiert. Aber wo er auf eine schlecht geplante Stadt trifft, fallen wichtige Stücke aus der Halle und Leute gehorchen Zetteln, die ihnen nichts zu befehlen haben.", "fachlich": "Kontextüberlauf und Abschneiden, schlechtere Nutzung von Informationen in der Mitte langer Kontexte, Speicherdruck durch große KV-Caches, indirekte Prompt Injection. (LOREBUCH §8.2)"},
+      {"name": "Der Nebel der Selbstsicherheit", "text": "Er steigt auf, wenn die Stadt flüssig weiterbaut, obwohl nichts auf dem Tisch liegt, das die Antwort stützt. Er klingt sehr überzeugend, und genau darum ist er gefährlich. Er entsteht nicht aus Lügenabsicht, sondern aus Wahrscheinlichkeiten: Plausibel ist nicht belegt.", "fachlich": "Halluzination: flüssige, selbstsicher klingende, aber nicht gestützte Ausgaben; begünstigt durch das Trainingsziel und durch Bewertungen, die Raten besser belohnen als ehrliches Nichtwissen. (LOREBUCH §8.2)"}
+    ],
+    "bauteile": [
+      {"welt": "L01", "name": "Budgetplan", "text": "Vor jeder Antwort Plätze zählen und Reserve festlegen."},
+      {"welt": "L02", "name": "Kosinus-Messlatte", "text": "Ähnlichkeit wird gerechnet, nicht vom Bild abgelesen."},
+      {"welt": "L03", "name": "Heatmap-Leser mit Gegenprobe-Schalter", "text": "Aufmerksamkeitsmuster lesen und durch Eingriffe prüfen."},
+      {"welt": "L04", "name": "Schaltplan-Lupe", "text": "Kopfmuster messen, erst danach benennen, immer mit Vorbehalt."},
+      {"welt": "L05", "name": "Verteilungsfenster", "text": "Alle Kandidaten anzeigen, nicht nur die drei hübschesten."},
+      {"welt": "L06", "name": "Regalplan", "text": "Zwei Wände kennen: das Kontextfenster und den Speicher."},
+      {"welt": "L07", "name": "Waage mit Wahrheitsprobe", "text": "Vorlieben sind kein Wahrheitsmaß; ob es hilft, misst Vali."},
+      {"welt": "L08", "name": "Gepäckwaage mit Messprotokoll", "text": "Speicher und Laufzeit messen statt meinen."},
+      {"welt": "L09", "name": "Brückenprotokoll", "text": "Wer hat was geliefert, mit welcher Quelle, welchem Werkzeug, unter welcher Regel."}
+    ],
+    "finale": "Ganz unten liegt ein gläserner Raum, das Herz des Turms. Darin läuft ein winziges, echtes Sprachmodell, mit dem Spiel mitgeliefert, offline. Es ist nicht klug und irrt sich oft. Aber man kann ihm beim Rechnen zusehen: echte Stücke, echte Perlen, echte Aufmerksamkeitsmuster, echte Punkte. Die Architektinnen und Architekten führen es durch alle neun Bauteile. (LOREBUCH §8.4)",
+    "finale_wirklich": "Ein kleines, lokal laufendes Sprachmodell wird mit allen Zwischenergebnissen sichtbar gemacht: Tokens, Embeddings, Attentiongewichte, Logits, Cache, Quantisierungsfehler. Behauptungen werden durch Eingriffe überprüft.",
+    "finale_grenze": "Große Modelle haben viel mehr Stockwerke, Köpfe und Parameter. Was man im Kleinen sieht, ist derselbe Mechanismus, aber nicht dasselbe Verhalten."
+  }
+}

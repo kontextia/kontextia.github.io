@@ -1,0 +1,55 @@
+# Der Tokenhafen
+
+Erzählerin:
+Unser erster Weg führt nur ein paar Schritte weit. Der Tokenhafen. Kaimauern aus warmem Bernsteinstein, darauf eingemeißelte Zahlen. Es riecht nach Salzwasser, Kleister und frischer Tinte. Kräne heben lange, glänzende Papierbahnen aus den Schiffsbäuchen, und darauf stehen Sätze. Aus der großen Schneidehalle klingt es: Schnipp. Schnapp.
+
+Berta Bytepair:
+Schnipp! Oh, Besuch! Ich bin Berta Bytepair, von der Hafengilde der Zerleger. Ich schneide Sätze in Bausteine. Über meiner Werkbank hängt das Kleberegelbuch. Jede Seite hat eine Nummer, und die Reihenfolge ist heilig. Regel eins klebt das Paar, das in den Textbergen am häufigsten vorkam. Regel zwei das nächste. Und so weiter.
+
+Berta Bytepair:
+Darum wird dasselbe Wort bei uns immer gleich geschnitten. Häufige Wörter sind oft ein einziger Baustein. Seltene zerbröseln in viele. Schneiden, kleben, zählen!
+
+Erzählerin:
+Und dann steht da plötzlich jemand sehr Kleines vor dir. Ein runder Baustein mit einer Nummer und einem Ring.
+
+Toki:
+Hallo! Hallo, Kaimauer! Hallo, Poller! Und hallo, du! Ich bin Toki. Ich bin ein Textbaustein, wie ein Legostein aus einem Wortstück. Ich trage eine Nummer, damit die Stadt mich erkennt. Manchmal bin ich ein ganzes Wort. Und manchmal nur ein Stück! Ich bin ein Stück, kein Wort!
+
+Erzählerin:
+Das hat Toki allerdings nicht immer gewusst. Als der Streit begann, stand Tokis ganze Familie im Kreis und rief: Ein Wort, eine Fahrkarte! Und Platz ist immer genug!
+
+Berta Bytepair:
+Da habe ich ein langes Wort hochgehoben. Mondlicht. Ein Wort, riefen alle. Schnipp, machte meine Schere. Mond. Und licht. Zwei Stücke. Und ein Keks ist eine Mahlzeit?
+
+Toki:
+Hihi. Jetzt weiß ich es. Ein Wort, viele Krümel!
+
+Erzählerin:
+Gegenüber steht das blaugraue Rathaus, gebaut wie ein Brückenbogen. Drinnen liegt die Fahrkartenhalle: eine lange Reihe nummerierter Plätze, ohne eine einzige Lücke. Am Ende steht eine durchsichtige Wand aus Glas. Und alle paar Sekunden macht der Zähler: Ding.
+
+Bürgermeister Kontext:
+Liebe Tokis, liebe Gäste. Ich bin Bürgermeister Kontext. Zwölf Plätze hat die Halle. Nicht einen mehr. Jedes Stück der Frage braucht einen Platz. Und die Antwort braucht auch Plätze. Darum spanne ich vor jeder Antwort cremefarbene Bänder über ein paar leere Stühle. Das ist der Reserveschwur: Diese Stühle gehören der Antwort.
+
+Kajo Cache:
+Acht Plätze für die Frage, vier für die Antwort. Acht und vier sind zwölf. Passt genau. Wie eine Schublade.
+
+Professor Quirin Query:
+Da ist doch noch reichlich Platz!
+
+Kajo Cache:
+Zähl mal.
+
+Professor Quirin Query:
+Eins, zwei, drei … zehn, elf, zwölf. Null frei. Ah. Moment. Das trage ich ein.
+
+Erzählerin:
+Und so beginnt Quirin sein kleines Heft: die Kladde der Gegenproben. Erster Eintrag: Erst zählen.
+
+Bürgermeister Kontext:
+Kommt dann noch ein dreizehntes Stück, stößt es an die Glaswand. Plonk. Das ist kein Monster. Es ist einfach kein Platz mehr. Dann muss man kürzen. Oder teilen.
+
+Erzählerin:
+Berta schneidet, und aus ihrem Scherenkörper kommen die Nummernzapfen. Die Tokis tragen sie zum Rathaus. Klick, klick, klick: Jeder Zapfen passt in eine Platzbuchse des Bürgermeisters. Und unter der Brücke glimmt der erste Bogen auf. Der Bernsteinbogen, honiggelb wie die Nummern auf den Fahrkarten.
+
+Erzählerin:
+Was wirklich dahintersteckt: Ein Sprachmodell liest keine Buchstaben und keine ganzen Wörter, sondern Tokens. Bertas Kleberegelbuch ist der Tokenizer. Und die Fahrkartenhalle ist das Kontextfenster. Frage und Antwort müssen zusammen hineinpassen.
