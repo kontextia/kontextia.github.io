@@ -11,14 +11,14 @@ const ease=v=>{v=clamp(v);return v*v*v*(v*(v*6-15)+10);};
 const interval=(t,a,b)=>ease((t-a)/(b-a));
 const reduced=matchMedia('(prefers-reduced-motion:reduce)'),actors={},loader=new GLTFLoader();
 const DURATION=18;let elapsed=0,last=0,paused=reduced.matches,visible=true,ready=false,muted=true,lastCue=-1;
-let renderer,scene,camera,crate,crateBones,crateRest,lidCurve,voiceManifest=[],activeSpeaker='',lipTracks={},currentClip=null,speechPreview=false,voiceOnly=false,playAttempt=0,pendingSeek=null;
+let renderer,scene,camera,crate,crateBones,crateRest,lidCurve,voiceManifest=[],activeSpeaker='',lipTracks={},currentClip=null,speechPreview=false,voiceOnly=false,playAttempt=0,dialogue=null;
 const voice=new Audio();voice.id='hero-voice';voice.hidden=true;voice.preload='none';voice.volume=.82;host.appendChild(voice);
 const motion=document.getElementById('motion-toggle'),sound=document.getElementById('stage-sound');
 const voiceNotice=document.createElement('p');voiceNotice.className='stage-audio-status';voiceNotice.setAttribute('role','status');voiceNotice.hidden=true;sound.parentElement.after(voiceNotice);
 function syncControls(){motion.setAttribute('aria-pressed',String(paused));motion.setAttribute('aria-label',paused?'Szene fortsetzen':'Szene pausieren');motion.textContent=paused?'▶':'Ⅱ';const start=muted||(paused&&voice.paused);sound.setAttribute('aria-pressed',String(!muted));sound.textContent=start?'Stimmen abspielen ♫':'Stimmen ausschalten ♫';sound.setAttribute('aria-label',start?'Figurenstimmen abspielen':'Figurenstimmen ausschalten');}
 syncControls();
-const cues=[{t:.08,id:'toki-stueck'},{t:3.85,id:'kajo-schublade'},{t:6.7,id:'toki-lachen'},{t:11.8,id:'kajo-besen'},{t:14.5,id:'kajo-zaehl-mal'}];
-const narrative=[['Am Tokenhafen','Toki und Kajo entdecken eine Archivkiste.'],['Bei der Kiste','Die beiden schauen sich Kajos Kiste an.'],['Kajos Archiv','Kajo öffnet seine Schublade und prüft den Inhalt.'],['Der offene Deckel','Toki schaut in die Kiste.'],['Die Kiste kippt','Die Schlüsselkärtchen rutschen heraus.'],['Aufräumen am Hafen','Toki und Kajo versuchen, die Kärtchen einzusammeln.'],['Kajos Schlüsselkärtchen','Die Kärtchen gehören wieder in ihre Fächer.'],['Zurück am Hafen','Die Szene beginnt gleich von vorn.']];
+let cues=[];
+const narrative=[['Am Tokenhafen','Toki und Kajo entdecken eine Archivkiste.'],['Bei der Kiste','Die beiden schauen sich Kajos Kiste an.'],['Kajos Archiv','Kajo öffnet seine Schublade und prüft den Inhalt.'],['Der offene Deckel','Toki schaut in die Kiste.'],['Die Kiste kippt','Die Schlüsselkärtchen rutschen heraus.'],['Aufräumen am Hafen','Toki und Kajo sammeln die Kärtchen zusammen ein.'],['Kajos Schlüsselkärtchen','Die Kärtchen gehören wieder in ihre Fächer.'],['Komm mit nach Kontextia','Die Geschichte wartet auf dich.']];
 const speechName=document.getElementById('speech-name'),speechText=document.getElementById('speech-text');let captionKey='',wordSpans=[];
 function caption(phase,clip=null,time=null){
  const key=clip?.id||'scene-'+phase;
@@ -35,19 +35,20 @@ function caption(phase,clip=null,time=null){
  speechText.dataset.clip=clip?.id||'';speechText.dataset.time=time===null?'':time.toFixed(3);
 }
 function voiceFailure(error,attempt=playAttempt){if(attempt!==playAttempt||error?.name==='AbortError')return;muted=true;voiceOnly=false;activeSpeaker='';voice.pause();voiceNotice.textContent='Die Stimmen konnten nicht starten. Bitte noch einmal abspielen.';voiceNotice.hidden=false;syncControls();}
-function playCue(cue,offset=0,allowPaused=false){const c=voiceManifest.find(c=>c.id===cue.id);if(!c||offset>=c.duration)return;currentClip=c;if(muted||(paused&&!allowPaused))return;const attempt=++playAttempt;voiceNotice.hidden=true;activeSpeaker=c.speaker==='kajo-cache'?'kajo':c.speaker;voice.dataset.clip=c.id;voice.src='assets/hero-audio/'+c.file;pendingSeek=Math.max(0,offset);try{voice.currentTime=pendingSeek;pendingSeek=null;}catch{}voice.play().catch(error=>voiceFailure(error,attempt));}
+function sceneTimeForAudio(time){const points=dialogue?.sceneAnchors;if(!points)return 0;for(let i=1;i<points.length;i++){const a=points[i-1],b=points[i];if(time<=b.audio)return THREE.MathUtils.lerp(a.scene,b.scene,clamp((time-a.audio)/(b.audio-a.audio)));}return points.at(-1).scene;}
+function updateDialogue(){currentClip=muted?null:voiceManifest.find(c=>voice.currentTime>=c.t&&voice.currentTime<c.end)||null;activeSpeaker=currentClip?(currentClip.speaker==='kajo-cache'?'kajo':currentClip.speaker):'';voice.dataset.clip=currentClip?.id||'';host.dataset.audioTime=voice.currentTime.toFixed(3);if(!muted)caption(scenePhase(sceneTimeForAudio(voice.currentTime)),currentClip,currentClip?voice.currentTime-currentClip.t:null);}
+function playDialogue(restart=false){if(!dialogue||muted||document.hidden)return;const story=document.getElementById('story-audio');if(!story.paused)story.pause();const attempt=++playAttempt;voiceNotice.hidden=true;if(voice.getAttribute('src')!==dialogue.audioUrl)voice.src=dialogue.audioUrl;if(restart){voice.currentTime=0;elapsed=0;currentClip=null;}voice.play().catch(error=>voiceFailure(error,attempt));}
 function mouthSample(id,time){
  const track=lipTracks[id];if(!track||time<0||time>=track.duration)return null;
  const frame=time*track.fps,i=Math.min(Math.floor(frame),track.frames.length-1),f=frame-i,a=track.frames[i],b=track.frames[Math.min(i+1,track.frames.length-1)],sample={};
  for(const key of ['mund_A','mund_O','mund_M','grinsen_breit','neutral'])sample[key]=THREE.MathUtils.lerp(a[key]||0,b[key]||0,f);return sample;
 }
-function resumeVoice(){if(muted||(paused&&!voiceOnly)||!visible||document.hidden)return;if(currentClip&&voice.currentTime>0&&voice.currentTime<currentClip.duration&&!voice.ended){const attempt=++playAttempt;voice.play().catch(error=>voiceFailure(error,attempt));}else{const t=elapsed%DURATION;let index=Math.max(0,cues.findLastIndex(c=>t>=c.t)),cue=cues[index],offset=Math.max(0,t-cue.t);const clip=voiceManifest.find(c=>c.id===cue.id);if(clip&&offset>=clip.duration){cue=cues[(index+1)%cues.length];offset=0;}playCue(cue,offset,voiceOnly);}}
-voice.addEventListener('loadedmetadata',()=>{if(pendingSeek!==null){voice.currentTime=pendingSeek;pendingSeek=null;}});
+function resumeVoice(){if(muted||(paused&&!voiceOnly)||!visible||document.hidden)return;playDialogue(false);}
 voice.addEventListener('playing',syncControls);
 voice.addEventListener('pause',syncControls);
 voice.addEventListener('error',()=>voiceFailure(voice.error));
-voice.addEventListener('timeupdate',()=>{if(voiceOnly&&currentClip)caption(scenePhase(elapsed%DURATION),currentClip,voice.currentTime);});
-voice.addEventListener('ended',()=>{activeSpeaker='';if(voiceOnly&&!muted){const next=cues.findIndex(c=>c.id===currentClip?.id)+1;if(next<cues.length&&visible&&!document.hidden)playCue(cues[next],0,true);else{voiceOnly=false;muted=true;currentClip=null;caption(scenePhase(elapsed%DURATION));syncControls();}}});
+voice.addEventListener('timeupdate',updateDialogue);
+voice.addEventListener('ended',()=>{elapsed=sceneTimeForAudio(voice.duration);paused=true;voiceOnly=false;muted=true;currentClip=null;activeSpeaker='';syncControls();if(ready)pose(elapsed);else caption(7);});
 function scenePhase(t){return t<.25?0:t<2.2?1:t<4.05?2:t<5.92?3:t<6.85?4:t<11.5?5:t<15.1?6:7;}
 function bonesOf(model){const result={};model.traverse(o=>{if(o.isBone)result[(o.userData.name||o.name).replace(/\./g,'')]=o;});return result;}
 function reset(a){for(const [name,b]of Object.entries(a.bones)){const r=a.rest[name];b.position.copy(r.p);b.quaternion.copy(r.q);}a.group.position.copy(a.start);a.group.rotation.set(0,0,0);a.model.updateMatrixWorld(true);}
@@ -228,8 +229,7 @@ function itemPose(c,t){
  const frame=clamp((t-c.release)*120,0,c.path.length-1),i=Math.floor(frame),f=frame-i,p=c.path[i].clone().lerp(c.path[Math.min(i+1,c.path.length-1)],f),q=c.rotation[i].clone().slerp(c.rotation[Math.min(i+1,c.path.length-1)],f);
  c.bone.quaternion.copy(c.bone.parent.getWorldQuaternion(Q()).invert().multiply(q));const origin=p.clone().sub(c.center.clone().multiply(c.scale).applyQuaternion(q));c.bone.position.copy(c.bone.parent.worldToLocal(origin));c.bone.updateWorldMatrix(true,true);c.position.copy(p);
 }
-function pose(t){if(!ready)return;const phase=scenePhase(t);
- const cueIndex=cues.findLastIndex(c=>t>=c.t);if(cueIndex!==lastCue){lastCue=cueIndex;if(cueIndex>=0)playCue(cues[cueIndex],t-cues[cueIndex].t);}
+function pose(t){if(!ready)return;const phase=scenePhase(t);host.dataset.sceneTime=t.toFixed(4);
  // Keep the full silhouette inside narrow stages, with a gentle approach to
  // the shared crate. Wide desktop stages retain the close original framing.
  const approach=interval(t,.25,2.2)*(1-interval(t,15.1,17.64)),width=THREE.MathUtils.lerp(4.65,3.85,approach),distance=Math.max(7,width/(2*Math.tan(THREE.MathUtils.degToRad(camera.fov/2))*camera.aspect)+.5);
@@ -262,8 +262,7 @@ function pose(t){if(!ready)return;const phase=scenePhase(t);
   if(t>=13.0&&t<14.6){const w=interval(t,13,13.45)*(1-interval(t,14.15,14.6));gesture(a,a.id==='toki'?'R':'L',w,.14,.35);}
  }
  let speaking='',speech=null,speechTime=null,speechClip=null,clip=null;
- if(speechPreview||muted){const cue=cues[cueIndex],candidate=voiceManifest.find(c=>c.id===cue?.id);if(candidate&&t-cue.t<candidate.duration){clip=candidate;speechTime=t-cue.t;}}
- else if(currentClip&&voice.currentTime<currentClip.duration&&!voice.ended){clip=currentClip;speechTime=voice.currentTime;}
+ if(!muted&&!voice.ended){updateDialogue();clip=currentClip;speechTime=clip?voice.currentTime-clip.t:null;}
  if(clip){speechClip=clip.id;speaking=clip.speaker==='kajo-cache'?'kajo':clip.speaker;if(!paused||speechPreview)speech=mouthSample(clip.id,speechTime);}
  caption(phase,clip,speechTime);
  for(const a of Object.values(actors)){
@@ -274,9 +273,11 @@ function pose(t){if(!ready)return;const phase=scenePhase(t);
   else if(t>=6.04&&t<6.9){look=items[2].position;emotion='surprise';}
   else if(t>=6.9&&t<11.5){look=items[a.id==='toki'?0:11].position;emotion=t>8.2?'focus':'surprise';}
   else if(t>=11.5&&t<15.1){look=worldPosition(other.bones.augeL);emotion='happy';}
+  if(clip?.id==='line05'&&speechTime>=dialogue.inviteOffset&&a.id==='toki')look=camera.position;
   expression(a,t,look,emotion,a.id===speaking?speech:null);
  }
- const fade=paused?1:t>17.7?1-interval(t,17.7,18):t<.20?interval(t,0,.20):1;renderer.domElement.style.opacity=fade;
+ // The complete spoken greeting keeps both figures visible throughout.
+ const fade=paused||!muted?1:t>17.7?1-interval(t,17.7,18):t<.20?interval(t,0,.20):1;renderer.domElement.style.opacity=fade;
  Object.assign(window.heroStage,{phase,time:t,speechTime,speechClip,speaking,drawer:d,itemCount:items.filter(c=>t>=c.release).length,coinCount:items.filter(c=>t>=c.release).length,boxAngle:box.angle,lidOpen:box.open,lidAngle:crateRest.deckel.q.angleTo(crateBones.deckel.quaternion)});renderer.render(scene,camera);
 }
 try{
@@ -314,14 +315,14 @@ try{
   lidCurve.end=peak;lidCurve.closed=rest.clone();lidCurve.opened=Q().fromArray(lidCurve.evaluate(peak));
  }
  crate.updateMatrixWorld(true);crate.lidAnchor=new THREE.Object3D();const lidPoint=crate.localToWorld(V(-.195,.849,.07));crate.lidAnchor.position.copy(crateBones.deckel.worldToLocal(lidPoint));crateBones.deckel.add(crate.lidAnchor);
- voiceManifest=(await (await fetch('assets/hero-audio/manifest.json')).json()).clips;lipTracks=await (await fetch('assets/hero-audio/lipsync.json')).json();createItems();ready=true;host.dataset.ready='true';document.getElementById('hero-fallback').hidden=true;status.hidden=true;
+ const dialogBase='assets/hero-audio/dialog_2026-10-12/';dialogue=await (await fetch(dialogBase+'manifest.json?v=neu01')).json();dialogue.audioUrl=dialogBase+dialogue.audioFile+'?v='+dialogue.audioSha256;voiceManifest=dialogue.clips;cues=voiceManifest;lipTracks=await (await fetch(dialogBase+'lipsync.json?v='+dialogue.lipsyncSha256)).json();createItems();ready=true;host.dataset.ready='true';document.getElementById('hero-fallback').hidden=true;status.hidden=true;
  window.heroStage={actors,renderer,scene,camera,crate,items,coins:items,voice,cues,lipTracks,mouthSample,previewSpeech:v=>{speechPreview=v;},pause:v=>{paused=v;if(v)voice.pause();syncControls();},seek:t=>{elapsed=t;lastCue=cues.findLastIndex(c=>t>=c.t);pose(t%DURATION);},duration:DURATION};pose(0);
- function loop(t){requestAnimationFrame(loop);const dt=Math.min((t-last)/1000,.10);last=t;if(!ready||!visible||document.hidden)return;if(!paused){elapsed+=dt;pose(elapsed%DURATION);}}
+ function loop(t){requestAnimationFrame(loop);const dt=Math.min((t-last)/1000,.10);last=t;if(!ready||!visible||document.hidden)return;if(!paused){elapsed=muted?elapsed+dt:sceneTimeForAudio(voice.currentTime);pose(elapsed%DURATION);}}
  requestAnimationFrame(loop);
 }catch(e){status.textContent='Toki & Kajo bleiben im Figurenalbum erreichbar. Diese 3D-Bühne wird im Browser nicht unterstützt.';host.dataset.ready='fallback';console.warn('Hero scene fallback:',e.message);}
 motion.addEventListener('click',()=>{paused=!paused;voiceOnly=false;if(paused){++playAttempt;voice.pause();}else resumeVoice();syncControls();if(ready)pose(elapsed%DURATION);});
-sound.addEventListener('click',()=>{if(muted||(paused&&voice.paused)){muted=false;voiceOnly=paused;resumeVoice();}else{muted=true;voiceOnly=false;++playAttempt;voice.pause();activeSpeaker='';}syncControls();if(ready)pose(elapsed%DURATION);});
-document.getElementById('scene-restart').addEventListener('click',()=>{elapsed=0;lastCue=-1;currentClip=null;++playAttempt;voice.pause();paused=reduced.matches;voiceOnly=paused&&!muted;syncControls();if(ready)pose(0);if(!muted)resumeVoice();});
+sound.addEventListener('click',()=>{if(muted||(paused&&voice.paused)){const restart=muted;muted=false;voiceOnly=paused;playDialogue(restart);}else{muted=true;voiceOnly=false;++playAttempt;voice.pause();activeSpeaker='';}syncControls();if(ready)pose(elapsed%DURATION);});
+document.getElementById('scene-restart').addEventListener('click',()=>{elapsed=0;lastCue=-1;currentClip=null;++playAttempt;voice.pause();voice.currentTime=0;paused=reduced.matches;voiceOnly=paused&&!muted;syncControls();if(ready)pose(0);if(!muted)playDialogue(true);});
 reduced.addEventListener('change',e=>{paused=e.matches;if(paused)voice.pause();else resumeVoice();syncControls();if(ready)pose(elapsed%DURATION);});
 new IntersectionObserver(([e])=>{visible=e.isIntersecting;if(!visible)voice.pause();else resumeVoice();},{threshold:.1}).observe(host);
 document.addEventListener('visibilitychange',()=>{if(document.hidden)voice.pause();else resumeVoice();});

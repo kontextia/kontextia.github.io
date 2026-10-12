@@ -1,0 +1,125 @@
+{
+  "version": 2,
+  "date": "2026-10-12",
+  "title": "Hallo im Tokenhafen",
+  "audioFile": "hafen.mp3",
+  "duration": 25.542666666666666,
+  "clips": [
+    {
+      "id": "line01",
+      "speaker": "toki",
+      "speakerName": "Toki",
+      "text": "Hallo, du! Ich bin Toki. Kajo, darf ich mal in deine Kiste schauen?",
+      "t": 0.28,
+      "end": 5.48,
+      "duration": 5.2,
+      "pauseAfter": 0.45,
+      "voice": "attentionris/toki",
+      "sourceSha256": "324d4fe74d66bc2413a8dae21c40543d6d476373c5be69eb237f9e93f5c22344",
+      "selectedTake": "a"
+    },
+    {
+      "id": "line02",
+      "speaker": "kajo-cache",
+      "speakerName": "Kajo",
+      "text": "Na klar. Aber schön vorsichtig, ja? Meine Schlüsselkärtchen sind frisch sortiert.",
+      "t": 5.93,
+      "end": 11.37,
+      "duration": 5.44,
+      "pauseAfter": 0.5,
+      "voice": "attentionris/kajo-cache",
+      "sourceSha256": "dc7aa50300430665556230219aaf886988524b35c2369edd257956ab9bd819aa",
+      "selectedTake": "b"
+    },
+    {
+      "id": "line03",
+      "speaker": "toki",
+      "speakerName": "Toki",
+      "text": "Huch! Die purzeln ja alle raus!",
+      "t": 11.87,
+      "end": 14.35,
+      "duration": 2.48,
+      "pauseAfter": 0.7,
+      "voice": "attentionris/toki",
+      "sourceSha256": "90cc4b8cadb8f7d099688f4bd33b04597bcf2724a5b152098a927b78c5127d4a",
+      "selectedTake": "a"
+    },
+    {
+      "id": "line04",
+      "speaker": "kajo-cache",
+      "speakerName": "Kajo",
+      "text": "Tja. Frisch sortiert waren sie. Komm, wir sammeln sie zusammen ein.",
+      "t": 15.05,
+      "end": 19.48267,
+      "duration": 4.432666666666667,
+      "pauseAfter": 0.4,
+      "voice": "attentionris/kajo-cache",
+      "sourceSha256": "58511f2cf83bc2f190c2fa7ee2ed04afea2d5d055b6d30b8f36642f1f8fa8847",
+      "selectedTake": "b"
+    },
+    {
+      "id": "line05",
+      "speaker": "toki",
+      "speakerName": "Toki",
+      "text": "Ich sammle, du sortierst! Und du da: Hilfst du uns?",
+      "t": 19.88267,
+      "end": 23.74267,
+      "duration": 3.86,
+      "pauseAfter": 1.8,
+      "voice": "attentionris/toki",
+      "sourceSha256": "9f7f209d0f438214403f716ee1550ffbff97b4efd158ea5a1b090986d69f7031",
+      "selectedTake": "b"
+    }
+  ],
+  "sceneAnchors": [
+    {
+      "audio": 0,
+      "scene": 0
+    },
+    {
+      "audio": 3.1399999999999997,
+      "scene": 0.25
+    },
+    {
+      "audio": 5.93,
+      "scene": 2.2
+    },
+    {
+      "audio": 11.37,
+      "scene": 5.85
+    },
+    {
+      "audio": 11.719999999999999,
+      "scene": 6.05
+    },
+    {
+      "audio": 11.969999999999999,
+      "scene": 6.3
+    },
+    {
+      "audio": 15.05,
+      "scene": 6.95
+    },
+    {
+      "audio": 19.88267,
+      "scene": 11.5
+    },
+    {
+      "audio": 21.94267,
+      "scene": 13.2
+    },
+    {
+      "audio": 23.74267,
+      "scene": 15.1
+    },
+    {
+      "audio": 25.54266666666667,
+      "scene": 17.64
+    }
+  ],
+  "inviteOffset": 2.06,
+  "audioSha256": "c5bee33da2a21989ac3b3a6fdd34262506a3c08195351eab1bfeb606deceb2e0",
+  "lipsyncSha256": "8d4b57be0c428a5756ed53b1ebf4b9249c802afcdb9bae7accd4c6386c6f31ae",
+  "method": "Complete new native Loki Base takes, original Toki/Kajo voiceprints, one continuous mix; no tempo or pitch changes",
+  "note": "[DE] Canonical characters and archive cards; new coherent harbour greeting and shared cleanup. CPU ASR word timing is not phoneme alignment or a subjective emotion approval."
+}
