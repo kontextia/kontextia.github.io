@@ -1,0 +1,1563 @@
+{
+  "generation": "4d7534542c66f135",
+  "width": 2000,
+  "height": 930,
+  "points": {
+    "t1": [
+      {
+        "id": "L00",
+        "world": [
+          29.3,
+          79.3,
+          0.8
+        ],
+        "screen": [
+          1461.56,
+          623.39
+        ],
+        "label": "Poller 7"
+      },
+      {
+        "id": "L01",
+        "world": [
+          28.25,
+          78.25,
+          6.5
+        ],
+        "screen": [
+          1462.35,
+          549.47
+        ],
+        "label": "Tokenhafen"
+      },
+      {
+        "id": "L02",
+        "world": [
+          29.0,
+          69.0,
+          5.2
+        ],
+        "screen": [
+          1368.09,
+          508.76
+        ],
+        "label": "Kartenwald"
+      },
+      {
+        "id": "L03",
+        "world": [
+          45.0,
+          42.0,
+          3.5
+        ],
+        "screen": [
+          953.15,
+          449.14
+        ],
+        "label": "Sternwarte"
+      },
+      {
+        "id": "L04",
+        "world": [
+          45.0,
+          42.0,
+          13.4
+        ],
+        "screen": [
+          953.15,
+          343.17
+        ],
+        "label": "Werkstätten"
+      },
+      {
+        "id": "L05",
+        "world": [
+          45.0,
+          42.0,
+          23.4
+        ],
+        "screen": [
+          953.15,
+          236.13
+        ],
+        "label": "Logitmarkt"
+      },
+      {
+        "id": "L06",
+        "world": [
+          57.0,
+          27.0,
+          8.0
+        ],
+        "screen": [
+          691.14,
+          376.12
+        ],
+        "label": "Kästnerviertel"
+      },
+      {
+        "id": "L07",
+        "world": [
+          55.0,
+          11.0,
+          5.4
+        ],
+        "screen": [
+          561.48,
+          289.98
+        ],
+        "label": "Lernschmiede"
+      },
+      {
+        "id": "L08",
+        "world": [
+          39.0,
+          15.0,
+          7.2
+        ],
+        "screen": [
+          760.91,
+          201.7
+        ],
+        "label": "Stufengebirge"
+      },
+      {
+        "id": "L09",
+        "world": [
+          67.0,
+          53.0,
+          2.4
+        ],
+        "screen": [
+          833.52,
+          661.14
+        ],
+        "label": "Mauer & Quellen"
+      },
+      {
+        "id": "L10",
+        "world": [
+          50.0,
+          40.0,
+          23.4
+        ],
+        "screen": [
+          883.8,
+          252.91
+        ],
+        "label": "Nebelnacht"
+      },
+      {
+        "id": "FINALE",
+        "world": [
+          30.0,
+          74.0,
+          3.4
+        ],
+        "screen": [
+          1404.81,
+          565.86
+        ],
+        "label": "Lichterbrücke"
+      }
+    ],
+    "t2": [
+      {
+        "id": "L01",
+        "world": [
+          27.0,
+          79.0,
+          -2.6
+        ],
+        "screen": [
+          1482.03,
+          644.27
+        ],
+        "label": "Tokenhafen mit Rathaus"
+      },
+      {
+        "id": "L02",
+        "world": [
+          26.0,
+          68.0,
+          -2.6
+        ],
+        "screen": [
+          1389.08,
+          568.14
+        ],
+        "label": "Kartenwald und Bedeutungsgarten"
+      },
+      {
+        "id": "L03",
+        "world": [
+          42.5,
+          46.5,
+          -2.6
+        ],
+        "screen": [
+          1020.62,
+          528.38
+        ],
+        "label": "Sternwarte im Turm der Schichten"
+      },
+      {
+        "id": "L04",
+        "world": [
+          47.5,
+          45.0,
+          -2.6
+        ],
+        "screen": [
+          955.96,
+          548.35
+        ],
+        "label": "Werkstätten im Turm der Schichten"
+      },
+      {
+        "id": "L05",
+        "world": [
+          48.5,
+          39.0,
+          -2.6
+        ],
+        "screen": [
+          889.62,
+          515.96
+        ],
+        "label": "Logitmarkt auf der Turmspitze"
+      },
+      {
+        "id": "L06",
+        "world": [
+          58.0,
+          26.0,
+          -2.6
+        ],
+        "screen": [
+          671.65,
+          489.1
+        ],
+        "label": "Kästnerviertel"
+      },
+      {
+        "id": "L07",
+        "world": [
+          54.0,
+          10.0,
+          -2.6
+        ],
+        "screen": [
+          562.23,
+          363.32
+        ],
+        "label": "Lernschmiede im Geschichtsviertel"
+      },
+      {
+        "id": "L08",
+        "world": [
+          38.0,
+          16.0,
+          -2.6
+        ],
+        "screen": [
+          780.4,
+          307.08
+        ],
+        "label": "Stufengebirge"
+      },
+      {
+        "id": "L09",
+        "world": [
+          66.0,
+          52.0,
+          -2.6
+        ],
+        "screen": [
+          834.28,
+          702.37
+        ],
+        "label": "Stadtmauer am Meer (Blick aufs Quellenarchipel)"
+      },
+      {
+        "id": "FINALE",
+        "world": [
+          45.0,
+          42.0,
+          -5.2
+        ],
+        "screen": [
+          953.15,
+          542.26
+        ],
+        "label": "Herz des Turms"
+      },
+      {
+        "id": "L00",
+        "world": [
+          28.9,
+          81.7,
+          -2.6
+        ],
+        "screen": [
+          1488.09,
+          672.74
+        ],
+        "label": "Zählstube · Lage offen",
+        "position_unconfirmed": true,
+        "viewpoint_note": "Die genaue Lage ist im Kanon noch offen. Der Atlas fokussiert nur den zugehörigen Hafen-/Marktbereich; dies ist keine neue Laborposition."
+      },
+      {
+        "id": "L10",
+        "world": [
+          50.4,
+          41.7,
+          -2.6
+        ],
+        "screen": [
+          895.68,
+          544.42
+        ],
+        "label": "Nachtlabor · Lage offen",
+        "position_unconfirmed": true,
+        "viewpoint_note": "Die genaue Lage ist im Kanon noch offen. Der Atlas fokussiert nur den zugehörigen Hafen-/Marktbereich; dies ist keine neue Laborposition."
+      }
+    ]
+  },
+  "characters": {
+    "t1": [
+      {
+        "id": "burgermeister-kontext",
+        "station": "L01",
+        "screen": [
+          1563.76,
+          476.6
+        ]
+      },
+      {
+        "id": "toki",
+        "station": "L01",
+        "screen": [
+          1442.2,
+          659.83
+        ]
+      },
+      {
+        "id": "emmi-embedding",
+        "station": "L02",
+        "screen": [
+          1452.83,
+          391.46
+        ]
+      },
+      {
+        "id": "pippa-position",
+        "station": "L02",
+        "screen": [
+          1342.65,
+          446.13
+        ]
+      },
+      {
+        "id": "lio-logit",
+        "station": "L05",
+        "screen": [
+          1070.48,
+          221.06
+        ]
+      },
+      {
+        "id": "tempi-temperatur",
+        "station": "L05",
+        "screen": [
+          856.07,
+          215.83
+        ]
+      },
+      {
+        "id": "kajo-cache",
+        "station": "L06",
+        "screen": [
+          629.66,
+          470.96
+        ]
+      },
+      {
+        "id": "kessa",
+        "station": "L06",
+        "screen": [
+          640.45,
+          389.26
+        ]
+      },
+      {
+        "id": "gilda-gradient",
+        "station": "L07",
+        "screen": [
+          482.0,
+          316.95
+        ]
+      },
+      {
+        "id": "olli-optimierer",
+        "station": "L07",
+        "screen": [
+          445.28,
+          268.42
+        ]
+      },
+      {
+        "id": "quanta-vierbit",
+        "station": "L08",
+        "screen": [
+          1140.14,
+          155.96
+        ]
+      },
+      {
+        "id": "seda-sechzehn",
+        "station": "L08",
+        "screen": [
+          947.63,
+          2.31
+        ]
+      },
+      {
+        "id": "ria-retrieval",
+        "station": "L09",
+        "screen": [
+          876.02,
+          742.47
+        ]
+      },
+      {
+        "id": "bela-beleg",
+        "station": "L09",
+        "screen": [
+          530.69,
+          488.89
+        ]
+      },
+      {
+        "id": "wera-werkzeug",
+        "station": "L09",
+        "screen": [
+          296.03,
+          495.49
+        ]
+      },
+      {
+        "id": "quirin-query",
+        "station": "FINALE",
+        "screen": [
+          1326.09,
+          576.25
+        ]
+      }
+    ],
+    "t2": [
+      {
+        "id": "burgermeister-kontext",
+        "station": "L01",
+        "screen": [
+          1482.03,
+          644.27
+        ]
+      },
+      {
+        "id": "toki",
+        "station": "L01",
+        "screen": [
+          1482.03,
+          644.27
+        ]
+      },
+      {
+        "id": "emmi-embedding",
+        "station": "L02",
+        "screen": [
+          1389.08,
+          568.14
+        ]
+      },
+      {
+        "id": "pippa-position",
+        "station": "L02",
+        "screen": [
+          1389.08,
+          568.14
+        ]
+      },
+      {
+        "id": "lio-logit",
+        "station": "L05",
+        "screen": [
+          889.62,
+          515.96
+        ]
+      },
+      {
+        "id": "tempi-temperatur",
+        "station": "L05",
+        "screen": [
+          889.62,
+          515.96
+        ]
+      },
+      {
+        "id": "kajo-cache",
+        "station": "L06",
+        "screen": [
+          671.65,
+          489.1
+        ]
+      },
+      {
+        "id": "kessa",
+        "station": "L06",
+        "screen": [
+          671.65,
+          489.1
+        ]
+      },
+      {
+        "id": "gilda-gradient",
+        "station": "L07",
+        "screen": [
+          562.23,
+          363.32
+        ]
+      },
+      {
+        "id": "olli-optimierer",
+        "station": "L07",
+        "screen": [
+          562.23,
+          363.32
+        ]
+      },
+      {
+        "id": "quanta-vierbit",
+        "station": "L08",
+        "screen": [
+          780.4,
+          307.08
+        ]
+      },
+      {
+        "id": "seda-sechzehn",
+        "station": "L08",
+        "screen": [
+          780.4,
+          307.08
+        ]
+      },
+      {
+        "id": "ria-retrieval",
+        "station": "L09",
+        "screen": [
+          834.28,
+          702.37
+        ]
+      },
+      {
+        "id": "bela-beleg",
+        "station": "L09",
+        "screen": [
+          834.28,
+          702.37
+        ]
+      },
+      {
+        "id": "wera-werkzeug",
+        "station": "L09",
+        "screen": [
+          834.28,
+          702.37
+        ]
+      },
+      {
+        "id": "quirin-query",
+        "station": "FINALE",
+        "screen": [
+          953.15,
+          542.26
+        ]
+      }
+    ]
+  },
+  "routes": [
+    {
+      "from": "poller-7",
+      "to": "tokenhafen",
+      "label": "Kaimauer, Poller 7 → Tokenhafen mit Rathaus",
+      "source": "„Zwei Begleiter warten schon am Hafen.“ (LOREBUCH.md 1.1)",
+      "screen": [
+        [
+          1461.56,
+          621.46
+        ],
+        [
+          1461.71,
+          619.0
+        ],
+        [
+          1442.85,
+          608.08
+        ],
+        [
+          1462.35,
+          608.55
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "tokenhafen",
+      "to": "kartenwald",
+      "label": "Tokenhafen mit Rathaus → Kartenwald und Bedeutungsgarten",
+      "source": "„Hinter dem Hafen beginnt ein Wald.“ (LOREBUCH.md 7, Kapitel 2)",
+      "screen": [
+        [
+          1462.35,
+          608.55
+        ],
+        [
+          1442.85,
+          608.08
+        ],
+        [
+          1424.68,
+          586.09
+        ],
+        [
+          1386.83,
+          566.7
+        ],
+        [
+          1367.9,
+          557.01
+        ],
+        [
+          1368.09,
+          553.93
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "kartenwald",
+      "to": "sternwarte",
+      "label": "Kartenwald und Bedeutungsgarten → Sternwarte im Turm der Schichten",
+      "source": "„Durch den Kartenwald. Hinauf in den Turm der Schichten. Über den leuchtenden Residualstrom.“ (LOREBUCH.md 1.1)",
+      "screen": [
+        [
+          1368.09,
+          553.93
+        ],
+        [
+          1367.9,
+          557.01
+        ],
+        [
+          1340.73,
+          522.49
+        ],
+        [
+          1312.43,
+          506.41
+        ],
+        [
+          1215.16,
+          500.96
+        ],
+        [
+          1117.63,
+          499.81
+        ],
+        [
+          1058.48,
+          509.45
+        ],
+        [
+          979.38,
+          526.0
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "sternwarte",
+      "to": "werkstaetten",
+      "label": "Sternwarte im Turm der Schichten → Werkstätten im Turm der Schichten",
+      "source": "„Ein Stockwerk über der Sternwarte riecht es nach Öl, Holz und Kaffee.“ (LOREBUCH.md 7, Kapitel 4)",
+      "screen": [
+        [
+          979.38,
+          526.0
+        ],
+        [
+          979.38,
+          465.84
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "werkstaetten",
+      "to": "logitmarkt",
+      "label": "Werkstätten im Turm der Schichten → Logitmarkt auf der Turmspitze",
+      "source": "„Ein leuchtender Fluss, der bergauf durch den Turm fließt.“ (LOREBUCH.md 2.4)",
+      "screen": [
+        [
+          979.38,
+          465.84
+        ],
+        [
+          979.38,
+          335.25
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "logitmarkt",
+      "to": "kaestnerviertel",
+      "label": "Logitmarkt auf der Turmspitze → Kästnerviertel",
+      "source": "„Neben dem Turm stehen Häuser, die aussehen wie riesige Kommoden.“ (LOREBUCH.md 7, Kapitel 6)",
+      "screen": [
+        [
+          979.38,
+          335.25
+        ],
+        [
+          912.29,
+          315.15
+        ],
+        [
+          893.55,
+          430.83
+        ],
+        [
+          768.36,
+          403.15
+        ],
+        [
+          729.37,
+          466.43
+        ],
+        [
+          691.14,
+          451.26
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "kaestnerviertel",
+      "to": "geschichtsviertel",
+      "label": "Kästnerviertel → Lernschmiede im Geschichtsviertel",
+      "source": "„Im Geschichtsviertel steht eine dunkle Halle.“ (LOREBUCH.md 7, Kapitel 7)",
+      "screen": [
+        [
+          691.14,
+          451.26
+        ],
+        [
+          729.37,
+          464.5
+        ],
+        [
+          694.91,
+          389.79
+        ],
+        [
+          618.45,
+          363.31
+        ],
+        [
+          580.21,
+          350.06
+        ],
+        [
+          561.48,
+          337.29
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "geschichtsviertel",
+      "to": "bergtor",
+      "label": "Lernschmiede im Geschichtsviertel → Enges Bergtor",
+      "source": "„gefeiert mit einem Wagenrennen durch das enge Bergtor“ (LOREBUCH.md 2.8)",
+      "screen": [
+        [
+          561.48,
+          337.29
+        ],
+        [
+          580.21,
+          350.06
+        ],
+        [
+          598.03,
+          298.17
+        ],
+        [
+          630.66,
+          239.07
+        ],
+        [
+          667.29,
+          183.73
+        ],
+        [
+          667.56,
+          198.91
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "bergtor",
+      "to": "stufengebirge",
+      "label": "Enges Bergtor → Stufengebirge",
+      "source": "„Das Stufengebirge klingt wie ein Xylophon.“ (LOREBUCH.md 7, Kapitel 8)",
+      "screen": [
+        [
+          667.56,
+          198.91
+        ],
+        [
+          667.29,
+          183.73
+        ],
+        [
+          708.74,
+          201.71
+        ],
+        [
+          746.86,
+          226.38
+        ],
+        [
+          760.91,
+          268.28
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "stufengebirge",
+      "to": "mauer-am-meer",
+      "label": "Stufengebirge → Stadtmauer am Meer (Blick aufs Quellenarchipel)",
+      "source": "„Schulklassen laufen auf der Mauerkrone im Kreis“ (LOREBUCH.md 2.10)",
+      "screen": [
+        [
+          760.91,
+          268.28
+        ],
+        [
+          628.05,
+          175.36
+        ],
+        [
+          444.52,
+          319.25
+        ],
+        [
+          417.5,
+          441.7
+        ],
+        [
+          470.71,
+          529.18
+        ],
+        [
+          466.94,
+          590.65
+        ],
+        [
+          504.8,
+          610.04
+        ],
+        [
+          697.46,
+          651.67
+        ],
+        [
+          833.52,
+          661.14
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "mauer-am-meer",
+      "to": "kaimauer",
+      "label": "Stadtmauer am Meer (Blick aufs Quellenarchipel) → Kaimauer am Tokenhafen",
+      "source": "„Schulklassen laufen auf der Mauerkrone im Kreis“ (LOREBUCH.md 2.10)",
+      "screen": [
+        [
+          833.52,
+          661.14
+        ],
+        [
+          969.59,
+          670.61
+        ],
+        [
+          1261.97,
+          677.73
+        ],
+        [
+          1443.24,
+          682.15
+        ],
+        [
+          1404.34,
+          665.09
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "kaimauer",
+      "to": "brueckenplatz",
+      "label": "Kaimauer am Tokenhafen → Brückenplatz an der Kaimauer",
+      "source": "„Bürgermeister Kontext stellt sich auf die Kaimauer.“ (LOREBUCH.md 7, Finale)",
+      "screen": [
+        [
+          1404.34,
+          665.09
+        ],
+        [
+          1393.18,
+          624.18
+        ],
+        [
+          1404.36,
+          601.06
+        ],
+        [
+          1404.81,
+          591.76
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "brueckenplatz",
+      "to": "tuer",
+      "label": "Brückenplatz an der Kaimauer → Die Tür unter dem mittleren Bogen",
+      "source": "„Spät in der Nacht, als das Fest leiser wird, gehen Quirin und Kajo noch einmal über die Brücke.“ (LOREBUCH.md 7, Epilog)",
+      "screen": [
+        [
+          1404.81,
+          593.69
+        ],
+        [
+          1403.76,
+          563.8
+        ],
+        [
+          946.0,
+          547.73
+        ],
+        [
+          945.17,
+          608.35
+        ],
+        [
+          946.0,
+          592.9
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "from": "tuer",
+      "to": "wendeltreppe",
+      "label": "Die Tür unter dem mittleren Bogen → Wendeltreppe in die Tiefe",
+      "source": "„Dahinter führt eine Treppe nach unten. In den Turm. Tiefer, als sie je gewesen sind.“ (LOREBUCH.md 7, Epilog)",
+      "screen": [
+        [
+          946.0,
+          594.82
+        ],
+        [
+          946.0,
+          616.23
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "wendeltreppe",
+      "to": "labor-tokenhafen",
+      "label": "Wendeltreppe in die Tiefe → Laborgeschoss unter: Tokenhafen mit Rathaus",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          946.0,
+          616.23
+        ],
+        [
+          1482.03,
+          644.27
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-tokenhafen",
+      "to": "labor-kartenwald",
+      "label": "Laborgeschoss unter: Tokenhafen mit Rathaus → Laborgeschoss unter: Kartenwald und Bedeutungsgarten",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          1482.03,
+          644.27
+        ],
+        [
+          1389.08,
+          568.14
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-kartenwald",
+      "to": "labor-sternwarte",
+      "label": "Laborgeschoss unter: Kartenwald und Bedeutungsgarten → Laborgeschoss unter: Sternwarte im Turm der Schichten",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          1389.08,
+          568.14
+        ],
+        [
+          1020.62,
+          528.38
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-sternwarte",
+      "to": "labor-werkstaetten",
+      "label": "Laborgeschoss unter: Sternwarte im Turm der Schichten → Laborgeschoss unter: Werkstätten im Turm der Schichten",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          1020.62,
+          528.38
+        ],
+        [
+          955.96,
+          548.35
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-werkstaetten",
+      "to": "labor-logitmarkt",
+      "label": "Laborgeschoss unter: Werkstätten im Turm der Schichten → Laborgeschoss unter: Logitmarkt auf der Turmspitze",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          955.96,
+          548.35
+        ],
+        [
+          889.62,
+          515.96
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-logitmarkt",
+      "to": "labor-kaestnerviertel",
+      "label": "Laborgeschoss unter: Logitmarkt auf der Turmspitze → Laborgeschoss unter: Kästnerviertel",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          889.62,
+          515.96
+        ],
+        [
+          671.65,
+          489.1
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-kaestnerviertel",
+      "to": "labor-geschichtsviertel",
+      "label": "Laborgeschoss unter: Kästnerviertel → Laborgeschoss unter: Lernschmiede im Geschichtsviertel",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          671.65,
+          489.1
+        ],
+        [
+          562.23,
+          363.32
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-geschichtsviertel",
+      "to": "labor-stufengebirge",
+      "label": "Laborgeschoss unter: Lernschmiede im Geschichtsviertel → Laborgeschoss unter: Stufengebirge",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          562.23,
+          363.32
+        ],
+        [
+          780.4,
+          307.08
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-stufengebirge",
+      "to": "labor-mauer-am-meer",
+      "label": "Laborgeschoss unter: Stufengebirge → Laborgeschoss unter: Stadtmauer am Meer (Blick aufs Quellenarchipel)",
+      "source": "„unter jeden Bezirk der Stadt, in die Laborgeschosse“ (LOREBUCH.md 8.1)",
+      "screen": [
+        [
+          780.4,
+          307.08
+        ],
+        [
+          834.28,
+          702.37
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "labor-mauer-am-meer",
+      "to": "herz",
+      "label": "Laborgeschoss unter: Stadtmauer am Meer (Blick aufs Quellenarchipel) → Herz des Turms",
+      "source": "„Ganz unten, unter allen Laborgeschossen, liegt ein gläserner Raum“ (LOREBUCH.md 8.4)",
+      "screen": [
+        [
+          834.28,
+          702.37
+        ],
+        [
+          953.15,
+          542.26
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "herz",
+      "to": "turmspitze",
+      "label": "Herz des Turms → Turmspitze (Absatz 10)",
+      "source": "„Von dort führt die Wendeltreppe Absatz für Absatz hinauf bis zur Turmspitze.“ (level/FINALE_TEIL2.md §2)",
+      "screen": [
+        [
+          953.15,
+          542.26
+        ],
+        [
+          953.15,
+          208.3
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "from": "turmspitze",
+      "to": "antwortbruecke",
+      "label": "Turmspitze (Absatz 10) → Antwortbrücke",
+      "source": "„Als die Architekten aus dem Herzen des Turms heraufsteigen, steht die ganze Stadt auf der Brücke.“ (LOREBUCH.md 8.5)",
+      "screen": [
+        [
+          953.15,
+          208.3
+        ],
+        [
+          949.39,
+          419.62
+        ],
+        [
+          946.0,
+          547.73
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "part": 1,
+      "from": "mauer-am-meer",
+      "to": "nebelnacht",
+      "label": "Mauer am Meer → Logitmarkt bei Nacht",
+      "source": "nachts von der Mauerkrone zurück in die Stadt und am Residualstrom hinauf zum Logitmarkt: L10 · 01_design/v2/KANON.md §20 · Schematische Verbindung [DE]; keine neue Straße.",
+      "screen": [
+        [
+          833.52,
+          661.14
+        ],
+        [
+          953.15,
+          236.13
+        ]
+      ],
+      "schematic": true
+    },
+    {
+      "part": 1,
+      "from": "nebelnacht",
+      "to": "kaimauer",
+      "label": "Logitmarkt bei Nacht → Kaimauer",
+      "source": "nachts von der Mauerkrone zurück in die Stadt und am Residualstrom hinauf zum Logitmarkt: L10 · 01_design/v2/KANON.md §20 · Schematische Verbindung [DE]; keine neue Straße.",
+      "screen": [
+        [
+          953.15,
+          236.13
+        ],
+        [
+          1462.35,
+          549.47
+        ]
+      ],
+      "schematic": true
+    }
+  ],
+  "flows": [
+    {
+      "label": "Die Frage schwimmt in den Tokenhafen",
+      "source": "02_content/v2/stadt/stadtplan.json · TXT",
+      "screen": [
+        [
+          1526.99,
+          672.68
+        ],
+        [
+          1458.77,
+          666.73
+        ],
+        [
+          1420.92,
+          647.34
+        ]
+      ]
+    },
+    {
+      "label": "Jedes Stück bekommt eine Fahrkarte",
+      "source": "02_content/v2/stadt/stadtplan.json · ID",
+      "screen": [
+        [
+          1421.29,
+          641.2
+        ],
+        [
+          1482.78,
+          593.45
+        ]
+      ]
+    },
+    {
+      "label": "Nummer zu Emmis Kartenbuch",
+      "source": "02_content/v2/stadt/stadtplan.json · ID",
+      "screen": [
+        [
+          1483.91,
+          575.01
+        ],
+        [
+          1426.19,
+          561.29
+        ],
+        [
+          1378.02,
+          550.88
+        ]
+      ]
+    },
+    {
+      "label": "Perle mit Hausnummernring",
+      "source": "02_content/v2/stadt/stadtplan.json · VEC",
+      "screen": [
+        [
+          1349.54,
+          537.88
+        ],
+        [
+          1341.11,
+          516.13
+        ]
+      ]
+    },
+    {
+      "label": "Punkte für jedes Wort",
+      "source": "02_content/v2/stadt/stadtplan.json · SC",
+      "screen": [
+        [
+          927.66,
+          279.66
+        ],
+        [
+          899.55,
+          260.51
+        ]
+      ]
+    },
+    {
+      "label": "Ein Stück mehr – zurück zum Hafen (nächster Takt)",
+      "source": "02_content/v2/stadt/stadtplan.json · ID",
+      "screen": [
+        [
+          950.43,
+          250.7
+        ],
+        [
+          845.97,
+          230.8
+        ],
+        [
+          806.91,
+          128.69
+        ],
+        [
+          882.14,
+          22.4
+        ],
+        [
+          1070.14,
+          -3.97
+        ],
+        [
+          1278.62,
+          46.15
+        ],
+        [
+          1440.8,
+          223.12
+        ],
+        [
+          1542.1,
+          400.69
+        ],
+        [
+          1559.71,
+          458.65
+        ]
+      ]
+    },
+    {
+      "label": "Rohrpost: Keylians K jedes Stockwerks ins Archiv",
+      "source": "02_content/v2/stadt/stadtplan.json · K",
+      "screen": [
+        [
+          881.19,
+          438.55
+        ],
+        [
+          749.62,
+          435.34
+        ]
+      ]
+    },
+    {
+      "label": "Rohrpost: Valos V jedes Stockwerks ins Archiv",
+      "source": "02_content/v2/stadt/stadtplan.json · V",
+      "screen": [
+        [
+          880.44,
+          433.72
+        ],
+        [
+          748.87,
+          430.51
+        ]
+      ]
+    },
+    {
+      "label": "Quellenblätter als Text auf den Tisch",
+      "source": "02_content/v2/stadt/stadtplan.json · DOC",
+      "screen": [
+        [
+          927.97,
+          737.31
+        ],
+        [
+          1162.63,
+          730.71
+        ],
+        [
+          1397.28,
+          724.12
+        ],
+        [
+          1524.54,
+          716.91
+        ]
+      ]
+    },
+    {
+      "label": "Werkzeugauftrag durchs Mauertor",
+      "source": "02_content/v2/stadt/stadtplan.json · T",
+      "screen": [
+        [
+          459.08,
+          578.95
+        ],
+        [
+          391.61,
+          569.27
+        ],
+        [
+          353.0,
+          557.89
+        ]
+      ]
+    },
+    {
+      "label": "Belegte Antwort verlässt die Stadt",
+      "source": "02_content/v2/stadt/stadtplan.json · BEL",
+      "screen": [
+        [
+          518.69,
+          557.65
+        ],
+        [
+          469.01,
+          576.11
+        ],
+        [
+          408.47,
+          612.77
+        ]
+      ]
+    }
+  ],
+  "bridge": {
+    "screen": [
+      946.0,
+      556.29
+    ],
+    "arches": [
+      {
+        "number": 1,
+        "name": "Bernsteinbogen",
+        "station": "L01",
+        "center": [
+          33.61111068725586,
+          72.38888549804688,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 2,
+        "name": "Perlmuttbogen",
+        "station": "L02",
+        "center": [
+          38.83333206176758,
+          67.16667175292969,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 3,
+        "name": "Korallbogen",
+        "station": "L03",
+        "center": [
+          44.0555534362793,
+          61.9444465637207,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 4,
+        "name": "Werkstattbogen",
+        "station": "L04",
+        "center": [
+          49.277774810791016,
+          56.722225189208984,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 5,
+        "name": "Goldbogen",
+        "station": "L05",
+        "center": [
+          54.5,
+          51.5,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 6,
+        "name": "Türkisbogen",
+        "station": "L06",
+        "center": [
+          59.72222137451172,
+          46.27777862548828,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 7,
+        "name": "Indigobogen",
+        "station": "L07",
+        "center": [
+          64.94444274902344,
+          41.05556106567383,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 8,
+        "name": "Stufenbogen",
+        "station": "L08",
+        "center": [
+          70.16665649414062,
+          35.83333969116211,
+          4.400000095367432
+        ]
+      },
+      {
+        "number": 9,
+        "name": "Quellenbogen",
+        "station": "L09",
+        "center": [
+          75.38888549804688,
+          30.611114501953125,
+          4.400000095367432
+        ]
+      }
+    ],
+    "lanterns": 6,
+    "door_arch": 5,
+    "source": "01_design/v2/LOREBUCH.md §7 Finale/Epilog; 02_content/v2/stadt/stadtplan.json → bruecke"
+  },
+  "sources": {
+    "02_content/v2/stadt/stadtplan.json": "64cd1b52b3086185b858196f94b57716e2c694b75c8976c674e06aa745a97733",
+    "02_content/v2/stadt/topographie.json": "b0bfa11b216f0dedcf0021ae3806c86856def0d6eadc7cf146128f96aae66306",
+    "01_design/v2/LOREBUCH.md": "a0d84853eb00ced7d387ec6de05e16c11eb1c63411af64585e9f212488a101ed",
+    "01_design/v2/KANON.md": "7b4c1fd061248b19bdba48e8f9fdecc89ced7959703c03518cc52fc4cba838e2"
+  },
+  "design_additions": "[DE] architectural detail, warm materials, handcrafted landscaping and camera. Published geography, floor order, nine bridge arches, six bridge lanterns and the door beneath arch five are preserved. No new canonical location.",
+  "validated_sources": {
+    "02_content/v2/stadt/stadtplan.json": "65c3258993304b1ae85a7d9b864f2cf325bc502cc8745a7575fb8a072916ee0a",
+    "02_content/v2/stadt/topographie.json": "f26980640888ee9fad9a14b5ea8c6e1e0a7f4936013c2bef8f74d23e0b4c10dc"
+  },
+  "geometry_compatibility": "PASS: current physical geography equals the original rendered snapshot; editorial annotations and extra bridge/L00/L10 references may advance separately.",
+  "published_generation": "534411b8fa941f9a"
+}
