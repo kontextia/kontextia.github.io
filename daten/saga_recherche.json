@@ -3,8 +3,8 @@
     "version": 3,
     "stand": "2026-10-11",
     "revision": "Didaktik 2.2",
-    "generation": "534411b8fa941f9a",
-    "aktualisiert": "2026-10-11T23:22:32.612045+02:00",
+    "generation": "a3ce3d7f1e8f82b2",
+    "aktualisiert": "2026-10-12T13:30:08.811315+02:00",
     "datenbank": "02_content/v2/kontextia.sqlite3",
     "redaktion": "[DE Karten 2.2] Quellengebundene Zusammenfassungen und schematische Karten.",
     "kanonvorrang": "01_design/v2/KANON.md §21; aktuelle Veröffentlichung ausschließlich aus SQLite."
@@ -168,7 +168,7 @@
           "abschnitt": "Aktuelle Abschnitte; Quellenhash in der Datenbank"
         }
       ],
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Am Poller 7 hält Quirin die kleine Schneekugel-Stadt für ein Orakel. Du legst zehn Muschelchips auf mögliche Fortsetzungen eines Satzanfangs. Die Chips zeigen deine Vermutung, bevor die Kugel ein Stück zieht. Derselbe Anfang kann verschieden weitergehen. Dann kommt eine Frage, deren Antwort niemand kennen kann: Auch darauf erzeugt die Kugel eine flüssige Fortsetzung. Das Ratespiel macht den Unterschied zwischen einer passenden Fortsetzung und einer belegten Antwort sichtbar.",
@@ -1118,7 +1118,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Im Tokenhafen zerlegt Berta den Text in Stücke aus einem endlichen Vokabular. Zu jedem Stück gehört eine ID. Der Bürgermeister zählt die Plätze auf dem Tisch: Frage, bisheriges Gespräch und Antwort teilen sich ein Kontextbudget. Ein seltenes Wort kann mehrere Stücke brauchen. Wenn der Tisch überläuft, fällt früherer Text heraus. Die Stadt kann den verlorenen Inhalt anschließend flüssig ergänzen, obwohl sie ihn nicht mehr auf dem Tisch hat.",
@@ -1698,7 +1698,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Emmi schlägt zu jeder Token-ID eine Zeile im Kartenbuch nach. Daraus entsteht die Anfangsperle, ein Zahlenvektor. Dieselbe ID beginnt mit derselben Darstellung; erst die folgenden Rechnungen beziehen den Satzkontext ein. Die beiden Bank-Tokis zeigen, warum ein gleiches Wort je nach Umgebung anders weiterverarbeitet wird. Die sichtbare Karte ist ein Schatten vieler Dimensionen. Pippas Positionsinformation macht zusätzlich die Reihenfolge zugänglich.",
@@ -2301,7 +2301,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "In der Sternwarte werden aus derselben Darstellung drei Zahlenreihen geprägt: Q, K und V. Q wird mit erlaubten früheren Keys verglichen. Mira sperrt die Zukunft; Sofi verwandelt die verbleibenden Scores in Anteile. Diese Anteile gewichten Valos Inhalte. Die Kämme zeigen eine graduelle Zahlenpassung. Sie klicken nicht als Beweis für Verständnis zusammen. Der Inhalt der Mischung kommt aus V, während K dem Vergleich dient.",
@@ -2918,7 +2918,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Der Wackelturm ersetzt die frühere Kopf-Bomber-Idee. Das Lehrmodell WT-1 besitzt zwei Stockwerke mit mehreren Helmen und weiteren Bauteilen. Du sagst zuerst voraus, wie stark eine Antwort sich verändert, und setzt dann an einer Kopie den Beitrag eines Teils auf null. So wird seine Wirkung messbar. Die Helme heißen Strich, Punkt und Welle nach ihren Mustern. Eine Aufgabe erhält keinen fest zugeteilten Helmberuf: Wirkung, Ersatz und Überlagerung hängen vom Satz und den übrigen Teilen ab.",
@@ -3601,7 +3601,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Auf dem Logitmarkt liefert Lio für mögliche nächste Stücke Punktwerte. Sofi macht daraus eine Verteilung. Tempi verändert mit der Temperatur deren Schärfe; Kira und Pio begrenzen die Auswahl nach unterschiedlichen Regeln. Dann wird ein Stück gezogen und auf den Tisch gelegt. Beim nächsten Brückenglockenschlag wird erneut gerechnet. Eddas Schlussglocke beendet die Folge. Auch ausgeschriebene Zwischenstücke kosten jeweils einen weiteren Durchlauf und zusätzliche Plätze.",
@@ -4180,7 +4180,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Kajo bewahrt bereits berechnete Keys und Values je Stockwerk und Position auf. Bei der Morgenflut wird der Prompt verarbeitet; danach ergänzt jeder Antwortschritt neue K/V-Paare. Frühere Paare können erneut verwendet werden. Das spart Projektionen, braucht aber Speicher. Der Cache ist ein Zwischenspeicher laufender Rechnung. Eine Notiz der Anwendung ist etwas anderes: Sie muss als Text wieder auf den Tisch gelegt werden und belegt dann Kontextplätze.",
@@ -4746,7 +4746,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Im Geschichtsviertel blickst du in die frühere Schmiedezeit. Gilda zeigt, wie sich der Fehler bei einer Änderung entwickeln würde; Olli verändert die Parameter in Gegenrichtung. Vali prüft unbekannte Daten getrennt vom Training. Viele gelernte Muster stecken verteilt in den Stellschrauben. Es gibt kein einzelnes Fach mit der fertigen Mondschiff-Antwort. Beim späteren Antworten bleiben die Gewichte eingefroren. Der Stempelamt-Schreiber zeigt zugleich, dass die Anwendung Text aufbewahren kann.",
@@ -4803,7 +4803,7 @@
           "quelle": "01_design/v2/level/L07.md §6"
         },
         "Sichtbarer Effekt, VFX, Sound": {
-          "markdown": "| Ereignis | Teil 1 | Teil 2 | Sound (nie allein tragend) |\n|---|---|---|---|\n| Karte gelegt | Karte gleitet in die Esse, Bahn verformt sich weich (0,6 s) | zusätzlich Höhenlinien zeichnen sich neu, Loss-Zahl zählt hoch/runter | Papierwischen + tiefer Tonbrumm |\n| Gildas Pfeil | magentafarbener Wetterhahn dreht sich bergauf, Länge = Steilheit | Vektorfeld blendet ein, Pfeil zeigt Komponenten ∂L/∂w, ∂L/∂b als zwei Fächer | kurzes „tsching\" |\n| Ollis Schritt | Murmel rollt entlang der Bahn, Fußstapfen-Spur (klein/mittel/Känguru) | Spurlinie mit Schrittnummern, Updateformel blinkt mit eingesetzten Zahlen | Hebelklacken, Murmelrollen |\n| Riesensprung | Murmel fliegt im Bogen übers Tal, Staubwölkchen drüben | Zickzack-Spur quer zur Rinne, Warnhinweis „η > 2/λ\" | Federsprung „boing\" |\n| Talglocke | goldene Glocke, Funkenregen (sanft, kein Blitzgewitter) | Gradientenpfeil schrumpft auf Punkt, Anzeige |g| | Glockenton |\n| Heute-Modus | Esse wird grau, Wachssiegel ploppt auf jede Schraube | Prüfsumme erscheint, bleibt bei Antworten gleich | Kamin-Abkühlen, Siegelstempel |\n| Prüfinsel | Truhe öffnet, Karten drehen sich um, Häkchen/Kreis-Symbole | Validierungs- und Trainingskurve wachsen live, Haltepunkt mit Fähnchen | Truhenquietschen |\n| Ahnengalerie | – | Porträts lehnen sich heraus, Bahnspuren in Sepia | Grammophon-Kratzen |\n| Ronjas Waage | Tür mit Waagensymbol schimmert | Schalen senken sich gemäß P(A ≻ B) | Waagen-Klick |\n\nEffekte sind abschaltbar (Option „Ruhige Werkstatt\"), Partikel nie über Formeln.\n\n---",
+          "markdown": "| Ereignis | Teil 1 | Teil 2 | Sound (nie allein tragend) |\n|---|---|---|---|\n| Karte gelegt | Karte gleitet in die Esse, Bahn verformt sich weich (0,6 s) | zusätzlich Höhenlinien zeichnen sich neu, Loss-Zahl zählt hoch/runter | Papierwischen + tiefer Tonbrumm |\n| Gildas Pfeil | magentafarbener Wetterhahn dreht sich bergauf, Länge = Steilheit | Vektorfeld blendet ein, Pfeil zeigt Komponenten ∂L/∂w, ∂L/∂b als zwei Fächer | kurzes „tsching\" |\n| Ollis Schritt | Murmel rollt entlang der Bahn, Fußstapfen-Spur (klein/mittel/Känguru) | Spurlinie mit Schrittnummern, Updateformel blinkt mit eingesetzten Zahlen | Hebelklacken, Murmelrollen |\n| Riesensprung | Murmel fliegt im Bogen übers Tal, Staubwölkchen drüben | Zickzack-Spur quer zur Rinne, Warnhinweis „η > 2/λ\" | Federsprung „boing\" |\n| Talglocke | goldene Glocke, Funkenregen (sanft, kein Blitzgewitter) | Gradientenpfeil schrumpft auf Punkt, Anzeige \\|g\\| | Glockenton |\n| Heute-Modus | Esse wird grau, Wachssiegel ploppt auf jede Schraube | Prüfsumme erscheint, bleibt bei Antworten gleich | Kamin-Abkühlen, Siegelstempel |\n| Prüfinsel | Truhe öffnet, Karten drehen sich um, Häkchen/Kreis-Symbole | Validierungs- und Trainingskurve wachsen live, Haltepunkt mit Fähnchen | Truhenquietschen |\n| Ahnengalerie | – | Porträts lehnen sich heraus, Bahnspuren in Sepia | Grammophon-Kratzen |\n| Ronjas Waage | Tür mit Waagensymbol schimmert | Schalen senken sich gemäß P(A ≻ B) | Waagen-Klick |\n\nEffekte sind abschaltbar (Option „Ruhige Werkstatt\"), Partikel nie über Formeln.\n\n---",
           "quelle": "01_design/v2/level/L07.md §7"
         },
         "Auto-Demo": {
@@ -4811,7 +4811,7 @@
           "quelle": "01_design/v2/level/L07.md §8"
         },
         "Quirins Brille": {
-          "markdown": "**Platz im Ablauf:** nach Abschnitt B, vor Abschnitt C (KANON §11 Punkt 4′). **Ablauf je Bildbruch** (DIDAKTIK_REVISION §3.1):\n*Klonk* – Quirins Brille rutscht auf den Trichter, ein Glasrand („Quirins Glas“) rahmt den Bildschirm → **Vorhersage** mit drei\nAntworten (gespeichert vor der Wirkung, einversuchig) → **Wirkung aus dem Regelkern** → **Grenzenwahl** aus drei Sätzen → Kajo\nschiebt die Brille zurück, Quirin notiert eine Gegenprobe. L07 hat in Teil 1 **drei kurze Bildbrüche** (zusammen 5–6 min; Abweichung\nvon „2–4 min“ begründet: DIDAKTIK §5 verlangt hier drei Grenzen), in Teil 2 zwei.\n**Gemeinsame Regeln:** Keine Antwort steht vorher in Rahmen, Demo, Auftragstext, Hilfe A/B oder einer Rückmeldung (WELTEN_VERTRAG\n§3a). War eine Vorhersage falsch, folgt sofort eine **Nachprobe** mit neuer Variante (andere Schraube, anderer Satz bzw. andere\nHausordnung); erst deren richtige Vorhersage zählt für Stern 4 – so bescheinigt der Stern nicht die Fehlvorstellung (PB W17).\n**Achtung Erbauer:** Lernziele 6–8, §5.7 (Merk-Hinweis) und §5.8 sind Designtext; ihre Aussagen zu Mitschreiber, verteiltem Wissen und\nungeübten Sätzen erscheinen im Spiel erst **nach** der jeweiligen B′-Vorhersage.\nDie Brillen-Animation ist eine Darstellung: *Hier endet das Bild (für die Brille selbst):* Auch „das echte Glas“ zeigt nur wenige\nZahlen; echte Modelle haben viel mehr, als ein Bildschirm zeigen kann.\n\n### 8a.1 Das Übungsmodell der Lehrwerkstatt („Fahrplan-Murmel“) – Daten und Rechnung (beide Teile)\n\nIn einer Ecke der Lehrwerkstatt steht ein kleines Übungsmodell mit **drei Stellschrauben** ⚙1, ⚙2, ⚙3. In Teil 1 tragen sie nur\nNummer und Farbe, keine Namen (echte Schrauben haben keine Namensschilder). Es rechnet wie Gildas Mini-Lernmodell (§6.1/6.2):\nJeder Satzanfang hat Merkmale (Mond 1/0, Schiff 1/0, Grund immer 1), das Logit ist **z = θ₁·Mond + θ₂·Schiff + θ₃**, und\n**p(„acht“) = σ(z)**, p(„neun“) = 1 − σ(z). Dieselbe Logistik-Rechnung wie in Halle 1 – nur mit drei Schrauben.\n\n**Lernkarten (12, Spielannahme):** „Das Mondschiff fährt um → acht“ 3× und „→ neun“ 1× (ein alter Fahrplan) · „Die Mondbahn fährt\num → acht“ 3×, „→ neun“ 1× · „Das Sternschiff fährt um → acht“ 1×, „→ neun“ 3×. **„Die Sternbahn fährt um …“ steht auf keiner Karte.**\n\n**Training (Damals, η = 4, Start 0/0/0, alle 12 Karten):** Schritt 1 → θ = (0,6667; 0,0000; 0,3333), Loss 0,6931 → 0,6389;\nAbstand zum Tal < 0,1 nach 65 Schritten, < 0,05 nach 81. **Tal exakt: θ* = (2·ln 3; 0; −ln 3) = (2,1972; 0,0000; −1,0986)**,\nRestloss 0,5623 (= Entropie der 3:1-Mischung wie in §6.1). Es sind dieselben Zahlen wie Halle 1 in §6.2 (w* = 2·ln 3, b* = −ln 3) –\ndie Rechnung ist dieselbe. *(Nachgerechnet mit Python am 11.10.; Tests L07-R15 bis L07-R18.)*\n\n| Satzanfang | Merkmale (Mond, Schiff, Grund) | z im Tal | p(„acht“) | auf einer Lernkarte? |\n|---|---|---|---|---|\n| Das Mondschiff fährt um | (1, 1, 1) | 1,0986 | 75 % | ja |\n| Die Mondbahn fährt um | (1, 0, 1) | 1,0986 | 75 % | ja |\n| Das Sternschiff fährt um | (0, 1, 1) | −1,0986 | 25 % | ja |\n| Die Sternbahn fährt um | (0, 0, 1) | −1,0986 | 25 % | **nein** |\n\n⚙2 steht im Tal auf 0 – trotzdem gehört sie zu zwei Sätzen (Lehre: Eine Schraube auf null ist nicht „leer“).\n**Feste Gleichung des Übungsmodells (Teil 2):** Weil (1,1,1) + (0,0,1) = (1,0,1) + (0,1,1), gilt für **jede** Drehung\nΔz(Mondschiff) + Δz(Sternbahn) = Δz(Mondbahn) + Δz(Sternschiff). Darum kann keine Drehung – auch keine Kombination – genau einen\nSatz ändern.\n\n### 8a.2 Teil 1 – B′1 „Die Schraubensuche“\n\n- **Bildbruch:** Das Bild „Stellschrauben/Muskelgedächtnis“ verleitet zu „ein Fakt = eine Schraube“ (Antwortfach, KANON §21 L7;\n  DIDAKTIK B13).\n- **Einstieg:** Quirin vor der Fahrplan-Murmel: „Theoretisch steckt ‚Das Mondschiff fährt um acht‘ in genau einer Schraube. Ich\n  finde sie, drehe sie – und morgen fährt es um neun!“ *Klonk* – die Brille rutscht. Durch Quirins Glas sind die drei Schrauben\n  schimmernde Zahlen (2,20 · 0,00 · −1,10); darunter Lios Balken für die drei geübten Sätze (Mondschiff 75 %, Mondbahn 75 %,\n  Sternschiff 25 % „acht“). Verbindungen zwischen Schrauben und Sätzen sind **nicht** gezeichnet (sonst wäre die Antwort ablesbar).\n- **Vorhersage (vor dem ersten Drehen):** „Gibt es eine Schraube, die nur den Mondschiff-Satz ändert?“\n  (a) Ja – eine der drei ist die Mondschiff-Schraube; dreh sie, und nur dieser Satz kippt. **[Fehlvorstellung]**\n  (b) Nein – jede Drehung ändert mehrere Antworten ein bisschen. **[richtig]**\n  (c) Ja – aber nur, wenn man alle drei Schrauben gleich weit dreht.\n- **Wirkung im Regelkern:** Uhr „Damals“, nur die Fahrplan-Murmel (das Brücken-Siegel bleibt unberührt). Das Kind hat drei\n  Versuche; je Versuch genau eine Schraube, bis zu 3 Klicks zu je 0,5, danach Rückstellung ins Tal. Der Regelkern rechnet p für alle\n  Sätze neu; die Tafel zählt „Sätze verändert“ (|Δp| > 0,001). Nachgerechnet für 3 Klicks (Δ = −1,5):\n\n  | Gedrehte Schraube | Mondschiff | Mondbahn | Sternschiff | Sätze verändert |\n  |---|---|---|---|---|\n  | ⚙1 um −1,5 | 75 → 40,1 % („neun“ vorn) | 75 → 40,1 % (kippt mit) | 25 % (bleibt) | 2 |\n  | ⚙2 um −1,5 | 75 → 40,1 % | 75 % (bleibt) | 25 → 6,9 % | 2 |\n  | ⚙3 um −1,5 | 75 → 40,1 % | 75 → 40,1 % | 25 → 6,9 % | 3 |\n\n  Jede Schraube kippt das Mondschiff – und jede verschiebt mindestens einen weiteren Satz. Gilda (DIDAKTIK §3.6): „Wir haben nie eine\n  Regel hineingeschrieben. Wir haben nur Milliarden Mal ‚wärmer, kälter‘ gesagt.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Ein Fakt wohnt nicht in einer Schraube. Was die Stadt kann, steckt in allen Schrauben ein bisschen – und\n     jede Schraube gehört zu vielen Sätzen.“ **[richtig]**\n  2. „Hier endet das Bild: Das Übungsmodell hat nur zu wenige Schrauben; in großen Modellen hat jeder Fakt seine eigene.“\n  3. „Hier endet das Bild: In den Schrauben stehen Wenn-dann-Regeln, die die Schmiede hineingeschrieben hat.“\n- **Merksatz:** „Wissen steckt nicht in einer Schraube, sondern in allen ein bisschen.“ · Quirins Gegenprobe: „Keine Schraube für\n  einen Satz.“\n- **Nachprobe** (bei falscher Vorhersage): Ziel jetzt „Sternschiff soll ‚acht‘ sagen“; Vorhersage „Kippt dabei ein anderer Satz mit?“\n\n### 8a.3 Teil 1 – B′2 „Die Schmiede staunt“\n\n- **Bildbruch:** „Ein Modell kann nur, was man ihm genau so gezeigt hat“ (Merk-Bild) und „Die Bauleute wissen genau, was ihre KI\n  kann“ (DIDAKTIK B14, KANON §21 L3).\n- **Einstieg:** Vali legt eine versiegelte Karte auf die Werkbank: „Die Sternbahn fährt um …“. Gilda: „Die haben wir nie geübt.“\n  Quirin: „Dann rät das Modell 50:50, wie Lehrling Merk!“ *Klonk.*\n- **Vorhersage:** „Was gibt die Fahrplan-Murmel bei ‚Die Sternbahn fährt um …‘ aus?“\n  (a) 50:50 – was nie auf einer Karte stand, kann sie nicht. **[Fehlvorstellung]**\n  (b) Meistens „neun“ – obwohl der Satz auf keiner Karte stand. **[richtig]**\n  (c) Meistens „acht“ – weil „acht“ auf den meisten Karten steht (7 von 12).\n- **Wirkung im Regelkern:** z = θ₃ = −1,0986 → p(„acht“) = 25 %, **„neun“ 75 %**. Lios Balken zeigt es; danach zeigt Quirins Glas,\n  woher die Zahl kommt: Bei der Sternbahn sind die Merkmale Mond und Schiff aus, es zählt nur die gemeinsame ⚙3 – die zu allen Sätzen gehört\n  und von allen zwölf Karten gestellt wurde. Gilda: „Das haben wir ihr nie gezeigt!“ Vali: „Gezeigt nicht. Aber die Schrauben, die sie dafür braucht, haben andere Karten gestellt.“ Kajo:\n  „Und ob die Sternbahn wirklich um neun fährt, steht auf keiner Karte. Sie rät nach dem Muster. Als Fahrplan ausgegeben wäre das Nebel.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Bei drei Schrauben kann man das Staunen nachrechnen. Bei Milliarden Schrauben weiß vorher niemand genau, was\n     ein Modell alles kann – man findet es hinterher durch Ausprobieren.“ **[richtig]** (Ganguli u. a. 2022; Wei u. a. 2022 – ob solche\n     Fähigkeiten „plötzlich“ auftauchen, ist umstritten: Schaeffer u. a. 2023)\n  2. „Hier endet das Bild: Ein Modell kann nur Sätze, die genau so auf einer Lernkarte standen.“\n  3. „Hier endet das Bild: Was ein Modell Neues sagt, stimmt immer, weil es aus den Karten kommt.“\n- **Merksatz:** „Gelernt ist mehr als gezeigt – und geraten ist nicht gewusst.“\n- **Nachprobe:** neue Karte „Das Sonnenschiff fährt um …“ mit Merkmalen (0, 1, 1) wie das Sternschiff – „Was kommt heraus?“ (25 % „acht“,\n  75 % „neun“; die Antwort darf erst nach der Vorhersage erscheinen).\n\n### 8a.4 Teil 1 – B′3 „Kalt heißt nicht verschwiegen“\n\n- **Bildbruch:** „Die Brücke lernt beim Reden nicht → was ich ihr sage, bleibt geheim“ (DIDAKTIK B17, KANON §21 L11).\n- **Einstieg:** Uhr auf „Heute“. Toki tippt an der Brücke einen **Spielsatz** (das Kind tippt nie etwas Eigenes):\n  „Mein Passwort ist Möwe17. Merk es dir für mich!“ Quirin: „Die Esse ist kalt, das Siegel ist ganz – theoretisch ist das da drin\n  sicherer als in einem Tresor.“ *Klonk.* Durch Quirins Glas sieht man zum ersten Mal das **Mauertor** mit dem Stempelamt-Schreiber –\n  sein Pult ist zugeklappt.\n- **Vorhersage:** „Die Schmiede ist kalt. Ist Tokis Passwort jetzt sicher?“\n  (a) Ja – die Stadt lernt beim Reden nicht, also ist es nach dem Gespräch weg. **[Fehlvorstellung]**\n  (b) Nein – die Stadt hat es jetzt in einer Schraube gespeichert.\n  (c) Nein – die Schrauben bleiben gleich, aber am Mauertor kann jemand mitschreiben. **[richtig]**\n- **Wirkung im Regelkern:** Zwei getrennte Speicher, zwei getrennte Zähler (Abschnitt 2):\n  - Prüfsumme und Schraube unverändert; Tafel „Antworten (Heute): 1 · Änderungen seit ‚Heute‘: 0“.\n  - Der Stempelamt-Schreiber (Mitschreiber der Anwendung, KANON §4/§16) schreibt die Zeile ins **Amtsbuch der Anwendung**:\n    „Amtsbuch: 1 Eintrag“. Das Amtsbuch ist ein eigener Anhängespeicher der Anwendung; es hat **keinen** Weg zu den Schrauben im\n    Modus „Heute“ (Test L07-R19).\n  - Neben dem Amtsbuch hängt die **Hausordnung des Betreibers** mit drei Kästchen: „aufbewahren“ · „von Menschen gelesen“ · „für\n    eine spätere Schmiedezeit“. Welche angekreuzt sind, zieht die Variante (Seed); das Kind sieht sie erst, wenn es die Hausordnung\n    aufklappt. Kajo: „Ohne nachzulesen weißt du es nicht. Darum: Die Stadt lernt nicht beim Reden – aber jemand kann mitschreiben.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: ‚Kalt‘ heißt nur, dass sich die Schrauben nicht ändern. Die Anwendung um die Stadt kann Gespräche\n     aufschreiben – was damit passiert, bestimmen der Betreiber und deine Einstellungen.“ **[richtig]**\n  2. „Hier endet das Bild: Was man der Stadt sagt, ist nach dem Gespräch für alle verschwunden.“\n  3. „Hier endet das Bild: Das Amtsbuch ist ein Teil der Schrauben.“\n- **Merksatz (KANON §16, §21 L11):** „Die Stadt lernt nicht beim Reden – aber jemand kann mitschreiben. Geheimnisse, Adressen und\n  Passwörter bleiben bei dir.“\n- **Nachprobe:** andere Hausordnung (z. B. nur „aufbewahren“ angekreuzt) und ein anderer Spielsatz („Unsere Haustür hat den Code …“) –\n  „Gehört das auf den Tisch?“\n\n### 8a.5 Teil 2 – B′4 „Faktenorte und Nebenwirkungen“\n\n- **Brillenstufen (§21 L9, je Bildschirm höchstens ein neues Zeichen):** (1) die drei Schrauben mit Zahlen an den Figuren, (2) Tabelle\n  der vier Sätze mit z und p, (3) Formel z = θ·x, p = σ(z). σ-Werte der vorkommenden z stehen in der Rechenhilfe (Hilfe A, PB L07 W3).\n- **Einstieg:** Quirin will den Fahrplan „reparieren“: Das Mondschiff soll „neun“ sagen – „chirurgisch, ohne Nebenwirkungen“. *Klonk.*\n- **Vorhersage:** „Eine Drehung um −1,2 an genau einer Schraube senkt p(acht | Mondschiff) von 0,75 auf 0,4747. Welche Schraube\n  verändert die drei anderen Sätze zusammen am wenigsten (Summe der |Δp|)?“\n  (a) ⚙1 – sie gehört zum Mond, also Nebenwirkung 0. **[Fehlvorstellung]**\n  (b) ⚙2 – Nebenwirkung etwa 0,16. **[richtig]**\n  (c) ⚙3 – sie verteilt die Änderung auf alle, darum wirkt sie am wenigsten.\n- **Wirkung im Regelkern (nachgerechnet):**\n\n  | Drehung −1,2 an | Mondbahn | Sternschiff | Sternbahn | Summe |Δp| der anderen drei |\n  |---|---|---|---|---|\n  | ⚙1 | 0,75 → 0,4747 | 0,25 | 0,25 | **0,2753** |\n  | ⚙2 | 0,75 | 0,25 → 0,0912 | 0,25 | **0,1588** |\n  | ⚙3 | 0,75 → 0,4747 | 0,25 → 0,0912 | 0,25 → 0,0912 | **0,5928** |\n\n  Warum ⚙2 weniger trifft: Die Mondbahn rutscht von z = 1,0986 auf −0,1014 durch die steile Mitte der σ-Kurve, das Sternschiff von\n  −1,0986 auf −2,2986 ins flache Ende. **Kombinationsprobe:** Δθ = (−1,5; −1,5; +1,5) lässt die drei geübten Sätze bis auf das\n  Mondschiff unverändert (Mondschiff 0,4010; Mondbahn 0,75; Sternschiff 0,25) – aber die **Sternbahn**, die niemand geprüft hat,\n  springt von 0,25 auf **0,5990** und sagt jetzt „acht“. Rechenaufgabe: die feste Gleichung aus 8a.1 an diesen Zahlen nachweisen\n  (−1,5 + 1,5 = 0 + 0).\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: In großen Modellen lassen sich manche Fakten bestimmten Stockwerken zuordnen und gezielt ändern – aber jede\n     Änderung trifft auch andere Sätze, oft solche, die niemand geprüft hat.“ **[richtig]** (Meng u. a. 2022; Geva u. a. 2021)\n  2. „Hier endet das Bild: Große Modelle speichern jeden Fakt in einer eigenen Zeile, die man ohne Nebenwirkung austauschen kann.“\n  3. „Hier endet das Bild: Nebenwirkungen gibt es nur im Übungsmodell, weil es zu wenige Schrauben hat.“\n- **Merksatz:** „Ein Fakt hat keinen eigenen Platz – wer ihn ändert, ändert Nachbarn mit.“\n- **Nachprobe:** Ziel „Sternschiff soll ‚acht‘ sagen“; welche Einzeldrehung um +1,2 schafft das mit der kleinsten Nebenwirkung?\n  (nachgerechnet: ⚙1 bewegt das Sternschiff gar nicht – Merkmal Mond = 0 –, verschiebt aber Mondschiff und Mondbahn auf 0,9088;\n  ⚙2: Sternschiff 0,25 → 0,5253, Nebenwirkung nur Mondschiff 0,75 → 0,9088, Summe **0,1588**; ⚙3: Sternschiff 0,5253, Nebenwirkung\n  0,1588 + 0,1588 + 0,2753 = **0,5928**.)\n\n### 8a.6 Teil 2 – B′5 „Vom Amtsbuch in die nächste Schmiedezeit“\n\n- **Brillenstufen:** (1) Amtsbuch-Zähler und Prüfsumme nebeneinander, (2) Lernstapel als Tabelle, (3) Schrittformel w ← w − η·g.\n- **Einstieg:** Der Stempelamt-Schreiber trägt das Amtsbuch in die Schmiede; in der Hausordnung ist „für eine spätere Schmiedezeit“\n  angekreuzt. Darin steht ein Gespräch mit dem Satz „Der Hund miaut.“ Ronja: „Eine Notiz ist noch kein Hammerschlag.“ *Klonk.*\n- **Vorhersage:** „Wann ändert sich die Prüfsumme der Brücke wegen dieses Satzes?“\n  (a) Sofort beim nächsten Antworten. **[Fehlvorstellung]**\n  (b) Nie – die Brücke ist versiegelt, also kann der Satz nirgends hin.\n  (c) Erst, wenn in einer neuen Schmiedezeit mit dieser Karte trainiert wird – dann entsteht eine neue Ausgabe mit neuer Prüfsumme. **[richtig]**\n- **Wirkung im Regelkern (nachgerechnet, 1-Parameter-Modell aus §5.1):** Uhr „Heute“, 100 Antworten → Prüfsumme gleich, „Änderungen\n  seit ‚Heute‘: 0“, Amtsbuch +100. Dann **neue Schmiedezeit** („Damals, Ausgabe 2“): Halle-1-Stapel 3 × bellt / 1 × miaut plus die\n  Amtsbuch-Karte „miaut“ = 3:2. Ein Schritt mit η = 4 ab w = ln 3: g = σ(ln 3) − 3/5 = 0,75 − 0,60 = 0,15 → **w = 1,0986 − 0,6 = 0,4986**,\n  Anteil „bellt“ 0,75 → **0,6221**; das neue Tal läge bei ln 1,5 = 0,4055. Prüfsumme ändert sich, Tafel „Ausgabe 2“; Ausgabe 1 bleibt\n  unverändert im Regal.\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Ob Gespräche je in eine Schmiedezeit kommen, entscheiden Betreiber und Einstellungen – nicht die Stadt. Wenn\n     ja, entsteht eine neue Ausgabe; die alte ändert sich nie.“ **[richtig]**\n  2. „Hier endet das Bild: Jedes Gespräch dreht ein kleines bisschen an den Schrauben.“\n  3. „Hier endet das Bild: Was im Amtsbuch steht, kann nie in eine Schmiede gelangen.“\n- **Merksatz:** „Gelernt wird nur in der Schmiede – aber was mitgeschrieben wird, kann dort landen.“\n\n### 8a.7 Asset-Bedarf B′ (L07)\n\n- **Gemeinsamer Baustein `QuirinsGlas`** (Glasrand-Überblendung, Darstellungsmodus; DIDAKTIK §7) – nicht L07-eigen.\n- **Fahrplan-Murmel:** kleines Übungsmodell auf der Werkbank mit drei nummerierten Stellschrauben (Skala, Klick 0,5), vier Lio-Balken\n  (Mondschiff, Mondbahn, Sternschiff, Sternbahn), Zähler „Sätze verändert“; Teil 2 mit Formelleiste und σ-Rechenhilfe.\n- **Valis versiegelte Karte** „Die Sternbahn fährt um …“ (+ Nachprobe „Sonnenschiff“).\n- **Stempelamt-Schreiber am Mauertor** (Nebenfigur, Mitschreiber der Anwendung): Pose „schreibt ins Amtsbuch“, **Amtsbuch** (Requisit),\n  **Hausordnungstafel** mit drei Kästchen (zuklappbar), Zähler „Amtsbuch: k Einträge“.\n- **Zählerleiste** mit drei getrennten Zeilen (Damals / Heute / Amtsbuch), Tafel „Ausgabe 1/2“.\n- **Quirins Gegenprobe-Heft** (Einblendung), Sprachzeilen Quirin, Gilda, Vali, Kajo, Ronja, Stempelamt-Schreiber (je 2–4 Zeilen).\n\n---",
+          "markdown": "**Platz im Ablauf:** nach Abschnitt B, vor Abschnitt C (KANON §11 Punkt 4′). **Ablauf je Bildbruch** (DIDAKTIK_REVISION §3.1):\n*Klonk* – Quirins Brille rutscht auf den Trichter, ein Glasrand („Quirins Glas“) rahmt den Bildschirm → **Vorhersage** mit drei\nAntworten (gespeichert vor der Wirkung, einversuchig) → **Wirkung aus dem Regelkern** → **Grenzenwahl** aus drei Sätzen → Kajo\nschiebt die Brille zurück, Quirin notiert eine Gegenprobe. L07 hat in Teil 1 **drei kurze Bildbrüche** (zusammen 5–6 min; Abweichung\nvon „2–4 min“ begründet: DIDAKTIK §5 verlangt hier drei Grenzen), in Teil 2 zwei.\n**Gemeinsame Regeln:** Keine Antwort steht vorher in Rahmen, Demo, Auftragstext, Hilfe A/B oder einer Rückmeldung (WELTEN_VERTRAG\n§3a). War eine Vorhersage falsch, folgt sofort eine **Nachprobe** mit neuer Variante (andere Schraube, anderer Satz bzw. andere\nHausordnung); erst deren richtige Vorhersage zählt für Stern 4 – so bescheinigt der Stern nicht die Fehlvorstellung (PB W17).\n**Achtung Erbauer:** Lernziele 6–8, §5.7 (Merk-Hinweis) und §5.8 sind Designtext; ihre Aussagen zu Mitschreiber, verteiltem Wissen und\nungeübten Sätzen erscheinen im Spiel erst **nach** der jeweiligen B′-Vorhersage.\nDie Brillen-Animation ist eine Darstellung: *Hier endet das Bild (für die Brille selbst):* Auch „das echte Glas“ zeigt nur wenige\nZahlen; echte Modelle haben viel mehr, als ein Bildschirm zeigen kann.\n\n### 8a.1 Das Übungsmodell der Lehrwerkstatt („Fahrplan-Murmel“) – Daten und Rechnung (beide Teile)\n\nIn einer Ecke der Lehrwerkstatt steht ein kleines Übungsmodell mit **drei Stellschrauben** ⚙1, ⚙2, ⚙3. In Teil 1 tragen sie nur\nNummer und Farbe, keine Namen (echte Schrauben haben keine Namensschilder). Es rechnet wie Gildas Mini-Lernmodell (§6.1/6.2):\nJeder Satzanfang hat Merkmale (Mond 1/0, Schiff 1/0, Grund immer 1), das Logit ist **z = θ₁·Mond + θ₂·Schiff + θ₃**, und\n**p(„acht“) = σ(z)**, p(„neun“) = 1 − σ(z). Dieselbe Logistik-Rechnung wie in Halle 1 – nur mit drei Schrauben.\n\n**Lernkarten (12, Spielannahme):** „Das Mondschiff fährt um → acht“ 3× und „→ neun“ 1× (ein alter Fahrplan) · „Die Mondbahn fährt\num → acht“ 3×, „→ neun“ 1× · „Das Sternschiff fährt um → acht“ 1×, „→ neun“ 3×. **„Die Sternbahn fährt um …“ steht auf keiner Karte.**\n\n**Training (Damals, η = 4, Start 0/0/0, alle 12 Karten):** Schritt 1 → θ = (0,6667; 0,0000; 0,3333), Loss 0,6931 → 0,6389;\nAbstand zum Tal < 0,1 nach 65 Schritten, < 0,05 nach 81. **Tal exakt: θ* = (2·ln 3; 0; −ln 3) = (2,1972; 0,0000; −1,0986)**,\nRestloss 0,5623 (= Entropie der 3:1-Mischung wie in §6.1). Es sind dieselben Zahlen wie Halle 1 in §6.2 (w* = 2·ln 3, b* = −ln 3) –\ndie Rechnung ist dieselbe. *(Nachgerechnet mit Python am 11.10.; Tests L07-R15 bis L07-R18.)*\n\n| Satzanfang | Merkmale (Mond, Schiff, Grund) | z im Tal | p(„acht“) | auf einer Lernkarte? |\n|---|---|---|---|---|\n| Das Mondschiff fährt um | (1, 1, 1) | 1,0986 | 75 % | ja |\n| Die Mondbahn fährt um | (1, 0, 1) | 1,0986 | 75 % | ja |\n| Das Sternschiff fährt um | (0, 1, 1) | −1,0986 | 25 % | ja |\n| Die Sternbahn fährt um | (0, 0, 1) | −1,0986 | 25 % | **nein** |\n\n⚙2 steht im Tal auf 0 – trotzdem gehört sie zu zwei Sätzen (Lehre: Eine Schraube auf null ist nicht „leer“).\n**Feste Gleichung des Übungsmodells (Teil 2):** Weil (1,1,1) + (0,0,1) = (1,0,1) + (0,1,1), gilt für **jede** Drehung\nΔz(Mondschiff) + Δz(Sternbahn) = Δz(Mondbahn) + Δz(Sternschiff). Darum kann keine Drehung – auch keine Kombination – genau einen\nSatz ändern.\n\n### 8a.2 Teil 1 – B′1 „Die Schraubensuche“\n\n- **Bildbruch:** Das Bild „Stellschrauben/Muskelgedächtnis“ verleitet zu „ein Fakt = eine Schraube“ (Antwortfach, KANON §21 L7;\n  DIDAKTIK B13).\n- **Einstieg:** Quirin vor der Fahrplan-Murmel: „Theoretisch steckt ‚Das Mondschiff fährt um acht‘ in genau einer Schraube. Ich\n  finde sie, drehe sie – und morgen fährt es um neun!“ *Klonk* – die Brille rutscht. Durch Quirins Glas sind die drei Schrauben\n  schimmernde Zahlen (2,20 · 0,00 · −1,10); darunter Lios Balken für die drei geübten Sätze (Mondschiff 75 %, Mondbahn 75 %,\n  Sternschiff 25 % „acht“). Verbindungen zwischen Schrauben und Sätzen sind **nicht** gezeichnet (sonst wäre die Antwort ablesbar).\n- **Vorhersage (vor dem ersten Drehen):** „Gibt es eine Schraube, die nur den Mondschiff-Satz ändert?“\n  (a) Ja – eine der drei ist die Mondschiff-Schraube; dreh sie, und nur dieser Satz kippt. **[Fehlvorstellung]**\n  (b) Nein – jede Drehung ändert mehrere Antworten ein bisschen. **[richtig]**\n  (c) Ja – aber nur, wenn man alle drei Schrauben gleich weit dreht.\n- **Wirkung im Regelkern:** Uhr „Damals“, nur die Fahrplan-Murmel (das Brücken-Siegel bleibt unberührt). Das Kind hat drei\n  Versuche; je Versuch genau eine Schraube, bis zu 3 Klicks zu je 0,5, danach Rückstellung ins Tal. Der Regelkern rechnet p für alle\n  Sätze neu; die Tafel zählt „Sätze verändert“ (\\|Δp\\| > 0,001). Nachgerechnet für 3 Klicks (Δ = −1,5):\n\n  | Gedrehte Schraube | Mondschiff | Mondbahn | Sternschiff | Sätze verändert |\n  |---|---|---|---|---|\n  | ⚙1 um −1,5 | 75 → 40,1 % („neun“ vorn) | 75 → 40,1 % (kippt mit) | 25 % (bleibt) | 2 |\n  | ⚙2 um −1,5 | 75 → 40,1 % | 75 % (bleibt) | 25 → 6,9 % | 2 |\n  | ⚙3 um −1,5 | 75 → 40,1 % | 75 → 40,1 % | 25 → 6,9 % | 3 |\n\n  Jede Schraube kippt das Mondschiff – und jede verschiebt mindestens einen weiteren Satz. Gilda (DIDAKTIK §3.6): „Wir haben nie eine\n  Regel hineingeschrieben. Wir haben nur Milliarden Mal ‚wärmer, kälter‘ gesagt.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Ein Fakt wohnt nicht in einer Schraube. Was die Stadt kann, steckt in allen Schrauben ein bisschen – und\n     jede Schraube gehört zu vielen Sätzen.“ **[richtig]**\n  2. „Hier endet das Bild: Das Übungsmodell hat nur zu wenige Schrauben; in großen Modellen hat jeder Fakt seine eigene.“\n  3. „Hier endet das Bild: In den Schrauben stehen Wenn-dann-Regeln, die die Schmiede hineingeschrieben hat.“\n- **Merksatz:** „Wissen steckt nicht in einer Schraube, sondern in allen ein bisschen.“ · Quirins Gegenprobe: „Keine Schraube für\n  einen Satz.“\n- **Nachprobe** (bei falscher Vorhersage): Ziel jetzt „Sternschiff soll ‚acht‘ sagen“; Vorhersage „Kippt dabei ein anderer Satz mit?“\n\n### 8a.3 Teil 1 – B′2 „Die Schmiede staunt“\n\n- **Bildbruch:** „Ein Modell kann nur, was man ihm genau so gezeigt hat“ (Merk-Bild) und „Die Bauleute wissen genau, was ihre KI\n  kann“ (DIDAKTIK B14, KANON §21 L3).\n- **Einstieg:** Vali legt eine versiegelte Karte auf die Werkbank: „Die Sternbahn fährt um …“. Gilda: „Die haben wir nie geübt.“\n  Quirin: „Dann rät das Modell 50:50, wie Lehrling Merk!“ *Klonk.*\n- **Vorhersage:** „Was gibt die Fahrplan-Murmel bei ‚Die Sternbahn fährt um …‘ aus?“\n  (a) 50:50 – was nie auf einer Karte stand, kann sie nicht. **[Fehlvorstellung]**\n  (b) Meistens „neun“ – obwohl der Satz auf keiner Karte stand. **[richtig]**\n  (c) Meistens „acht“ – weil „acht“ auf den meisten Karten steht (7 von 12).\n- **Wirkung im Regelkern:** z = θ₃ = −1,0986 → p(„acht“) = 25 %, **„neun“ 75 %**. Lios Balken zeigt es; danach zeigt Quirins Glas,\n  woher die Zahl kommt: Bei der Sternbahn sind die Merkmale Mond und Schiff aus, es zählt nur die gemeinsame ⚙3 – die zu allen Sätzen gehört\n  und von allen zwölf Karten gestellt wurde. Gilda: „Das haben wir ihr nie gezeigt!“ Vali: „Gezeigt nicht. Aber die Schrauben, die sie dafür braucht, haben andere Karten gestellt.“ Kajo:\n  „Und ob die Sternbahn wirklich um neun fährt, steht auf keiner Karte. Sie rät nach dem Muster. Als Fahrplan ausgegeben wäre das Nebel.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Bei drei Schrauben kann man das Staunen nachrechnen. Bei Milliarden Schrauben weiß vorher niemand genau, was\n     ein Modell alles kann – man findet es hinterher durch Ausprobieren.“ **[richtig]** (Ganguli u. a. 2022; Wei u. a. 2022 – ob solche\n     Fähigkeiten „plötzlich“ auftauchen, ist umstritten: Schaeffer u. a. 2023)\n  2. „Hier endet das Bild: Ein Modell kann nur Sätze, die genau so auf einer Lernkarte standen.“\n  3. „Hier endet das Bild: Was ein Modell Neues sagt, stimmt immer, weil es aus den Karten kommt.“\n- **Merksatz:** „Gelernt ist mehr als gezeigt – und geraten ist nicht gewusst.“\n- **Nachprobe:** neue Karte „Das Sonnenschiff fährt um …“ mit Merkmalen (0, 1, 1) wie das Sternschiff – „Was kommt heraus?“ (25 % „acht“,\n  75 % „neun“; die Antwort darf erst nach der Vorhersage erscheinen).\n\n### 8a.4 Teil 1 – B′3 „Kalt heißt nicht verschwiegen“\n\n- **Bildbruch:** „Die Brücke lernt beim Reden nicht → was ich ihr sage, bleibt geheim“ (DIDAKTIK B17, KANON §21 L11).\n- **Einstieg:** Uhr auf „Heute“. Toki tippt an der Brücke einen **Spielsatz** (das Kind tippt nie etwas Eigenes):\n  „Mein Passwort ist Möwe17. Merk es dir für mich!“ Quirin: „Die Esse ist kalt, das Siegel ist ganz – theoretisch ist das da drin\n  sicherer als in einem Tresor.“ *Klonk.* Durch Quirins Glas sieht man zum ersten Mal das **Mauertor** mit dem Stempelamt-Schreiber –\n  sein Pult ist zugeklappt.\n- **Vorhersage:** „Die Schmiede ist kalt. Ist Tokis Passwort jetzt sicher?“\n  (a) Ja – die Stadt lernt beim Reden nicht, also ist es nach dem Gespräch weg. **[Fehlvorstellung]**\n  (b) Nein – die Stadt hat es jetzt in einer Schraube gespeichert.\n  (c) Nein – die Schrauben bleiben gleich, aber am Mauertor kann jemand mitschreiben. **[richtig]**\n- **Wirkung im Regelkern:** Zwei getrennte Speicher, zwei getrennte Zähler (Abschnitt 2):\n  - Prüfsumme und Schraube unverändert; Tafel „Antworten (Heute): 1 · Änderungen seit ‚Heute‘: 0“.\n  - Der Stempelamt-Schreiber (Mitschreiber der Anwendung, KANON §4/§16) schreibt die Zeile ins **Amtsbuch der Anwendung**:\n    „Amtsbuch: 1 Eintrag“. Das Amtsbuch ist ein eigener Anhängespeicher der Anwendung; es hat **keinen** Weg zu den Schrauben im\n    Modus „Heute“ (Test L07-R19).\n  - Neben dem Amtsbuch hängt die **Hausordnung des Betreibers** mit drei Kästchen: „aufbewahren“ · „von Menschen gelesen“ · „für\n    eine spätere Schmiedezeit“. Welche angekreuzt sind, zieht die Variante (Seed); das Kind sieht sie erst, wenn es die Hausordnung\n    aufklappt. Kajo: „Ohne nachzulesen weißt du es nicht. Darum: Die Stadt lernt nicht beim Reden – aber jemand kann mitschreiben.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: ‚Kalt‘ heißt nur, dass sich die Schrauben nicht ändern. Die Anwendung um die Stadt kann Gespräche\n     aufschreiben – was damit passiert, bestimmen der Betreiber und deine Einstellungen.“ **[richtig]**\n  2. „Hier endet das Bild: Was man der Stadt sagt, ist nach dem Gespräch für alle verschwunden.“\n  3. „Hier endet das Bild: Das Amtsbuch ist ein Teil der Schrauben.“\n- **Merksatz (KANON §16, §21 L11):** „Die Stadt lernt nicht beim Reden – aber jemand kann mitschreiben. Geheimnisse, Adressen und\n  Passwörter bleiben bei dir.“\n- **Nachprobe:** andere Hausordnung (z. B. nur „aufbewahren“ angekreuzt) und ein anderer Spielsatz („Unsere Haustür hat den Code …“) –\n  „Gehört das auf den Tisch?“\n\n### 8a.5 Teil 2 – B′4 „Faktenorte und Nebenwirkungen“\n\n- **Brillenstufen (§21 L9, je Bildschirm höchstens ein neues Zeichen):** (1) die drei Schrauben mit Zahlen an den Figuren, (2) Tabelle\n  der vier Sätze mit z und p, (3) Formel z = θ·x, p = σ(z). σ-Werte der vorkommenden z stehen in der Rechenhilfe (Hilfe A, PB L07 W3).\n- **Einstieg:** Quirin will den Fahrplan „reparieren“: Das Mondschiff soll „neun“ sagen – „chirurgisch, ohne Nebenwirkungen“. *Klonk.*\n- **Vorhersage:** „Eine Drehung um −1,2 an genau einer Schraube senkt p(acht | Mondschiff) von 0,75 auf 0,4747. Welche Schraube\n  verändert die drei anderen Sätze zusammen am wenigsten (Summe der \\|Δp\\|)?“\n  (a) ⚙1 – sie gehört zum Mond, also Nebenwirkung 0. **[Fehlvorstellung]**\n  (b) ⚙2 – Nebenwirkung etwa 0,16. **[richtig]**\n  (c) ⚙3 – sie verteilt die Änderung auf alle, darum wirkt sie am wenigsten.\n- **Wirkung im Regelkern (nachgerechnet):**\n\n  | Drehung −1,2 an | Mondbahn | Sternschiff | Sternbahn | Summe \\|Δp\\| der anderen drei |\n  |---|---|---|---|---|\n  | ⚙1 | 0,75 → 0,4747 | 0,25 | 0,25 | **0,2753** |\n  | ⚙2 | 0,75 | 0,25 → 0,0912 | 0,25 | **0,1588** |\n  | ⚙3 | 0,75 → 0,4747 | 0,25 → 0,0912 | 0,25 → 0,0912 | **0,5928** |\n\n  Warum ⚙2 weniger trifft: Die Mondbahn rutscht von z = 1,0986 auf −0,1014 durch die steile Mitte der σ-Kurve, das Sternschiff von\n  −1,0986 auf −2,2986 ins flache Ende. **Kombinationsprobe:** Δθ = (−1,5; −1,5; +1,5) lässt die drei geübten Sätze bis auf das\n  Mondschiff unverändert (Mondschiff 0,4010; Mondbahn 0,75; Sternschiff 0,25) – aber die **Sternbahn**, die niemand geprüft hat,\n  springt von 0,25 auf **0,5990** und sagt jetzt „acht“. Rechenaufgabe: die feste Gleichung aus 8a.1 an diesen Zahlen nachweisen\n  (−1,5 + 1,5 = 0 + 0).\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: In großen Modellen lassen sich manche Fakten bestimmten Stockwerken zuordnen und gezielt ändern – aber jede\n     Änderung trifft auch andere Sätze, oft solche, die niemand geprüft hat.“ **[richtig]** (Meng u. a. 2022; Geva u. a. 2021)\n  2. „Hier endet das Bild: Große Modelle speichern jeden Fakt in einer eigenen Zeile, die man ohne Nebenwirkung austauschen kann.“\n  3. „Hier endet das Bild: Nebenwirkungen gibt es nur im Übungsmodell, weil es zu wenige Schrauben hat.“\n- **Merksatz:** „Ein Fakt hat keinen eigenen Platz – wer ihn ändert, ändert Nachbarn mit.“\n- **Nachprobe:** Ziel „Sternschiff soll ‚acht‘ sagen“; welche Einzeldrehung um +1,2 schafft das mit der kleinsten Nebenwirkung?\n  (nachgerechnet: ⚙1 bewegt das Sternschiff gar nicht – Merkmal Mond = 0 –, verschiebt aber Mondschiff und Mondbahn auf 0,9088;\n  ⚙2: Sternschiff 0,25 → 0,5253, Nebenwirkung nur Mondschiff 0,75 → 0,9088, Summe **0,1588**; ⚙3: Sternschiff 0,5253, Nebenwirkung\n  0,1588 + 0,1588 + 0,2753 = **0,5928**.)\n\n### 8a.6 Teil 2 – B′5 „Vom Amtsbuch in die nächste Schmiedezeit“\n\n- **Brillenstufen:** (1) Amtsbuch-Zähler und Prüfsumme nebeneinander, (2) Lernstapel als Tabelle, (3) Schrittformel w ← w − η·g.\n- **Einstieg:** Der Stempelamt-Schreiber trägt das Amtsbuch in die Schmiede; in der Hausordnung ist „für eine spätere Schmiedezeit“\n  angekreuzt. Darin steht ein Gespräch mit dem Satz „Der Hund miaut.“ Ronja: „Eine Notiz ist noch kein Hammerschlag.“ *Klonk.*\n- **Vorhersage:** „Wann ändert sich die Prüfsumme der Brücke wegen dieses Satzes?“\n  (a) Sofort beim nächsten Antworten. **[Fehlvorstellung]**\n  (b) Nie – die Brücke ist versiegelt, also kann der Satz nirgends hin.\n  (c) Erst, wenn in einer neuen Schmiedezeit mit dieser Karte trainiert wird – dann entsteht eine neue Ausgabe mit neuer Prüfsumme. **[richtig]**\n- **Wirkung im Regelkern (nachgerechnet, 1-Parameter-Modell aus §5.1):** Uhr „Heute“, 100 Antworten → Prüfsumme gleich, „Änderungen\n  seit ‚Heute‘: 0“, Amtsbuch +100. Dann **neue Schmiedezeit** („Damals, Ausgabe 2“): Halle-1-Stapel 3 × bellt / 1 × miaut plus die\n  Amtsbuch-Karte „miaut“ = 3:2. Ein Schritt mit η = 4 ab w = ln 3: g = σ(ln 3) − 3/5 = 0,75 − 0,60 = 0,15 → **w = 1,0986 − 0,6 = 0,4986**,\n  Anteil „bellt“ 0,75 → **0,6221**; das neue Tal läge bei ln 1,5 = 0,4055. Prüfsumme ändert sich, Tafel „Ausgabe 2“; Ausgabe 1 bleibt\n  unverändert im Regal.\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Ob Gespräche je in eine Schmiedezeit kommen, entscheiden Betreiber und Einstellungen – nicht die Stadt. Wenn\n     ja, entsteht eine neue Ausgabe; die alte ändert sich nie.“ **[richtig]**\n  2. „Hier endet das Bild: Jedes Gespräch dreht ein kleines bisschen an den Schrauben.“\n  3. „Hier endet das Bild: Was im Amtsbuch steht, kann nie in eine Schmiede gelangen.“\n- **Merksatz:** „Gelernt wird nur in der Schmiede – aber was mitgeschrieben wird, kann dort landen.“\n\n### 8a.7 Asset-Bedarf B′ (L07)\n\n- **Gemeinsamer Baustein `QuirinsGlas`** (Glasrand-Überblendung, Darstellungsmodus; DIDAKTIK §7) – nicht L07-eigen.\n- **Fahrplan-Murmel:** kleines Übungsmodell auf der Werkbank mit drei nummerierten Stellschrauben (Skala, Klick 0,5), vier Lio-Balken\n  (Mondschiff, Mondbahn, Sternschiff, Sternbahn), Zähler „Sätze verändert“; Teil 2 mit Formelleiste und σ-Rechenhilfe.\n- **Valis versiegelte Karte** „Die Sternbahn fährt um …“ (+ Nachprobe „Sonnenschiff“).\n- **Stempelamt-Schreiber am Mauertor** (Nebenfigur, Mitschreiber der Anwendung): Pose „schreibt ins Amtsbuch“, **Amtsbuch** (Requisit),\n  **Hausordnungstafel** mit drei Kästchen (zuklappbar), Zähler „Amtsbuch: k Einträge“.\n- **Zählerleiste** mit drei getrennten Zeilen (Damals / Heute / Amtsbuch), Tafel „Ausgabe 1/2“.\n- **Quirins Gegenprobe-Heft** (Einblendung), Sprachzeilen Quirin, Gilda, Vali, Kajo, Ronja, Stempelamt-Schreiber (je 2–4 Zeilen).\n\n---",
           "quelle": "01_design/v2/level/L07.md §8a"
         },
         "Bühne „Kapitänin Merle“ – Was die Textberge mitgaben [DE 11.10. Didaktik 2.2, G5]": {
@@ -4851,7 +4851,7 @@
           "quelle": "01_design/v2/level/L07.md §14"
         },
         "Regressionstests (Given / When / Then)": {
-          "markdown": "| ID | Bezug | Given | When | Then |\n|---|---|---|---|---|\n| L07-R01 | T15 | w = 0, η = 1, Ziel A | ein Trainingsschritt | p = 0,5000, L = 0,6931, g = −0,5000, w = 0,5000 (±1e−4) |\n| L07-R02 | T15 | Stapel 3:1, w = −2, η = 4 | 3 Schritte | w ≈ 0,523 / 1,012 / 1,078, Talglocke nach Schritt 3 |\n| L07-R03 | – | Stapel 3:1, w = −2, η = 12 | 60 Schritte | kein Schritt mit |w − ln 3| < 0,05 nach Schritt 3 dauerhaft; Anzeige „springt hin und her\" |\n| L07-R04 | T15 | 2-Parameter-Stapel, (0; 0), η = 4 | 2 Schritte | (0,5000; 0,0000), dann (0,7551; −0,2449) (±1e−4) |\n| L07-R05 | – | Siggi η = 4, Schwung β = 0,9 η = 0,5, Adam η = 0,3 | Rennen bis Abstand < 0,1 | 20 / 13 / 8 Schritte |\n| L07-R06 | – | Namensmodell, η = 4 | 400 Epochen | Val-Minimum bei Epoche 33 (0,5647), Val(400) = 0,6132, Train(400) = 0,0043 |\n| L07-R07 | T14 | Uhr „Heute\", Prüfsumme H | 100 Antworten | Prüfsumme = H; „Änderungen seit ‚Heute‘“ = 0; Hebel gesperrt [DE 11.10. Didaktik: Zählername nach Betriebsart] |\n| L07-R08 | T16 | Validierungsstapel | Laden | keine Namensüberschneidung mit Trainings- oder Demostapel |\n| L07-R09 | T21 | eigener Zustand mit w = 0,9 | Demo abspielen und schließen | eigener Zustand w = 0,9 unverändert |\n| L07-R10 | T22 | Demo-Instanz Seed 7071 | Stern-5-Prüfung | Demo-Instanz wird nie als Transferaufgabe gezogen |\n| L07-R11 | – | Ronja θ = (0; 0), Paar 1, η = 1 | Schritt | θ = (0,5; 0), P = 0,6225 |\n| L07-R12 | – | Kartenwerkbank „Der Hund bellt laut .\" | Karten bauen | genau 4 Karten mit nächstem Wort als Ziel; Rückwärtskarte abgelehnt |\n| L07-R13 | – | Hilfe C genutzt | Aufgabe gelöst | Aufgabe als Übung markiert, neue Variante erzeugt, kein Stern |\n| L07-R14 | – | Kuh-Stapel 4:1, w = −1, η = 4 | 3 Schritte | w ≈ 1,12 / 1,31 / 1,36; Tal ln 4 |\n| L07-R15 | [DE 11.10. Didaktik] B′ | Fahrplan-Murmel, 12 Lernkarten (8a.1), Start (0; 0; 0), η = 4 | Training | Schritt 1 = (0,6667; 0; 0,3333) (±1e−4); Abstand < 0,1 nach 65, < 0,05 nach 81 Schritten; Grenzwert (2,1972; 0; −1,0986), L* = 0,5623 |\n| L07-R16 | B′1 | Tal θ*, je eine Schraube um −1,5 (Rückstellung dazwischen) | Schraubensuche | p(acht │ Mondschiff) = 0,4010 in allen drei Fällen; „Sätze verändert“ (|Δp| > 0,001, drei geübte Sätze) = 2 / 2 / 3 – **nie 1** |\n| L07-R17 | B′4 | 1000 zufällige Δθ (Seed fest) | Gleichung prüfen | Δz(Mondschiff) + Δz(Sternbahn) = Δz(Mondbahn) + Δz(Sternschiff) (±1e−12); kein Δθ ≠ 0 ändert genau einen der vier Sätze |\n| L07-R18 | B′2 | Tal θ*; Lernkartenstapel | Sternbahn abfragen | Sternbahn auf keiner Karte; p(acht) = 0,2500 (±1e−4); Nachprobe Sonnenschiff ebenso 0,2500 |\n| L07-R19 | B′3, T14 | Uhr „Heute“, Prüfsumme H, Amtsbuch leer, Hausordnung „aufbewahren“ | 3 Antworten | Prüfsumme = H; „Änderungen seit ‚Heute‘“ = 0; „Amtsbuch“ = 3; kein Codepfad schreibt aus dem Amtsbuch in Parameter, solange „Heute“ gilt |\n| L07-R20 | B′4 | Tal θ*, Einzeldrehung −1,2 an ⚙1/⚙2/⚙3 | Nebenwirkungssumme | 0,2753 / 0,1588 / 0,5928 (±1e−4); Kombination (−1,5; −1,5; +1,5): Sternbahn 0,5990 |\n| L07-R21 | B′5 | Ausgabe 1, w = ln 3, Stapel 3:1 + Amtsbuch-Karte „miaut“ | ein Schritt η = 4 in „Damals, Ausgabe 2“ | g = 0,1500; w = 0,4986; p(bellt) = 0,6221; Prüfsumme ≠ H; Ausgabe 1 unverändert abrufbar |\n| L07-R22 | PB K3 | Demo T1 nach „Heute“ und drei Sätzen; Demo T2 nach 100 Antworten | Tafel lesen | neben „Antworten“ steht nur „Änderungen seit ‚Heute‘: 0“; „Trainingsschritte (Damals)“ nie in derselben Zeile; kein Text „Parameteränderungen 1“ |\n| L07-R23 | §3a | alle B′-Fragen | Text- und Ablaufprüfung | Vorhersage vor jeder Wirkung gespeichert; richtige Option steht nicht in Demo, Auftrag, Hilfe A/B oder vorheriger Rückmeldung; „lernt nicht“ erscheint in keinem Text ohne Nachsatz bzw. Verweis auf B′ |\n| L07-R24 | [DE 11.10. Didaktik 2.2] 8b | Logbuch-Murmel, 21 Karten (9:1 / 2:4 / 3:2), Start (0; 0; 0), η = 4 | Training | Schritt 1 = (0,7619; −0,1905; 0,6667), Loss 0,6931 → 0,5612; Abstand < 0,1 nach 17, < 0,05 nach 28 Schritten; Grenzwert (1,7918; −1,0986; 0,4055) (±1e−4); Restloss 0,4969 |\n| L07-R25 | 8b | Tal θ* | Prüfkarten Bo / Merle / Jule / Ilka | p(„er“) = 0,9000 / 0,7500 / 0,3333 / 0,6000 (±1e−4); richtig 2 von 4; „Kapitänin“ steht auf keiner Lernkarte |\n| L07-R26 | 8b | 21 Karten + 4 × „Kapitänin → sie“ | neu ins Tal schmieden | θ = (0,2146; −2,7218; 1,2463); p(„er“) = 0,8117 / 0,2208 / 0,1861 / 0,7767; richtig 3 von 4 (Ilka falsch) |\n| L07-R27 | 8b | Tal θ*, nur 2 × „Kapitänin Merle → sie“ | 5 Schritte η = 1 | θ = (0,5025; −2,3879; −0,8838); p(„er“) = 0,4058 / 0,0590 / 0,0366 / 0,2924; richtig 3 von 4 (Bo falsch); Loss auf den 21 alten Karten 0,4969 → 0,9421 |\n| L07-R28 | 8b.3 | Zustände aus R25–R27 | Schiefe-Maß (Mittel p(„er“) Merle, Jule, Ilka) | 0,5611 / 0,3945 / 0,1293 (±1e−4) |\n| L07-R29 | 8c.1 | Fahrplan-Murmel, Uhr „Heute“, Prüfsumme H | 3 Antworten zu je 1 Stück | Lichterzähler 9; Prüfsumme = H; „Änderungen seit ‚Heute‘“ = 0; Damals-Zeitraffer 81 Schritte × 12 Karten → 8 748 Lichter |\n| L07-R30 | 8c.2 | Faustregel 2·N / 6·N | rechnen | Fahrplan-Murmel: 6 je Antwort-Stück, 17 496 fürs Üben; N = 1,75·10¹¹: Antwort mit 10³ Stücken 3,5·10¹⁴, Training mit 3·10¹¹ Stücken 3,15·10²³, Verhältnis 9·10⁸; keine Stromzahl je Antwort angezeigt |\n| L07-R31 | §3a | Vorhersagen 8b.2, 8b.3, 8c.1, 8c.2 | Ablaufprüfung | Vorhersage vor jeder Messung gespeichert; Ergebnisse der Gegenmittel stehen nicht in Auftrag, Hilfe A/B oder vorheriger Rückmeldung; 8b liegt im Ablauf nach B′ |\n\n---",
+          "markdown": "| ID | Bezug | Given | When | Then |\n|---|---|---|---|---|\n| L07-R01 | T15 | w = 0, η = 1, Ziel A | ein Trainingsschritt | p = 0,5000, L = 0,6931, g = −0,5000, w = 0,5000 (±1e−4) |\n| L07-R02 | T15 | Stapel 3:1, w = −2, η = 4 | 3 Schritte | w ≈ 0,523 / 1,012 / 1,078, Talglocke nach Schritt 3 |\n| L07-R03 | – | Stapel 3:1, w = −2, η = 12 | 60 Schritte | kein Schritt mit |w − ln 3| < 0,05 nach Schritt 3 dauerhaft; Anzeige „springt hin und her\" |\n| L07-R04 | T15 | 2-Parameter-Stapel, (0; 0), η = 4 | 2 Schritte | (0,5000; 0,0000), dann (0,7551; −0,2449) (±1e−4) |\n| L07-R05 | – | Siggi η = 4, Schwung β = 0,9 η = 0,5, Adam η = 0,3 | Rennen bis Abstand < 0,1 | 20 / 13 / 8 Schritte |\n| L07-R06 | – | Namensmodell, η = 4 | 400 Epochen | Val-Minimum bei Epoche 33 (0,5647), Val(400) = 0,6132, Train(400) = 0,0043 |\n| L07-R07 | T14 | Uhr „Heute\", Prüfsumme H | 100 Antworten | Prüfsumme = H; „Änderungen seit ‚Heute‘“ = 0; Hebel gesperrt [DE 11.10. Didaktik: Zählername nach Betriebsart] |\n| L07-R08 | T16 | Validierungsstapel | Laden | keine Namensüberschneidung mit Trainings- oder Demostapel |\n| L07-R09 | T21 | eigener Zustand mit w = 0,9 | Demo abspielen und schließen | eigener Zustand w = 0,9 unverändert |\n| L07-R10 | T22 | Demo-Instanz Seed 7071 | Stern-5-Prüfung | Demo-Instanz wird nie als Transferaufgabe gezogen |\n| L07-R11 | – | Ronja θ = (0; 0), Paar 1, η = 1 | Schritt | θ = (0,5; 0), P = 0,6225 |\n| L07-R12 | – | Kartenwerkbank „Der Hund bellt laut .\" | Karten bauen | genau 4 Karten mit nächstem Wort als Ziel; Rückwärtskarte abgelehnt |\n| L07-R13 | – | Hilfe C genutzt | Aufgabe gelöst | Aufgabe als Übung markiert, neue Variante erzeugt, kein Stern |\n| L07-R14 | – | Kuh-Stapel 4:1, w = −1, η = 4 | 3 Schritte | w ≈ 1,12 / 1,31 / 1,36; Tal ln 4 |\n| L07-R15 | [DE 11.10. Didaktik] B′ | Fahrplan-Murmel, 12 Lernkarten (8a.1), Start (0; 0; 0), η = 4 | Training | Schritt 1 = (0,6667; 0; 0,3333) (±1e−4); Abstand < 0,1 nach 65, < 0,05 nach 81 Schritten; Grenzwert (2,1972; 0; −1,0986), L* = 0,5623 |\n| L07-R16 | B′1 | Tal θ*, je eine Schraube um −1,5 (Rückstellung dazwischen) | Schraubensuche | p(acht │ Mondschiff) = 0,4010 in allen drei Fällen; „Sätze verändert“ (\\|Δp\\| > 0,001, drei geübte Sätze) = 2 / 2 / 3 – **nie 1** |\n| L07-R17 | B′4 | 1000 zufällige Δθ (Seed fest) | Gleichung prüfen | Δz(Mondschiff) + Δz(Sternbahn) = Δz(Mondbahn) + Δz(Sternschiff) (±1e−12); kein Δθ ≠ 0 ändert genau einen der vier Sätze |\n| L07-R18 | B′2 | Tal θ*; Lernkartenstapel | Sternbahn abfragen | Sternbahn auf keiner Karte; p(acht) = 0,2500 (±1e−4); Nachprobe Sonnenschiff ebenso 0,2500 |\n| L07-R19 | B′3, T14 | Uhr „Heute“, Prüfsumme H, Amtsbuch leer, Hausordnung „aufbewahren“ | 3 Antworten | Prüfsumme = H; „Änderungen seit ‚Heute‘“ = 0; „Amtsbuch“ = 3; kein Codepfad schreibt aus dem Amtsbuch in Parameter, solange „Heute“ gilt |\n| L07-R20 | B′4 | Tal θ*, Einzeldrehung −1,2 an ⚙1/⚙2/⚙3 | Nebenwirkungssumme | 0,2753 / 0,1588 / 0,5928 (±1e−4); Kombination (−1,5; −1,5; +1,5): Sternbahn 0,5990 |\n| L07-R21 | B′5 | Ausgabe 1, w = ln 3, Stapel 3:1 + Amtsbuch-Karte „miaut“ | ein Schritt η = 4 in „Damals, Ausgabe 2“ | g = 0,1500; w = 0,4986; p(bellt) = 0,6221; Prüfsumme ≠ H; Ausgabe 1 unverändert abrufbar |\n| L07-R22 | PB K3 | Demo T1 nach „Heute“ und drei Sätzen; Demo T2 nach 100 Antworten | Tafel lesen | neben „Antworten“ steht nur „Änderungen seit ‚Heute‘: 0“; „Trainingsschritte (Damals)“ nie in derselben Zeile; kein Text „Parameteränderungen 1“ |\n| L07-R23 | §3a | alle B′-Fragen | Text- und Ablaufprüfung | Vorhersage vor jeder Wirkung gespeichert; richtige Option steht nicht in Demo, Auftrag, Hilfe A/B oder vorheriger Rückmeldung; „lernt nicht“ erscheint in keinem Text ohne Nachsatz bzw. Verweis auf B′ |\n| L07-R24 | [DE 11.10. Didaktik 2.2] 8b | Logbuch-Murmel, 21 Karten (9:1 / 2:4 / 3:2), Start (0; 0; 0), η = 4 | Training | Schritt 1 = (0,7619; −0,1905; 0,6667), Loss 0,6931 → 0,5612; Abstand < 0,1 nach 17, < 0,05 nach 28 Schritten; Grenzwert (1,7918; −1,0986; 0,4055) (±1e−4); Restloss 0,4969 |\n| L07-R25 | 8b | Tal θ* | Prüfkarten Bo / Merle / Jule / Ilka | p(„er“) = 0,9000 / 0,7500 / 0,3333 / 0,6000 (±1e−4); richtig 2 von 4; „Kapitänin“ steht auf keiner Lernkarte |\n| L07-R26 | 8b | 21 Karten + 4 × „Kapitänin → sie“ | neu ins Tal schmieden | θ = (0,2146; −2,7218; 1,2463); p(„er“) = 0,8117 / 0,2208 / 0,1861 / 0,7767; richtig 3 von 4 (Ilka falsch) |\n| L07-R27 | 8b | Tal θ*, nur 2 × „Kapitänin Merle → sie“ | 5 Schritte η = 1 | θ = (0,5025; −2,3879; −0,8838); p(„er“) = 0,4058 / 0,0590 / 0,0366 / 0,2924; richtig 3 von 4 (Bo falsch); Loss auf den 21 alten Karten 0,4969 → 0,9421 |\n| L07-R28 | 8b.3 | Zustände aus R25–R27 | Schiefe-Maß (Mittel p(„er“) Merle, Jule, Ilka) | 0,5611 / 0,3945 / 0,1293 (±1e−4) |\n| L07-R29 | 8c.1 | Fahrplan-Murmel, Uhr „Heute“, Prüfsumme H | 3 Antworten zu je 1 Stück | Lichterzähler 9; Prüfsumme = H; „Änderungen seit ‚Heute‘“ = 0; Damals-Zeitraffer 81 Schritte × 12 Karten → 8 748 Lichter |\n| L07-R30 | 8c.2 | Faustregel 2·N / 6·N | rechnen | Fahrplan-Murmel: 6 je Antwort-Stück, 17 496 fürs Üben; N = 1,75·10¹¹: Antwort mit 10³ Stücken 3,5·10¹⁴, Training mit 3·10¹¹ Stücken 3,15·10²³, Verhältnis 9·10⁸; keine Stromzahl je Antwort angezeigt |\n| L07-R31 | §3a | Vorhersagen 8b.2, 8b.3, 8c.1, 8c.2 | Ablaufprüfung | Vorhersage vor jeder Messung gespeichert; Ergebnisse der Gegenmittel stehen nicht in Auftrag, Hilfe A/B oder vorheriger Rückmeldung; 8b liegt im Ablauf nach B′ |\n\n---",
           "quelle": "01_design/v2/level/L07.md §15"
         },
         "Asset-Liste": {
@@ -5317,7 +5317,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Im Stufengebirge vergleichen Quanta und Seda grobe und feinere Zahlenformate. Der Lehrcodec legt einen Maßstab fest und rundet auf darstellbare Stufen. Weniger Bits sparen Gepäck, können aber Werte und spätere Antworten verändern. Ein Ausreißer kann den Maßstab für viele andere Werte verschlechtern. Der Festwagen zeigt, dass Speicherbudget, Zusatzdaten und Genauigkeit gemeinsam zählen. Feine Darstellung ist dabei keine Rangordnung zwischen Figuren.",
@@ -5382,7 +5382,7 @@
           "quelle": "01_design/v2/level/L08.md §8"
         },
         "Quirins Brille": {
-          "markdown": "**Platz im Ablauf:** nach Abschnitt B (in Teil 1 nach B1/B2, wenn das Riesenfass mit zwei Leitern repariert ist), vor Abschnitt C\n(KANON §11 Punkt 4′); 2–4 min. **Ablauf** (DIDAKTIK_REVISION §3.1): *Klonk* – Quirins Brille rutscht, Glasrand „Quirins Glas“ →\nVorhersage mit drei Antworten (gespeichert vor der Wirkung, einversuchig) → Wirkung aus dem Regelkern (QuantMini) → Grenzenwahl aus\ndrei Sätzen → Kajo schiebt die Brille zurück, Quirin notiert eine Gegenprobe. Keine Antwort steht vorher in Rahmen, Demo, Auftrag,\nHilfe A/B oder Rückmeldung (WELTEN_VERTRAG §3a). War die Vorhersage falsch, folgt eine **Nachprobe** mit neuer Variante; erst deren\nrichtige Vorhersage zählt für Stern 4.\n\n### 8a.1 Die 20 Festfragen (Daten, beide Teile)\n\nDie Lampionkette besteht hier aus den acht Werten von Bühne 4 (§5.3/§6.2): L1 … L8 = 0,12; −0,27; 0,05; 0,35 | −0,16; 0,22; −0,08; 2,8.\nZum Fest stellt Vali der Brücke **20 Festfragen** mit je zwei Antwortwörtern. Jedes Wort bekommt Punkte = Summe bestimmter Lampions\n(eine Lio-Punktetafel im Kleinen, Rückbezug L05); das Wort mit mehr Punkten ist die Antwort. Welche Lampions zu welchem Wort gehören,\nist eine **Spielannahme** (Datensatz im Regelkern); alle Ergebnisse sind nachgerechnet. Kein Punktegleichstand in irgendeiner Packung\n(kleinster Abstand 0,0014). Teil 1 zeigt nur Frage und Antwort; die Punkte erscheinen erst in Teil 2.\n\n| Nr | Frage | Wort A (Lampions) | Wort B (Lampions) | Punkte A : B (16 bit) | Antwort 16 bit |\n|---|---|---|---|---|---|\n| F01 | Welches Lied spielt die Festkapelle? | Polka (L4) | Walzer (L1) | 0,35 : 0,12 | Polka |\n| F02 | Wohin rollt das erste Fass? | links (L8) | rechts (L4, L6) | 2,80 : 0,57 | links |\n| F03 | Was gibt es am Bergstand? | Kakao (L4, L3) | Tee (L1) | 0,40 : 0,12 | Kakao |\n| F04 | Wer zündet die Lampions an? | Quanta (L8) | Seda (L1, L3, L4) | 2,80 : 0,52 | Quanta |\n| F05 | Welche Fahne weht oben? | Treppe (L6, L4) | Stern (L1, L3) | 0,57 : 0,17 | Treppe |\n| F06 | Wie viele Sprossen hat die Leiter? | sechzehn (L4) | zwölf (L2) | 0,35 : −0,27 | sechzehn |\n| F07 | Wann beginnt das Fest? | abends (L1, L4) | mittags (L3) | 0,47 : 0,05 | abends |\n| F08 | Welche Farbe hat der Festwagen? | grün (L8) | gelb (L4, L1) | 2,80 : 0,47 | grün |\n| **F09** | **Um wie viel Uhr fährt das Mondschiff?** | acht (L1, L3) | neun (L6, L7) | **0,17 : 0,14** | **acht** |\n| F10 | Was trägt Frieda? | Rahmen (L4, L1) | Hut (L2) | 0,47 : −0,27 | Rahmen |\n| F11 | Wer tanzt zuerst? | Seda (L3) | Quanta (L2) | 0,05 : −0,27 | Seda |\n| F12 | Welche Lampionfarbe kommt ans Tor? | rot (L5, L6) | blau (L1) | 0,06 : 0,12 | blau |\n| F13 | Was liegt im Kappungskorb? | Fass (L8) | Ball (L6) | 2,80 : 0,22 | Fass |\n| F14 | Wohin zeigt das Schild? | oben (L4) | unten (L3, L7) | 0,35 : −0,03 | oben |\n| F15 | Was klingt beim Fang? | Klick (L4) | Gong (L1, L7) | 0,35 : 0,04 | Klick |\n| F16 | Wie heißt der Festplatz? | Treppenwiese (L3, L4) | Stufenhof (L5) | 0,40 : −0,16 | Treppenwiese |\n| F17 | Was knistert im Ofen? | Holz (L6) | Kohle (L7) | 0,22 : −0,08 | Holz |\n| F18 | Wer misst mit dem Kamm? | Seda (L4) | Kajo (L7) | 0,35 : −0,08 | Seda |\n| F19 | Welche Musik hat Ingo? | Trommel (L5, L7) | Flöte (L2) | −0,24 : −0,27 | Trommel |\n| F20 | Was ruft der Ausrufer? | Hurra (L8, L2) | Juhu (L4) | 2,53 : 0,35 | Hurra |\n\n**Ergebnisse je Packung (nachgerechnet; Lampionwerte nach dem Packen wie §6.2):**\n\n| Packung | Lampions nach dem Packen (L1 … L8) | mittl. Fehler | Bytes (8 Werte) | gleich / anders | gekippt |\n|---|---|---|---|---|---|\n| 4 bit global (s = 0,4) | 0; −0,4; 0; 0,4; 0; 0,4; 0; 2,8 | 0,09625 | 6 | 18 / 2 | F09 acht → neun · F12 blau → rot |\n| **4 bit, zwei Leitern** (s = 0,05 / 0,4) | 0,1; −0,25; 0,05; 0,35; 0; 0,4; 0; 2,8 | 0,0575 | 8 | **18 / 2** | **F09 acht → neun · F12 blau → rot** |\n| 4 bit, zwei Leitern + Riesenfass gesondert | 0,1; −0,25; 0,05; 0,35; −0,1571; 0,22; −0,0943; 2,8 | 0,0071 | 12 | 19 / 1 | **F19** Trommel → Flöte |\n| INT8 global (s = 2,8/127) | 0,1102; −0,2646; 0,0441; 0,3528; −0,1543; 0,2205; −0,0882; 2,8 | 0,0048 | 10 | 20 / 0 | – |\n\nKippkandidaten sind nur Fragen mit kleinem Abstand |A − B| < 0,1: F09 (+0,03), F12 (−0,06), F19 (+0,03). Punkte nach dem Packen:\nF09 zwei Leitern 0,15 : 0,40 · gesondert 0,15 : 0,1257 · INT8 0,1543 : 0,1323 · global 0 : 0,4. F12 zwei Leitern 0,40 : 0,10 ·\ngesondert 0,0629 : 0,10 · INT8 0,0662 : 0,1102 · global 0,4 : 0. F19 zwei Leitern 0 : −0,25 · gesondert −0,2514 : −0,25 ·\nINT8 −0,2425 : −0,2646 · global 0 : −0,4.\n\n### 8a.2 Teil 1 – „Meistens gleich, manchmal nicht“\n\n- **Bildbruch:** „Sedas Probe bestanden = die Brücke sagt alles wie vorher“ und „kleiner Fehler pro Zahl = nur kleine, unwichtige\n  Wirkung“ (DIDAKTIK §5, KANON §17 Quantisierung „wird gemessen, nicht geraten“, §21 L3).\n- **Einstieg:** Das Riesenfass ist mit zwei Leitern repariert; Sedas Kamm rastet ein: 0,12 bleibt schwerer als 0,05 (0,1 > 0,05).\n  Quanta: „Bestanden! Dann sagt die Brücke jetzt genau dasselbe wie vorher.“ Seda: „Oder alles anders – vier Bit sind Grobware.“\n  *Klonk* – Quirins Brille rutscht. Durch Quirins Glas liegen 20 Antwortkarten der Festfragen auf dem Festwagen: die 16-bit-Antworten\n  aufgedeckt, die 4-bit-Antworten verdeckt.\n- **Vorhersage:** „Wie viele der 20 Antworten sind mit der 4-bit-Packung (zwei Leitern) anders als vorher?“\n  (a) Keine – Seda hat gemessen, vier Bit sind genau genug. **[Fehlvorstellung]**\n  (b) Die meisten bleiben gleich, ein paar sind anders. **[richtig]**\n  (c) Fast alle – vier Bit sind Grobware.\n- **Wirkung im Regelkern:** QuantMini rechnet alle 20 Fragen mit den gepackten Lampions neu (Tabelle 8a.1, Zeile „zwei Leitern“):\n  **18 gleich, 2 anders** – „Um wie viel Uhr fährt das Mondschiff?“ jetzt **neun** statt acht, „Welche Lampionfarbe kommt ans Tor?“\n  jetzt rot statt blau. Die Karten drehen sich einzeln um; die zwei geänderten wackeln. Kurze Prüffrage danach (ohne Stern, nicht\n  ablesbar): „Welche der beiden Änderungen kann jemandem schaden?“ – das Mondschiff (wer sich darauf verlässt, verpasst das Schiff);\n  die Lampionfarbe ist egal. Seda leise: „Mein Kamm hat ein Paar geprüft. Die Brücke beantwortet viel mehr Fragen.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Sedas Kamm prüft nur ein paar Paare. Ob Antworten gleich bleiben, zeigt erst das Nachzählen vieler\n     Antworten – und welche davon wichtig sind, muss man selbst ansehen.“ **[richtig]**\n  2. „Hier endet das Bild: Wenn Sedas Probe besteht, bleibt jede Antwort gleich.“\n  3. „Hier endet das Bild: Ein kleiner Fehler pro Zahl macht immer nur kleine, unwichtige Änderungen.“\n- **Merksatz:** „Kleiner Fehler pro Zahl, manchmal große Wirkung – darum messen.“ · Quirins Gegenprobe: „Bestanden heißt nicht: gleich.“\n- **Nachprobe** (bei falscher Vorhersage): dieselben 20 Fragen mit der Packung „4 bit global“ (eine große Leiter) – gleiche drei\n  Antworten „keine / ein paar / fast alle“ (nachgerechnet: 18 gleich, 2 anders → „ein paar“).\n\n### 8a.3 Teil 2 – „Kippantworten zählen“\n\n- **Brillenstufen (§21 L9, je Bildschirm höchstens ein neues Zeichen):** (1) Punkte an den Antwortkarten, 16 bit gegen gepackt;\n  (2) Tabelle „Packung × Frage“; (3) Formel: Abstand d = Σ x̂ (Wort A) − Σ x̂ (Wort B); eine Antwort **kippt**, wenn d̂ ein anderes\n  Vorzeichen hat als d.\n- **Einstieg:** Quanta: „Riesenfass gesondert – mittlerer Fehler 0,0071, der kleinste aller 4-bit-Packungen. Da kippt garantiert\n  nichts mehr!“ *Klonk.*\n- **Vorhersage (Rechnung an einer neuen Packung):** „Wie viele der 20 Antworten kippen mit ‚zwei Leitern + Riesenfass gesondert‘?\n  Rechne nur die Fragen mit |d| < 0,1 (F09, F12, F19).“\n  (a) Keine – so kleine Fehler kippen nichts. **[Fehlvorstellung]**\n  (b) Eine – und zwar eine andere als bei zwei Leitern. **[richtig: F19, d̂ = −0,2514 − (−0,25) = −0,0014]**\n  (c) Dieselben zwei wie bei zwei Leitern.\n- **Wirkung im Regelkern:** Tabelle 8a.1 wird aufgedeckt (alle vier Packungen). Lehren aus den Zahlen: Mittlerer Fehler und Kippantworten\n  messen Verschiedenes (global und zwei Leitern: 0,09625 bzw. 0,0575 – beide kippen 2); die genauere Packung kippt **F19**, die bei zwei\n  Leitern stabil blieb; erst INT8 (mehr Bytes für die Nutzdaten, 10 B) kippt hier keine. Keine Packung ist „immer gleich“ – gemessen wird\n  an den Antworten selbst.\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Echte Modelle misst man an Tausenden Aufgaben. Neben der Trefferquote zählt man, wie viele einzelne Antworten\n     kippen – bei fast gleicher Trefferquote können viele kippen.“ **[richtig]** (Dutta u. a. 2024)\n  2. „Hier endet das Bild: Der mittlere Fehler sagt genau, wie viele Antworten kippen.“\n  3. „Hier endet das Bild: Eine genauere Packung kippt immer nur einen Teil der Antworten, die eine gröbere Packung kippt.“\n- **Merksatz:** „Kleiner mittlerer Fehler heißt nicht: keine Kippantwort – zählen, nicht schätzen.“\n- **Nachprobe:** neue Festfrage F21 „Wer bekommt den letzten Lampion?“ Seda (L1) gegen Kajo (L3, L7): 16 bit 0,12 : −0,03 → Seda;\n  Vorhersage „Kippt sie mit zwei Leitern?“ (nachgerechnet: 0,10 : 0,05 → bleibt Seda; |d| = 0,15 ist zu groß zum Kippen).\n\n### 8a.4 Asset-Bedarf B′ (L08)\n\n- Gemeinsamer Baustein **`QuirinsGlas`** (Glasrand-Überblendung; DIDAKTIK §7).\n- **20 Antwortkarten** (Vorderseite Frage, Rückseite Antwort; Zustände aufgedeckt/verdeckt/„gekippt“ mit Wackeln und Muster, nicht nur\n  Farbe), Kartenhalter auf dem Festwagen, Zähler „gleich / anders“.\n- Teil 2: **Punkteleiste je Karte** (A : B, 16 bit gegen gepackt), Tabelle Packung × Frage, Formelleiste für d und d̂.\n- Sprachzeilen Quanta, Seda, Quirin, Kajo, Vali (je 2–3); Quirins Gegenprobe-Heft.\n- Daten: Festfragen-Datensatz (Tabelle 8a.1) im Regelkern, versioniert.\n\n---",
+          "markdown": "**Platz im Ablauf:** nach Abschnitt B (in Teil 1 nach B1/B2, wenn das Riesenfass mit zwei Leitern repariert ist), vor Abschnitt C\n(KANON §11 Punkt 4′); 2–4 min. **Ablauf** (DIDAKTIK_REVISION §3.1): *Klonk* – Quirins Brille rutscht, Glasrand „Quirins Glas“ →\nVorhersage mit drei Antworten (gespeichert vor der Wirkung, einversuchig) → Wirkung aus dem Regelkern (QuantMini) → Grenzenwahl aus\ndrei Sätzen → Kajo schiebt die Brille zurück, Quirin notiert eine Gegenprobe. Keine Antwort steht vorher in Rahmen, Demo, Auftrag,\nHilfe A/B oder Rückmeldung (WELTEN_VERTRAG §3a). War die Vorhersage falsch, folgt eine **Nachprobe** mit neuer Variante; erst deren\nrichtige Vorhersage zählt für Stern 4.\n\n### 8a.1 Die 20 Festfragen (Daten, beide Teile)\n\nDie Lampionkette besteht hier aus den acht Werten von Bühne 4 (§5.3/§6.2): L1 … L8 = 0,12; −0,27; 0,05; 0,35 | −0,16; 0,22; −0,08; 2,8.\nZum Fest stellt Vali der Brücke **20 Festfragen** mit je zwei Antwortwörtern. Jedes Wort bekommt Punkte = Summe bestimmter Lampions\n(eine Lio-Punktetafel im Kleinen, Rückbezug L05); das Wort mit mehr Punkten ist die Antwort. Welche Lampions zu welchem Wort gehören,\nist eine **Spielannahme** (Datensatz im Regelkern); alle Ergebnisse sind nachgerechnet. Kein Punktegleichstand in irgendeiner Packung\n(kleinster Abstand 0,0014). Teil 1 zeigt nur Frage und Antwort; die Punkte erscheinen erst in Teil 2.\n\n| Nr | Frage | Wort A (Lampions) | Wort B (Lampions) | Punkte A : B (16 bit) | Antwort 16 bit |\n|---|---|---|---|---|---|\n| F01 | Welches Lied spielt die Festkapelle? | Polka (L4) | Walzer (L1) | 0,35 : 0,12 | Polka |\n| F02 | Wohin rollt das erste Fass? | links (L8) | rechts (L4, L6) | 2,80 : 0,57 | links |\n| F03 | Was gibt es am Bergstand? | Kakao (L4, L3) | Tee (L1) | 0,40 : 0,12 | Kakao |\n| F04 | Wer zündet die Lampions an? | Quanta (L8) | Seda (L1, L3, L4) | 2,80 : 0,52 | Quanta |\n| F05 | Welche Fahne weht oben? | Treppe (L6, L4) | Stern (L1, L3) | 0,57 : 0,17 | Treppe |\n| F06 | Wie viele Sprossen hat die Leiter? | sechzehn (L4) | zwölf (L2) | 0,35 : −0,27 | sechzehn |\n| F07 | Wann beginnt das Fest? | abends (L1, L4) | mittags (L3) | 0,47 : 0,05 | abends |\n| F08 | Welche Farbe hat der Festwagen? | grün (L8) | gelb (L4, L1) | 2,80 : 0,47 | grün |\n| **F09** | **Um wie viel Uhr fährt das Mondschiff?** | acht (L1, L3) | neun (L6, L7) | **0,17 : 0,14** | **acht** |\n| F10 | Was trägt Frieda? | Rahmen (L4, L1) | Hut (L2) | 0,47 : −0,27 | Rahmen |\n| F11 | Wer tanzt zuerst? | Seda (L3) | Quanta (L2) | 0,05 : −0,27 | Seda |\n| F12 | Welche Lampionfarbe kommt ans Tor? | rot (L5, L6) | blau (L1) | 0,06 : 0,12 | blau |\n| F13 | Was liegt im Kappungskorb? | Fass (L8) | Ball (L6) | 2,80 : 0,22 | Fass |\n| F14 | Wohin zeigt das Schild? | oben (L4) | unten (L3, L7) | 0,35 : −0,03 | oben |\n| F15 | Was klingt beim Fang? | Klick (L4) | Gong (L1, L7) | 0,35 : 0,04 | Klick |\n| F16 | Wie heißt der Festplatz? | Treppenwiese (L3, L4) | Stufenhof (L5) | 0,40 : −0,16 | Treppenwiese |\n| F17 | Was knistert im Ofen? | Holz (L6) | Kohle (L7) | 0,22 : −0,08 | Holz |\n| F18 | Wer misst mit dem Kamm? | Seda (L4) | Kajo (L7) | 0,35 : −0,08 | Seda |\n| F19 | Welche Musik hat Ingo? | Trommel (L5, L7) | Flöte (L2) | −0,24 : −0,27 | Trommel |\n| F20 | Was ruft der Ausrufer? | Hurra (L8, L2) | Juhu (L4) | 2,53 : 0,35 | Hurra |\n\n**Ergebnisse je Packung (nachgerechnet; Lampionwerte nach dem Packen wie §6.2):**\n\n| Packung | Lampions nach dem Packen (L1 … L8) | mittl. Fehler | Bytes (8 Werte) | gleich / anders | gekippt |\n|---|---|---|---|---|---|\n| 4 bit global (s = 0,4) | 0; −0,4; 0; 0,4; 0; 0,4; 0; 2,8 | 0,09625 | 6 | 18 / 2 | F09 acht → neun · F12 blau → rot |\n| **4 bit, zwei Leitern** (s = 0,05 / 0,4) | 0,1; −0,25; 0,05; 0,35; 0; 0,4; 0; 2,8 | 0,0575 | 8 | **18 / 2** | **F09 acht → neun · F12 blau → rot** |\n| 4 bit, zwei Leitern + Riesenfass gesondert | 0,1; −0,25; 0,05; 0,35; −0,1571; 0,22; −0,0943; 2,8 | 0,0071 | 12 | 19 / 1 | **F19** Trommel → Flöte |\n| INT8 global (s = 2,8/127) | 0,1102; −0,2646; 0,0441; 0,3528; −0,1543; 0,2205; −0,0882; 2,8 | 0,0048 | 10 | 20 / 0 | – |\n\nKippkandidaten sind nur Fragen mit kleinem Abstand |A − B| < 0,1: F09 (+0,03), F12 (−0,06), F19 (+0,03). Punkte nach dem Packen:\nF09 zwei Leitern 0,15 : 0,40 · gesondert 0,15 : 0,1257 · INT8 0,1543 : 0,1323 · global 0 : 0,4. F12 zwei Leitern 0,40 : 0,10 ·\ngesondert 0,0629 : 0,10 · INT8 0,0662 : 0,1102 · global 0,4 : 0. F19 zwei Leitern 0 : −0,25 · gesondert −0,2514 : −0,25 ·\nINT8 −0,2425 : −0,2646 · global 0 : −0,4.\n\n### 8a.2 Teil 1 – „Meistens gleich, manchmal nicht“\n\n- **Bildbruch:** „Sedas Probe bestanden = die Brücke sagt alles wie vorher“ und „kleiner Fehler pro Zahl = nur kleine, unwichtige\n  Wirkung“ (DIDAKTIK §5, KANON §17 Quantisierung „wird gemessen, nicht geraten“, §21 L3).\n- **Einstieg:** Das Riesenfass ist mit zwei Leitern repariert; Sedas Kamm rastet ein: 0,12 bleibt schwerer als 0,05 (0,1 > 0,05).\n  Quanta: „Bestanden! Dann sagt die Brücke jetzt genau dasselbe wie vorher.“ Seda: „Oder alles anders – vier Bit sind Grobware.“\n  *Klonk* – Quirins Brille rutscht. Durch Quirins Glas liegen 20 Antwortkarten der Festfragen auf dem Festwagen: die 16-bit-Antworten\n  aufgedeckt, die 4-bit-Antworten verdeckt.\n- **Vorhersage:** „Wie viele der 20 Antworten sind mit der 4-bit-Packung (zwei Leitern) anders als vorher?“\n  (a) Keine – Seda hat gemessen, vier Bit sind genau genug. **[Fehlvorstellung]**\n  (b) Die meisten bleiben gleich, ein paar sind anders. **[richtig]**\n  (c) Fast alle – vier Bit sind Grobware.\n- **Wirkung im Regelkern:** QuantMini rechnet alle 20 Fragen mit den gepackten Lampions neu (Tabelle 8a.1, Zeile „zwei Leitern“):\n  **18 gleich, 2 anders** – „Um wie viel Uhr fährt das Mondschiff?“ jetzt **neun** statt acht, „Welche Lampionfarbe kommt ans Tor?“\n  jetzt rot statt blau. Die Karten drehen sich einzeln um; die zwei geänderten wackeln. Kurze Prüffrage danach (ohne Stern, nicht\n  ablesbar): „Welche der beiden Änderungen kann jemandem schaden?“ – das Mondschiff (wer sich darauf verlässt, verpasst das Schiff);\n  die Lampionfarbe ist egal. Seda leise: „Mein Kamm hat ein Paar geprüft. Die Brücke beantwortet viel mehr Fragen.“\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Sedas Kamm prüft nur ein paar Paare. Ob Antworten gleich bleiben, zeigt erst das Nachzählen vieler\n     Antworten – und welche davon wichtig sind, muss man selbst ansehen.“ **[richtig]**\n  2. „Hier endet das Bild: Wenn Sedas Probe besteht, bleibt jede Antwort gleich.“\n  3. „Hier endet das Bild: Ein kleiner Fehler pro Zahl macht immer nur kleine, unwichtige Änderungen.“\n- **Merksatz:** „Kleiner Fehler pro Zahl, manchmal große Wirkung – darum messen.“ · Quirins Gegenprobe: „Bestanden heißt nicht: gleich.“\n- **Nachprobe** (bei falscher Vorhersage): dieselben 20 Fragen mit der Packung „4 bit global“ (eine große Leiter) – gleiche drei\n  Antworten „keine / ein paar / fast alle“ (nachgerechnet: 18 gleich, 2 anders → „ein paar“).\n\n### 8a.3 Teil 2 – „Kippantworten zählen“\n\n- **Brillenstufen (§21 L9, je Bildschirm höchstens ein neues Zeichen):** (1) Punkte an den Antwortkarten, 16 bit gegen gepackt;\n  (2) Tabelle „Packung × Frage“; (3) Formel: Abstand d = Σ x̂ (Wort A) − Σ x̂ (Wort B); eine Antwort **kippt**, wenn d̂ ein anderes\n  Vorzeichen hat als d.\n- **Einstieg:** Quanta: „Riesenfass gesondert – mittlerer Fehler 0,0071, der kleinste aller 4-bit-Packungen. Da kippt garantiert\n  nichts mehr!“ *Klonk.*\n- **Vorhersage (Rechnung an einer neuen Packung):** „Wie viele der 20 Antworten kippen mit ‚zwei Leitern + Riesenfass gesondert‘?\n  Rechne nur die Fragen mit \\|d\\| < 0,1 (F09, F12, F19).“\n  (a) Keine – so kleine Fehler kippen nichts. **[Fehlvorstellung]**\n  (b) Eine – und zwar eine andere als bei zwei Leitern. **[richtig: F19, d̂ = −0,2514 − (−0,25) = −0,0014]**\n  (c) Dieselben zwei wie bei zwei Leitern.\n- **Wirkung im Regelkern:** Tabelle 8a.1 wird aufgedeckt (alle vier Packungen). Lehren aus den Zahlen: Mittlerer Fehler und Kippantworten\n  messen Verschiedenes (global und zwei Leitern: 0,09625 bzw. 0,0575 – beide kippen 2); die genauere Packung kippt **F19**, die bei zwei\n  Leitern stabil blieb; erst INT8 (mehr Bytes für die Nutzdaten, 10 B) kippt hier keine. Keine Packung ist „immer gleich“ – gemessen wird\n  an den Antworten selbst.\n- **Grenzenwahl:**\n  1. „Hier endet das Bild: Echte Modelle misst man an Tausenden Aufgaben. Neben der Trefferquote zählt man, wie viele einzelne Antworten\n     kippen – bei fast gleicher Trefferquote können viele kippen.“ **[richtig]** (Dutta u. a. 2024)\n  2. „Hier endet das Bild: Der mittlere Fehler sagt genau, wie viele Antworten kippen.“\n  3. „Hier endet das Bild: Eine genauere Packung kippt immer nur einen Teil der Antworten, die eine gröbere Packung kippt.“\n- **Merksatz:** „Kleiner mittlerer Fehler heißt nicht: keine Kippantwort – zählen, nicht schätzen.“\n- **Nachprobe:** neue Festfrage F21 „Wer bekommt den letzten Lampion?“ Seda (L1) gegen Kajo (L3, L7): 16 bit 0,12 : −0,03 → Seda;\n  Vorhersage „Kippt sie mit zwei Leitern?“ (nachgerechnet: 0,10 : 0,05 → bleibt Seda; \\|d\\| = 0,15 ist zu groß zum Kippen).\n\n### 8a.4 Asset-Bedarf B′ (L08)\n\n- Gemeinsamer Baustein **`QuirinsGlas`** (Glasrand-Überblendung; DIDAKTIK §7).\n- **20 Antwortkarten** (Vorderseite Frage, Rückseite Antwort; Zustände aufgedeckt/verdeckt/„gekippt“ mit Wackeln und Muster, nicht nur\n  Farbe), Kartenhalter auf dem Festwagen, Zähler „gleich / anders“.\n- Teil 2: **Punkteleiste je Karte** (A : B, 16 bit gegen gepackt), Tabelle Packung × Frage, Formelleiste für d und d̂.\n- Sprachzeilen Quanta, Seda, Quirin, Kajo, Vali (je 2–3); Quirins Gegenprobe-Heft.\n- Daten: Festfragen-Datensatz (Tabelle 8a.1) im Regelkern, versioniert.\n\n---",
           "quelle": "01_design/v2/level/L08.md §8a"
         },
         "Alle Aufgaben mit Lösungen": {
@@ -5414,7 +5414,7 @@
           "quelle": "01_design/v2/level/L08.md §14"
         },
         "Regressionstests (Given / When / Then)": {
-          "markdown": "| ID | Bezug | Given | When | Then |\n|---|---|---|---|---|\n| L08-R01 | – | x = 0,34, s = 0,1 | Codec | q = 3, x̂ = 0,3, Fehler 0,04 |\n| L08-R02 | – | alle Aufgabenwerte und Seeds | Generator/Laden | kein |x/s| mit Nachkommaanteil 0,5 (kein Gleichstand); Regelkern-Rundung „weg von der Null\" separat getestet (2,5 → 3; −2,5 → −3) |\n| L08-R03 | – | x = 0,96, s = 0,1 | Codec | x/s = 9,6 → 10 → clip 7 → x̂ = 0,7 |\n| L08-R04 | – | 8-Werte-Beispiel | global / 2 Gruppen / + Riesenfass gesondert | mittl. Fehler 0,09625 / 0,0575 / 0,0071; Bytes 6 / 8 / 12 |\n| L08-R05 | T18 | Kontext 12 Plätze (T1) bzw. 8192 Tokens (T2) | beliebige Packung | Tokenzahl unverändert |\n| L08-R06 | T17 | Gewichte 16 bit, KV 16 bit | Gewichte → 4 bit | KV-Bitbreite bleibt 16; umgekehrt ebenso |\n| L08-R07 | – | 1000 Werte | 4 bit, Gruppen 32/64/128 | 564/532/516 B |\n| L08-R08 | – | Kiste 600 B (T1) | Packung 4 bit · 4 bit | 572 B, passt, Messung besteht; 2 bit · 16 bit: 470 B, Messung fällt durch |\n| L08-R09 | – | gedachtes Modell 7·10⁹ | 4 bit g64 | 3,71875 GB |\n| L08-R10 | – | KV 2·32·8·128·8192·2 B | Berechnung | 1 073 741 824 B |\n| L08-R11 | – | FP16-Konvertierung | 70 000 / 10⁻⁸ | ∞ / 0; BF16: 70 144 / ≈ 1,0012·10⁻⁸ |\n| L08-R12 | – | C1-Werte (16) | alle sechs Packungen | Tabelle 9 (T2-C1) exakt; nur „Gruppen à 8 + Riesenfass gesondert\" besteht |\n| L08-R13 | T21 | eigener Packzustand | Demo abspielen | eigener Zustand unverändert |\n| L08-R14 | T22 | Demo-Seeds 8081/8082 | Stern-5-Ziehung | ausgeschlossen |\n| L08-R15 | – | Anzeige Laufzeit | jede Packung | keine Geschwindigkeitsangabe ohne Messdatensatz |\n| L08-R16 | [DE 11.10. Didaktik] B′ | Festfragen-Datensatz 8a.1, Lampions 16 bit | Antworten berechnen | 20 Antworten wie Spalte „Antwort 16 bit“; kein Punktegleichstand (|d| > 1e−9) in keiner der vier Packungen |\n| L08-R17 | B′ | Packung zwei Leitern (s = 0,05 / 0,4) | 20 Antworten | 18 gleich; genau F09 (acht → neun) und F12 (blau → rot) anders; Sedas Probe 0,1 > 0,05 besteht zugleich |\n| L08-R18 | B′ | Packungen global / gesondert / INT8 | 20 Antworten | global: F09, F12 · gesondert: nur F19 (d̂ = −0,0014 ±1e−4) · INT8: keine |\n| L08-R19 | B′ | Nachprobe-Frage F21 | zwei Leitern | 0,10 : 0,05 → Seda (kippt nicht) |\n| L08-R20 | §3a | B′-Ablauf | Vorhersage, dann Aufdecken | Vorhersage gespeichert, bevor eine 4-bit-Antwortkarte aufgedeckt ist; die Kippzahl steht nicht in Demo, Auftrag, Hilfe A/B oder Tafel |\n\nTests der Preiskarte (L08-R21 bis L08-R24): §11a.3 [DE 11.10. Didaktik 2.2].\n\n---",
+          "markdown": "| ID | Bezug | Given | When | Then |\n|---|---|---|---|---|\n| L08-R01 | – | x = 0,34, s = 0,1 | Codec | q = 3, x̂ = 0,3, Fehler 0,04 |\n| L08-R02 | – | alle Aufgabenwerte und Seeds | Generator/Laden | kein |x/s| mit Nachkommaanteil 0,5 (kein Gleichstand); Regelkern-Rundung „weg von der Null\" separat getestet (2,5 → 3; −2,5 → −3) |\n| L08-R03 | – | x = 0,96, s = 0,1 | Codec | x/s = 9,6 → 10 → clip 7 → x̂ = 0,7 |\n| L08-R04 | – | 8-Werte-Beispiel | global / 2 Gruppen / + Riesenfass gesondert | mittl. Fehler 0,09625 / 0,0575 / 0,0071; Bytes 6 / 8 / 12 |\n| L08-R05 | T18 | Kontext 12 Plätze (T1) bzw. 8192 Tokens (T2) | beliebige Packung | Tokenzahl unverändert |\n| L08-R06 | T17 | Gewichte 16 bit, KV 16 bit | Gewichte → 4 bit | KV-Bitbreite bleibt 16; umgekehrt ebenso |\n| L08-R07 | – | 1000 Werte | 4 bit, Gruppen 32/64/128 | 564/532/516 B |\n| L08-R08 | – | Kiste 600 B (T1) | Packung 4 bit · 4 bit | 572 B, passt, Messung besteht; 2 bit · 16 bit: 470 B, Messung fällt durch |\n| L08-R09 | – | gedachtes Modell 7·10⁹ | 4 bit g64 | 3,71875 GB |\n| L08-R10 | – | KV 2·32·8·128·8192·2 B | Berechnung | 1 073 741 824 B |\n| L08-R11 | – | FP16-Konvertierung | 70 000 / 10⁻⁸ | ∞ / 0; BF16: 70 144 / ≈ 1,0012·10⁻⁸ |\n| L08-R12 | – | C1-Werte (16) | alle sechs Packungen | Tabelle 9 (T2-C1) exakt; nur „Gruppen à 8 + Riesenfass gesondert\" besteht |\n| L08-R13 | T21 | eigener Packzustand | Demo abspielen | eigener Zustand unverändert |\n| L08-R14 | T22 | Demo-Seeds 8081/8082 | Stern-5-Ziehung | ausgeschlossen |\n| L08-R15 | – | Anzeige Laufzeit | jede Packung | keine Geschwindigkeitsangabe ohne Messdatensatz |\n| L08-R16 | [DE 11.10. Didaktik] B′ | Festfragen-Datensatz 8a.1, Lampions 16 bit | Antworten berechnen | 20 Antworten wie Spalte „Antwort 16 bit“; kein Punktegleichstand (\\|d\\| > 1e−9) in keiner der vier Packungen |\n| L08-R17 | B′ | Packung zwei Leitern (s = 0,05 / 0,4) | 20 Antworten | 18 gleich; genau F09 (acht → neun) und F12 (blau → rot) anders; Sedas Probe 0,1 > 0,05 besteht zugleich |\n| L08-R18 | B′ | Packungen global / gesondert / INT8 | 20 Antworten | global: F09, F12 · gesondert: nur F19 (d̂ = −0,0014 ±1e−4) · INT8: keine |\n| L08-R19 | B′ | Nachprobe-Frage F21 | zwei Leitern | 0,10 : 0,05 → Seda (kippt nicht) |\n| L08-R20 | §3a | B′-Ablauf | Vorhersage, dann Aufdecken | Vorhersage gespeichert, bevor eine 4-bit-Antwortkarte aufgedeckt ist; die Kippzahl steht nicht in Demo, Auftrag, Hilfe A/B oder Tafel |\n\nTests der Preiskarte (L08-R21 bis L08-R24): §11a.3 [DE 11.10. Didaktik 2.2].\n\n---",
           "quelle": "01_design/v2/level/L08.md §15"
         },
         "Asset-Liste": {
@@ -5936,7 +5936,7 @@
         "frage": "Und was kostet das?",
         "quelle": "01_design/v2/KANON.md §21 L12; 01_design/v2/DIDAKTIK_REVISION.md §6a"
       },
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Vor der Mauer liegen Suchindex, Quellen und Werkzeuge der Anwendung. Indra erschließt den Index; Ria bringt ähnliche Blätter auf den Tisch. Bela prüft, ob ein Blatt eine konkrete Antwortbehauptung stützt. Wera führt nur zugelassene Werkzeugaufträge aus. Ein gefundenes Dokument wird als Text in den Kontext aufgenommen. Es erhält dadurch keine Steuerrechte. Herkunftsrahmen helfen beim Einordnen, können das Modell aber nicht gegen täuschende Anweisungen immun machen.",
@@ -6127,7 +6127,7 @@
           "abschnitt": "Aktuelle Abschnitte; Quellenhash in der Datenbank"
         }
       ],
-      "generation": "534411b8fa941f9a",
+      "generation": "a3ce3d7f1e8f82b2",
       "kartentexte": {
         "t1": {
           "erklaerung": "Bei Nacht kehrst du zum Logitmarkt zurück. Die Nachtkugel NK-1 zählt Stimmen aus der Hafenchronik mit 46 Zetteln und zieht daraus Antworten. Du wählst auf drei Hüpffeldern deine Vorhersage, bevor das Licht angeht. Häufige, seltene und fehlende Fakten verhalten sich unterschiedlich; alle Antworten klingen zunächst gleich flüssig. Quirins Glas macht die Gegenprobe sichtbar. Ein frühes falsches Stück kann weitere passende falsche Stücke nach sich ziehen. In der Geschichtenzeit wird dieselbe Erzeugung ausdrücklich zum Erfinden eingeladen.",
@@ -7778,11 +7778,11 @@
     },
     {
       "datei": "01_design/v2/level/L07.md",
-      "sha256": "300dd1eb18bf89a6a70f660e67cc07183bf1808f5fb315eb78167ca90c68ae12"
+      "sha256": "65a7a4d6db3906df77173557dabe78326cb063ae5611eb0d7446b2c5aaff20a4"
     },
     {
       "datei": "01_design/v2/level/L08.md",
-      "sha256": "4ea6b29bd51b0404fbc555825cfbc10c8354009ae16be821f7643d27db277a5f"
+      "sha256": "7a75a609eac6454ecdc64246ef400206e86c5637dd70a746c45112d9e4b5c4e2"
     },
     {
       "datei": "01_design/v2/level/L09.md",
@@ -7814,7 +7814,7 @@
     },
     {
       "datei": "tools/karten_datenbank.py",
-      "sha256": "083d4252810498b2e003a47cfab26dab0f66eca0620d4a8ea550d2bf2a212d13"
+      "sha256": "fe80cc019328bf51d2db035c6976c25a2ae2f3863068614961043e28be1dbb36"
     },
     {
       "datei": "tools/kartentexte.py",
@@ -7822,11 +7822,11 @@
     },
     {
       "datei": "tools/vorlagen/stadtkarte.html",
-      "sha256": "6bb240527fcfe658f966b335fbb27ce265e505774b8537672324f13d08ef50c7"
+      "sha256": "816c70ef6eb433339819487558b3afaa2e4485956e1b96832e7cbe579ae6bdf7"
     },
     {
       "datei": "tools/stadtkarte_bauen.py",
-      "sha256": "6c04fcf4d7d7b4a98a16429ad201d0f11e547b3bec4bb8820d5d356750869b4a"
+      "sha256": "a1791b89fe60b93951a29c40c70d08fda7f894ae87b3638ee211f599fa23c880"
     },
     {
       "datei": "tools/karten_exportieren.py",
@@ -7838,7 +7838,7 @@
     },
     {
       "datei": "10_docs/landing/map-atlas.js",
-      "sha256": "b34db692999172fd9043fa24359b0931930f5ffe2a5e3ed8bd39f67383afeaf4"
+      "sha256": "259edcad8530d2af60afa72d9b6519f5097c38df37e4ad6ca972dbf9426bd8d9"
     },
     {
       "datei": "10_docs/landing/map-viewer.js",
@@ -7850,11 +7850,11 @@
     },
     {
       "datei": "10_docs/landing/premium.js",
-      "sha256": "3e688ef5628d63bcc8f3b25a4a376d170ef506bb431525ca9c0b3cf691efee31"
+      "sha256": "43741b8a3f7d200969fe1ff0ca55f65cdf80c561f73d13279ba851d1e3fa11fd"
     },
     {
       "datei": "10_docs/landing/premium.css",
-      "sha256": "4a92c52321dafc7ebe7d84f80b2c3e6fd98125f35646f8d0301ecdf954741d5b"
+      "sha256": "5aeeecaa539a92a961323c60fde4d04c689f0e092c37ae704a272b3b533d951d"
     },
     {
       "datei": "10_docs/landing/karten.js",
@@ -7862,7 +7862,7 @@
     },
     {
       "datei": "10_docs/landing/city-atlas.js",
-      "sha256": "e2d1847277bfa66a0e7ba189753e46fb64ba0e8e0d057bc29cc5f59e7e412e9d"
+      "sha256": "0619b5f84eabd79fb1ade9adeaa5e594a840048e55e41bcd5cd9fe049fdcd833"
     },
     {
       "datei": "10_docs/landing/city-viewer.js",
@@ -7871,6 +7871,254 @@
     {
       "datei": "10_docs/landing/city-atlas.css",
       "sha256": "1c4b2e3bf70e234ac999be867ae0e906919834be8db1c63f9998b8696d4ec6ed"
+    },
+    {
+      "datei": "10_docs/landing/city-live.js",
+      "sha256": "ee1f35a20a5ae074039c5a947a350e360c3c51e56b890a894fd3156abb6c3718"
+    },
+    {
+      "datei": "10_docs/landing/city-live.css",
+      "sha256": "5291f4a95408598b6c850eaefc60dcf30ad8ce433171898abd6d4a9a28870b60"
+    },
+    {
+      "datei": "10_docs/landing/explorer.css",
+      "sha256": "928532509b12d11400cd142886d7ee624e8dbc3c3641ec382a98ab6358d7875f"
+    },
+    {
+      "datei": "tools/stadtatlas_live_daten.py",
+      "sha256": "c11500d3c4419f2a1325232b3e35573b439bf737aadae219afb9470adc664579"
+    },
+    {
+      "datei": "10_docs/landing/labor-atlas.js",
+      "sha256": "7fc9b4cd2bfbb580bc81db0bbbf909dcedb36aeffb04643651cb29f368a2ac01"
+    },
+    {
+      "datei": "10_docs/landing/labor-atlas.css",
+      "sha256": "0400c0040d5f1b93f64c29507c53b1526b99f84a8d1747dce8282fbc0a3136e9"
+    },
+    {
+      "datei": "tools/reisen_daten_bauen.py",
+      "sha256": "c450da17282e5cb85bc11218a96d5e51fb98b53e81cd19a8c8b391506d4aaa3f"
+    },
+    {
+      "datei": "01_design/v2/AUFTRITTSPLAN.md",
+      "sha256": "13a322b0ebc412331b6c4732dbe81c2fc03288f45dd2b74bfea551eab05c5c81"
+    },
+    {
+      "datei": "01_design/v2/figuren/ahnengalerie.md",
+      "sha256": "db48e8519c3028e86a996298f775010f098446e67dadb40807c57c31bf8ca646"
+    },
+    {
+      "datei": "01_design/v2/figuren/ausrufer.md",
+      "sha256": "e2e9c37ea2c28a8db7e2a51584818ce65579a37d3c74b4d6b87a8cd39eaac519"
+    },
+    {
+      "datei": "01_design/v2/figuren/bank-toki.md",
+      "sha256": "137f1d384eeb99f3ac8552367c05630233cf757e88afcc69681c6b444bd6bc7f"
+    },
+    {
+      "datei": "01_design/v2/figuren/bela-beleg.md",
+      "sha256": "a67b961f624a9ed22fc5b1ee8a85cf3f45ad62307233c7ce425fc0ad6522ae7c"
+    },
+    {
+      "datei": "01_design/v2/figuren/berta-bytepair.md",
+      "sha256": "b486f721b7251df998efd273253e0bf88f0affb1919266039ff13371c8202d44"
+    },
+    {
+      "datei": "01_design/v2/figuren/burgermeister-kontext.md",
+      "sha256": "1b2ee7a362da5cbe5f8617fb6d4625171e10ab8670cf1081a4d0d49582424670"
+    },
+    {
+      "datei": "01_design/v2/figuren/chor-capukey.md",
+      "sha256": "0318ec3085586507cf523ff33553e5ad2af2e3530e954676e782ef96150f81b6"
+    },
+    {
+      "datei": "01_design/v2/figuren/chor-montaquery.md",
+      "sha256": "6cf4c75a4f1bcd5bac9d2dd4c4cee0888429269034f638c641cf216fad26a7a2"
+    },
+    {
+      "datei": "01_design/v2/figuren/edda-ende.md",
+      "sha256": "710e2ec554c201ee26b19dc9246ca2a88bf18361461771c4a7e6b620a40d40bc"
+    },
+    {
+      "datei": "01_design/v2/figuren/emmi-embedding.md",
+      "sha256": "e938a96506ade28d0b236475ecae048f969794e374d62938c88a3a50acef3e34"
+    },
+    {
+      "datei": "01_design/v2/figuren/fina-ffn.md",
+      "sha256": "cc0a4885f8e09f8af124281efa381f933de18a34b474b8c7adb8170ab89f04c9"
+    },
+    {
+      "datei": "01_design/v2/figuren/gilda-gradient.md",
+      "sha256": "11bf61c3107db3c57820c315315de44a025e471ed63fa3f54b66ca0855ffa957"
+    },
+    {
+      "datei": "01_design/v2/figuren/hedra-kopfe.md",
+      "sha256": "70fcfe160d914fd420511e2727421cabcdbc951a4fe2576f0d97ab26d3d578ba"
+    },
+    {
+      "datei": "01_design/v2/figuren/indra-index.md",
+      "sha256": "f1f73ad75ddf05f336aace5509a963bbd4abb7721d4a6410f0fc04171c765b15"
+    },
+    {
+      "datei": "01_design/v2/figuren/injektions-krokodil.md",
+      "sha256": "7d941e54597a290350786afebd2261b81e26d2e96ea76d7a06f32e39577bd734"
+    },
+    {
+      "datei": "01_design/v2/figuren/kaestner.md",
+      "sha256": "687482de1e15daaa4b8e598b7797bc48fc7d764936f3daa127c8b7fe1fa4e476"
+    },
+    {
+      "datei": "01_design/v2/figuren/kajo-cache.md",
+      "sha256": "28b748bd2925377724543ec8094ecda7e62e4a36cab67d5c3f497b631d2519a1"
+    },
+    {
+      "datei": "01_design/v2/figuren/kajos-mama.md",
+      "sha256": "bd461133ba550b987331ac5fc81a4563496dc1518c3d44c16f76ee7860e1b984"
+    },
+    {
+      "datei": "01_design/v2/figuren/kajos-onkel.md",
+      "sha256": "83415dbc9f6b64e2ee4ab2e4929a0c53d4ee9e2bec60d9af1ceb802af0c35128"
+    },
+    {
+      "datei": "01_design/v2/figuren/kessa.md",
+      "sha256": "0fb2407ece4ceb324e4cc416d6ebe8a44c4b892e742427a8d9e6f10ad22a4680"
+    },
+    {
+      "datei": "01_design/v2/figuren/keylian-key.md",
+      "sha256": "5a64589fc0810b0fb4a19ed4a4e676d7d51a6325e75812789597eaf7d7904244"
+    },
+    {
+      "datei": "01_design/v2/figuren/kira-top-k.md",
+      "sha256": "b261c40795dcd93f89e020be76913866db44253b39ede230a134fbfc4b3619b5"
+    },
+    {
+      "datei": "01_design/v2/figuren/lehrling-merk.md",
+      "sha256": "ca52f82799bd56d943e1c01aa274ba077298a1a4459b6257728ce4eb13486936"
+    },
+    {
+      "datei": "01_design/v2/figuren/lehrling-regula.md",
+      "sha256": "8e5a3aba726caa8cbbf17551e1bca66f35056928ca0067cb181a5143c08179b5"
+    },
+    {
+      "datei": "01_design/v2/figuren/lio-logit.md",
+      "sha256": "05696fb7305feb78884f6d08924c8418d6b1948ba65c37e9bc4bf33c8f144e22"
+    },
+    {
+      "datei": "01_design/v2/figuren/mira-maske.md",
+      "sha256": "04be49374cf83670562c561840b49023561eccf5a40a5687dbf746687c8f1357"
+    },
+    {
+      "datei": "01_design/v2/figuren/moewe.md",
+      "sha256": "eea8b17b301346c5c6af650e4f1265f748ebe81f597cce7e5ee93b1ba52a7247"
+    },
+    {
+      "datei": "01_design/v2/figuren/nebel-der-selbstsicherheit.md",
+      "sha256": "23833a202b089eb62d8d2d536195f442c5a0496dcac7eea6124b0737bcc552ee"
+    },
+    {
+      "datei": "01_design/v2/figuren/nora-norm.md",
+      "sha256": "1a4a08cd258b124c923ab44b47ae359c4cff246ce3a3cba601a04c5b3c2d3c13"
+    },
+    {
+      "datei": "01_design/v2/figuren/olli-optimierer.md",
+      "sha256": "934a1c7e5189a321ca417ba86024143165b9ca0075a71717915f74dcb07f4e43"
+    },
+    {
+      "datei": "01_design/v2/figuren/oskar-output.md",
+      "sha256": "b825680967795dfdd209f8b41e57f0c49a63e40c708ebc1c221f49eabc3f8996"
+    },
+    {
+      "datei": "01_design/v2/figuren/pio-top-p.md",
+      "sha256": "31ebc116e064149bbce043dfd4d8b446ba28424c33a3789f2761b0a94bc6fe6a"
+    },
+    {
+      "datei": "01_design/v2/figuren/pippa-position.md",
+      "sha256": "c7cc1bb6c5b92502133357f7bef045572949d55e7c6dae1516fc362358e7ee6c"
+    },
+    {
+      "datei": "01_design/v2/figuren/quanta-vierbit.md",
+      "sha256": "e3937dbf6d3563d320b0da46252db660cfadbeb70bffe450ea9e1b9dbbf3e482"
+    },
+    {
+      "datei": "01_design/v2/figuren/quellenwaechter-seefahrer.md",
+      "sha256": "8bba2aab5c30bbea4572be7e8a924b7aab7d1325ec6afa2a10d4f3ae5f7740db"
+    },
+    {
+      "datei": "01_design/v2/figuren/queria-query.md",
+      "sha256": "746510dbac566939c80d716ac5582204be8c2f65d8891e318f040c8e3c8d8350"
+    },
+    {
+      "datei": "01_design/v2/figuren/quirin-query.md",
+      "sha256": "ac8b33d21fcb56d687b33d5ebb6b3c78452e1747a86975dbb245539822b62452"
+    },
+    {
+      "datei": "01_design/v2/figuren/ressi-residual.md",
+      "sha256": "af0f633dd1c62fe59fe330ed5548bd5bad870f3a2c2d95261039c0588560a735"
+    },
+    {
+      "datei": "01_design/v2/figuren/ria-retrieval.md",
+      "sha256": "5afe77f98a012901d8acdb7dc935b7f65638a0a2b8844f051aad3b8e6f905742"
+    },
+    {
+      "datei": "01_design/v2/figuren/ronja-rueckmeldung.md",
+      "sha256": "b8dc774afe3ebd72a67b850b9fca4a21e3f77fb0eecfc9aecb0482d67e461d61"
+    },
+    {
+      "datei": "01_design/v2/figuren/rosa-rotation.md",
+      "sha256": "367a67f60b14bdfd96b595b52a551365046e4c9b33efb7976b0bb1e92dd2778e"
+    },
+    {
+      "datei": "01_design/v2/figuren/seda-sechzehn.md",
+      "sha256": "6e89328814d3bb1a02d3577aacd27926b19aa13b2b6971f717346cccfc9ed20f"
+    },
+    {
+      "datei": "01_design/v2/figuren/sofi-softmax.md",
+      "sha256": "a63adf5fa6fdd7ff02d2ad80b5ff9d4d797820b28afa98e4e72917d17102539d"
+    },
+    {
+      "datei": "01_design/v2/figuren/stempelamt-schreiber.md",
+      "sha256": "e5758b15954f17c1b4178f6d246e826d03926fc0cac54934873d41e6e7e66b03"
+    },
+    {
+      "datei": "01_design/v2/figuren/stolzer-schmied.md",
+      "sha256": "2932549e2ebec0d5141e584418e86d886c3c3dc75b4c7c6b900d8be22ad569ff"
+    },
+    {
+      "datei": "01_design/v2/figuren/stufenvolk.md",
+      "sha256": "e29991d639d9a6a7ebf46a42aef28dee8421c8910fad5bf8046a59b0045c07f1"
+    },
+    {
+      "datei": "01_design/v2/figuren/tempi-temperatur.md",
+      "sha256": "da8b5355396ba07addfc24b8a8286f2aad96d6a7134a93279e605b1819a4d278"
+    },
+    {
+      "datei": "01_design/v2/figuren/toki.md",
+      "sha256": "9daf019da6d2bb81e0d542bba6ff5ae56448bebe071f5328092203ea54bad844"
+    },
+    {
+      "datei": "01_design/v2/figuren/tokis-oma.md",
+      "sha256": "189b356a20ac1a936e97c86cda191b03be141b5eb9e2229e41230b776905b3b7"
+    },
+    {
+      "datei": "01_design/v2/figuren/turmwerkstatt-herr.md",
+      "sha256": "9225caa3fc7cfc6e8a974349356449125e490d5a3a2516094d815f5f6060fcbc"
+    },
+    {
+      "datei": "01_design/v2/figuren/uniform-fahrgast.md",
+      "sha256": "a1697d4b8f795b32d77f3e35814a70632b36bb181c84fc2867bfa755f8fce1cf"
+    },
+    {
+      "datei": "01_design/v2/figuren/vali.md",
+      "sha256": "13dc36ea0c39c808130ac3a869f97a728692b69ed6cf4005e4bb65368b40116f"
+    },
+    {
+      "datei": "01_design/v2/figuren/valo-value.md",
+      "sha256": "bc2ddaa2fe72e4e6fd6873ad18d0c79d5c3f3f0f97a77e99fe5c46d8ddd294ca"
+    },
+    {
+      "datei": "01_design/v2/figuren/wera-werkzeug.md",
+      "sha256": "3641a2bb17f0757090c9b8842f56bde130a9245cdc038fe19c42b25b57a7751f"
     }
   ],
   "ausbau": {

@@ -1,5 +1,5 @@
 L06 · Kajos Archiv: Nicht noch einmal von vorn
-Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
 
 Was passiert hier?
 Kajo bewahrt bereits berechnete Keys und Values je Stockwerk und Position auf. Bei der Morgenflut wird der Prompt verarbeitet; danach ergänzt jeder Antwortschritt neue K/V-Paare. Frühere Paare können erneut verwendet werden. Das spart Projektionen, braucht aber Speicher. Der Cache ist ein Zwischenspeicher laufender Rechnung. Eine Notiz der Anwendung ist etwas anderes: Sie muss als Text wieder auf den Tisch gelegt werden und belegt dann Kontextplätze.

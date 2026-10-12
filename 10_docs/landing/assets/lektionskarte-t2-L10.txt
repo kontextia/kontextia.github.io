@@ -1,0 +1,17 @@
+L10 · Die Nebelnacht
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
+
+Was passiert hier?
+Bei Nacht kehrst du zum Logitmarkt zurück. Die Nachtkugel NK-1 zählt Stimmen aus der Hafenchronik mit 46 Zetteln und zieht daraus Antworten. Du wählst auf drei Hüpffeldern deine Vorhersage, bevor das Licht angeht. Häufige, seltene und fehlende Fakten verhalten sich unterschiedlich; alle Antworten klingen zunächst gleich flüssig. Quirins Glas macht die Gegenprobe sichtbar. Ein frühes falsches Stück kann weitere passende falsche Stücke nach sich ziehen. In der Geschichtenzeit wird dieselbe Erzeugung ausdrücklich zum Erfinden eingeladen.
+
+Dein Auftrag
+Berechne Verteilungen des NK-1, vergleiche Häufigkeit und Fehlerquote und untersuche Kalibrierung. Verändere die Punkteregel und Sicherheitsschwelle, bevor du Schneeball und Gegenmittel erneut prüfst.
+
+Erwartetes Ergebnis im Entwurf
+Raten kann durch die Bewertungsregel belohnt werden. Eine Strafe oder Enthaltungsregel verändert die Entscheidung und kann häufiger zu „Weiß ich nicht“ führen. Übereinstimmung allein belegt keine Wahrheit. NK-1 zählt Zettel; echte Modelle speichern Muster verteilt in Gewichten. Die Mutschraube vereinfacht diesen Trainingsanreiz.
+
+So findest du Fehler
+Trenne das Prüflicht der Lernenden vom Verhalten der Stadt. Prüfe Belege, Fehlerart und Kosten des Gegenmittels. Weder Temperatur null noch eine Quelle beseitigt Nebel zuverlässig. Der Stempelamt-Schreiber kann weiter mitschreiben.
+
+Quelle: 01_design/v2/level/L10.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

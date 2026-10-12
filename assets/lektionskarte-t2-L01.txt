@@ -1,5 +1,5 @@
 L01 · Das Tor der Textbausteine
-Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
 
 Was passiert hier?
 Im Tokenhafen zerlegt Berta den Text in Stücke aus einem endlichen Vokabular. Zu jedem Stück gehört eine ID. Der Bürgermeister zählt die Plätze auf dem Tisch: Frage, bisheriges Gespräch und Antwort teilen sich ein Kontextbudget. Ein seltenes Wort kann mehrere Stücke brauchen. Wenn der Tisch überläuft, fällt früherer Text heraus. Die Stadt kann den verlorenen Inhalt anschließend flüssig ergänzen, obwohl sie ihn nicht mehr auf dem Tisch hat.

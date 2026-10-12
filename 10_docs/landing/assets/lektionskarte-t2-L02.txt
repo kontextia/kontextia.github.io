@@ -1,0 +1,17 @@
+L02 · Der Kartenwald der Bedeutungsrichtungen
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
+
+Was passiert hier?
+Emmi schlägt zu jeder Token-ID eine Zeile im Kartenbuch nach. Daraus entsteht die Anfangsperle, ein Zahlenvektor. Dieselbe ID beginnt mit derselben Darstellung; erst die folgenden Rechnungen beziehen den Satzkontext ein. Die beiden Bank-Tokis zeigen, warum ein gleiches Wort je nach Umgebung anders weiterverarbeitet wird. Die sichtbare Karte ist ein Schatten vieler Dimensionen. Pippas Positionsinformation macht zusätzlich die Reihenfolge zugänglich.
+
+Dein Auftrag
+Berechne die vorgegebenen Kosinus-Ähnlichkeiten und vergleiche mehrere Projektionen. Untersuche Positionsdaten und Rosas Drehung von Q und K bei RoPE.
+
+Erwartetes Ergebnis im Entwurf
+Ähnlichkeit hängt von Richtung und Projektion ab; sie beweist keine Wahrheit. RoPE verändert die positionsabhängigen Q-/K-Koordinatenpaare. V wird dabei nicht gedreht. Ein Zahlenvektor besitzt viele Richtungen; die flache Darstellung zeigt nur einen Ausschnitt.
+
+So findest du Fehler
+Trenne Embedding-Lookup, Position und spätere Kontextverarbeitung. Ein näherer Punkt auf der Zeichnung ist kein Beweis für eine richtig verstandene Bedeutung.
+
+Quelle: 01_design/v2/level/L02.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

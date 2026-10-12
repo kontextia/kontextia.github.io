@@ -1,0 +1,275 @@
+<!doctype html>
+
+
+<html lang="de">
+
+
+<head>
+
+
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+  <title>Kontextia · Die Stadt, die Antworten baut.</title>
+
+
+  <meta name="description" content="Begleite Toki und Kajo durch Kontextia. Entdecke die Geschichte, Prolog und zehn Spielwelten, 34 Figuren und die Technik hinter einer Stadt, die Antworten baut.">
+
+
+  <meta name="theme-color" content="#0b1820"><meta property="og:title" content="Kontextia · Die Stadt, die Antworten baut.">
+
+
+  <meta property="og:description" content="Erkunde die Stadtkarte, lerne ihre Bewohner kennen und entdecke die Geschichte der Lichterbrücke."><meta property="og:image" content="assets/karte-teil1.webp">
+
+
+  <link rel="icon" href="assets/marke.svg" type="image/svg+xml"><link rel="stylesheet" href="premium.css?v=5aeeecaa539a"><link rel="stylesheet" href="podcast.css?v=97ac449efde7"><link rel="stylesheet" href="map-viewer.css?v=f752678a09b7"><link rel="stylesheet" href="explorer.css?v=928532509b12">
+
+
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+
+
+  <script defer src="daten/landing_daten.js?v=8fc5b437fe2f"></script><script defer src="daten/premium_daten.js?v=59b0aac59939"></script><script defer src="daten/podcast_web.js?v=203a7d893afe"></script>
+
+<script defer src="daten/podcast_restore.js?v=85c54114b553"></script><script defer src="premium.js?v=43741b8a3f7d"></script><script defer src="podcast.js?v=d58e9353e5cb"></script>
+
+<script defer src="podcast-stuecke.js?v=75c63ff12cce"></script><script defer src="karten.js?v=96a67973a58e"></script><script defer src="daten/explorer_daten.js?v=6710fd1ab7bd"></script><script defer src="explorer.js?v=ffc79586e299"></script>
+
+
+<script defer src="city-atlas.js?v=0619b5f84eab"></script><script type="module" src="city-live.js?v=ee1f35a20a5a"></script><script defer src="city-inline.js?v=5e9f55aed71e"></script>
+
+
+<link rel="stylesheet" href="city-atlas.css?v=1c4b2e3bf70e"><link rel="stylesheet" href="city-live.css?v=5291f4a95408"><link rel="stylesheet" href="city-inline.css?v=d8c836367163">
+
+
+<link rel="stylesheet" href="ambient.css?v=686eab1e67f8"><script defer src="ambient.js?v=ffc52faa9c7b"></script>
+
+
+<link rel="stylesheet" href="dialogue-voice.css?v=2f07e9cfc85f"><script defer src="daten/dialogue_audio.js?v=3bbe34f0aad3"></script><script defer src="dialogue-voice.js?v=d856e41ed783"></script>
+
+
+
+<link rel="stylesheet" href="podcast-stuecke.css?v=08cdc9ce9565">
+
+<script defer src="daten/reisen_details.js?v=4d901726761a"></script><script defer src="labor-atlas.js?v=7fc9b4cd2bfb"></script><link rel="stylesheet" href="labor-atlas.css?v=0400c0040d5f">
+</head>
+
+
+<body>
+
+
+<a class="skip" href="#saga">Zum Inhalt</a>
+
+
+<header class="site-header"><a class="brand illustrated-brand" href="#anfang" aria-label="Kontextia Start"><img src="assets/attentionris-logo.svg" width="272" height="67" alt="Kontextia – Die Stadt, die Antworten baut."></a>
+
+
+  <button id="menu-toggle" class="icon-button" aria-expanded="false" aria-controls="main-nav" aria-label="Navigation öffnen">☰</button>
+
+
+  <nav id="main-nav" aria-label="Hauptnavigation"><a href="#saga">Die Saga</a><a href="#atlas">Stadtatlas</a><a href="#welten">Lektionen</a><a href="#bewohner">Bewohner</a><a href="#hoerspiel">Podcast</a><a class="nav-cta" href="#entdecken">Entdecken <span aria-hidden="true">↗</span></a></nav>
+
+
+</header>
+
+
+<main>
+
+
+<section class="hero" id="anfang" aria-labelledby="hero-title">
+
+
+ <div class="hero-map" aria-hidden="true"></div><div class="hero-glow" aria-hidden="true"></div>
+
+
+ <div class="hero-copy"><p class="eyebrow"><span class="spark" aria-hidden="true">✦</span> Ein Lernabenteuer in Kontextia</p><h1 id="hero-title">Willkommen in<br><em>Kontextia.</em></h1><p class="hero-lead">Begleite Toki und Kajo durch eine Stadt, deren Bewohner lernen müssen, zusammenzuarbeiten. Löse ihre Streitigkeiten und entdecke spielerisch, wie aus einer Frage eine Antwort entsteht.</p>
+
+
+ <div class="actions"><a class="button primary" href="#saga"><span class="label-wide">Entdecke die Geschichte</span><span class="label-small">Zur Geschichte</span> <span aria-hidden="true">↗</span></a><button class="button quiet" data-listen-main>▶ <span class="label-wide">Den Podcast hören</span><span class="label-small">Podcast</span></button></div>
+
+
+ <div class="hero-meta"><span>Geschichte & Spielwelten</span><span>Für Neugierige ab 8</span><span>Spielen, prüfen, verstehen</span></div></div>
+
+
+ <div class="hero-stage"><div class="stage-caption"><span>LIVE AUS DEM TOKENHAFEN</span><span class="live-dot" aria-hidden="true"></span></div>
+
+
+  <div id="character-stage" role="img" aria-label="Toki und Kajo spielen am Hafen. Die 3D-Bühne lässt sich unten pausieren.">
+
+
+   <div id="hero-fallback"><img src="assets/toki-transparent.png" alt="Toki, der goldene Textbaustein"><img src="assets/kajo-transparent.png" alt="Kajo, der türkise Archivhüter"></div>
+
+
+   <p id="stage-status" class="stage-status" role="status">Toki & Kajo kommen gleich …</p>
+
+
+  </div><div id="hero-speech" class="speech"><span id="speech-name">Toki</span><p id="speech-text">„Manchmal bin ich ein ganzes Wort – manchmal nur ein Stück!“</p></div>
+
+
+  <div class="stage-controls" aria-label="Figurenbühne"><button id="scene-restart" aria-label="Hafenszene neu starten">Noch einmal ↻</button><button id="stage-sound" aria-pressed="false">Stimmen abspielen ♫</button><button id="motion-toggle" aria-pressed="false" aria-label="Bewegung pausieren">Ⅱ</button></div>
+
+
+ </div>
+
+
+ <a class="scroll-cue" href="#saga"><span>Die Reise beginnt hier</span><span aria-hidden="true">↓</span></a>
+
+
+</section>
+
+
+<aside class="podcast-feature" aria-label="Der Podcast aus Kontextia">
+
+
+ <div class="podcast-feature-cast" aria-hidden="true"><img src="assets/toki-transparent.png" alt="" width="120" height="140"><img src="assets/kajo-transparent.png" alt="" width="120" height="140"><img src="bilder/gross/quirin-query.jpg" alt="" width="120" height="140"></div>
+
+
+ <div><p class="eyebrow">Kopfhörer auf. Komm mit nach Kontextia.</p><h2>Eine Stadt voller Stimmen.</h2><p>Die ganze Geschichte als Podcast. Die Bewohner erscheinen im Bild, sobald sie sprechen.</p></div>
+
+
+ <div class="podcast-feature-actions"><button class="button primary" data-podcast-start="0">▶ Die kleine Hörreise <small>40 Min.</small></button><a class="button quiet" href="#hoerspiel">16 Kapitel entdecken <small>↗</small></a></div>
+
+
+</aside>
+
+
+<section class="section story-section" id="saga" aria-labelledby="saga-title"><div class="section-head"><p class="eyebrow">01 / Die Geschichte</p><h2 id="saga-title">Das Abenteuer beginnt<br><em>an der Lichterbrücke.</em></h2><p>Die Antwortbrücke bleibt dunkel, weil die Häuser von Kontextia nicht zusammenarbeiten. Als Brückenbauerin oder Brückenbauer reist du durch neun Bezirke, hilfst ihren Bewohnern und bringst die Brücke zum Leuchten. Die Lichterbrücke erzählt eine vollständige Geschichte; im zweiten Teil kannst du die Technik dahinter genauer erkunden.</p></div>
+
+
+ <div class="story-mural"><button class="story-map-open" aria-label="Kontextia-Karte groß öffnen und zoomen"><img src="assets/karte-teil1.svg" loading="lazy" alt="Kontextia mit Tokenhafen, Kartenwald, Schichtenturm und der Antwortbrücke"></button><div class="mural-note"><div><span class="eyebrow">Kontextia</span><p>In Kontextia wird die Arbeit eines Sprachmodells zur Spielwelt. Jedes Viertel zeigt einen Schritt auf dem Weg von der Frage zur Antwort.</p></div><div class="mural-actions"><button class="button primary" data-story-map>Karte erkunden ⤢</button><button class="text-link" id="prologue-open">Den Prolog lesen ↗</button></div></div></div>
+
+
+ <div id="saga-parts" class="saga-parts"></div>
+
+
+</section>
+
+
+<section class="section atlas-section" id="atlas" aria-labelledby="atlas-title"><div class="split-heading"><div><p class="eyebrow">02 / Die Stadtkarte</p><h2 id="atlas-title">Erkunde die Stadt<br><em>auf der Karte.</em></h2></div><p>Wähle ein Stadtviertel und entdecke seine Gebäude, Bewohner und Geschichten. Folge der Reise vom Hafen bis zum Lichterfest oder schau dir an, wie eine Antwort durch die Stadt wandert.</p></div>
+
+
+ <div class="atlas-toolbar"><div class="segmented" aria-label="Stadtplan auswählen"><button data-map-part="1" aria-pressed="true">I · Die Lichterbrücke</button><button data-map-part="2" aria-pressed="false">II · Turm der Tiefe</button></div><button id="map-enlarge" class="button primary">Stadtatlas öffnen & zoomen ⤢</button></div>
+
+
+ <p class="map-invitation">Klicke auf eine Figur, um sie kennenzulernen, oder auf eine Zahl, um den Ort zu erkunden. Die Stadt liegt direkt vor dir. Öffne die große Ansicht, um sie zu drehen, zu zoomen und den Wegen zu folgen.</p><div class="atlas-map"><img id="atlas-image" src="assets/city/aktuell_2026-10-12/stadt.webp" alt="Räumliche Stadtkarte von Kontextia: Prolog, zehn Lernwelten und neun Brückenbögen" loading="lazy"><div id="map-hotspots" aria-label="Stationen auf der Stadtkarte"></div></div>
+
+
+ <div class="atlas-bottom"><div id="atlas-stations" class="station-list" aria-label="Alle elf Lernstationen"></div><article id="atlas-detail" class="atlas-detail" aria-live="polite"></article></div>
+
+
+ <p class="caption">Zu jedem Bezirk gibt es eine eigene Karte mit Schauplätzen und Etappen. <a id="original-map" href="../stadtkarte/index.html#t1" target="_blank" rel="noopener">Den vollständigen interaktiven Plan öffnen ↗</a> · <a id="map-download" href="assets/karte-teil1.svg" download>SVG herunterladen</a></p>
+
+
+</section>
+
+
+<section class="section worlds-section" id="welten" aria-labelledby="worlds-title"><div class="section-head"><p class="eyebrow">03 / Der Prolog und zehn Spielwelten</p><h2 id="worlds-title">Entdecke die Spiele<br><em>von Kontextia.</em></h2><p>Vom Ratespiel am Hafen bis zur Nebelnacht auf dem Markt: Jede Welt verbindet eine Spielidee mit einem Schritt der Sprachverarbeitung. Wähle eine Welt und erkunde ihre Geschichte, den Spielablauf und die Technik dahinter.</p></div>
+
+
+ <p class="caption">Aktueller Stand: Didaktik 2.2 · L00, L01–L10 · neun Brückenbögen, Widerlager und Brückenlaternen.</p><div id="world-selector" class="world-selector" aria-label="Welt auswählen"></div><article id="world-content" class="world-content"></article>
+
+
+</section>
+
+
+<section class="section" id="lektionenkarten" aria-labelledby="cards-title"><div class="split-heading"><div><p class="eyebrow">Deine Lektionskarten / Stand 2.2</p><h2 id="cards-title">Jede Lektion.<br><em>Klar auf einer Karte.</em></h2></div><p>Vom ersten Ratespiel bis zum Abschluss: Schauplatz und Figuren sind nummeriert. Lernziele, Gewinn, Preis und die Grenze des Bildes stehen auf demselben Blatt. Öffne die vollständige Lektion oder lade die Karte zum Nachschlagen herunter.</p></div><div class="segmented" aria-label="Kartenreihe auswählen"><button data-card-part="1" aria-pressed="true">Die Lichterbrücke · 8–12</button><button data-card-part="2" aria-pressed="false">Der Turm der Tiefe · 12–16</button></div><p class="caption" id="cards-version"></p><div id="cards-grid" class="lesson-cards-grid"></div></section>
+
+
+<section class="section analogy-section" id="analogien" aria-labelledby="analogy-title"><div class="split-heading"><div><p class="eyebrow">04 / Spielwelt und Technik</p><h2 id="analogy-title">So wird aus Technik<br><em>eine Spielwelt.</em></h2></div><p>Kajos Schubladen zeigen gespeicherte Zwischenrechnungen, Tempis Glücksrad zeigt die Auswahl des nächsten Textstücks. Hier erfährst du, warum diese Bilder gewählt wurden, was sie erklären und wo der Vergleich endet.</p></div>
+
+
+ <div class="analogy-layout"><div id="analogy-list" class="analogy-list" aria-label="Analogien zwischen Spielwelt und Technik"></div><article id="analogy-detail" class="analogy-detail" aria-live="polite"></article></div>
+
+
+ <div class="temperature-exhibit"><div><p class="eyebrow">Zum Ausprobieren / Temperatur und Auswahl</p><h3>Tempis Temperaturregler ausprobieren</h3><p>Dieselben drei Punktwerte. Eine andere Verteilung. Bewege die Temperatur und beobachte, wie sich die Chancen ändern.</p><label for="temperature">Temperatur <output id="temperature-value">1,0</output></label><input id="temperature" type="range" min="0.2" max="2" step="0.1" value="1"><p class="caption">Lehrbeispiel: softmax([2, 1, 0] / T). Temperatur verändert die Verteilung; sie macht ein Modell nicht klüger.</p></div><div id="probabilities" class="probabilities" role="img" aria-label="Wahrscheinlichkeitsverteilung"></div></div>
+
+
+</section>
+
+
+<section class="section rhythm-section" id="stadttakt" aria-labelledby="rhythm-title"><div class="split-heading"><div><p class="eyebrow">05 / Der Ablauf einer Antwort</p><h2 id="rhythm-title">Wie Kontextia<br><em>eine Antwort baut.</em></h2></div><p>Nach jeder Runde wählt die Stadt das nächste Textstück. Dann beginnt der Ablauf erneut. Entdecke den Stadttakt und lerne, was die Stadt aus dem Gespräch liest, welche Zwischenrechnungen sie behält und wie sich das vom Training unterscheidet.</p></div><div id="rhythm-selector" class="rhythm-selector" aria-label="Stadttakt auswählen"></div><article id="rhythm-detail" class="rhythm-detail" aria-live="polite"></article><div id="memories" class="memories"></div></section>
+
+
+<section class="section houses-section" id="haeuser" aria-labelledby="houses-title"><p class="eyebrow">Die Häuser von Kontextia / Lore, Bewohner und Gewerke</p><h3 id="houses-title">Jedes Haus hat eine Geschichte.<br><em>Zusammen bauen sie die Antwort.</em></h3><p class="ex-house-intro">Dreizehn Häuser streiten darum, wessen Wappen auf den Schlussstein gehört. Entdecke ihre Bewohner, ihre Bräuche und ihre Arbeit. Folge den Verbindungen und finde heraus, warum jedes Gewerk auf die anderen angewiesen ist.</p><div id="houses"></div></section>
+
+
+<section class="section residents-section" id="bewohner" aria-labelledby="residents-title"><div class="split-heading"><div><p class="eyebrow">06 / Die Bewohner und ihre Häuser</p><h2 id="residents-title">Lerne die Bewohner<br><em>von Kontextia kennen.</em></h2></div><p>34 Figuren geben den Rechenschritten ein Gesicht. Finde heraus, welche Aufgabe sie in der Stadt übernehmen, zu welchem Haus sie gehören und wie sie miteinander verbunden sind. In ihrem Album findest du Bilder, Stimmen und Vorstellungsfilme. <a class="text-link" href="#haeuser">Die Häuser und ihre Verbindungen erkunden ↗</a></p></div>
+
+
+ <div class="gallery-toolbar"><label class="search-label">Figur suchen<input type="search" id="figure-search" placeholder="Name, Haus oder Aufgabe …"></label><label>Welt<select id="figure-world"><option value="all">Alle Welten</option></select></label><output id="figure-count">34 Figuren</output></div><div id="figure-grid" class="figure-grid"></div>
+
+
+ <div class="family-section"><div><p class="eyebrow">Die Verbindungen zwischen den Figuren</p><h3>Was die Figuren miteinander verbindet</h3><p>Q, K und V sind Geschwister: drei Projektionen derselben Darstellung. Andere Verbindungen erzählen von Gewichten, Schnittstellen oder der Stadtgeschichte.</p><button id="companions-open" class="text-link">Wie Quirin und Kajo Freunde wurden ↗</button></div><div><div id="family-selector" class="family-selector" aria-label="Verbindungsart auswählen"></div><article id="family-detail" aria-live="polite"></article></div></div>
+
+
+</section>
+
+
+<section class="section audio-section" id="hoerspiel" aria-labelledby="audio-title"><div class="audio-art" aria-hidden="true"><img src="assets/toki-transparent.png" loading="lazy" alt=""><img src="assets/kajo-transparent.png" loading="lazy" alt=""></div><div class="audio-heading"><p class="eyebrow">07 / Der Podcast</p><h2 id="audio-title">Mach es dir gemütlich.<br><em>Wir erzählen dir Kontextia.</em></h2><p>Toki, Kajo und die anderen Bewohner erzählen ihre Geschichte mit eigenen Stimmen. Wähle eine Folge, springe zu einem Kapitel oder höre dir die Figuren einzeln an.</p></div>
+
+
+ <div class="podcast-update"><div><strong id="podcast-update-title">Eine Hörreise mit den Bewohnern von Kontextia.</strong><p id="podcast-update-copy">Mach es dir gemütlich. Die Bewohner nehmen dich mit durch ihre Stadt.</p></div><button class="button primary" id="podcast-start" data-podcast-start>▶ Podcast starten</button></div><div class="audio-console" id="podcast-listening-room"><div class="audio-select"><label for="audio-edition">Deine Hörreise</label><select id="audio-edition"></select></div><div id="now-speaking" class="now-speaking podcast-stage" data-playing="false">
+
+
+ <img class="podcast-scene" id="podcast-scene" src="assets/city/aktuell_2026-10-12/stadt.webp" alt="" aria-hidden="true">
+
+
+ <div class="podcast-stage-place"><span aria-hidden="true">✦</span><span id="podcast-scene-title">Willkommen in Kontextia</span></div>
+
+
+ <div class="speaker-image-frame"><img id="speaker-previous" alt="" aria-hidden="true" hidden><img id="speaker-portrait" src="assets/kajo-transparent.png" alt="Kajo Cache" width="420" height="460"><span class="podcast-narrator" id="speaker-narrator" aria-hidden="true" hidden>♫</span></div>
+
+
+ <div class="podcast-speech"><p class="podcast-speaking-state"><span class="podcast-voice-light" aria-hidden="true"></span><span id="podcast-speaking-state">Deine Reise beginnt mit</span></p><span id="speaker-name">Kajo Cache</span><small id="speaker-role">Mach es dir gemütlich. Die Bilder begleiten die Stimmen.</small><p id="spoken-text">Toki, Kajo und ihre Freunde nehmen dich mit durch Kontextia.</p><p class="podcast-next-speaker" id="podcast-next-speaker"></p></div></div><div class="playback"><button id="audio-back" class="icon-button" aria-label="15 Sekunden zurück">↶15</button><button id="audio-play" class="audio-play" aria-label="Hörspiel abspielen">▶</button><button id="audio-forward" class="icon-button" aria-label="15 Sekunden weiter">15↷</button><div class="audio-seek"><label class="sr-only" for="audio-position">Wiedergabeposition</label><input id="audio-position" type="range" min="0" max="1000" value="0"><span id="audio-time">0:00 / 0:00</span></div><label class="speed-label">Tempo<select id="audio-speed"><option value="0.8">0,8×</option><option value="1" selected>1×</option><option value="1.2">1,2×</option><option value="1.5">1,5×</option></select></label></div><audio id="story-audio" preload="none"></audio><p id="audio-status" class="caption" role="status"></p><div class="podcast-chapter-heading"><p class="eyebrow">Mit wem wir durch Kontextia reisen</p><h3 id="podcast-chapter-title"></h3><p id="podcast-chapter-caption"></p><p id="podcast-cast-note"></p></div><div id="podcast-cast" class="podcast-cast" aria-label="Gesprächspartner in diesem Kapitel"></div><details class="podcast-transcript"><summary>Dieses Kapitel mitlesen · mit Bildern und Sprecherwechseln</summary><div class="podcast-lines" id="podcast-transcript-lines"></div></details><div id="podcast-downloads" class="podcast-downloads" aria-label="Podcast herunterladen"></div><details class="podcast-chapter-list"><summary>Alle Kapitel entdecken <span>16 Stationen durch die Stadt</span></summary><div id="audio-chapters" class="audio-chapters" aria-label="Hörspielkapitel"></div></details></div>
+
+
+<details class="podcast-intros"><summary>Die Bewohner einzeln hören <span>Toki, Kajo und Quirin stellen sich vor</span></summary><div class="podcast-guides" id="podcast-guides" aria-label="Deine Begleiter im Podcast"></div></details><p class="podcast-reading-link"><a id="podcast-read-open" data-podcast-read href="#podcast-reader">Du möchtest mitlesen? Öffne die bebilderte Geschichte ↗</a></p><details class="podcast-reader" id="podcast-reader"><summary>Die Geschichte mitlesen<small>Kurz- und Langfassung · 16 Kapitel mit den Bewohnern von Kontextia</small></summary><p class="caption">Kajo führt dich durch die Geschichte. Toki, Quirin und die anderen Bewohner erzählen selbst von ihrem Leben in der Stadt.</p><div class="podcast-reader-controls"><label>Lesefassung<select id="podcast-read-edition" aria-label="Lesefassung"></select></label><label>Kapitel auswählen<select id="podcast-read-chapter" aria-label="Kapitel auswählen"></select></label></div><div class="podcast-reading" id="podcast-reading"></div><div class="podcast-pages"><button class="button quiet" id="podcast-read-prev">← Vorheriges Kapitel</button><span id="podcast-read-position"></span><button class="button quiet" id="podcast-read-next">Nächstes Kapitel →</button></div><p class="caption"><a id="podcast-read-source" download>Geschichte als Text herunterladen ↓</a></p></details><noscript><p>Die Geschichte zum Mitlesen: <a href="../../04_assets/audio/podcast/folge01/kontextia_folge01_v2/willkommen-in-kontextia-kleine-hoerreise.txt">Kurzfassung</a> · <a href="../../04_assets/audio/podcast/folge01/kontextia_folge01_lang_v2/willkommen-in-kontextia-ganze-geschichte.txt">Langfassung</a>.</p></noscript></section>
+
+
+<section class="section future-section" id="entdecken" aria-labelledby="future-title"><div class="split-heading"><div><p class="eyebrow">08 / Freispiel und der zweite Teil</p><h2 id="future-title">Die Stadt lebt weiter.<br><em>Wohin führt deine Neugier?</em></h2></div><p>Öffne das Figurenalbum, folge einer Verbindung, probiere Kajos Archiv aus oder plane einen Ausbau. Die Erkundung führt dich zu Geschichten, Festen, Zahlen und den Spielideen aus dem Turm der Tiefe.</p></div><div id="freeplay" class="freeplay"></div>
+
+
+ <div class="build-explorer"><div class="build-intro"><p class="eyebrow">Kontextia bauen / Der Freispielentwurf</p><h3>Baue Kontextia<br>nach deinen Ideen aus</h3><p>Im Freispielentwurf kannst du die Stadt mit 47 Modulen verändern. Vergleiche ihre Vorteile und Kosten und entdecke die fünf Stadtaufträge, für die du sie einsetzen kannst.</p><label for="build-world">Bezirk<select id="build-world"></select></label></div><div><div id="build-modules" class="build-modules"></div></div></div><div id="city-missions" class="city-missions"></div>
+
+
+ <div class="learning-path"><div><p class="eyebrow">So ist der Lernweg aufgebaut</p><h3>Ausprobieren, prüfen<br>und selbst anwenden</h3></div><div id="learning-content"></div></div>
+
+
+</section>
+
+
+<section class="section practical-section" id="fragen" aria-labelledby="faq-title"><div class="split-heading"><div><p class="eyebrow">09 / Fragen zum Spiel</p><h2 id="faq-title">Was du über<br><em>das Spiel wissen möchtest.</em></h2></div><p>Hier findest du Antworten zu Altersempfehlungen, Lernzielen und Zugänglichkeit sowie den aktuellen Stand der Entwicklung.</p></div><div id="faq" class="faq"></div><div class="development"><p class="eyebrow">Einblick in die Entwicklung / Oktober 2026</p><h3>Der aktuelle Entwicklungsstand</h3><div id="development-status"></div><button class="text-link" id="credits-open">Quellen, Gestaltung & Assetnachweise ↗</button></div></section>
+
+
+<section class="closing"><div class="closing-map" aria-hidden="true"></div><p class="eyebrow">Deine Reise durch Kontextia</p><h2>Entdecke die Stadt<br><em>mit Toki und Kajo.</em></h2><a class="button primary" href="#atlas">Die Stadt entdecken ↗</a><button class="button quiet" data-listen-main>Das Hörspiel starten ▶</button></section>
+
+
+</main>
+
+
+<aside class="podcast-dock" id="podcast-dock" aria-label="Laufender Podcast" hidden><img id="podcast-dock-portrait" src="assets/kajo-transparent.png" alt="Kajo Cache" width="48" height="56"><button id="podcast-dock-return" aria-label="Zur Podcastbühne"><strong id="podcast-dock-speaker">Kajo Cache</strong><span>Zur Podcastbühne ↗ · <time id="podcast-dock-time">0:00</time></span></button><button class="button quiet" data-podcast-toggle aria-label="Podcast pausieren">Ⅱ Podcast pausieren</button></aside>
+
+
+<footer><a class="brand illustrated-brand" href="#anfang"><img src="assets/attentionris-logo.svg" width="225" height="55" alt="Kontextia – Die Stadt, die Antworten baut."></a><p>Kontextia · Die Stadt, die Antworten baut.</p><a href="#fragen">Entwicklungsstand & Fragen</a><button class="text-link" id="footer-credits">Quellen & Credits</button></footer>
+
+
+<dialog id="detail-dialog"><button class="dialog-close icon-button" aria-label="Dialog schließen">×</button><div id="dialog-content"></div></dialog>
+
+
+<dialog id="map-dialog" class="map-dialog" aria-labelledby="map-view-title"><header class="map-view-header"><div><p class="eyebrow">Kontextia / Dein Stadtatlas</p><h2 id="map-view-title">Die Lichterbrücke</h2></div><button id="map-view-close" class="icon-button" aria-label="Kartenansicht schließen">×</button></header><div class="map-view-toolbar"><div class="map-view-zoom"><button id="map-view-minus" aria-label="Karte verkleinern">−</button><output id="map-view-scale" aria-live="polite">100 %</output><button id="map-view-plus" aria-label="Karte vergrößern">+</button><button id="map-view-reset">Ganze Karte</button></div><button id="map-view-fullscreen">Vollbild ⤢</button></div><div class="map-view-workspace"><div id="map-view-viewport" class="map-view-viewport" tabindex="0" aria-label="Karte: mit Mausrad oder Plus und Minus zoomen, zum Verschieben ziehen"><div id="map-view-layer"><img id="map-view-image" alt="Vollständige Kontextia-Karte" draggable="false"><div id="map-view-points"></div></div></div><aside id="map-view-info" hidden aria-label="Ausgewählter Bezirk"><button id="map-info-close" class="text-link">← Zur ganzen Karte</button><div id="map-info-content"></div></aside></div><footer class="map-view-footer"><span>Mausrad / zwei Finger: zoomen · Ziehen: verschieben · 0: ganze Karte</span><a id="map-view-original" class="text-link" target="_blank" rel="noopener">Alle Etappen & Details ↗</a></footer></dialog>
+
+
+<div class="toast" id="toast" role="status"></div>
+
+
+<script type="module" src="hero-scene.js?v=b5899a65e7e8"></script>
+
+
+<link rel="stylesheet" href="../stadtkarte/figuren-interaktiv.css?v=93d10f3dcb98">
+
+
+<script defer src="../stadtkarte/figuren-daten.js?v=d20235b4aec8"></script><script defer src="../stadtkarte/figuren-interaktiv.js?v=eec337eea4fc"></script>
+
+
+</body></html>
+
+

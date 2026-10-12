@@ -1,0 +1,17 @@
+L09 · Die Antwortbrücke: Wissen holen, Grenzen sehen
+Teil 1 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
+
+Was passiert hier?
+Vor der Mauer liegen Suchindex, Quellen und Werkzeuge der Anwendung. Indra erschließt den Index; Ria bringt ähnliche Blätter auf den Tisch. Bela prüft, ob ein Blatt eine konkrete Antwortbehauptung stützt. Wera führt nur zugelassene Werkzeugaufträge aus. Ein gefundenes Dokument wird als Text in den Kontext aufgenommen. Es erhält dadurch keine Steuerrechte. Herkunftsrahmen helfen beim Einordnen, können das Modell aber nicht gegen täuschende Anweisungen immun machen.
+
+Dein Auftrag
+Prüfe ähnliche Treffer auf passende Belege. Kennzeichne die Fracht, vergleiche Antwort und Quelle und teste einen Krokodilzettel. Prüfe vor einer folgenreichen Aktion Werkzeugfreigabe und Bestätigung.
+
+Erwartetes Ergebnis im Entwurf
+Ein ähnliches Blatt kann die Frage verfehlen. Auch mit Quellen kann die Antwort unbelegte Ergänzungen enthalten. Die Anwendung setzt Rechte und Bestätigungen durch; die Quelle allein tut das nicht. Eine Herkunftsmarkierung senkt Risiken und ersetzt keine Antwortprüfung. Der Mitschreiber bleibt außerhalb des Modells sichtbar.
+
+So findest du Fehler
+Frage bei jeder Behauptung: Stützt genau diese Quelle genau diesen Satz? Prüfe Rechte außerhalb des Modells und gib der Fracht nie das Steuer. Herkunft, Ähnlichkeit und flüssige Sprache beweisen keine Wahrheit.
+
+Quelle: 01_design/v2/level/L09.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

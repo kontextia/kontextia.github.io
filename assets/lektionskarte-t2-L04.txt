@@ -1,5 +1,5 @@
 L04 · Der Wackelturm
-Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
 
 Was passiert hier?
 Der Wackelturm ersetzt die frühere Kopf-Bomber-Idee. Das Lehrmodell WT-1 besitzt zwei Stockwerke mit mehreren Helmen und weiteren Bauteilen. Du sagst zuerst voraus, wie stark eine Antwort sich verändert, und setzt dann an einer Kopie den Beitrag eines Teils auf null. So wird seine Wirkung messbar. Die Helme heißen Strich, Punkt und Welle nach ihren Mustern. Eine Aufgabe erhält keinen fest zugeteilten Helmberuf: Wirkung, Ersatz und Überlagerung hängen vom Satz und den übrigen Teilen ab.

@@ -1,5 +1,5 @@
 L02 · Der Kartenwald der Bedeutungsrichtungen
-Teil 2 · Didaktik 2.2 · Generation 534411b8fa941f9a
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
 
 Was passiert hier?
 Emmi schlägt zu jeder Token-ID eine Zeile im Kartenbuch nach. Daraus entsteht die Anfangsperle, ein Zahlenvektor. Dieselbe ID beginnt mit derselben Darstellung; erst die folgenden Rechnungen beziehen den Satzkontext ein. Die beiden Bank-Tokis zeigen, warum ein gleiches Wort je nach Umgebung anders weiterverarbeitet wird. Die sichtbare Karte ist ein Schatten vieler Dimensionen. Pippas Positionsinformation macht zusätzlich die Reihenfolge zugänglich.

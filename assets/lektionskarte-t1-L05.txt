@@ -1,5 +1,5 @@
 L05 · Die Schlangengasse der nächsten Möglichkeit
-Teil 1 · Didaktik 2.2 · Generation 534411b8fa941f9a
+Teil 1 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
 
 Was passiert hier?
 Auf dem Logitmarkt liefert Lio für mögliche nächste Stücke Punktwerte. Sofi macht daraus eine Verteilung. Tempi verändert mit der Temperatur deren Schärfe; Kira und Pio begrenzen die Auswahl nach unterschiedlichen Regeln. Dann wird ein Stück gezogen und auf den Tisch gelegt. Beim nächsten Brückenglockenschlag wird erneut gerechnet. Eddas Schlussglocke beendet die Folge. Auch ausgeschriebene Zwischenstücke kosten jeweils einen weiteren Durchlauf und zusätzliche Plätze.

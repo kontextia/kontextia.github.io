@@ -1,0 +1,17 @@
+L06 · Kajos Archiv: Nicht noch einmal von vorn
+Teil 1 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
+
+Was passiert hier?
+Kajo bewahrt bereits berechnete Keys und Values je Stockwerk und Position auf. Bei der Morgenflut wird der Prompt verarbeitet; danach ergänzt jeder Antwortschritt neue K/V-Paare. Frühere Paare können erneut verwendet werden. Das spart Projektionen, braucht aber Speicher. Der Cache ist ein Zwischenspeicher laufender Rechnung. Eine Notiz der Anwendung ist etwas anderes: Sie muss als Text wieder auf den Tisch gelegt werden und belegt dann Kontextplätze.
+
+Dein Auftrag
+Vergleiche eine Morgenflut mit mehreren einzelnen Ergänzungen. Räume anschließend Archiv und Tisch leer und frage nach einer früheren Information. Lege dann eine Notiz der Anwendung hinzu.
+
+Erwartetes Ergebnis im Entwurf
+Neue Antwortstücke ergänzen den laufenden Cache. Nach dem Kehraus fehlt die frühere Information im neuen Kontext und kann nur geraten werden. Mit einer hingelegten Notiz steht sie wieder als Text zur Verfügung. Das Archiv ist kein Speicherpunkt für unbegrenzte persönliche Erinnerungen.
+
+So findest du Fehler
+Frage, ob etwas als K/V-Rechnung, aktueller Kontexttext oder äußere Notiz vorliegt. Verwechsle eine gespeicherte Rechnung nicht mit Gewichtstraining oder einem privaten Langzeitgedächtnis.
+
+Quelle: 01_design/v2/level/L06.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

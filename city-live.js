@@ -35,6 +35,7 @@ const allFigures=()=>window.PremiumSite.figures;
 const list=()=>mode==='travel'?data.journey['t'+part]:data.flows;
 const loadData=()=>dataPromise||(dataPromise=fetch('assets/city/live.json?v='+window.SAGA.meta.generation).then(r=>{if(!r.ok)throw new Error('Die 3D-Stadtinformationen konnten nicht geladen werden.');return r.json();}));
 const reduced=()=>matchMedia('(prefers-reduced-motion:reduce)').matches;
+const zoomLimit=()=>imageMode||part===1?8:24;
 function invalidate(){dirty=true;if(!frame&&dialog.open)frame=requestAnimationFrame(paint);}
 function init(){
  if(renderer)return;
@@ -47,7 +48,7 @@ function init(){
 function updateCamera(){
  const w=viewport.clientWidth,h=viewport.clientHeight;if(!w||!h||!camera)return;const half=Math.max(39,66/(w/h))/zoom;camera.left=-half*w/h;camera.right=half*w/h;camera.top=half;camera.bottom=-half;camera.position.copy(center).add(new THREE.Vector3(Math.sin(phi)*Math.sin(theta),Math.cos(phi),Math.sin(phi)*Math.cos(theta)).multiplyScalar(160));camera.lookAt(center);camera.updateProjectionMatrix();camera.updateMatrixWorld(true);
  const width=Math.round(w*Math.min(devicePixelRatio,1.5));if(renderer.domElement.width!==width||Math.abs(renderer.domElement.height-h*Math.min(devicePixelRatio,1.5))>1)renderer.setSize(w,h,false);
- $('map-view-scale').value=Math.round(zoom*100)+' %';$('map-view-minus').disabled=zoom<=.7501;$('map-view-plus').disabled=zoom>=7.999;$('live-direction').textContent=Math.round(((theta-2.438)*180/Math.PI+360)%360)+'°';
+ $('map-view-scale').value=Math.round(zoom*100)+' %';$('map-view-minus').disabled=zoom<=.7501;$('map-view-plus').disabled=zoom>=zoomLimit()-.001;$('live-direction').textContent=Math.round(((theta-2.438)*180/Math.PI+360)%360)+'°';
 }
 function cursorNDC(x,y){const r=viewport.getBoundingClientRect();return new THREE.Vector2((x-r.left)/r.width*2-1,-(y-r.top)/r.height*2+1);}
 function surfaceAt(x,y){updateCamera();const uv=cursorNDC(x,y);raycaster.setFromCamera(uv,camera);const hit=raycaster.intersectObject(model,true)[0];if(hit)return {point:hit.point.clone(),uv};const plane=new THREE.Plane(new THREE.Vector3(0,1,0),-center.y),p=new THREE.Vector3();return {point:raycaster.ray.intersectPlane(plane,p)||center.clone(),uv};}
@@ -62,15 +63,21 @@ function show(html){info.hidden=false;dialog.classList.add('has-info');content.i
 function memberButtons(ids,compact=false){return `<div class="live-members ${compact?'compact':''}">${ids.map(id=>{const f=allFigures().find(f=>f.id===id);return f?`<button data-live-figure="${esc(id)}"><img src="${esc(f.bild)}" alt=""><span>${esc(shortName(id))}<small>${esc(f.rolle||window.SAGA.figuren.find(x=>x.id===id)?.rolle||'')}</small></span></button>`:'';}).join('')}</div>`;}
 function peoplePanel(p){const first=p.members.slice(0,4),rest=p.members.slice(4);return `<section class="live-people-panel"><h4>Wen du hier triffst</h4>${memberButtons(first,true)}${rest.length?`<details><summary>Alle ${p.members.length} Beteiligten kennenlernen</summary>${memberButtons(rest,true)}</details>`:''}</section>`;}
 function bridgeInfo(){const t=window.SAGA.teile[0],a=t.abschluss;return `<p class="eyebrow">Die gemeinsame Arbeit der Stadt</p><h3>Die Lichterbrücke</h3><img class="map-info-theme" src="assets/city/aktuell_2026-10-12/bruecke.webp" alt="Neun Brückenbögen"><p>${esc(a.geschichte)}</p><h4>Welcher Bogen gehört zu welchem Bezirk?</h4><div class="bridge-arch-register">${window.KontextAtlas?data.stations.t1.filter(p=>/^L0[1-9]$/.test(p.id)).map(p=>`<button data-live-place="${p.index}"><span>${p.id.slice(1)}</span>${esc(p.label)}</button>`).join(''):''}</div><details><summary>Widerlager, Laternen und die warme Tür</summary><p>L00 lässt das Widerlager glimmen. L10 entzündet die sechs Brückenlaternen. Unter dem fünften der neun Bögen wartet die warme Tür.</p><p>${esc(t.epilog||a.funktion)}</p></details>`;}
-function heartInfo(){const a=window.SAGA.teile[1].abschluss;return `<p class="eyebrow">Der Abschluss der Laborreise</p><h3>Herz des Turms</h3><img class="map-info-theme" src="assets/city/labor-FINALE.webp" alt="Herzraum"><p>${esc(a.geschichte)}</p><p>${esc(a.funktion)}</p><div class="city-lab-register">${data.stations.t2.filter(p=>/^L0[1-9]$/.test(p.id)).map(p=>`<button data-live-place="${p.index}">${esc(p.id)} · ${esc(p.label)}</button>`).join('')}</div><details><summary>Die sechs Anfragen</summary><ul>${a.missionen.map(m=>'<li>'+esc(m)+'</li>').join('')}</ul></details><p>${esc(a.status)}</p>`;}
+function heartInfo(){const a=window.SAGA.teile[1].abschluss;return `<p class="eyebrow">Der Abschluss der Laborreise</p><h3>Herz des Turms</h3><img class="map-info-theme" src="assets/city/labore-r1/FINALE.webp" alt="Herzraum"><p>${esc(a.geschichte)}</p><p>${esc(a.funktion)}</p><div class="city-lab-register">${data.stations.t2.filter(p=>/^L0[1-9]$/.test(p.id)).map(p=>`<button data-live-place="${p.index}">${esc(p.id)} · ${esc(p.label)}</button>`).join('')}</div><details><summary>Die sechs Anfragen</summary><ul>${a.missionen.map(m=>'<li>'+esc(m)+'</li>').join('')}</ul></details><p>${esc(a.status)}</p>`;}
 function selectedPath(p){
  const r=data.journey['t'+part].find(r=>r.end.station===p.id&&r.main);drawRoute(r||null);
  if(!r)return '';
  return `<section class="live-arrival"><p>Hierher kommst du von</p><strong>${esc(r.start.name)} → ${esc(r.end.name)}</strong><button data-live-route="${data.journey['t'+part].indexOf(r)}">Diesen Weg auf der Karte verfolgen ↗</button></section>`;
 }
+function laborScope(id=null){
+ if(part!==2||!model)return;
+ model.traverse(o=>{if(!o.isMesh)return;let owner=o;while(owner&&!owner.userData.region)owner=owner.parent;o.visible=!id||owner?.userData.region===id;});
+ if(renderer)renderer.shadowMap.needsUpdate=true;
+ invalidate();
+}
 function selectPlace(index){
- const p=point(index);if(!p)return;selected=index;figure=feature=null;mode='places';$('city-place-select').value=String(index);const arrival=selectedPath(p);let html=index==='bridge'?(part===2?heartInfo():bridgeInfo()):options.onSelect(index);
- show(html);const heading=content.querySelector('h3');heading?.insertAdjacentHTML('afterend',`<p class="live-purpose">${esc(functions[p.id])}</p>`+peoplePanel(p)+arrival);
+ const p=point(index);if(!p)return;selected=index;figure=feature=null;mode='places';$('city-place-select').value=String(index);laborScope(p.id==='L00'?'L01':p.id==='L10'?'L05':p.id);const arrival=selectedPath(p);if(part===2)drawRoute(null);let html=index==='bridge'?(part===2?heartInfo():bridgeInfo()):options.onSelect(index);
+ show(html);const heading=content.querySelector('h3');heading?.insertAdjacentHTML('afterend',`<button class="button primary" data-journey-open="${p.id}">Vollständigen Spielablauf & Figurenrollen öffnen ↗</button><p class="live-purpose">${esc(functions[p.id])}</p>`+peoplePanel(p)+arrival);
  const image=content.querySelector('.map-info-theme');if(image){image.src=part===1&&p.id==='L08'?'assets/city/aktuell_2026-10-12/gebirge.webp':window.KontextAtlas.regionImage(p.id,part);}
  if(p.position_unconfirmed)heading?.insertAdjacentHTML('afterend','<p class="limit"><strong>Lage noch offen.</strong> '+esc(p.viewpoint_note)+'</p>');
  if(part===1&&p.id==='L08')heading?.insertAdjacentHTML('afterend',`<div class="live-feature-register">${data.features.map(f=>`<button data-live-feature="${f.id}">${esc(f.title)} ↗</button>`).join('')}</div>`);
@@ -79,7 +86,7 @@ function selectPlace(index){
 }
 function focus(target,z,id){
  // A lifted facade-side viewpoint keeps the tower's actual levels readable.
- const c=target.clone();if(part===1&&['L03','L04','L05','L10'].includes(id)){c.y=Math.max(4,c.y);animateTo(c,z,theta,Math.min(phi,.97));}else animateTo(c,z);
+ const c=target.clone();if(part===2){c.y+=.75;animateTo(c,18,theta,.975);}else if(['L03','L04','L05','L10'].includes(id)){c.y=Math.max(4,c.y);animateTo(c,z,theta,Math.min(phi,.97));}else animateTo(c,z);
 }
 function selectFigure(id,stationId){
  const f=allFigures().find(f=>f.id===id);if(!f)return;figure=id;feature=null;const p=station(stationId)||point(selected)||station(data.residents[id]?.station)||station('L01');selected=null;show(options.onFigure(id,p.id));const native=data.residents[id];const world=part===1&&native?native.world:p.world;renderUI();animateTo(V(world),3.5);drawRoute(null);
@@ -89,6 +96,7 @@ function selectGroup(id){const p=station(id);if(!p)return;selected=p.index;figur
 function labelOf(id){const names={aussen:'Frage von außerhalb',antworttor:'Antworttor',hafentor:'Hafentor',turm:'Turm der Schichten',gluecksrad:'Tempis Glücksrad'};const f=allFigures().find(f=>f.id===id);return f?shortName(id):names[id]||id;}
 function routeEndpoint(r,which){if(mode==='travel')return r[which];const id=r[which==='start'?'from':'to'],p=data.residents[id],s=station(p?.station);return {name:labelOf(id),station:s?.id,world:(which==='start'?r.world[0]:r.world.at(-1)),figure:id};}
 function selectRoute(i){
+ laborScope();
  const r=list()[i];if(!r)return;route=i;selected=figure=feature=null;const a=routeEndpoint(r,'start'),b=routeEndpoint(r,'end');show(`<p class="eyebrow">${mode==='travel'?'Deine Reise · Abschnitt '+(i+1):'Ein Antworttakt · Verbindung '+(i+1)}</p><h3>${esc(r.label)}</h3><div class="live-endpoints"><div><small>START</small><button data-live-end="start">${esc(a.name)} ↗</button></div><span aria-hidden="true">→</span><div><small>ZIEL</small><button data-live-end="end">${esc(b.name)} ↗</button></div></div>${b.station&&station(b.station)?peoplePanel(station(b.station)):memberButtons([r.from,r.to].filter(id=>allFigures().some(f=>f.id===id)),true)}<p>${esc(mode==='travel'?r.quote:r.source)}</p>${r.schematic?'<p class="limit">Diese Verbindung ist schematisch markiert. Sie folgt dem dokumentierten Nachtgang und behauptet keine zusätzliche Straße.</p>':''}${r.main===false?'<p class="limit">Dokumentierter Stadtweg. Die aktuelle Kapitelreise führt vor dem Finale durch die Nebelnacht.</p>':''}<p class="source-line">${esc(r.reference||r.source||data.source)}</p><div class="live-route-actions"><button data-live-route-prev ${i===0?'disabled':''}>← Voriger Abschnitt</button><button data-live-route-next ${i===list().length-1?'disabled':''}>Weiter zum nächsten Abschnitt →</button></div>`);drawRoute(r);renderUI();fitRoute(r);}
 function fitRoute(r){
  const pts=r.world.map(V),box=new THREE.Box3().setFromPoints(pts),size=box.getSize(new THREE.Vector3()),c=box.getCenter(new THREE.Vector3());animateTo(c,Math.min(3.5,Math.max(1.2,65/Math.max(size.x,size.z,size.y*1.3,18))));
@@ -101,6 +109,7 @@ function drawRoute(r){
 }
 function visiblePins(){
  let result=[];
+ if(part===2&&mode==='places'&&selected!==null&&!people&&!figure)return result;
  if(mode==='places'){
   result=data.stations['t'+part].filter(p=>overviewIds.includes(p.id)||p.index===selected).map(p=>({kind:'place',id:String(p.index),world:part===1&&p.id==='FINALE'?[54.5,51.5,5.2]:p.world,title:part===2?p.id==='FINALE'?'Herz des Turms':p.label:regionNames[p.id]||p.label,number:p.id==='FINALE'?'✦':p.id==='L05'&&selected!==p.index?'03–05':p.id.slice(1),sub:functions[p.id],active:p.index===selected}));
   const p=point(selected);if(part===1&&p?.id==='L08')result=feature?[]:result.filter(p=>p.id!==String(selected)).concat(data.features.map(f=>({kind:'feature',id:f.id,world:f.world,title:f.title,active:false})));
@@ -123,11 +132,12 @@ function projectPins(){
 function renderUI(){
  guide.querySelectorAll('[data-live-mode]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.liveMode===mode));$('live-route-controls').hidden=mode==='places';guide.querySelector('.live-selects').hidden=mode!=='places';$('city-people').setAttribute('aria-pressed',String(people));
  if(mode!=='places'){const routes=list();$('map-route-select').innerHTML=routes.map((r,i)=>`<option value="${i}" ${i===route?'selected':''}>${i+1}. ${esc(r.label)}</option>`).join('');$('map-route-prev').disabled=route===0;$('map-route-next').disabled=route>=routes.length-1;}
- journey.innerHTML=data.stations['t'+part].slice().sort((a,b)=>(a.index==='bridge'?12:a.index)-(b.index==='bridge'?12:b.index)).map(p=>`<button data-live-place="${p.index}" aria-pressed="${p.index===selected}" title="${esc(p.label)}"><b>${p.id==='FINALE'?'✦':p.id.slice(1)}</b><span>${esc(p.label)}</span>${p.position_unconfirmed?'<small>Lage offen</small>':''}</button>`).join('');
+ const order=p=>part===2&&p.id==='L00'?13:part===2&&p.id==='L10'?14:p.index==='bridge'?12:p.index;
+ journey.innerHTML=data.stations['t'+part].slice().sort((a,b)=>order(a)-order(b)).map(p=>`<button data-live-place="${p.index}" aria-pressed="${p.index===selected}" title="${esc(p.label)}"><b>${p.id==='FINALE'?'✦':p.id.slice(1)}</b><span>${esc(p.label)}</span>${p.position_unconfirmed?'<small>Lage offen</small>':''}</button>`).join('');
  intro.hidden=selected!==null||figure!==null||feature!==null||mode!=='places';intro.innerHTML=part===1?`<div><strong>Deine Reise beginnt am Poller 7.</strong><span>Quirin, Kajo und Toki erwarten dich am Hafen. Die nummerierte Leiste führt dich durch die Geschichte.</span></div><button data-live-start>Mit den Begleitern starten →</button>`:'<div><strong>Unter der Stadt liegt die Laborreise.</strong><span>Die neun bestehenden Labore öffnen die Rechnungen. Zählstube und Nachtlabor bleiben zusätzlich erreichbar; ihre genaue Lage ist offen.</span></div><button data-live-start>Zur ersten Laborstation →</button>';
  renderPins();invalidate();
 }
-function overview(){selected=figure=feature=null;mode='places';people=false;info.hidden=true;dialog.classList.remove('has-info');$('city-place-select').value='';drawRoute(null);renderUI();resetCamera();}
+function overview(){selected=figure=feature=null;mode='places';people=false;laborScope();info.hidden=true;dialog.classList.remove('has-info');$('city-place-select').value='';drawRoute(null);renderUI();resetCamera();}
 async function open(input){
  if(!input.figures){return window.openKontextImage(input);}
  imageMode=false;viewport.append(cameraTools);canvasHost.hidden=pinLayer.hidden=leaders.hidden=orientation.hidden=guide.hidden=journey.hidden=false;$('map-view-layer').hidden=true;
@@ -135,7 +145,7 @@ async function open(input){
  try{init();data=await loadData();if(data.generation!==window.SAGA.meta.generation)throw new Error('Die 3D-Karte gehört nicht zum aktuellen Quellenstand.');
   $('city-place-select').innerHTML='<option value="">Ort auswählen …</option>'+data.stations['t'+part].map(p=>`<option value="${p.index}">${p.id==='FINALE'?'✦':p.id} · ${esc(p.label)}</option>`).join('');
   let next=modelCache.get(part);if(!next){const gltf=await new GLTFLoader().loadAsync(data.models['t'+part].file+'?v='+data.models['t'+part].sha256.slice(0,12));next=gltf.scene;next.traverse(o=>{if(o.isMesh){o.frustumCulled=true;o.castShadow=o.userData.region!=='sea'&&o.userData.region!=='cutaway';o.receiveShadow=true;const materials=Array.isArray(o.material)?o.material:[o.material];if(materials.some(m=>m.name==='Quiet deep teal water'||m.name.includes('cutaway'))){o.geometry.computeBoundingBox();if(o.geometry.boundingBox.getSize(new THREE.Vector3()).x>120)o.scale.set(10,1,10);}}});modelCache.set(part,next);}
-  if(ticket!==request||!dialog.open)return;if(model)scene.remove(model);model=next;scene.add(model);renderer.shadowMap.needsUpdate=true;ready=true;status.hidden=true;zoom=1;theta=2.438;phi=.975;center.set(45,part===2?-1:5,-46);renderUI();drawRoute(null);invalidate();
+  if(ticket!==request||!dialog.open)return;if(model)scene.remove(model);model=next;scene.add(model);laborScope();renderer.shadowMap.needsUpdate=true;ready=true;status.hidden=true;zoom=1;theta=2.438;phi=.975;center.set(45,part===2?-1:5,-46);renderUI();drawRoute(null);invalidate();
   if(input.selected!==undefined)selectPlace(input.selected);else if(input.selectedFigure)selectFigure(input.selectedFigure);viewport.focus();
  }catch(e){ready=false;status.hidden=false;status.innerHTML=`<strong>Die 3D-Ansicht konnte nicht geladen werden.</strong><span>${esc(e.message)}</span><button data-live-retry>Erneut laden</button><a href="${esc(input.link)}" target="_blank" rel="noopener">Vollständigen Bildatlas öffnen ↗</a>`;console.error('Live city:',e);}
 }
@@ -158,12 +168,13 @@ dialog.addEventListener('click',e=>{
 });
 $('city-place-select').onchange=e=>e.target.value===''?overview():selectPlace(key(e.target.value));$('map-route-select').onchange=e=>selectRoute(+e.target.value);$('city-people').onclick=()=>{people=!people;renderUI();};
 $('map-info-close').onclick=overview;$('map-view-reset').onclick=()=>imageMode?resetImage():overview();$('map-view-close').onclick=close;
-$('map-view-plus').onclick=()=>{cancelAnimationFrame(anim);zoom=Math.min(8,zoom*1.4);if(imageMode)imageDraw();else invalidate();};$('map-view-minus').onclick=()=>{cancelAnimationFrame(anim);zoom=Math.max(imageMode?1:.75,zoom/1.4);if(imageMode)imageDraw();else invalidate();};
+dialog.addEventListener('click',e=>{const b=e.target.closest('[data-journey-open]');if(b&&window.KontextReisen){close();window.KontextReisen.openStation(part,b.dataset.journeyOpen,true,'play');}});
+$('map-view-plus').onclick=()=>{cancelAnimationFrame(anim);zoom=Math.min(zoomLimit(),zoom*1.4);if(imageMode)imageDraw();else invalidate();};$('map-view-minus').onclick=()=>{cancelAnimationFrame(anim);zoom=Math.max(imageMode?1:.75,zoom/1.4);if(imageMode)imageDraw();else invalidate();};
 $('map-view-fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await dialog.requestFullscreen();}catch{dialog.classList.toggle('expanded');invalidate();}};document.addEventListener('fullscreenchange',()=>{ $('map-view-fullscreen').setAttribute('aria-label',document.fullscreenElement?'Vollbild verlassen':'Karte im Vollbild öffnen');invalidate();});
 viewport.addEventListener('contextmenu',e=>e.preventDefault());
-viewport.addEventListener('wheel',e=>{if(!ready)return;e.preventDefault();cancelAnimationFrame(anim);const a=imageMode?null:surfaceAt(e.clientX,e.clientY);zoom=Math.max(imageMode?1:.75,Math.min(8,zoom*Math.exp(-e.deltaY*.0016)));if(imageMode)imageDraw();else holdAnchor(a.point,a.uv);},{passive:false});
+viewport.addEventListener('wheel',e=>{if(!ready)return;e.preventDefault();cancelAnimationFrame(anim);const a=imageMode?null:surfaceAt(e.clientX,e.clientY);zoom=Math.max(imageMode?1:.75,Math.min(zoomLimit(),zoom*Math.exp(-e.deltaY*.0016)));if(imageMode)imageDraw();else holdAnchor(a.point,a.uv);},{passive:false});
 viewport.addEventListener('pointerdown',e=>{if(e.target.closest('button:not(.live-pin)')||!ready)return;cancelAnimationFrame(anim);viewport.setPointerCapture(e.pointerId);pointers.set(e.pointerId,[e.clientX,e.clientY]);const a=imageMode?null:surfaceAt(e.clientX,e.clientY);drag={x:e.clientX,y:e.clientY,theta,phi,center:center.clone(),imageX,imageY,anchor:a,button:e.target.closest('.live-pin'),pan:e.button===2||e.shiftKey};wasDrag=false;if(pointers.size===2){const[a,b]=[...pointers.values()],mx=(a[0]+b[0])/2,my=(a[1]+b[1])/2;pinch={distance:Math.hypot(a[0]-b[0],a[1]-b[1]),angle:Math.atan2(b[1]-a[1],b[0]-a[0]),theta,zoom,anchor:imageMode?null:surfaceAt(mx,my)};}});
-viewport.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,[e.clientX,e.clientY]);if(pointers.size===2){const[a,b]=[...pointers.values()];if(pinch){zoom=Math.max(imageMode?1:.75,Math.min(8,pinch.zoom*Math.hypot(a[0]-b[0],a[1]-b[1])/pinch.distance));if(!imageMode){theta=pinch.theta+Math.atan2(b[1]-a[1],b[0]-a[0])-pinch.angle;holdAnchor(pinch.anchor.point,cursorNDC((a[0]+b[0])/2,(a[1]+b[1])/2));}}wasDrag=true;}else if(drag){const dx=e.clientX-drag.x,dy=e.clientY-drag.y;wasDrag=wasDrag||Math.hypot(dx,dy)>4;if(imageMode){imageX=drag.imageX+dx;imageY=drag.imageY+dy;}else if(drag.pan)holdAnchor(drag.anchor.point,cursorNDC(e.clientX,e.clientY));else{theta=drag.theta-dx*.006;phi=Math.max(.12,Math.min(1.4,drag.phi-dy*.005));holdAnchor(drag.anchor.point,drag.anchor.uv);}}if(imageMode)imageDraw();else invalidate();});
+viewport.addEventListener('pointermove',e=>{if(!pointers.has(e.pointerId))return;pointers.set(e.pointerId,[e.clientX,e.clientY]);if(pointers.size===2){const[a,b]=[...pointers.values()];if(pinch){zoom=Math.max(imageMode?1:.75,Math.min(zoomLimit(),pinch.zoom*Math.hypot(a[0]-b[0],a[1]-b[1])/pinch.distance));if(!imageMode){theta=pinch.theta+Math.atan2(b[1]-a[1],b[0]-a[0])-pinch.angle;holdAnchor(pinch.anchor.point,cursorNDC((a[0]+b[0])/2,(a[1]+b[1])/2));}}wasDrag=true;}else if(drag){const dx=e.clientX-drag.x,dy=e.clientY-drag.y;wasDrag=wasDrag||Math.hypot(dx,dy)>4;if(imageMode){imageX=drag.imageX+dx;imageY=drag.imageY+dy;}else if(drag.pan)holdAnchor(drag.anchor.point,cursorNDC(e.clientX,e.clientY));else{theta=drag.theta-dx*.006;phi=Math.max(.12,Math.min(1.4,drag.phi-dy*.005));holdAnchor(drag.anchor.point,drag.anchor.uv);}}if(imageMode)imageDraw();else invalidate();});
 viewport.addEventListener('pointerup',e=>{
  const click=!wasDrag&&pointers.size===1,pressed=drag?.button,remaining=pointers.size-1;
  if(wasDrag)suppressClickUntil=performance.now()+60;
@@ -179,7 +190,7 @@ viewport.addEventListener('pointerup',e=>{
  else{const p=station(hit.object.userData.region==='bridge'?'FINALE':hit.object.userData.region);if(p)selectPlace(p.index);}
 });
 viewport.addEventListener('pointercancel',e=>{pointers.delete(e.pointerId);drag=pinch=null;});
-viewport.addEventListener('keydown',e=>{if(!['+','=','-','0','Home','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();cancelAnimationFrame(anim);if(['+','='].includes(e.key))zoom=Math.min(8,zoom*1.3);else if(e.key==='-')zoom=Math.max(imageMode?1:.75,zoom/1.3);else if(['0','Home'].includes(e.key)){if(imageMode)resetImage();else overview();}else if(imageMode){imageX+=e.key==='ArrowLeft'?60:e.key==='ArrowRight'?-60:0;imageY+=e.key==='ArrowUp'?60:e.key==='ArrowDown'?-60:0;}else if(e.key==='ArrowLeft')theta-=.18;else if(e.key==='ArrowRight')theta+=.18;else phi=Math.max(.12,Math.min(1.4,phi+(e.key==='ArrowUp'?-.12:.12)));if(imageMode)imageDraw();else invalidate();});
+viewport.addEventListener('keydown',e=>{if(!['+','=','-','0','Home','ArrowLeft','ArrowRight','ArrowUp','ArrowDown'].includes(e.key))return;e.preventDefault();cancelAnimationFrame(anim);if(['+','='].includes(e.key))zoom=Math.min(zoomLimit(),zoom*1.3);else if(e.key==='-')zoom=Math.max(imageMode?1:.75,zoom/1.3);else if(['0','Home'].includes(e.key)){if(imageMode)resetImage();else overview();}else if(imageMode){imageX+=e.key==='ArrowLeft'?60:e.key==='ArrowRight'?-60:0;imageY+=e.key==='ArrowUp'?60:e.key==='ArrowDown'?-60:0;}else if(e.key==='ArrowLeft')theta-=.18;else if(e.key==='ArrowRight')theta+=.18;else phi=Math.max(.12,Math.min(1.4,phi+(e.key==='ArrowUp'?-.12:.12)));if(imageMode)imageDraw();else invalidate();});
 dialog.addEventListener('cancel',()=>{cancelAnimationFrame(frame);frame=0;cancelAnimationFrame(anim);pointers.clear();});new ResizeObserver(()=>imageMode?imageDraw():invalidate()).observe(viewport);
 
 // The full-size lesson sheet stays an image, while the city atlas itself is real 3D.

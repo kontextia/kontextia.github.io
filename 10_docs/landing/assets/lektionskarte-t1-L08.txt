@@ -1,0 +1,17 @@
+L08 · Das Fest der kleinen Zahlen
+Teil 1 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
+
+Was passiert hier?
+Im Stufengebirge vergleichen Quanta und Seda grobe und feinere Zahlenformate. Der Lehrcodec legt einen Maßstab fest und rundet auf darstellbare Stufen. Weniger Bits sparen Gepäck, können aber Werte und spätere Antworten verändern. Ein Ausreißer kann den Maßstab für viele andere Werte verschlechtern. Der Festwagen zeigt, dass Speicherbudget, Zusatzdaten und Genauigkeit gemeinsam zählen. Feine Darstellung ist dabei keine Rangordnung zwischen Figuren.
+
+Dein Auftrag
+Runde die vorgegebenen Werte, vergleiche sie mit den Ausgangszahlen und sage die Wirkung vor der nächsten Antwort voraus. Prüfe auch einen Ausreißer.
+
+Erwartetes Ergebnis im Entwurf
+Viele kleine Änderungen können unauffällig bleiben; manche beeinflussen eine wichtige Antwort. Grobe Stufen sparen Platz und verlieren Genauigkeit. Die Richtung des Fehlers hängt vom konkreten Wert und Maßstab ab. Darum wird die Folge gemessen, statt „kleiner ist immer besser“ zu behaupten.
+
+So findest du Fehler
+Prüfe Maßstab, Rundung und Ausreißer. Ein kleiner Zahlenfehler garantiert keine kleine Ausgabewirkung. Eine Behauptung über Tempo oder Qualität braucht eine passende Messung.
+
+Quelle: 01_design/v2/level/L08.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.

@@ -1,5 +1,5 @@
 L08 · Das Fest der kleinen Zahlen
-Teil 1 · Didaktik 2.2 · Generation 534411b8fa941f9a
+Teil 1 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
 
 Was passiert hier?
 Im Stufengebirge vergleichen Quanta und Seda grobe und feinere Zahlenformate. Der Lehrcodec legt einen Maßstab fest und rundet auf darstellbare Stufen. Weniger Bits sparen Gepäck, können aber Werte und spätere Antworten verändern. Ein Ausreißer kann den Maßstab für viele andere Werte verschlechtern. Der Festwagen zeigt, dass Speicherbudget, Zusatzdaten und Genauigkeit gemeinsam zählen. Feine Darstellung ist dabei keine Rangordnung zwischen Figuren.

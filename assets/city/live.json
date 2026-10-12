@@ -1,22 +1,22 @@
 {
-  "generation": "534411b8fa941f9a",
+  "generation": "a3ce3d7f1e8f82b2",
   "coordinate_system": "Canonical Blender (x,y,z); browser glTF uses (x,z,-y). No geographic offset.",
   "models": {
     "t1": {
       "file": "assets/city/kontextia-stadt-live.glb",
-      "sha256": "ab8fe5f98d27fb66bf5598ea551dc79994cf2a4d983fd7a0e1a08f19322d3398",
-      "bytes": 12952500,
-      "triangles": 200099,
-      "primitives": 304,
-      "source": "04_assets\\environments\\kontextia-stadtatlas\\v2\\kontextia-stadt-live.blend"
+      "sha256": "45432e7279aa5d56564352d39217baaa6d3360263fbe762930370ee0e20f11ea",
+      "bytes": 12259864,
+      "triangles": 196820,
+      "primitives": 416,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/kontextia-stadt-live.blend"
     },
     "t2": {
-      "file": "assets/city/kontextia-labore-live.glb",
-      "sha256": "6a3d2d165d349747ae330b7c93ef99ca99517c40e292df23ad17336af600830b",
-      "bytes": 3957688,
-      "triangles": 70189,
-      "primitives": 102,
-      "source": "04_assets\\environments\\kontextia-stadtatlas\\v2\\kontextia-labore-live.blend"
+      "file": "assets/city/labore-r1/kontextia-labore-r1.glb",
+      "sha256": "95238639a1ab9776b523613ed149305f37b3f2076cf23f63a3b0aea96fd39425",
+      "bytes": 23428404,
+      "triangles": 1005107,
+      "primitives": 599,
+      "source": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\labore-editierbar.blend"
     }
   },
   "stations": {
@@ -4840,9 +4840,9 @@
       "id": "quanta-steps",
       "title": "Quantas Hang: 16 Stufen",
       "world": [
-        23.9,
-        30.8,
-        4.3
+        23.75,
+        35.79999923706055,
+        3.5579965114593506
       ],
       "people": [
         "quanta-vierbit"
@@ -4856,9 +4856,9 @@
       "id": "seda-slope",
       "title": "Sedas feiner Messhang",
       "world": [
-        12.6,
-        14.9,
-        7.2
+        12.507499694824219,
+        15.277999877929688,
+        6.410705327987671
       ],
       "people": [
         "seda-sechzehn"
@@ -4872,9 +4872,9 @@
       "id": "luggage-scale",
       "title": "Die Gepäckwaage",
       "world": [
-        38.9,
-        25.55,
-        3.7
+        38.900001525878906,
+        25.67799949645996,
+        2.509997695684433
       ],
       "people": [
         "quanta-vierbit",
@@ -4890,9 +4890,9 @@
       "id": "ancestral-gallery",
       "title": "Die Ahnengalerie",
       "world": [
-        18.5,
-        43.35,
-        2.7
+        18.500000476837158,
+        44.61250114440918,
+        2.5174975991249084
       ],
       "people": [
         "quanta-vierbit",
@@ -4907,9 +4907,9 @@
       "id": "festival-square",
       "title": "Das Fest der kleinen Zahlen",
       "world": [
-        38.2,
-        17.2,
-        3.0
+        36.20000076293945,
+        14.199999809265137,
+        5.602499604225159
       ],
       "people": [
         "quanta-vierbit",
@@ -4924,9 +4924,9 @@
       "id": "mountain-gate",
       "title": "Das enge Bergtor",
       "world": [
-        40.55,
-        4.55,
-        5.2
+        40.54999923706055,
+        4.583000183105469,
+        4.297501564025879
       ],
       "people": [
         "quanta-vierbit"
@@ -4938,5 +4938,5 @@
     }
   ],
   "source": "02_content/v2/kontextia.sqlite3; topographie.json; stadtplan.json; LOREBUCH §2.8",
-  "design_additions": "[DE] LOREBUCH 2.8 / L08: coarse sixteen-step slopes, finer Seda slopes, luggage scale, gallery, village courts, festival decorations; all within the existing region."
+  "design_additions": "[DE] Fresh structural city illustration of existing source places; source geography and canon unchanged. Explicit contact and clearance rules; decorative heights are illustrative."
 }

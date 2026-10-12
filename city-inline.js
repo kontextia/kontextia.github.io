@@ -23,7 +23,7 @@
   pins.forEach(pin=>{
    const id=pin.dataset.cityRegion==='bridge'?'FINALE':window.SAGA?.welten[+pin.dataset.cityRegion]?.id;
    const l=labels[id];if(!l)return;
-   const title=part===2?(id==='FINALE'?'Herz des Turms':id==='L05'?'Turmlabore':'Labor · '+l[1]):l[1];
+   const title=l[1];
    if(pin.dataset.captionPart!==String(part)){
     pin.dataset.captionPart=String(part);pin.dataset.placeId=id;
     pin.querySelector('span').innerHTML=`<b class="city-inline-number">${l[0]}</b><strong>${esc(title)}</strong><small>${esc(l[2])}</small>`;

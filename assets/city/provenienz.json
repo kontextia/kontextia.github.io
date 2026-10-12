@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-12T00:31:17.214234+02:00",
+  "date": "2026-10-12T13:30:47.938202+02:00",
   "owner": "Codex",
   "source_generation": "4d7534542c66f135",
-  "valid_for_publication": "534411b8fa941f9a",
+  "valid_for_publication": "a3ce3d7f1e8f82b2",
   "sources": {
     "02_content/v2/stadt/stadtplan.json": "64cd1b52b3086185b858196f94b57716e2c694b75c8976c674e06aa745a97733",
     "02_content/v2/stadt/topographie.json": "b0bfa11b216f0dedcf0021ae3806c86856def0d6eadc7cf146128f96aae66306",
@@ -171,18 +171,263 @@
       "source": "04_assets/environments/kontextia-stadtatlas/v1/wald.png"
     },
     {
-      "file": "10_docs/landing/assets/city/gebirge-live.webp",
-      "sha256": "3ce017b213efc843ef60fc08fd37685c6df5b657cfadec6d5ac52d65aa938f92",
+      "file": "10_docs/landing/assets/city/archiv-live.webp",
+      "sha256": "08b4cdd35b0aead025f0a71ec029081ba0be5ae80d6b70db23991f7407841442",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/archiv-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/berg-galerie.webp",
+      "sha256": "0c5ba74af935c813e8672f2460b11173128da564b5813ac9bc9d6f75247b7f35",
       "width": 1400,
       "height": 1050,
-      "source": "04_assets/environments/kontextia-stadtatlas/v2/gebirge-live.png"
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/berg-galerie.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/berg-stufen.webp",
+      "sha256": "008e662c531bfd583d4a2291cc3fcfa6e8f5097fe25c9d1e403df9364392c762",
+      "width": 1400,
+      "height": 1050,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/berg-stufen.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/berg-waage.webp",
+      "sha256": "a53e3098b288eeed491640a7068e438f5b965487040f0d54a9e2b10f066f3db2",
+      "width": 1400,
+      "height": 1050,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/berg-waage.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/bridge-joints.webp",
+      "sha256": "5f2cdfb17e1d27d5c3a5c77c55e71551fee4be17a6ba74e77e806c9b45a4ecea",
+      "width": 1400,
+      "height": 1050,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/bridge-joints.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/bruecke-live.webp",
+      "sha256": "152bbea1184344419b476694409ccbc5f550e4bc9dd06a953d9df49fe141d097",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/bruecke-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/gebirge-live.webp",
+      "sha256": "5df8bb4b7490e95987d7d95c12ba624b24f289728e3bfac79645a9988fdcd702",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/gebirge-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/hafen-live.webp",
+      "sha256": "20d259b7ef05c7303749f552ff0707d7e59a4b674311a94ba1ce2c1f0226e765",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/hafen-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/quellen-live.webp",
+      "sha256": "8f25affbaaddf78a46f2717d0f6bc918759bcf255c1e4001c08ea22eb6abf298",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/quellen-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/schmiede-live.webp",
+      "sha256": "f9d47c42c799e9f5ee28df57c597ed638dd5a2cd12aaad166b65bb5fd868ccfc",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/schmiede-live.png"
     },
     {
       "file": "10_docs/landing/assets/city/stadt-live.webp",
-      "sha256": "76b337c76fd2e588c712cbee86bf4a245f317aa2648ce44d2f291826c52cdf4a",
+      "sha256": "2ffcf7e309cb89cd607624a2860d9c198ac599d925acb04742e5c28d0e39ae1d",
       "width": 2400,
       "height": 1116,
-      "source": "04_assets/environments/kontextia-stadtatlas/v2/stadt-live.png"
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/stadt-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-FINALE.webp",
+      "sha256": "152bbea1184344419b476694409ccbc5f550e4bc9dd06a953d9df49fe141d097",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-FINALE.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L00.webp",
+      "sha256": "20d259b7ef05c7303749f552ff0707d7e59a4b674311a94ba1ce2c1f0226e765",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L00.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L01.webp",
+      "sha256": "a018bfc7333d4eca6f8d73d43fe8a3cfb19d435911372d3f8795fded756792b4",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L01.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L02.webp",
+      "sha256": "e1f7e331238b4938a76491f6740dcd71c434af5757c1c6f46466942f288b08da",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L02.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L03.webp",
+      "sha256": "4a2b31bf1705cd86e82bb8c5235f7ff89cf91f739ba0a33d4e66242eb5b6d5af",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L03.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L04.webp",
+      "sha256": "54221cb5284e3a63842fdd0d6608d2efcf1bf33688be60862c8ff6871d0a3b06",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L04.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L05.webp",
+      "sha256": "1039f41824531bcdae2e2abaccff5db14df1be84f6913dc920b0a4dd0351f8d1",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L05.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L06.webp",
+      "sha256": "08b4cdd35b0aead025f0a71ec029081ba0be5ae80d6b70db23991f7407841442",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L06.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L07.webp",
+      "sha256": "f9d47c42c799e9f5ee28df57c597ed638dd5a2cd12aaad166b65bb5fd868ccfc",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L07.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L08.webp",
+      "sha256": "5df8bb4b7490e95987d7d95c12ba624b24f289728e3bfac79645a9988fdcd702",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L08.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L09.webp",
+      "sha256": "8f25affbaaddf78a46f2717d0f6bc918759bcf255c1e4001c08ea22eb6abf298",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L09.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t1-L10.webp",
+      "sha256": "7910b05fcfac24281071a751dea1edbacfeecef6961851699349af5424c09f10",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t1-L10.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-FINALE.webp",
+      "sha256": "b2d304f788bba54b68ad963ecf97071a7941f4ef98b53209b42ff2679bba20a9",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-FINALE.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L00.webp",
+      "sha256": "948222f58ee4c5ea79807b351a0159744cdafdc166a9d76a40feab59b43d7718",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L00.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L01.webp",
+      "sha256": "948222f58ee4c5ea79807b351a0159744cdafdc166a9d76a40feab59b43d7718",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L01.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L02.webp",
+      "sha256": "43b9783ec3827aad75c7a091633f123ce048b907c187ab172f8d685593acd8e7",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L02.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L03.webp",
+      "sha256": "755b8a8b0ee284870224011e3fa332d483fc0079135834a34b5dcee1c1c15789",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L03.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L04.webp",
+      "sha256": "4136ff44129aa269a7eb76828dc7d381f1c866d166920adb93a7a3bc64e7a050",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L04.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L05.webp",
+      "sha256": "21916d10e92cd85b16587955d2c4105cbef723a2cf23995c62c58ae511da47f0",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L05.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L06.webp",
+      "sha256": "e31ce15926ddfa1da5edf4a145c66780494eb18a3d10ae471cf369e5163df4b2",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L06.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L07.webp",
+      "sha256": "863a985e1563a356dbd82f6691d0178699091b9a57289340e364d6c4a6dcab05",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L07.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L08.webp",
+      "sha256": "d2ef0e5d45ad2d71d34828fc51c8b6f8efa240ff404b5a7125d89fb914cfed93",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L08.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L09.webp",
+      "sha256": "7bcfe44329c8594f40ee83b57596115ff2892a43bfd57b60eec308b5e9dfef5b",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L09.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/station-t2-L10.webp",
+      "sha256": "21916d10e92cd85b16587955d2c4105cbef723a2cf23995c62c58ae511da47f0",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/station-t2-L10.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/turm-live.webp",
+      "sha256": "1039f41824531bcdae2e2abaccff5db14df1be84f6913dc920b0a4dd0351f8d1",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/turm-live.png"
+    },
+    {
+      "file": "10_docs/landing/assets/city/wald-live.webp",
+      "sha256": "e1f7e331238b4938a76491f6740dcd71c434af5757c1c6f46466942f288b08da",
+      "width": 1280,
+      "height": 800,
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/wald-live.png"
     },
     {
       "file": "10_docs/landing/assets/city/kontextia-labore-live.glb",
@@ -196,8 +441,8 @@
     },
     {
       "file": "10_docs/landing/assets/city/kontextia-stadt-live.glb",
-      "sha256": "ab8fe5f98d27fb66bf5598ea551dc79994cf2a4d983fd7a0e1a08f19322d3398",
-      "source": "04_assets/environments/kontextia-stadtatlas/v2/kontextia-stadt-live.blend"
+      "sha256": "45432e7279aa5d56564352d39217baaa6d3360263fbe762930370ee0e20f11ea",
+      "source": "04_assets/environments/kontextia-stadtatlas/v3/kontextia-stadt-live.blend"
     },
     {
       "file": "10_docs/landing/assets/city/kontextia-stadt.glb",
@@ -205,8 +450,74 @@
       "source": "04_assets/environments/kontextia-stadtatlas/v1/kontextia-stadt.blend"
     },
     {
+      "file": "10_docs/landing/assets/city/labore-r1/FINALE.webp",
+      "sha256": "817bc726028f62ec20128b0e07fa67fa254710874c562f8d0f15e4b3b853a05d",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\FINALE.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/kontextia-labore-r1.glb",
+      "sha256": "95238639a1ab9776b523613ed149305f37b3f2076cf23f63a3b0aea96fd39425",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\kontextia-labore-r1.glb"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L01.webp",
+      "sha256": "674ab3f0b319c9ca36735a2d6e328c970b6d9bf53bdc9e630dec94d69465e32e",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L01.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L02.webp",
+      "sha256": "8c9162e8bc01fac7c04403e8b434d178d7bde7bed926c18f6d6aaa95db2a1444",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L02.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L03.webp",
+      "sha256": "8a42b6d6a0029c70d97ed5d96c903fabd51224507ce203b641b20df939ae9bd4",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L03.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L04.webp",
+      "sha256": "109b2a6470fe5f123229e0d8d6563417aaae879a3ab9e9a0601c71c1f1f899dc",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L04.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L05.webp",
+      "sha256": "1f90ae3fcd4d636fd580a56da05f876d1177f956cabe35d4f0373f6110d1c597",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L05.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L06.webp",
+      "sha256": "8d57dbf6d1d527325166b7880a1abe7f250cb86bbfe5677ead5b69e3fbf38756",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L06.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L07.webp",
+      "sha256": "c78d990a36e45c958d826677b2b92304931c7f61bc32e3797b6c6a17da825e55",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L07.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L08.webp",
+      "sha256": "3744c268fbf36d3ff57007fe84165287ded94ca6cd7549de68651c486c920a11",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L08.webp"
+    },
+    {
+      "file": "10_docs/landing/assets/city/labore-r1/L09.webp",
+      "sha256": "00d2650dd76708bb721bf112d550fee220cf10eedcb99c4557447ac65cb4c14c",
+      "source": "production/labore_inszenierung_2026-10-12/lieferung.json",
+      "physical_file": "F:\\Attentiongame\\auslagerung_2026-10-12\\04_assets\\environments\\labore_inszenierung_r1\\web\\L09.webp"
+    },
+    {
       "file": "10_docs/landing/assets/city/live.json",
-      "sha256": "f419adbf11b5378f6ca67ddbf42758dc38ccad106c379466d8766fbdd92cc1d6",
+      "sha256": "7944cc6a5b22790ff3a541ea935c15eaab16187c9314b1053652b95e6ac061e4",
       "source": "02_content/v2/kontextia.sqlite3"
     }
   ],

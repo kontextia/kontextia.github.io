@@ -1,0 +1,17 @@
+FINALE · Der echte Turm
+Teil 2 · Didaktik 2.2 · Generation a3ce3d7f1e8f82b2
+
+Was passiert hier?
+Im Abschluss verbindest du die zuvor untersuchten Schritte. Die passenden Anschlussformen zeigen Datentypen, während Zahlenlicht die wechselnden Inhalte darstellt. Eine passende Verbindung reicht deshalb noch nicht als Nachweis für eine richtige Antwort. Du prüfst Kontext, Gewichtswissen, K/V-Zwischenspeicher und äußere Quellen getrennt. Zum Abschluss gehören Gegenproben, das Lichterfest und die Fragen des Brückenbauer-Eids.
+
+Dein Auftrag
+Untersuche im Herz des Turms die Rechnung des vorgesehenen lokalen Mini-Modells. Vergleiche Darstellungen, Attention, Logits, Cache und Zahlenformate mit den zuvor erarbeiteten Vorhersagen.
+
+Erwartetes Ergebnis im Entwurf
+Die Prüfung muss auf echten Werten des tatsächlich laufenden Mini-Modells beruhen. Diagramme und Lehrmodelle reichen dafür allein nicht. Du unterscheidest beobachtete Funktion, Vereinfachung und Messgrenze. Ohne Attention entstehen noch Tokens aus dem jeweils eigenen Stück; der übrige Kontext fehlt und die Brücke flackert.
+
+So findest du Fehler
+Prüfe Form und Wirkung getrennt. Verlange Quellen für Sachbehauptungen und gemessene Werte für eine Modellabnahme. Die Figuren sind aufgeräumter als die Wirklichkeit; ein erfolgreiches Kartenbild ist keine Spieleabnahme.
+
+Quelle: 01_design/v2/level/FINALE_TEIL2.md
+Quellengebundener Erklärungstext [DE Karten 2.2]. Ergebnisse beschreiben den aktuellen Entwurf und dessen Lehrmodelle; eine Spieleabnahme wird separat gemessen.
